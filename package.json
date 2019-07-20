@@ -1,17 +1,16 @@
 {
-  "name": "app",
+  "name": "nationale",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
-    "react-scripts": "0.9.5",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
     "styled-components": "^4.3.1"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.13.0",
     "gh-pages": "^2.0.1"
   },
   "scripts": {
@@ -21,6 +20,21 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "homepage": "https://simadiver.github.io/Nationale"
 }
