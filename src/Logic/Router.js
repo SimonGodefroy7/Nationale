@@ -16,7 +16,7 @@ class Router extends Component {
   render() {
     return (
       <BrowserRouter basename={BASE_PATH}>
-        <div className="main-route-place">
+        <React.Fragment>
           <Route path="/" exact component={Home} />
           <Route path="/inscription" exact component={Inscription} />
           <Route path="/contact" exact component={Contact} />
@@ -25,7 +25,7 @@ class Router extends Component {
           <Route path="/Resultats" exact component={Resultats} />
           <Route path="/partenaires" exact component={Partenaires} />
           <Route path="/evenements" exact component={Evenements} />
-        </div>
+        </React.Fragment>
       </BrowserRouter>
     );
   }
