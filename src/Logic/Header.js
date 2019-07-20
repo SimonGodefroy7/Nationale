@@ -1,11 +1,10 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import { Link } from 'react-router-dom'; //eslint-disable-line no-unused-vars
-import Menu from './Menu'; //eslint-disable-line no-unused-vars
-import StyledMenuBackground from '../styledComponents/StyledMenuBackground'; //eslint-disable-line no-unused-vars
-import StyledH1 from '../styledComponents/StyledH1'; //eslint-disable-line no-unused-vars
-import StyledParagraph from '../styledComponents/StyledParagraph'; //eslint-disable-line no-unused-vars
-import StyledHeader from '../styledComponents/StyledHeader'; //eslint-disable-line no-unused-vars
-import StyledFlexBox from '../styledComponents/StyledFlexBox'; //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import Menu from './Menu';
+import StyledMenuBackground from '../styledComponents/StyledMenuBackground';
+import StyledH1 from '../styledComponents/StyledH1';
+import StyledParagraph from '../styledComponents/StyledParagraph';
+import StyledHeader from '../styledComponents/StyledHeader';
+import StyledFlexBox from '../styledComponents/StyledFlexBox';
 
 class Header extends Component {
   render() {

@@ -1,8 +1,8 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import StyledNav from '../styledComponents/StyledNav'; //eslint-disable-line no-unused-vars
-import StyledUl from '../styledComponents/StyledUl'; //eslint-disable-line no-unused-vars
-import StyledLi from '../styledComponents/StyledLi'; //eslint-disable-line no-unused-vars
-import StyledLink from '../styledComponents/StyledLink'; //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import StyledNav from '../styledComponents/StyledNav';
+import StyledUl from '../styledComponents/StyledUl';
+import StyledLi from '../styledComponents/StyledLi';
+import StyledLink from '../styledComponents/StyledLink';
 
 class Menu extends Component {
   render() {

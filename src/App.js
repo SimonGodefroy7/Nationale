@@ -1,5 +1,5 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import Router from './Logic/Router' //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import Router from './Logic/Router'
 
 class App extends Component {
   render() {

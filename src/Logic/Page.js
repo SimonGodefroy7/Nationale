@@ -1,8 +1,8 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import Header from './Header' //eslint-disable-line no-unused-vars
-import Footer from './Footer' //eslint-disable-line no-unused-vars
-import StyledFlexBox from '../styledComponents/StyledFlexBox'; //eslint-disable-line no-unused-vars
-import StyledSection from '../styledComponents/StyledSection'; //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import Header from './Header'
+import Footer from './Footer'
+import StyledFlexBox from '../styledComponents/StyledFlexBox';
+import StyledSection from '../styledComponents/StyledSection';
 
 class Page extends Component {
   render() {

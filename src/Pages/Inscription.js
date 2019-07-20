@@ -1,8 +1,8 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import Page from '../Logic/Page'; //eslint-disable-line no-unused-vars
-import StyledH1 from '../styledComponents/StyledH1'; //eslint-disable-line no-unused-vars
-import StyledParagraph from '../styledComponents/StyledParagraph'; //eslint-disable-line no-unused-vars
-import StyledAnchor from '../styledComponents/StyledAnchor'; //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import Page from '../Logic/Page';
+import StyledH1 from '../styledComponents/StyledH1';
+import StyledParagraph from '../styledComponents/StyledParagraph';
+import StyledAnchor from '../styledComponents/StyledAnchor';
 
 class Inscription extends Component {
   render() {
