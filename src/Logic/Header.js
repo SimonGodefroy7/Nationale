@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Menu from './Menu';
+import MenuMobile from './MenuMobile';
 import StyledMenuBackground from '../styledComponents/StyledMenuBackground';
 import StyledH1 from '../styledComponents/StyledH1';
 import StyledParagraph from '../styledComponents/StyledParagraph';
@@ -17,6 +18,7 @@ class Header extends Component {
           </StyledFlexBox>
         </StyledMenuBackground>
         <Menu />
+        <MenuMobile />
       </StyledHeader>
     );
   }
