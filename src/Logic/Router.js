@@ -1,5 +1,5 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import { BrowserRouter, Route } from 'react-router-dom'; //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Home from '../Pages/Home';
 import Inscription from '../Pages/Inscription';
 import Contact from '../Pages/Contact';
@@ -10,7 +10,7 @@ import ListeDeDepart from '../Pages/ListedeDepart';
 import Resultats from '../Pages/Resultats';
 
 
-const BASE_PATH = process.env.NODE_ENV == 'development' ? "/" : "/Nationale";
+const BASE_PATH = process.env.NODE_ENV === 'development' ? "/" : "/Nationale";
 
 class Router extends Component {
   render() {

@@ -1,6 +1,6 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import StyledParagraph from '../styledComponents/StyledParagraph'; //eslint-disable-line no-unused-vars
-import StyledSection from '../styledComponents/StyledSection'; //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import StyledParagraph from '../styledComponents/StyledParagraph';
+import StyledSection from '../styledComponents/StyledSection';
 
 class Footer extends Component {
   render() {

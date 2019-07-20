@@ -1,11 +1,10 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import Page from '../Logic/Page'; //eslint-disable-line no-unused-vars
-import StyledH1 from '../styledComponents/StyledH1'; //eslint-disable-line no-unused-vars
-import StyledParagraph from '../styledComponents/StyledParagraph'; //eslint-disable-line no-unused-vars
-import StyledFlexBox from '../styledComponents/StyledFlexBox'; //eslint-disable-line no-unused-vars
-import StyledPartenaires from '../styledComponents/StyledPartenaires'; //eslint-disable-line no-unused-vars
-import StyledImg from '../styledComponents/StyledImg'; //eslint-disable-line no-unused-vars
-import StyledAnchor from '../styledComponents/StyledAnchor'; //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import Page from '../Logic/Page';
+import StyledH1 from '../styledComponents/StyledH1';
+import StyledFlexBox from '../styledComponents/StyledFlexBox';
+import StyledPartenaires from '../styledComponents/StyledPartenaires';
+import StyledImg from '../styledComponents/StyledImg';
+import StyledAnchor from '../styledComponents/StyledAnchor';
 import onfLogo from '../image/onf_logo.png'
 import ffcoLogo from '../image/ffcoLogo.jpg'
 import iDFLogo from '../image/logoRegionIDF.svg'
