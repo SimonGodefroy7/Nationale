@@ -9,10 +9,13 @@ import Hebergements from '../Pages/Hebergements';
 import ListeDeDepart from '../Pages/ListedeDepart';
 import Resultats from '../Pages/Resultats';
 
+
+const BASE_PATH = process.env.NODE_ENV == 'development' ? "/" : "/Nationale";
+
 class Router extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={BASE_PATH}>
         <div className="main-route-place">
           <Route path="/" exact component={Home} />
           <Route path="/inscription" exact component={Inscription} />
