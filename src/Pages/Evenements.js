@@ -5,28 +5,29 @@ import StyledH3 from '../styledComponents/StyledH3';
 import StyledBorderBox from '../styledComponents/StyledBorderBox';
 import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledSection from '../styledComponents/StyledSection';
+import Translator from '../Logic/Translator';
 
 class Evenements extends Component {
   render() {
     return (
       <Page>
         <StyledSection>
-          <StyledH1>Événements</StyledH1>
-          <StyledParagraph>Évenement composé de 3 courses:</StyledParagraph>
-          <StyledParagraph>Le 21 août: Un sprint urbain</StyledParagraph>
-          <StyledParagraph>Le 22 août: Une moyenne distance</StyledParagraph>
-          <StyledParagraph>Le 23 août: La Nationale, une longue distance</StyledParagraph>
+          <StyledH1><Translator id="Event.title" /></StyledH1>
+          <StyledParagraph><Translator id="Event.paragraph1" /></StyledParagraph>
+          <StyledParagraph><Translator id="Event.paragraph2" /></StyledParagraph>
+          <StyledParagraph><Translator id="Event.paragraph3" /></StyledParagraph>
+          <StyledParagraph><Translator id="Event.paragraph4" /></StyledParagraph>
           <StyledBorderBox>
-            <StyledH3>Sprint</StyledH3>
-            <StyledParagraph>Le sprint aura lieu le 21 août</StyledParagraph>
+            <StyledH3><Translator id="Event.event1Title" /></StyledH3>
+            <StyledParagraph><Translator id="Event.event1Paragrpah" /></StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledH3>MD</StyledH3>
-            <StyledParagraph>La MD aura lieu le 22 août</StyledParagraph>
+            <StyledH3><Translator id="Event.event2Title" /></StyledH3>
+            <StyledParagraph><Translator id="Event.event2Paragrpah" /></StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledH3>LD</StyledH3>
-            <StyledParagraph>La LD aura lieu le 21 août</StyledParagraph>
+            <StyledH3><Translator id="Event.event3Title" /></StyledH3>
+            <StyledParagraph><Translator id="Event.event3Paragrpah" /></StyledParagraph>
           </StyledBorderBox>
         </StyledSection>
       </Page>

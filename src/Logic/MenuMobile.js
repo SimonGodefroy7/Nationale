@@ -7,6 +7,7 @@ import StyledLi from '../styledComponents/StyledLi'; //eslint-disable-line no-un
 import StyledLink from '../styledComponents/StyledLink'; //eslint-disable-line no-unused-vars
 import StyledImg from '../styledComponents/StyledImg'; //eslint-disable-line no-unused-vars
 import burgerIcon from '../image/burgerIcon.svg';
+import Translator from '../Logic/Translator';
 
 class MenuMobile extends Component {
   constructor(props){
@@ -36,28 +37,28 @@ class MenuMobile extends Component {
         </StyledFlexBox>
         {this.state.listOpen && <StyledUl>
           <StyledLi>
-            <StyledLink to="/">Acceuil</StyledLink>
+            <StyledLink to="/"><Translator id="Menu.home" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/evenements/">Évenements</StyledLink>
+            <StyledLink to="/evenements/"><Translator id="Menu.events" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/inscription/">Inscriptions</StyledLink>
+            <StyledLink to="/inscription/"><Translator id="Menu.registration" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/listeDeDepart">Listes de départ</StyledLink>
+            <StyledLink to="/listeDeDepart"><Translator id="Menu.startList" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/Resultats">Résultats</StyledLink>
+            <StyledLink to="/Resultats"><Translator id="Menu.results" /></StyledLink>
           </StyledLi>
           <StyledLi>
-          <StyledLink to="/hebergements">Hébergements</StyledLink>
+            <StyledLink to="/hebergements"><Translator id="Menu.accommodation" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/partenaires/">Partenaires</StyledLink>
+            <StyledLink to="/partenaires/"><Translator id="Menu.partners" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/contact/">Contacts</StyledLink>
+            <StyledLink to="/contact/"><Translator id="Menu.contact" /></StyledLink>
           </StyledLi>
         </StyledUl>}
       </StyledMenuMobile>

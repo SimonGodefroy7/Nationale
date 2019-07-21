@@ -8,6 +8,7 @@ import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledHeader from '../styledComponents/StyledHeader';
 import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import StyledTabletBox from '../styledComponents/StyledTabletBox';
+import Translator from '../Logic/Translator';
 
 class Header extends Component {
   render() {
@@ -15,15 +16,15 @@ class Header extends Component {
       <StyledHeader>
         <StyledMenuBackground>
           <StyledFlexBox>
-            <StyledH1>Nationale Nord Ouest 2020</StyledH1>
-            <StyledH1Short>Nationale N-O 2020</StyledH1Short>
-            <StyledParagraph>Course d'Orientation à pied du 21 août au 23 août en forêt de Fontainebleau</StyledParagraph>
+            <StyledH1><Translator id="Header.headerTitle" /></StyledH1>
+            <StyledH1Short><Translator id="Header.headerTitleShort" /></StyledH1Short>
+            <StyledParagraph><Translator id="Header.headerParagraph" /></StyledParagraph>
           </StyledFlexBox>
           <Menu />
           <MenuMobile />
         </StyledMenuBackground>
         <StyledTabletBox>
-          <StyledParagraph>Course d'Orientation à pied du 21 août au 23 août en forêt de Fontainebleau</StyledParagraph>
+          <StyledParagraph><Translator id="Header.headerParagraph" /></StyledParagraph>
         </StyledTabletBox>
       </StyledHeader>
     );

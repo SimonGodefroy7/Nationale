@@ -6,14 +6,15 @@ import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledMail from '../styledComponents/StyledMail';
 import StyledBorderBox from '../styledComponents/StyledBorderBox';
 import StyledSection from '../styledComponents/StyledSection';
+import Translator from '../Logic/Translator';
 
 class Contact extends Component {
   render() {
     return (
       <Page>
         <StyledSection>
-          <StyledH1>Contacts</StyledH1>
-          <StyledParagraph>pour toutes questions sur la Nationale Nord Ouest 2020 vous pouvez nous joindre à ces différents contacts</StyledParagraph>
+          <StyledH1><Translator id="Contact.title" /></StyledH1>
+          <StyledParagraph><Translator id="Contact.paragraph" /></StyledParagraph>
           <StyledBorderBox>
             <StyledH3>Alain Guillon</StyledH3>
             <StyledParagraph>Mail:<StyledMail href="mailto:cdco77.helene@wanadoo.fr">cdco77.helene@wanadoo.fr</StyledMail></StyledParagraph>
