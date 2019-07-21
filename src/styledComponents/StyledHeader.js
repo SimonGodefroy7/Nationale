@@ -6,11 +6,8 @@ import StyledTabletBox from './StyledTabletBox';
 import StyledH1 from './StyledH1';
 import StyledH1Short from './StyledH1Short';
 import style from './style';
-import backgroundLaptop from '../image/P1010634.JPG';
-import backgroundMobile from '../image/P1010635.JPG';
 
 const StyledHeader = styled(StyledSection)`
-  /*background-image: url(${backgroundMobile});*/
   justify-content: space-between;
   ${StyledH1} {
     display: none;
@@ -23,7 +20,6 @@ const StyledHeader = styled(StyledSection)`
   }
 
   @media (min-width: ${style.mediaSize.tablet}) {
-    /*background-image: url(${backgroundLaptop});*/
     ${StyledTabletBox} {
       display: none;
     }

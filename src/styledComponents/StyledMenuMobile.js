@@ -7,7 +7,7 @@ import style from './style';
 const StyledMenuMobile = styled(StyledFlexBox)`
   ${StyledUl} {
     position: absolute;
-    width: 10rem;
+    width: 12rem;
     right: 1rem;
     top: 5rem;
     @media (min-width: ${style.mediaSize.mobileM}) {
