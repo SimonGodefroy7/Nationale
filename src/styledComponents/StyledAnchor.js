@@ -5,7 +5,7 @@ const StyledAnchor = styled.a`
   color: green;
   text-align: ${props => props.textAlign};
   padding: 0.5rem;
-
+  
   &:hover {
     color: white;
     background-color: green;

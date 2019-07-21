@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const StyledLi = styled.li`
-  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   padding: 0;
 `
 

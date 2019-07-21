@@ -2,13 +2,17 @@ import styled from 'styled-components';
 import StyledFlexBox from './StyledFlexBox';
 import StyledLi from './StyledLi';
 import StyledUl from './StyledUl';
+import style from './style';
 
 const StyledMenuMobile = styled(StyledFlexBox)`
   ${StyledUl} {
     position: absolute;
-    width: 20%;
-    left: calc(80% - 1rem);
-    top: 10%;
+    width: 10rem;
+    right: 1rem;
+    top: 5rem;
+    @media (min-width: ${style.mediaSize.mobileM}) {
+      top: 3.5rem;
+    }
     background-color: white;
   }
 
