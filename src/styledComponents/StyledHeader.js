@@ -20,9 +20,6 @@ const StyledHeader = styled(StyledSection)`
   }
 
   @media (min-width: ${style.mediaSize.tablet}) {
-    ${StyledTabletBox} {
-      display: none;
-    }
     ${StyledH1} {
       display: flex;
     }
@@ -31,12 +28,6 @@ const StyledHeader = styled(StyledSection)`
     }
   }
   @media (min-width: ${style.mediaSize.laptop}) {
-    ${StyledH1} {
-      display: none;
-    }
-    ${StyledH1Short} {
-      display: flex;
-    }
     ${StyledTabletBox} {
       display: flex;
     }
@@ -46,14 +37,6 @@ const StyledHeader = styled(StyledSection)`
     }
     ${StyledMenu} {
       display: flex;
-    }
-  }
-  @media (min-width: ${style.mediaSize.laptopL}) {
-    ${StyledH1} {
-      display: flex;
-    }
-    ${StyledH1Short} {
-      display: none;
     }
   }
 `

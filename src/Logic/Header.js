@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './Menu';
 import MenuMobile from './MenuMobile';
+import LangMenu from './LangMenu';
 import StyledMenuBackground from '../styledComponents/StyledMenuBackground';
 import StyledH1 from '../styledComponents/StyledH1';
 import StyledH1Short from '../styledComponents/StyledH1Short';
@@ -18,11 +19,13 @@ class Header extends Component {
           <StyledFlexBox>
             <StyledH1><Translator id="Header.headerTitle" /></StyledH1>
             <StyledH1Short><Translator id="Header.headerTitleShort" /></StyledH1Short>
-            <StyledParagraph><Translator id="Header.headerParagraph" /></StyledParagraph>
           </StyledFlexBox>
-          <Menu />
-          <MenuMobile />
+          <StyledFlexBox>
+            <LangMenu />
+            <MenuMobile />
+          </StyledFlexBox>
         </StyledMenuBackground>
+        <Menu />
         <StyledTabletBox>
           <StyledParagraph><Translator id="Header.headerParagraph" /></StyledParagraph>
         </StyledTabletBox>

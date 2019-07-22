@@ -3,6 +3,7 @@ import StyledFlexBox from './StyledFlexBox';
 import StyledLi from './StyledLi';
 
 const StyledMenu = styled(StyledFlexBox)`
+  margin: 1rem;
   ${StyledLi} {
     float: left;
     position: relative;

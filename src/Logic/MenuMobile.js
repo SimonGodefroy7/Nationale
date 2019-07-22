@@ -29,6 +29,7 @@ class MenuMobile extends Component {
       document.removeEventListener('click', this.closeMenu);
     });
   }
+
   render() {
     return (
       <StyledMenuMobile>
