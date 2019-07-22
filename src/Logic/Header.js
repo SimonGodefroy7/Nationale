@@ -5,10 +5,8 @@ import LangMenu from './LangMenu';
 import StyledMenuBackground from '../styledComponents/StyledMenuBackground';
 import StyledH1 from '../styledComponents/StyledH1';
 import StyledH1Short from '../styledComponents/StyledH1Short';
-import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledHeader from '../styledComponents/StyledHeader';
 import StyledFlexBox from '../styledComponents/StyledFlexBox';
-import StyledTabletBox from '../styledComponents/StyledTabletBox';
 import Translator from '../Logic/Translator';
 
 class Header extends Component {
@@ -26,9 +24,6 @@ class Header extends Component {
           </StyledFlexBox>
         </StyledMenuBackground>
         <Menu />
-        <StyledTabletBox>
-          <StyledParagraph><Translator id="Header.headerParagraph" /></StyledParagraph>
-        </StyledTabletBox>
       </StyledHeader>
     );
   }

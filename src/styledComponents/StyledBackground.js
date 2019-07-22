@@ -6,13 +6,15 @@ import mobileLBackground from '../image/MobileL.jpg'
 import tabletBackground from '../image/Tablet.jpg'
 import laptopBackground from '../image/Laptop.jpg'
 import laptopLBackground from '../image/LaptopL.jpg'
-import desktopBackground from '../image/desktop.jpg'
+import desktopBackground from '../image/Desktop.jpg'
 import style from './style';
 
 const StyledBackground = styled(StyledSection)`
   padding: 0;
   background-image: url(${mobileSBackground});
   height: 427px;
+  align-items: center;
+  justify-content: space-around;
   @media (min-width: ${style.mediaSize.mobileS}) {
     background-image: url(${mobileMBackground});
     height: 500px;
@@ -23,19 +25,19 @@ const StyledBackground = styled(StyledSection)`
   }
   @media (min-width: ${style.mediaSize.mobileL}) {
     background-image: url(${tabletBackground});
-    height: 576px;
+    height: 459px;
   }
   @media (min-width: ${style.mediaSize.tablet}) {
     background-image: url(${laptopBackground});
-    height: 768px;
+    height: 570px;
   }
   @media (min-width: ${style.mediaSize.laptop}) {
     background-image: url(${laptopLBackground});
-    height: 1080px;
+    height: 651px;
   }
   @media (min-width: ${style.mediaSize.laptopL}) {
     background-image: url(${desktopBackground});
-    height: 1920px;
+    height: 700px;
   }
   @media (min-width: ${style.mediaSize.desktop}) {
     background-repeat: round;

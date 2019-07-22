@@ -14,6 +14,7 @@ const StyledMenuMobile = styled(StyledFlexBox)`
     position: absolute;
     width: 12rem;
     right: 1rem;
+    z-index: 1;
     top: 5rem;
     @media (min-width: ${style.mediaSize.mobileM}) {
       top: 3.5rem;

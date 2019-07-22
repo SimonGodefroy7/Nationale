@@ -7,12 +7,45 @@ import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledBorderBox from '../styledComponents/StyledBorderBox';
 import StyledSection from '../styledComponents/StyledSection';
 import StyledBackground from '../styledComponents/StyledBackground';
+import StyledTabletBox from '../styledComponents/StyledTabletBox';
+import StyledBalise from '../styledComponents/StyledBalise';
+import StyledBaliseBox from '../styledComponents/StyledBaliseBox';
+import StyledFlexBox from '../styledComponents/StyledFlexBox';
 
 class Home extends Component {
   render() {
     return (
       <Page>
-        <StyledBackground />
+        <StyledBackground>
+          <StyledTabletBox>
+            <StyledH1><Translator id="Home.bacgroundParagraph" /></StyledH1>
+          </StyledTabletBox>
+          <StyledFlexBox flexDirection="row" justifyContent="space-between" width="80%">
+            <StyledBalise>
+              <StyledH1><Translator id="Home.baliseSpTitle" /></StyledH1>
+              <StyledBaliseBox>
+                <StyledParagraph><Translator id="Home.baliseSpParagraph1" /></StyledParagraph>
+                <StyledParagraph><Translator id="Home.baliseSpParagraph2" /></StyledParagraph>
+              </StyledBaliseBox>
+            </StyledBalise>
+            <StyledBalise>
+              <StyledH1><Translator id="Home.baliseLdTitle" /></StyledH1>
+              <StyledBaliseBox>
+                <StyledParagraph><Translator id="Home.baliseLdParagraph1" /></StyledParagraph>
+                <StyledParagraph><Translator id="Home.baliseLdParagraph2" /></StyledParagraph>
+              </StyledBaliseBox>
+            </StyledBalise>
+          </StyledFlexBox>
+          <StyledFlexBox>
+            <StyledBalise>
+              <StyledH1><Translator id="Home.baliseMdTitle" /></StyledH1>
+              <StyledBaliseBox>
+                <StyledParagraph><Translator id="Home.baliseMdParagraph1" /></StyledParagraph>
+                <StyledParagraph><Translator id="Home.baliseMdParagraph2" /></StyledParagraph>
+              </StyledBaliseBox>
+            </StyledBalise>
+          </StyledFlexBox>
+        </StyledBackground>
         <StyledSection>
           <StyledH1><Translator id="Home.title" /></StyledH1>
           <StyledBorderBox>
