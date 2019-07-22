@@ -1,19 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3045d19a7fb01cf036860c555ee2c682",
+    "revision": "957c2b00b37c02ac95afaea1e147f4d6",
     "url": "/Nationale/index.html"
   },
   {
-    "revision": "4dcd0f785b5efda2dc26",
-    "url": "/Nationale/static/js/2.44fb5cf9.chunk.js"
+    "revision": "eb87e0ff58640ccead09",
+    "url": "/Nationale/static/js/2.a93633ce.chunk.js"
   },
   {
-    "revision": "bcfe7769fded97f9dc1b",
-    "url": "/Nationale/static/js/main.201e0a68.chunk.js"
+    "revision": "2ee7464d8b421ec0c84b",
+    "url": "/Nationale/static/js/main.1c99bd6e.chunk.js"
   },
   {
     "revision": "7665ca69f4be525e3cfd",
     "url": "/Nationale/static/js/runtime~main.cc10cabc.js"
+  },
+  {
+    "revision": "2f9befe94ef9076d58b0a2ae38e1a025",
+    "url": "/Nationale/static/media/Flag_of_France.2f9befe9.svg"
+  },
+  {
+    "revision": "2e9c71c7514c4036f0122b1bdc202c17",
+    "url": "/Nationale/static/media/Flag_of_the_United_Kingdom.2e9c71c7.svg"
   },
   {
     "revision": "6b8aa6645cdf3adfe5971120f7c61bde",
