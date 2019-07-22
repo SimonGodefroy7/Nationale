@@ -15,7 +15,7 @@ class Contact extends Component {
         <StyledSection>
           <StyledH1><Translator id="Contact.title" /></StyledH1>
           <StyledParagraph><Translator id="Contact.paragraph" /></StyledParagraph>
-          <StyledBorderBox>
+          <StyledBorderBox width="14rem">
             <StyledH3>Alain Guillon</StyledH3>
             <StyledParagraph>Mail:<StyledMail href="mailto:cdco77.helene@wanadoo.fr">cdco77.helene@wanadoo.fr</StyledMail></StyledParagraph>
           </StyledBorderBox>
