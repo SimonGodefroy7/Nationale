@@ -11,6 +11,7 @@ import StyledTabletBox from '../styledComponents/StyledTabletBox';
 import StyledBalise from '../styledComponents/StyledBalise';
 import StyledBaliseBox from '../styledComponents/StyledBaliseBox';
 import StyledFlexBox from '../styledComponents/StyledFlexBox';
+import StyledHashLink from '../styledComponents/StyledHashLink';
 
 class Home extends Component {
   render() {
@@ -21,29 +22,35 @@ class Home extends Component {
             <StyledH1><Translator id="Home.bacgroundParagraph" /></StyledH1>
           </StyledTabletBox>
           <StyledFlexBox flexDirection="row" justifyContent="space-between" width="80%">
-            <StyledBalise>
-              <StyledH1><Translator id="Home.baliseSpTitle" /></StyledH1>
-              <StyledBaliseBox>
-                <StyledParagraph><Translator id="Home.baliseSpParagraph1" /></StyledParagraph>
-                <StyledParagraph><Translator id="Home.baliseSpParagraph2" /></StyledParagraph>
-              </StyledBaliseBox>
-            </StyledBalise>
-            <StyledBalise>
-              <StyledH1><Translator id="Home.baliseLdTitle" /></StyledH1>
-              <StyledBaliseBox>
-                <StyledParagraph><Translator id="Home.baliseLdParagraph1" /></StyledParagraph>
-                <StyledParagraph><Translator id="Home.baliseLdParagraph2" /></StyledParagraph>
-              </StyledBaliseBox>
-            </StyledBalise>
+            <StyledHashLink to="/evenements/#Sprint">
+              <StyledBalise>
+                <StyledH1><Translator id="Home.baliseSpTitle" /></StyledH1>
+                <StyledBaliseBox>
+                  <StyledParagraph><Translator id="Home.baliseSpParagraph1" /></StyledParagraph>
+                  <StyledParagraph><Translator id="Home.baliseSpParagraph2" /></StyledParagraph>
+                </StyledBaliseBox>
+              </StyledBalise>
+            </StyledHashLink>
+            <StyledHashLink to="/evenements/#Ld">
+              <StyledBalise>
+                <StyledH1><Translator id="Home.baliseLdTitle" /></StyledH1>
+                <StyledBaliseBox>
+                  <StyledParagraph><Translator id="Home.baliseLdParagraph1" /></StyledParagraph>
+                  <StyledParagraph><Translator id="Home.baliseLdParagraph2" /></StyledParagraph>
+                </StyledBaliseBox>
+              </StyledBalise>
+            </StyledHashLink>
           </StyledFlexBox>
           <StyledFlexBox>
-            <StyledBalise>
-              <StyledH1><Translator id="Home.baliseMdTitle" /></StyledH1>
-              <StyledBaliseBox>
-                <StyledParagraph><Translator id="Home.baliseMdParagraph1" /></StyledParagraph>
-                <StyledParagraph><Translator id="Home.baliseMdParagraph2" /></StyledParagraph>
-              </StyledBaliseBox>
-            </StyledBalise>
+            <StyledHashLink to="/evenements/#Md">
+              <StyledBalise>
+                <StyledH1><Translator id="Home.baliseMdTitle" /></StyledH1>
+                <StyledBaliseBox>
+                  <StyledParagraph><Translator id="Home.baliseMdParagraph1" /></StyledParagraph>
+                  <StyledParagraph><Translator id="Home.baliseMdParagraph2" /></StyledParagraph>
+                </StyledBaliseBox>
+              </StyledBalise>
+            </StyledHashLink>
           </StyledFlexBox>
         </StyledBackground>
         <StyledSection>
