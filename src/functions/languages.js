@@ -1,8 +1,9 @@
 const language = {
   en: {
+    "Galery.title": "Pictures gallery",
     "Footer.footerlink": "Footer",
-    "Header.headerTitle": "Nationale North West 2020",
-    "Header.headerTitleShort": "Nationale N-W 2020",
+    "Header.headerTitle": "Nationales North West 2020",
+    "Header.headerTitleShort": "Nationales N-W 2020",
     "Menu.home": "Home",
     "Menu.events": "Races",
     "Menu.registration": "Entries",
@@ -30,7 +31,7 @@ const language = {
     "Accomodation.officeMelun": "Tourism office of Melun",
     "Accomodation.officeNemours": "Tourism office of Nemours",
     "Home.title": "Home",
-    "Home.bacgroundParagraph": "3 orienteering days in the forest of Fontainebleau",
+    "Home.bacgroundParagraph": "3 orienteering days in the forest of Fontainebleau and its surroundings",
     "Home.baliseSpTitle": "Sprint",
     "Home.baliseSpParagraph1": "21st",
     "Home.baliseSpParagraph2": "august",
@@ -69,9 +70,10 @@ const language = {
     "Results.ldParagraph": "not yet awailable"
   },
   fr: {
+    "Galery.title": "Galerie photos",
     "Footer.footerlink": "Footer",
-    "Header.headerTitle": "Nationale Nord Ouest 2020",
-    "Header.headerTitleShort": "Nationale N-O 2020",
+    "Header.headerTitle": "Nationales Nord Ouest 2020",
+    "Header.headerTitleShort": "Nationales N-O 2020",
     "Menu.home": "Accueil",
     "Menu.events": "Compétitions",
     "Menu.registration": "Inscriptions",
@@ -99,7 +101,7 @@ const language = {
     "Accomodation.officeMelun": "Office de tourisme de Melun",
     "Accomodation.officeNemours": "Office de tourisme de Nemours",
     "Home.title": "Accueil",
-    "Home.bacgroundParagraph": "3 jours de course d'orientation en forêt de Fontainebleau",
+    "Home.bacgroundParagraph": "3 jours de course d'orientation en forêt de Fontainebleau et ses environs",
     "Home.baliseSpTitle": "Sprint",
     "Home.baliseSpParagraph1": "21",
     "Home.baliseSpParagraph2": "août",

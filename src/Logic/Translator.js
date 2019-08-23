@@ -6,7 +6,6 @@ const translation = (id, langue) => language[langue][id];
 
 class Translator extends Component {
   render() {
-    console.log(this.props);
     return (
       <span>{translation(this.props.id, this.props.langue)}</span>
     );

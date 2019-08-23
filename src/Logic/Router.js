@@ -8,6 +8,7 @@ import Evenements from '../Pages/Evenements';
 import Hebergements from '../Pages/Hebergements';
 import ListeDeDepart from '../Pages/ListedeDepart';
 import Resultats from '../Pages/Resultats';
+import Galery from '../Pages/Galery';
 
 
 const BASE_PATH = process.env.NODE_ENV === 'development' ? "/" : "/Nationale";
@@ -25,6 +26,7 @@ class Router extends Component {
           <Route path="/Resultats" exact component={Resultats} />
           <Route path="/partenaires" exact component={Partenaires} />
           <Route path="/evenements" exact component={Evenements} />
+          <Route path="/gallery" exact component={Galery} />
         </React.Fragment>
       </BrowserRouter>
     );
