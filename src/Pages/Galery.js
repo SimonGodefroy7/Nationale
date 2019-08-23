@@ -1,33 +1,61 @@
 import React, { Component } from 'react';
-import GalleryComp from 'react-image-gallery';
+import Carousel, { Modal, ModalGateway } from "react-images";
 import Page from '../Logic/Page';
 import StyledH1 from '../styledComponents/StyledH1';
+import StyledImg from '../styledComponents/StyledImg';
+import StyledGallery from '../styledComponents/StyledGallery';
+import StyledGalleryItem from '../styledComponents/StyledGalleryItem';
 import StyledSection from '../styledComponents/StyledSection';
 import Translator from '../Logic/Translator';
+import gallery from '../image/Gallery/gallery';
 
-const images = [
-  {
-    original: '../image/MobileS.jpg',
-    thumbnail: '../image/MobileS.jpg'
-  },
-  {
-    original: '../image/Gallery/20190730_100636.jpg',
-    thumbnail: '../image/Gallery/20190730_100636.jpg'
-  },
-  {
-    original: '../image/Gallery/20190730_100756.jpg',
-    thumbnail: '../image/Gallery/20190730_100756.jpg'
-  }
-];
+const bigImages = gallery.bigImages;
+const smallImages = gallery.smallImages;
 
 class Gallery extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      modalIsOpen: false,
+      currentImage: 0
+    };
+    this.openModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  };
+  openModal = (index) => {
+    this.setState(state => ({ modalIsOpen: true, currentImage: index }));
+  }
+  closeModal = () => {
+    this.setState(state => ({ modalIsOpen: false, currentImage: 0 }));
+  }
 
   render() {
+    const { modalIsOpen, currentImage } = this.state;
     return (
       <Page>
         <StyledSection>
           <StyledH1><Translator id="Galery.title" /></StyledH1>
-          <GalleryComp items={images} />
+          <StyledGallery>
+            {smallImages.map((image, j) => (
+              <StyledGalleryItem>
+                <StyledImg onClick={() => this.openModal(j)} src={image.src} key={image.src}/>
+              </StyledGalleryItem>
+            ))}
+          </StyledGallery>
+          <ModalGateway>
+            {modalIsOpen ? (
+              <Modal onClose={this.closeModal}>
+              <Carousel
+                currentIndex={currentImage}
+                views={bigImages.map(x => ({
+                  ...x,
+                  srcset: x.srcSet,
+                  caption: x.title
+                }))}
+              />
+              </Modal>
+            ) : null}
+          </ModalGateway>
         </StyledSection>
       </Page>
     );
