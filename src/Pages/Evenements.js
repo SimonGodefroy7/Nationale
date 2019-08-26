@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Page from '../Logic/Page';
-import StyledH1 from '../styledComponents/StyledH1';
+import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
 import StyledH3 from '../styledComponents/StyledH3';
 import StyledBorderBox from '../styledComponents/StyledBorderBox';
 import StyledParagraph from '../styledComponents/StyledParagraph';
@@ -12,7 +12,7 @@ class Evenements extends Component {
     return (
       <Page>
         <StyledSection>
-          <StyledH1><Translator id="Event.title" /></StyledH1>
+          <StyledH1HeaderTitle><Translator id="Event.title" /></StyledH1HeaderTitle>
           <StyledParagraph><Translator id="Event.paragraph1" /></StyledParagraph>
           <StyledParagraph><Translator id="Event.paragraph2" /></StyledParagraph>
           <StyledParagraph><Translator id="Event.paragraph3" /></StyledParagraph>

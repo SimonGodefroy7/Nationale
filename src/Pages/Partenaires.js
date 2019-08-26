@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Page from '../Logic/Page';
-import StyledH1 from '../styledComponents/StyledH1';
+import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
 import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import StyledPartenaires from '../styledComponents/StyledPartenaires';
 import StyledImg from '../styledComponents/StyledImg';
 import StyledAnchor from '../styledComponents/StyledAnchor';
 import StyledSection from '../styledComponents/StyledSection';
-import onfLogo from '../image/onf_logo.png'
-import ffcoLogo from '../image/ffcoLogo.jpg'
-import iDFLogo from '../image/logoRegionIDF.svg'
-import ligueIDFLogo from '../image/LIFCOLogo.jpg'
-import cDCO77Logo from '../image/logoCDCO77.gif'
+import onfLogo from '../image/PartnerLogo/onf_logo.png'
+import ffcoLogo from '../image/PartnerLogo/ffcoLogo.jpg'
+import iDFLogo from '../image/PartnerLogo/logoRegionIDF.svg'
+import ligueIDFLogo from '../image/PartnerLogo/LIFCOLogo.jpg'
+import cDCO77Logo from '../image/PartnerLogo/logoCDCO77.gif'
 import Translator from '../Logic/Translator';
 
 class Partenaires extends Component {
@@ -18,7 +18,7 @@ class Partenaires extends Component {
     return (
       <Page>
         <StyledSection>
-          <StyledH1><Translator id="Partners.title" /></StyledH1>
+          <StyledH1HeaderTitle><Translator id="Partners.title" /></StyledH1HeaderTitle>
           <StyledPartenaires>
             <StyledFlexBox>
               <StyledAnchor href="https://www.onf.fr/" textAlign="center">ONF</StyledAnchor>

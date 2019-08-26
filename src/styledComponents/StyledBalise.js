@@ -2,9 +2,9 @@ import styled from 'styled-components';
 import StyledFlexBox from './StyledFlexBox';
 import StyledH1 from './StyledH1';
 import StyledParagraph from './StyledParagraph';
-import baliseS from '../image/BaliseS.jpg'
-import baliseM from '../image/BaliseM.jpg'
-import baliseL from '../image/BaliseL.jpg'
+import baliseS from '../image/Balise/BaliseS.jpg'
+import baliseM from '../image/Balise/BaliseM.jpg'
+import baliseL from '../image/Balise/BaliseL.jpg'
 import style from './style';
 
 const StyledBalise = styled(StyledFlexBox)`

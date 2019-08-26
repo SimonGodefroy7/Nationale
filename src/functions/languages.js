@@ -1,6 +1,6 @@
 const language = {
   en: {
-    "Galery.title": "Pictures gallery",
+    "Gallery.title": "Pictures gallery",
     "Footer.footerlink": "Footer",
     "Header.headerTitle": "Nationales North West 2020",
     "Header.headerTitleShort": "Nationales N-W 2020",
@@ -9,6 +9,7 @@ const language = {
     "Menu.registration": "Entries",
     "Menu.startList": "Start list",
     "Menu.results": "Results",
+    "Menu.gallery": "Pictures gallery",
     "Menu.accommodation": "Accomodation",
     "Menu.partners": "Partners",
     "Menu.contact": "Contacts",
@@ -70,7 +71,7 @@ const language = {
     "Results.ldParagraph": "not yet awailable"
   },
   fr: {
-    "Galery.title": "Galerie photos",
+    "Gallery.title": "Galerie photos",
     "Footer.footerlink": "Footer",
     "Header.headerTitle": "Nationales Nord Ouest 2020",
     "Header.headerTitleShort": "Nationales N-O 2020",
@@ -79,6 +80,7 @@ const language = {
     "Menu.registration": "Inscriptions",
     "Menu.startList": "Listes de départ",
     "Menu.results": "Résultats",
+    "Menu.gallery": "Galerie photos",
     "Menu.accommodation": "Hébergements",
     "Menu.partners": "Partenaires",
     "Menu.contact": "Contacts",

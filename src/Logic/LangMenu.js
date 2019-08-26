@@ -3,8 +3,8 @@ import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import StyledImg from '../styledComponents/StyledImg';
 import StyledLang from '../styledComponents/StyledLang';
 import { LANG_FR, LANG_EN } from '../redux/actions/types';
-import frIcon from '../image/Flag_of_France.svg';
-import enIcon from '../image/Flag_of_the_United_Kingdom.svg';
+import frIcon from '../image/Flag/Flag_of_France.svg';
+import enIcon from '../image/Flag/Flag_of_the_United_Kingdom.svg';
 import { connect } from 'react-redux';
 
 class LangMenu extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Page from '../Logic/Page';
-import StyledH1 from '../styledComponents/StyledH1';
+import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
 import StyledSection from '../styledComponents/StyledSection';
 import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledUl from '../styledComponents/StyledUl';
@@ -13,7 +13,7 @@ class Hebergements extends Component {
     return (
       <Page>
         <StyledSection>
-          <StyledH1><Translator id="Accomodation.title" /></StyledH1>
+          <StyledH1HeaderTitle><Translator id="Accomodation.title" /></StyledH1HeaderTitle>
           <StyledParagraph><Translator id="Accomodation.paragraph" /></StyledParagraph>
           <StyledUl>
             <StyledLi>

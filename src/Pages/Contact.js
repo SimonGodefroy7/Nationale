@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Page from '../Logic/Page';
-import StyledH1 from '../styledComponents/StyledH1';
+import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
 import StyledH3 from '../styledComponents/StyledH3';
 import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledMail from '../styledComponents/StyledMail';
@@ -13,7 +13,7 @@ class Contact extends Component {
     return (
       <Page>
         <StyledSection>
-          <StyledH1><Translator id="Contact.title" /></StyledH1>
+          <StyledH1HeaderTitle><Translator id="Contact.title" /></StyledH1HeaderTitle>
           <StyledParagraph><Translator id="Contact.paragraph" /></StyledParagraph>
           <StyledBorderBox width="14rem">
             <StyledH3>Alain Guillon</StyledH3>

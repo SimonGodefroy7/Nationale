@@ -3,7 +3,6 @@ import StyledFlexBox from './StyledFlexBox';
 import StyledLi from './StyledLi';
 import StyledUl from './StyledUl';
 import StyledImg from './StyledImg';
-import style from './style';
 
 const StyledMenuMobile = styled(StyledFlexBox)`
   ${StyledImg} {
@@ -16,9 +15,6 @@ const StyledMenuMobile = styled(StyledFlexBox)`
     right: 1rem;
     z-index: 1;
     top: 5rem;
-    @media (min-width: ${style.mediaSize.mobileM}) {
-      top: 3.5rem;
-    }
     background-color: white;
   }
 

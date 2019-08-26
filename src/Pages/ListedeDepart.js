@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Page from '../Logic/Page';
-import StyledH1 from '../styledComponents/StyledH1';
+import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
 import StyledH3 from '../styledComponents/StyledH3';
 import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledBorderBox from '../styledComponents/StyledBorderBox';
@@ -12,7 +12,7 @@ class ListeDeDepartResultats extends Component {
     return (
       <Page>
         <StyledSection>
-          <StyledH1><Translator id="StartList.title" /></StyledH1>
+          <StyledH1HeaderTitle><Translator id="StartList.title" /></StyledH1HeaderTitle>
           <StyledBorderBox>
             <StyledH3><Translator id="StartList.spTitle" /></StyledH3>
             <StyledParagraph><Translator id="StartList.spParagraph" /></StyledParagraph>

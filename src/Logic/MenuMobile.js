@@ -53,6 +53,9 @@ class MenuMobile extends Component {
             <StyledLink to="/Resultats"><Translator id="Menu.results" /></StyledLink>
           </StyledLi>
           <StyledLi>
+            <StyledLink to="/gallery"><Translator id="Menu.gallery" /></StyledLink>
+          </StyledLi>
+          <StyledLi>
             <StyledLink to="/hebergements"><Translator id="Menu.accommodation" /></StyledLink>
           </StyledLi>
           <StyledLi>

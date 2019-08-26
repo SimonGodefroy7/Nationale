@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Page from '../Logic/Page';
-import StyledH1 from '../styledComponents/StyledH1';
+import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
 import StyledImg from '../styledComponents/StyledImg';
 import StyledGallery from '../styledComponents/StyledGallery';
 import StyledGalleryItem from '../styledComponents/StyledGalleryItem';
@@ -34,11 +34,11 @@ class Gallery extends Component {
     return (
       <Page>
         <StyledSection>
-          <StyledH1><Translator id="Galery.title" /></StyledH1>
+          <StyledH1HeaderTitle><Translator id="Gallery.title" /></StyledH1HeaderTitle>
           <StyledGallery>
             {smallImages.map((image, j) => (
-              <StyledGalleryItem>
-                <StyledImg onClick={() => this.openModal(j)} src={image.src} key={image.src}/>
+              <StyledGalleryItem key={image.src}>
+                <StyledImg onClick={() => this.openModal(j)} src={image.src} />
               </StyledGalleryItem>
             ))}
           </StyledGallery>
