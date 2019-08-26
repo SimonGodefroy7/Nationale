@@ -6,11 +6,11 @@ import StyledPartenaires from '../styledComponents/StyledPartenaires';
 import StyledImg from '../styledComponents/StyledImg';
 import StyledAnchor from '../styledComponents/StyledAnchor';
 import StyledSection from '../styledComponents/StyledSection';
-import onfLogo from '../image/PartnerLogo/onf_logo.png'
-import ffcoLogo from '../image/PartnerLogo/ffcoLogo.jpg'
+import onfLogo from '../image/PartnerLogo/ONFLogo.jpg'
+import ffcoLogo from '../image/PartnerLogo/FFCOLogo.jpg'
 import iDFLogo from '../image/PartnerLogo/logoRegionIDF.svg'
 import ligueIDFLogo from '../image/PartnerLogo/LIFCOLogo.jpg'
-import cDCO77Logo from '../image/PartnerLogo/logoCDCO77.gif'
+import cDCO77Logo from '../image/PartnerLogo/CDCO77Logo.jpg'
 import Translator from '../Logic/Translator';
 
 class Partenaires extends Component {
