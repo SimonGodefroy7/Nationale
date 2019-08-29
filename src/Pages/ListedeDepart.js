@@ -23,7 +23,7 @@ class ListeDeDepartResultats extends Component {
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3><Translator id="StartList.ldTitle" /></StyledH3>
-            <StyledParagraph><Translator id="Registration.ldParagraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="StartList.ldParagraph" /></StyledParagraph>
           </StyledBorderBox>
         </StyledSection>
       </Page>
