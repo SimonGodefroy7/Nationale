@@ -11,7 +11,7 @@ import Resultats from '../Pages/Resultats';
 import Galery from '../Pages/Galery';
 
 
-const BASE_PATH = process.env.NODE_ENV === 'development' ? "/" : "/Nationale";
+const BASE_PATH = "/";
 
 class Router extends Component {
   render() {
