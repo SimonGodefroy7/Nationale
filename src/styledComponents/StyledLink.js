@@ -2,14 +2,14 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const StyledLink = styled(Link)`
-  color: green;
+  color: ${props => props.hoverless ? '' : 'green'};
   text-decoration: none;
-  padding: 0.5rem;
+  padding: ${props => props.paddingless ? '0' : '0.5rem'};
 
   &:hover {
-    color: white;
-    background-color: green;
-    border-radius: 0.5rem;
+    color: ${props => props.hoverless ? '' : 'white'};
+    background-color: ${props => props.hoverless ? '' : 'green'};
+    border-radius: ${props => props.hoverless ? '' : '0.5rem'};
   }
 `
 
