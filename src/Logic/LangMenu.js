@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StyledFlexBox from '../styledComponents/StyledFlexBox';
+import StyledLangButton from '../styledComponents/StyledLangButton';
 import StyledImg from '../styledComponents/StyledImg';
 import StyledLang from '../styledComponents/StyledLang';
 import { LANG_FR, LANG_EN } from '../redux/actions/types';
@@ -28,12 +28,12 @@ class LangMenu extends Component {
   render() {
     return (
       <StyledLang>
-        <StyledFlexBox onClick={this.onClickFR}>
+        <StyledLangButton onClick={this.onClickFR}>
           <StyledImg src={frIcon} alt={frIcon} />
-        </StyledFlexBox>
-        <StyledFlexBox onClick={this.onClickEN}>
+        </StyledLangButton>
+        <StyledLangButton onClick={this.onClickEN}>
           <StyledImg src={enIcon} alt={enIcon} />
-        </StyledFlexBox>
+        </StyledLangButton>
       </StyledLang>
     );
   }
