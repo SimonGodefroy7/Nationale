@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import Menu from './Menu';
 import MenuMobile from './MenuMobile';
 import LangMenu from './LangMenu';
@@ -10,11 +11,21 @@ import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import Translator from '../Logic/Translator';
 
 class Header extends Component {
+  constructor(props){
+    super(props);
+
+    this.onClick = this.onClick.bind(this);
+  }
+
+  onClick() {
+    this.props.history.push("/");
+  }
+
   render() {
     return (
       <StyledHeader>
         <StyledMenuBackground>
-          <StyledFlexBox>
+          <StyledFlexBox onClick={this.onClick}>
             <StyledH1><Translator id="Header.headerTitle" /></StyledH1>
             <StyledH1Short><Translator id="Header.headerTitleShort" /></StyledH1Short>
           </StyledFlexBox>
@@ -29,4 +40,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default withRouter(Header);
