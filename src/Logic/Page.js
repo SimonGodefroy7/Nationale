@@ -9,7 +9,7 @@ class Page extends Component {
       <StyledFlexBox>
         <Header />
         {this.props.children}
-        <Footer />
+        {/*<Footer />*/}
       </StyledFlexBox>
     );
   }
