@@ -9,7 +9,7 @@ import StyledSection from '../styledComponents/StyledSection';
 import Translator from '../Logic/Translator';
 import gallery from '../image/Gallery/gallery';
 
-const bigImages = gallery.bigImages;
+const mediumImages = gallery.mediumImages;
 const smallImages = gallery.smallImages;
 
 class Gallery extends Component {
@@ -47,7 +47,7 @@ class Gallery extends Component {
               <Modal onClose={this.closeModal}>
               <Carousel
                 currentIndex={currentImage}
-                views={bigImages.map(x => ({
+                views={mediumImages.map(x => ({
                   ...x,
                   srcset: x.srcSet,
                   caption: x.title

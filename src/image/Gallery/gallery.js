@@ -40,7 +40,27 @@ import smallImage18 from './small/Image18.jpg';
 import smallImage19 from './small/Image19.jpg';
 import smallImage20 from './small/Image20.jpg';
 import smallImage21 from './small/Image21.jpg';
-
+import mediumImage1 from './medium/Image1.jpg';
+import mediumImage2 from './medium/Image2.jpg';
+import mediumImage3 from './medium/Image3.jpg';
+import mediumImage4 from './medium/Image4.jpg';
+import mediumImage5 from './medium/Image5.jpg';
+import mediumImage6 from './medium/Image6.jpg';
+import mediumImage7 from './medium/Image7.jpg';
+import mediumImage8 from './medium/Image8.jpg';
+import mediumImage9 from './medium/Image9.jpg';
+import mediumImage10 from './medium/Image10.jpg';
+import mediumImage11 from './medium/Image11.jpg';
+import mediumImage12 from './medium/Image12.jpg';
+import mediumImage13 from './medium/Image13.jpg';
+import mediumImage14 from './medium/Image14.jpg';
+import mediumImage15 from './medium/Image15.jpg';
+import mediumImage16 from './medium/Image16.jpg';
+import mediumImage17 from './medium/Image17.jpg';
+import mediumImage18 from './medium/Image18.jpg';
+import mediumImage19 from './medium/Image19.jpg';
+import mediumImage20 from './medium/Image20.jpg';
+import mediumImage21 from './medium/Image21.jpg';
 const gallery = {
   bigImages: [
     {
@@ -145,6 +165,113 @@ const gallery = {
     },
     {
       src: bigImage21,
+      width: 0,
+      height: 0
+    }
+  ],
+  mediumImages: [
+    {
+      src: mediumImage1,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage2,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage3,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage4,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage5,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage6,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage7,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage8,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage9,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage10,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage11,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage12,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage13,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage14,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage15,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage16,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage17,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage18,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage19,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage20,
+      width: 0,
+      height: 0
+    },
+    {
+      src: mediumImage21,
       width: 0,
       height: 0
     }
