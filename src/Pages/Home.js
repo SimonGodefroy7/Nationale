@@ -13,6 +13,11 @@ import StyledBalise from '../styledComponents/StyledBalise';
 import StyledBaliseBox from '../styledComponents/StyledBaliseBox';
 import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import StyledHashLink from '../styledComponents/StyledHashLink';
+import StyledForbiddenArea from '../styledComponents/StyledForbiddenArea';
+import StyledInformation from '../styledComponents/StyledInformation';
+import StyledImg from '../styledComponents/StyledImg';
+import zoneInterditeSmall from '../image/ZoneinterditeNationales_NO_2020_small.jpg';
+import flyerSmall from '../image/flyerSmall.jpg';
 
 class Home extends Component {
   render() {
@@ -56,21 +61,23 @@ class Home extends Component {
         </StyledBackground>
         <StyledSection>
           <StyledH1><Translator id="Home.title" /></StyledH1>
+          <StyledInformation>
+            <StyledH3><Translator id="Home.box4Title" /></StyledH3>
+            <StyledParagraph><Translator id="Home.box4Paragraph" /></StyledParagraph>
+            <StyledImg src={flyerSmall} alt={flyerSmall}/>
+          </StyledInformation>
           <StyledBorderBox>
             <StyledH3><Translator id="Home.box1Title" /></StyledH3>
             <StyledParagraph><Translator id="Home.box1Paragraph" /></StyledParagraph>
           </StyledBorderBox>
-          <StyledBorderBox>
+          <StyledForbiddenArea>
             <StyledH3><Translator id="Home.box2Title" /></StyledH3>
             <StyledParagraph><Translator id="Home.box2Paragraph" /></StyledParagraph>
-          </StyledBorderBox>
+            <StyledImg src={zoneInterditeSmall} alt={zoneInterditeSmall}/>
+          </StyledForbiddenArea>
           <StyledBorderBox>
             <StyledH3><Translator id="Home.box3Title" /></StyledH3>
             <StyledParagraph><Translator id="Home.box3Paragraph" /></StyledParagraph>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledH3><Translator id="Home.box4Title" /></StyledH3>
-            <StyledParagraph><Translator id="Home.box4Paragraph" /></StyledParagraph>
           </StyledBorderBox>
         </StyledSection>
       </Page>
