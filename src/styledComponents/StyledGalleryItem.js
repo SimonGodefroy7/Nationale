@@ -10,6 +10,7 @@ const StyledGalleryItem = styled(StyledFlexBox)`
   padding: 0.25rem;
   border-style: solid;
   border-width: 0.05rem;
+  cursor: pointer;
   ${StyledImg} {
     height: 9rem;
   }
