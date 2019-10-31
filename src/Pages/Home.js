@@ -16,6 +16,7 @@ import StyledHashLink from '../styledComponents/StyledHashLink';
 import StyledForbiddenArea from '../styledComponents/StyledForbiddenArea';
 import StyledInformation from '../styledComponents/StyledInformation';
 import StyledImg from '../styledComponents/StyledImg';
+import StyledLink from '../styledComponents/StyledLink';
 import zoneInterditeSmall from '../image/ZoneinterditeNationales_NO_2020_small.jpg';
 import flyerSmall from '../image/flyerSmall.jpg';
 
@@ -63,8 +64,7 @@ class Home extends Component {
           <StyledH1><Translator id="Home.title" /></StyledH1>
           <StyledInformation>
             <StyledH3><Translator id="Home.box4Title" /></StyledH3>
-            <StyledParagraph><Translator id="Home.box4Paragraph" /></StyledParagraph>
-            <StyledImg src={flyerSmall} alt={flyerSmall}/>
+            <StyledLink hoverless to="/download/flyer.jpg" target="_blank" download><StyledImg src={flyerSmall} alt={flyerSmall}/></StyledLink>
           </StyledInformation>
           <StyledBorderBox>
             <StyledH3><Translator id="Home.box1Title" /></StyledH3>
@@ -73,7 +73,7 @@ class Home extends Component {
           <StyledForbiddenArea>
             <StyledH3><Translator id="Home.box2Title" /></StyledH3>
             <StyledParagraph><Translator id="Home.box2Paragraph" /></StyledParagraph>
-            <StyledImg src={zoneInterditeSmall} alt={zoneInterditeSmall}/>
+            <StyledLink hoverless to="/download/Nationales_NO_2020.pdf" target="_blank" download><StyledImg src={zoneInterditeSmall} alt={zoneInterditeSmall}/></StyledLink>
           </StyledForbiddenArea>
           <StyledBorderBox>
             <StyledH3><Translator id="Home.box3Title" /></StyledH3>

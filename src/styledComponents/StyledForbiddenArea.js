@@ -10,7 +10,7 @@ const StyledForbiddenArea = styled(StyledBorderBox)`
       width: 17rem;
     }
     @media (min-width: ${style.mediaSize.mobileL}) {
-      width: 30rem;
+      width: 20rem;
     }
   }
 `
