@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import StyledAnchor from './StyledAnchor';
+import style from './style';
 
 const StyledMail = styled(StyledAnchor)`
   &:hover {
-    color: green;
-    background-color: white;
+    color: ${style.colors.secondary};
+    background-color: ${style.colors.light};
   }
 `
 

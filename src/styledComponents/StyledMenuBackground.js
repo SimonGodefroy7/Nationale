@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import StyledFlexBox from './StyledFlexBox';
 import StyledH1 from './StyledH1';
 import StyledH1Short from './StyledH1Short';
+import style from './style';
 
 const StyledMenuBackground = styled(StyledFlexBox)`
   flex-direction: row;
@@ -9,10 +10,10 @@ const StyledMenuBackground = styled(StyledFlexBox)`
   align-items: center;
 
   ${StyledH1} {
-    color: #ef7d28;
+    color: ${style.colors.primary};
   }
   ${StyledH1Short} {
-    color: #ef7d28;
+    color: ${style.colors.primary};
   }
 `;
 

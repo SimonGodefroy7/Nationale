@@ -9,7 +9,7 @@ const StyledPartenaires = styled(StyledFlexBox)`
   align-items: center;
   border-style: solid;
   border-radius: 1rem;
-  border-color: green;
+  border-color: ${style.colors.secondary};
   margin: 1rem;
   width: 17rem;
   align-self: center;

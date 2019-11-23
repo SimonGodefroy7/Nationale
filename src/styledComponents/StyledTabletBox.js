@@ -4,7 +4,7 @@ import StyledH1 from './StyledH1';
 import style from './style';
 
 const StyledTabletBox = styled(StyledFlexBox)`
-  background-color: #ef7d28;
+  background-color: ${style.colors.primary};
   width: 10rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
