@@ -12,7 +12,13 @@ const style = {
     laptop: '1024px',
     laptopL: '1440px',
     desktop: '2560px'
-  }
+  },
+  colors: {
+    primary: '#ef7d28',
+    secondary: 'green',
+    dark: 'black',
+    light: 'white',
+  },
 };
 
 export default style;

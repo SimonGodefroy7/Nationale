@@ -17,10 +17,8 @@ class Header extends Component {
       <StyledHeader>
         <StyledMenuBackground>
           <StyledLink paddingless hoverless to="/">
-            <StyledFlexBox>
-              <StyledH1><Translator id="Header.headerTitle" /></StyledH1>
-              <StyledH1Short><Translator id="Header.headerTitleShort" /></StyledH1Short>
-            </StyledFlexBox>
+            <StyledH1><Translator id="Header.headerTitle" /></StyledH1>
+            <StyledH1Short><Translator id="Header.headerTitleShort" /></StyledH1Short>
           </StyledLink>
           <StyledFlexBox>
             <LangMenu />

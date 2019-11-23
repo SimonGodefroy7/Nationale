@@ -9,12 +9,15 @@ import style from './style';
 
 const StyledHeader = styled(StyledSection)`
   justify-content: space-between;
+
   ${StyledH1} {
     display: none;
   }
+
   ${StyledH1Short} {
     display: flex;
   }
+
   ${StyledMenu} {
     display: none;
   }
@@ -23,18 +26,21 @@ const StyledHeader = styled(StyledSection)`
     ${StyledH1} {
       display: flex;
     }
+
     ${StyledH1Short} {
       display: none;
     }
   }
+
   @media (min-width: ${style.mediaSize.laptop}) {
     ${StyledTabletBox} {
       display: flex;
     }
-    justify-content: unset;
+
     ${StyledMenuMobile} {
       display: none;
     }
+
     ${StyledMenu} {
       display: flex;
     }

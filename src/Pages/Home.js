@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import Page from '../Logic/Page';
 import Translator from '../Logic/Translator';
 import StyledH1 from '../styledComponents/StyledH1';
-import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
 import StyledH3 from '../styledComponents/StyledH3';
 import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledBorderBox from '../styledComponents/StyledBorderBox';
@@ -31,7 +30,7 @@ class Home extends Component {
         </Helmet>
         <StyledBackground>
           <StyledTabletBox>
-            <StyledH1HeaderTitle><Translator id="Home.bacgroundParagraph" /></StyledH1HeaderTitle>
+            <StyledH1><Translator id="Home.bacgroundParagraph" /></StyledH1>
           </StyledTabletBox>
           <StyledFlexBox flexDirection="row" justifyContent="space-between" width="80%">
             <StyledHashLink to="/evenements/#Sprint">

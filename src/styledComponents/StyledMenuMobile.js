@@ -3,6 +3,7 @@ import StyledFlexBox from './StyledFlexBox';
 import StyledLi from './StyledLi';
 import StyledUl from './StyledUl';
 import StyledImg from './StyledImg';
+import style from './style';
 
 const StyledMenuMobile = styled(StyledFlexBox)`
   cursor: pointer;
@@ -16,7 +17,7 @@ const StyledMenuMobile = styled(StyledFlexBox)`
     right: 1rem;
     z-index: 1;
     top: 5rem;
-    background-color: white;
+    background-color: ${style.colors.light};
   }
 
   ${StyledLi} {

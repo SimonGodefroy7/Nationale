@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import Router from './Logic/Router'
+import Router from './Logic/Router';
+import GlobalStyle from './styledComponents/GlobalStyle';
 
 class App extends Component {
   render() {
     return (
-      <Router />
+      <React.Fragment>
+        <GlobalStyle />
+        <Router />
+      </React.Fragment>
     );
   }
 }
