@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import StyledLi from './StyledLi';
 
-const StyledMenuLink = styled(HashLink)`
+const StyledMenuLink = styled(Link)`
   color: ${props => props.hoverless ? '' : 'green'};
   text-decoration: none;
 
