@@ -1,11 +1,10 @@
-import React, { Component } from 'react'; //eslint-disable-line no-unused-vars
-import StyledMenuMobile from '../styledComponents/StyledMenuMobile'; //eslint-disable-line no-unused-vars
-import StyledParagraph from '../styledComponents/StyledParagraph'; //eslint-disable-line no-unused-vars
-import StyledFlexBox from '../styledComponents/StyledFlexBox'; //eslint-disable-line no-unused-vars
-import StyledUl from '../styledComponents/StyledUl'; //eslint-disable-line no-unused-vars
-import StyledLi from '../styledComponents/StyledLi'; //eslint-disable-line no-unused-vars
-import StyledLink from '../styledComponents/StyledLink'; //eslint-disable-line no-unused-vars
-import StyledImg from '../styledComponents/StyledImg'; //eslint-disable-line no-unused-vars
+import React, { Component } from 'react';
+import StyledMenuMobile from '../styledComponents/StyledMenuMobile';
+import StyledFlexBox from '../styledComponents/StyledFlexBox';
+import StyledUl from '../styledComponents/StyledUl';
+import StyledLi from '../styledComponents/StyledLi';
+import StyledMenuLink from '../styledComponents/StyledMenuLink';
+import StyledImg from '../styledComponents/StyledImg';
 import burgerIcon from '../image/burgerIcon.svg';
 import Translator from '../Logic/Translator';
 
@@ -37,33 +36,15 @@ class MenuMobile extends Component {
           <StyledImg src={burgerIcon} alt={burgerIcon} />
         </StyledFlexBox>
         {this.state.listOpen && <StyledUl>
-          <StyledLi>
-            <StyledLink to="/"><Translator id="Menu.home" /></StyledLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledLink to="/evenements"><Translator id="Menu.events" /></StyledLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledLink to="/inscription"><Translator id="Menu.registration" /></StyledLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledLink to="/liste-de-depart"><Translator id="Menu.startList" /></StyledLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledLink to="/resultats"><Translator id="Menu.results" /></StyledLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledLink to="/gallery"><Translator id="Menu.gallery" /></StyledLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledLink to="/hebergements"><Translator id="Menu.accommodation" /></StyledLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledLink to="/partenaires"><Translator id="Menu.partners" /></StyledLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledLink to="/contact"><Translator id="Menu.contact" /></StyledLink>
-          </StyledLi>
+          <StyledMenuLink to="/"><StyledLi><Translator id="Menu.home" /></StyledLi></StyledMenuLink>
+          <StyledMenuLink to="/evenements"><StyledLi><Translator id="Menu.events" /></StyledLi></StyledMenuLink>
+          <StyledMenuLink to="/inscription"><StyledLi><Translator id="Menu.registration" /></StyledLi></StyledMenuLink>
+          <StyledMenuLink to="/liste-de-depart"><StyledLi><Translator id="Menu.startList" /></StyledLi></StyledMenuLink>
+          <StyledMenuLink to="/resultats"><StyledLi><Translator id="Menu.results" /></StyledLi></StyledMenuLink>
+          <StyledMenuLink to="/gallery"><StyledLi><Translator id="Menu.gallery" /></StyledLi></StyledMenuLink>
+          <StyledMenuLink to="/hebergements"><StyledLi><Translator id="Menu.accommodation" /></StyledLi></StyledMenuLink>
+          <StyledMenuLink to="/partenaires"><StyledLi><Translator id="Menu.partners" /></StyledLi></StyledMenuLink>
+          <StyledMenuLink to="/contact"><StyledLi><Translator id="Menu.contact" /></StyledLi></StyledMenuLink>
         </StyledUl>}
       </StyledMenuMobile>
     );
