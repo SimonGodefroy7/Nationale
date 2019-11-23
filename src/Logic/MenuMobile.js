@@ -41,16 +41,16 @@ class MenuMobile extends Component {
             <StyledLink to="/"><Translator id="Menu.home" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/evenements/"><Translator id="Menu.events" /></StyledLink>
+            <StyledLink to="/evenements"><Translator id="Menu.events" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/inscription/"><Translator id="Menu.registration" /></StyledLink>
+            <StyledLink to="/inscription"><Translator id="Menu.registration" /></StyledLink>
           </StyledLi>
           <StyledLi>
             <StyledLink to="/listeDeDepart"><Translator id="Menu.startList" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/Resultats"><Translator id="Menu.results" /></StyledLink>
+            <StyledLink to="/resultats"><Translator id="Menu.results" /></StyledLink>
           </StyledLi>
           <StyledLi>
             <StyledLink to="/gallery"><Translator id="Menu.gallery" /></StyledLink>
@@ -59,10 +59,10 @@ class MenuMobile extends Component {
             <StyledLink to="/hebergements"><Translator id="Menu.accommodation" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/partenaires/"><Translator id="Menu.partners" /></StyledLink>
+            <StyledLink to="/partenaires"><Translator id="Menu.partners" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/contact/"><Translator id="Menu.contact" /></StyledLink>
+            <StyledLink to="/contact"><Translator id="Menu.contact" /></StyledLink>
           </StyledLi>
         </StyledUl>}
       </StyledMenuMobile>
