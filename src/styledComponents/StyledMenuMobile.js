@@ -5,6 +5,7 @@ import StyledUl from './StyledUl';
 import StyledImg from './StyledImg';
 
 const StyledMenuMobile = styled(StyledFlexBox)`
+  cursor: pointer;
   ${StyledImg} {
     width: 4rem;
     height: 2rem;
