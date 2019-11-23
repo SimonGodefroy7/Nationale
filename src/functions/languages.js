@@ -1,7 +1,7 @@
 const language = {
   en: {
     "Gallery.title": "Pictures gallery",
-    "Footer.footerlink": "Footer",
+    "Footer.copyright": "All right reserved.",
     "Header.headerTitle": "Nationales North West 2020",
     "Header.headerTitleShort": "Nationales N-W 2020",
     "Menu.home": "Home",
@@ -72,7 +72,7 @@ const language = {
   },
   fr: {
     "Gallery.title": "Galerie photos",
-    "Footer.footerlink": "Footer",
+    "Footer.copyright": "Tous droits réservés.",
     "Header.headerTitle": "Nationales Nord Ouest 2020",
     "Header.headerTitleShort": "Nationales N-O 2020",
     "Menu.home": "Accueil",
