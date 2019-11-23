@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import Page from '../Logic/Page';
 import Translator from '../Logic/Translator';
 import StyledH1 from '../styledComponents/StyledH1';
@@ -24,6 +25,10 @@ class Home extends Component {
   render() {
     return (
       <Page>
+        <Helmet>
+          <title>Accueil | Nationale Nord Ouest 2020</title>
+          <meta name="description" content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"/>
+        </Helmet>
         <StyledBackground>
           <StyledTabletBox>
             <StyledH1HeaderTitle><Translator id="Home.bacgroundParagraph" /></StyledH1HeaderTitle>
