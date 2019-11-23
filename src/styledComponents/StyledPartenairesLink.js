@@ -1,12 +1,11 @@
 import styled from 'styled-components';
-import StyledFlexBox from './StyledFlexBox';
 import StyledImg from './StyledImg';
 import style from './style';
 
-const StyledPartenaires = styled(StyledFlexBox)`
+const StyledPartenairesLink = styled.a`
+  display: flex;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
   border-style: solid;
   border-radius: 1rem;
   border-color: ${style.colors.secondary};
@@ -27,4 +26,4 @@ const StyledPartenaires = styled(StyledFlexBox)`
   }
 `
 
-export default StyledPartenaires;
+export default StyledPartenairesLink;

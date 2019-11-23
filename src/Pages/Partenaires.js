@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import Page from '../Logic/Page';
 import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
-import StyledFlexBox from '../styledComponents/StyledFlexBox';
-import StyledPartenaires from '../styledComponents/StyledPartenaires';
+import StyledPartenairesLink from '../styledComponents/StyledPartenairesLink';
 import StyledImg from '../styledComponents/StyledImg';
-import StyledAnchor from '../styledComponents/StyledAnchor';
 import StyledSection from '../styledComponents/StyledSection';
 import onfLogo from '../image/PartnerLogo/ONFLogo.jpg'
 import ffcoLogo from '../image/PartnerLogo/FFCOLogo.jpg'
@@ -24,36 +22,21 @@ class Partenaires extends Component {
         </Helmet>
         <StyledSection>
           <StyledH1HeaderTitle><Translator id="Partners.title" /></StyledH1HeaderTitle>
-          <StyledPartenaires>
-            <StyledFlexBox>
-              <StyledAnchor href="https://www.onf.fr/" textAlign="center">ONF</StyledAnchor>
-            </StyledFlexBox>
+          <StyledPartenairesLink href="https://www.onf.fr/">
             <StyledImg src={onfLogo} alt={onfLogo}/>
-          </StyledPartenaires>
-          <StyledPartenaires>
+          </StyledPartenairesLink>
+          <StyledPartenairesLink href="http://www.ffcorientation.fr" paddingless hoverless>
             <StyledImg src={ffcoLogo} alt={ffcoLogo}/>
-            <StyledFlexBox>
-              <StyledAnchor href="http://www.ffcorientation.fr/" textAlign="center">FFCO</StyledAnchor>
-            </StyledFlexBox>
-          </StyledPartenaires>
-          <StyledPartenaires>
-            <StyledFlexBox>
-              <StyledAnchor href="https://www.iledefrance.fr/" textAlign="center"><Translator id="Partners.idf" /></StyledAnchor>
-            </StyledFlexBox>
+          </StyledPartenairesLink>
+          <StyledPartenairesLink href="https://www.iledefrance.fr/">
             <StyledImg src={iDFLogo} alt={iDFLogo}/>
-          </StyledPartenaires>
-          <StyledPartenaires>
+          </StyledPartenairesLink>
+          <StyledPartenairesLink href="https://www.lifco.fr/">
             <StyledImg src={ligueIDFLogo} alt={ligueIDFLogo}/>
-            <StyledFlexBox>
-              <StyledAnchor href="https://www.lifco.fr/" textAlign="center"><Translator id="Partners.lifco" /></StyledAnchor>
-            </StyledFlexBox>
-          </StyledPartenaires>
-          <StyledPartenaires>
-            <StyledFlexBox>
-              <StyledAnchor href="http://cd77if.free.fr/" textAlign="center">CDCO77</StyledAnchor>
-            </StyledFlexBox>
+          </StyledPartenairesLink>
+          <StyledPartenairesLink href="http://cd77if.free.fr/">
             <StyledImg src={cDCO77Logo} alt={cDCO77Logo}/>
-          </StyledPartenaires>
+          </StyledPartenairesLink>
         </StyledSection>
       </Page>
     );
