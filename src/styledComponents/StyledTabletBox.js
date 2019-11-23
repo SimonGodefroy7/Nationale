@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { rgba } from 'polished';
 import StyledFlexBox from './StyledFlexBox';
 import StyledH1 from './StyledH1';
 import style from './style';
 
 const StyledTabletBox = styled(StyledFlexBox)`
-  background-color: ${style.colors.primary};
+  background-color: ${rgba(style.colors.primary, 0.9)};
   width: 10rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
