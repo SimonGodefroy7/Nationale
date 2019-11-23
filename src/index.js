@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
 import App from './App';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
@@ -7,7 +7,7 @@ import langReducer from './redux/reducers/langReducer';
 
 const store = createStore(langReducer);
 
-ReactDOM.render(
+render(
   <Provider store={store}>
     <App />
   </Provider>,

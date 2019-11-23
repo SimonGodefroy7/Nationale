@@ -6,7 +6,8 @@
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
-    "react-redux": "^7.1.0",
+    "react-images": "^1.0.0",
+    "react-redux": "^7.1.3",
     "react-router-dom": "^5.0.1",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.0.1",
@@ -14,11 +15,12 @@
     "styled-components": "^4.3.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "react-snapshot": "^1.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -39,5 +41,10 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://www.nationalesno2020.fr"
+  "homepage": "https://www.nationalesno2020.fr",
+  "reactSnapshot": {
+    "exclude": [
+      "/gallery"
+    ]
+  }
 }
