@@ -22,7 +22,7 @@ class Router extends Component {
           <Route path="/inscription" exact component={Inscription} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/hebergements" exact component={Hebergements} />
-          <Route path="/listeDeDepart" exact component={ListeDeDepart} />
+          <Route path="/liste-de-depart" exact component={ListeDeDepart} />
           <Route path="/resultats" exact component={Resultats} />
           <Route path="/partenaires" exact component={Partenaires} />
           <Route path="/evenements" exact component={Evenements} />

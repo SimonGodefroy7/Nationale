@@ -47,7 +47,7 @@ class MenuMobile extends Component {
             <StyledLink to="/inscription"><Translator id="Menu.registration" /></StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink to="/listeDeDepart"><Translator id="Menu.startList" /></StyledLink>
+            <StyledLink to="/liste-de-depart"><Translator id="Menu.startList" /></StyledLink>
           </StyledLi>
           <StyledLi>
             <StyledLink to="/resultats"><Translator id="Menu.results" /></StyledLink>
