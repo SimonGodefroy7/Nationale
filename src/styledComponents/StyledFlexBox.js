@@ -7,6 +7,7 @@ const StyledFlexBox = styled.div`
   flex-direction: ${props => props.flexDirection || "column"};
   justify-content: ${props => props.justifyContent || ""};
   align-items: ${props => props.alignItems || ""};
-`
+  flex-grow: ${props => props.flexGrow || '0'};
+`;
 
 export default StyledFlexBox;

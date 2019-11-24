@@ -7,8 +7,8 @@ class Footer extends Component {
   render() {
     return (
       <StyledSection color="#eae9e9">
-        <StyledParagraph>
-          <Translator id="Footer.footerlink" />
+        <StyledParagraph textAlign="center">
+          Copyright &copy; {new Date().getFullYear()} CDCO77. <Translator id="Footer.copyright" />
         </StyledParagraph>
       </StyledSection>
     );
