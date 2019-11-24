@@ -18,10 +18,6 @@ class Evenements extends Component {
         </Helmet>
         <StyledSection>
           <StyledH1HeaderTitle><Translator id="Event.title" /></StyledH1HeaderTitle>
-          <StyledParagraph><Translator id="Event.paragraph1" /></StyledParagraph>
-          <StyledParagraph><Translator id="Event.paragraph2" /></StyledParagraph>
-          <StyledParagraph><Translator id="Event.paragraph3" /></StyledParagraph>
-          <StyledParagraph><Translator id="Event.paragraph4" /></StyledParagraph>
           <StyledBorderBox>
             <StyledH3 id="Sprint"><Translator id="Event.event1Title" /></StyledH3>
             <StyledParagraph><Translator id="Event.event1Paragrpah" /></StyledParagraph>
