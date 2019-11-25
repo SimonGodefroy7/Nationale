@@ -1,46 +1,44 @@
 import React, { Component } from 'react';
-import StyledNav from '../styledComponents/StyledNav';
 import StyledUl from '../styledComponents/StyledUl';
 import StyledLi from '../styledComponents/StyledLi';
-import StyledLink from '../styledComponents/StyledLink';
+import StyledAnchor from '../styledComponents/StyledAnchor';
 import StyledMenu from '../styledComponents/StyledMenu';
 import Translator from '../Logic/Translator';
+import Link from '../Logic/Link';
 
 class Menu extends Component {
   render() {
     return (
       <StyledMenu>
-        <StyledNav>
-          <StyledUl>
-            <StyledLi>
-              <StyledLink to="/"><Translator id="Menu.home" /></StyledLink>
-            </StyledLi>
-            <StyledLi>
-              <StyledLink to="/evenements"><Translator id="Menu.events" /></StyledLink>
-            </StyledLi>
-            <StyledLi>
-              <StyledLink to="/inscription"><Translator id="Menu.registration" /></StyledLink>
-            </StyledLi>
-            <StyledLi>
-              <StyledLink to="/liste-de-depart"><Translator id="Menu.startList" /></StyledLink>
-            </StyledLi>
-            <StyledLi>
-              <StyledLink to="/resultats"><Translator id="Menu.results" /></StyledLink>
-            </StyledLi>
-            <StyledLi>
-              <StyledLink to="/gallery"><Translator id="Menu.gallery" /></StyledLink>
-            </StyledLi>
-            <StyledLi>
-              <StyledLink to="/hebergements"><Translator id="Menu.accommodation" /></StyledLink>
-            </StyledLi>
-            <StyledLi>
-              <StyledLink to="/partenaires"><Translator id="Menu.partners" /></StyledLink>
-            </StyledLi>
-            <StyledLi>
-              <StyledLink to="/contact"><Translator id="Menu.contact" /></StyledLink>
-            </StyledLi>
-          </StyledUl>
-        </StyledNav>
+        <StyledUl>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/"><Translator id="Menu.home" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/evenements"><Translator id="Menu.events" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/inscription"><Translator id="Menu.registration" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/liste-de-depart"><Translator id="Menu.startList" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/resultats"><Translator id="Menu.results" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/gallery"><Translator id="Menu.gallery" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/hebergements"><Translator id="Menu.accommodation" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/partenaires"><Translator id="Menu.partners" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/contact"><Translator id="Menu.contact" /></StyledAnchor>
+          </StyledLi>
+        </StyledUl>
       </StyledMenu>
     );
   }

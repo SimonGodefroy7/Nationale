@@ -3,10 +3,11 @@ import StyledMenuMobile from '../styledComponents/StyledMenuMobile';
 import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import StyledUl from '../styledComponents/StyledUl';
 import StyledLi from '../styledComponents/StyledLi';
-import StyledMenuLink from '../styledComponents/StyledMenuLink';
+import StyledAnchor from '../styledComponents/StyledAnchor';
 import StyledImg from '../styledComponents/StyledImg';
 import burgerIcon from '../image/burgerIcon.svg';
 import Translator from '../Logic/Translator';
+import Link from '../Logic/Link';
 
 class MenuMobile extends Component {
   constructor(props){
@@ -36,15 +37,33 @@ class MenuMobile extends Component {
           <StyledImg src={burgerIcon} alt={burgerIcon} />
         </StyledFlexBox>
         {this.state.listOpen && <StyledUl>
-          <StyledMenuLink to="/"><StyledLi><Translator id="Menu.home" /></StyledLi></StyledMenuLink>
-          <StyledMenuLink to="/evenements"><StyledLi><Translator id="Menu.events" /></StyledLi></StyledMenuLink>
-          <StyledMenuLink to="/inscription"><StyledLi><Translator id="Menu.registration" /></StyledLi></StyledMenuLink>
-          <StyledMenuLink to="/liste-de-depart"><StyledLi><Translator id="Menu.startList" /></StyledLi></StyledMenuLink>
-          <StyledMenuLink to="/resultats"><StyledLi><Translator id="Menu.results" /></StyledLi></StyledMenuLink>
-          <StyledMenuLink to="/gallery"><StyledLi><Translator id="Menu.gallery" /></StyledLi></StyledMenuLink>
-          <StyledMenuLink to="/hebergements"><StyledLi><Translator id="Menu.accommodation" /></StyledLi></StyledMenuLink>
-          <StyledMenuLink to="/partenaires"><StyledLi><Translator id="Menu.partners" /></StyledLi></StyledMenuLink>
-          <StyledMenuLink to="/contact"><StyledLi><Translator id="Menu.contact" /></StyledLi></StyledMenuLink>
+          <StyledAnchor as={Link} hoverless paddingless to="/">
+            <StyledLi><Translator id="Menu.home" /></StyledLi>
+          </StyledAnchor>
+          <StyledAnchor as={Link} hoverless paddingless to="/evenements">
+            <StyledLi><Translator id="Menu.events" /></StyledLi>
+          </StyledAnchor>
+          <StyledAnchor as={Link} hoverless paddingless to="/inscription">
+            <StyledLi><Translator id="Menu.registration" /></StyledLi>
+          </StyledAnchor>
+          <StyledAnchor as={Link} hoverless paddingless to="/liste-de-depart">
+            <StyledLi><Translator id="Menu.startList" /></StyledLi>
+          </StyledAnchor>
+          <StyledAnchor as={Link} hoverless paddingless to="/resultats">
+            <StyledLi><Translator id="Menu.results" /></StyledLi>
+          </StyledAnchor>
+          <StyledAnchor as={Link} hoverless paddingless to="/gallery">
+            <StyledLi><Translator id="Menu.gallery" /></StyledLi>
+          </StyledAnchor>
+          <StyledAnchor as={Link} hoverless paddingless to="/hebergements">
+            <StyledLi><Translator id="Menu.accommodation" /></StyledLi>
+          </StyledAnchor>
+          <StyledAnchor as={Link} hoverless paddingless to="/partenaires">
+            <StyledLi><Translator id="Menu.partners" /></StyledLi>
+          </StyledAnchor>
+          <StyledAnchor as={Link} hoverless paddingless to="/contact">
+            <StyledLi><Translator id="Menu.contact" /></StyledLi>
+          </StyledAnchor>
         </StyledUl>}
       </StyledMenuMobile>
     );

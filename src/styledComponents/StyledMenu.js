@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import StyledFlexBox from './StyledFlexBox';
 import StyledLi from './StyledLi';
 
-const StyledMenu = styled(StyledFlexBox)`
+const StyledMenu = styled('nav')`
+  display: flex;
+  flex-direction: column;
   margin: 1rem;
   margin-bottom: 0;
 

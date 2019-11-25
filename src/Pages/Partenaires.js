@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import Page from '../Logic/Page';
-import StyledH1HeaderTitle from '../styledComponents/StyledH1HeaderTitle';
-import StyledPartenairesLink from '../styledComponents/StyledPartenairesLink';
+import StyledH1 from '../styledComponents/StyledH1';
+import StyledAnchor from '../styledComponents/StyledAnchor';
+import StyledBorderBox from '../styledComponents/StyledBorderBox';
 import StyledImg from '../styledComponents/StyledImg';
 import StyledSection from '../styledComponents/StyledSection';
 import onfLogo from '../image/PartnerLogo/ONFLogo.jpg'
@@ -21,22 +22,52 @@ class Partenaires extends Component {
           <meta name="description" content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"/>
         </Helmet>
         <StyledSection>
-          <StyledH1HeaderTitle><Translator id="Partners.title" /></StyledH1HeaderTitle>
-          <StyledPartenairesLink href="https://www.onf.fr/">
-            <StyledImg src={onfLogo} alt={onfLogo}/>
-          </StyledPartenairesLink>
-          <StyledPartenairesLink href="http://www.ffcorientation.fr" paddingless hoverless>
-            <StyledImg src={ffcoLogo} alt={ffcoLogo}/>
-          </StyledPartenairesLink>
-          <StyledPartenairesLink href="https://www.iledefrance.fr/">
-            <StyledImg src={iDFLogo} alt={iDFLogo}/>
-          </StyledPartenairesLink>
-          <StyledPartenairesLink href="https://www.lifco.fr/">
-            <StyledImg src={ligueIDFLogo} alt={ligueIDFLogo}/>
-          </StyledPartenairesLink>
-          <StyledPartenairesLink href="http://cd77if.free.fr/">
-            <StyledImg src={cDCO77Logo} alt={cDCO77Logo}/>
-          </StyledPartenairesLink>
+          <StyledH1><Translator id="Partners.title" /></StyledH1>
+          <StyledBorderBox>
+            <StyledAnchor href="https://www.onf.fr/" paddingless hoverless>
+              <StyledImg
+                src={onfLogo}
+                alt={onfLogo}
+                imageWidth="20rem"
+              />
+            </StyledAnchor>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledAnchor href="http://www.ffcorientation.fr" paddingless hoverless>
+              <StyledImg
+                src={ffcoLogo}
+                alt={ffcoLogo}
+                imageWidth="20rem"
+              />
+            </StyledAnchor>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledAnchor href="https://www.iledefrance.fr/" paddingless hoverless>
+              <StyledImg
+                src={iDFLogo}
+                alt={iDFLogo}
+                imageWidth="20rem"
+              />
+            </StyledAnchor>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledAnchor href="https://www.lifco.fr/" paddingless hoverless>
+              <StyledImg
+                src={ligueIDFLogo}
+                alt={ligueIDFLogo}
+                imageWidth="20rem"
+              />
+            </StyledAnchor>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledAnchor href="http://cd77if.free.fr/" paddingless hoverless>
+              <StyledImg
+                src={cDCO77Logo}
+                alt={cDCO77Logo}
+                imageWidth="20rem"
+              />
+            </StyledAnchor>
+          </StyledBorderBox>
         </StyledSection>
       </Page>
     );
