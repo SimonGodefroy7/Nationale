@@ -15,9 +15,9 @@ const style = {
   },
   colors: {
     primary: '#ef7d28',
-    secondary: 'green',
-    dark: 'black',
-    light: 'white',
+    secondary: '#007300',
+    dark: '#000000',
+    light: '#ffffff',
   },
 };
 
