@@ -28,7 +28,8 @@ class Partenaires extends Component {
               <StyledImg
                 src={onfLogo}
                 alt={onfLogo}
-                imageWidth="20rem"
+                imageWidth="100%"
+                maxWidth="20rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
@@ -37,7 +38,8 @@ class Partenaires extends Component {
               <StyledImg
                 src={ffcoLogo}
                 alt={ffcoLogo}
-                imageWidth="20rem"
+                imageWidth="100%"
+                maxWidth="20rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
@@ -46,7 +48,8 @@ class Partenaires extends Component {
               <StyledImg
                 src={iDFLogo}
                 alt={iDFLogo}
-                imageWidth="20rem"
+                imageWidth="100%"
+                maxWidth="20rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
@@ -55,7 +58,8 @@ class Partenaires extends Component {
               <StyledImg
                 src={ligueIDFLogo}
                 alt={ligueIDFLogo}
-                imageWidth="20rem"
+                imageWidth="100%"
+                maxWidth="20rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
@@ -64,7 +68,8 @@ class Partenaires extends Component {
               <StyledImg
                 src={cDCO77Logo}
                 alt={cDCO77Logo}
-                imageWidth="20rem"
+                imageWidth="100%"
+                maxWidth="20rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
