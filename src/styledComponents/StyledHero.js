@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import StyledSection from './StyledSection';
 import mobileSBackground from '../image/Background/MobileS.jpg'
 import mobileMBackground from '../image/Background/MobileM.jpg'
 import mobileLBackground from '../image/Background/MobileL.jpg'
@@ -9,12 +8,14 @@ import laptopLBackground from '../image/Background/LaptopL.jpg'
 import desktopBackground from '../image/Background/Desktop.jpg'
 import style from './style';
 
-const StyledBackground = styled(StyledSection)`
-  padding: 0;
+const StyledHero = styled('section')`
+  display: flex;
+  flex-direction: column;
   background-image: url(${mobileSBackground});
   height: 427px;
   align-items: center;
   justify-content: space-around;
+
   @media (min-width: ${style.mediaSize.mobileS}) {
     background-image: url(${mobileMBackground});
     height: 500px;
@@ -44,4 +45,4 @@ const StyledBackground = styled(StyledSection)`
   }
 `
 
-export default StyledBackground;
+export default StyledHero;

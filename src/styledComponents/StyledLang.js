@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import StyledFlexBox from './StyledFlexBox';
 import StyledImg from './StyledImg';
 
-const StyledTabletBox = styled(StyledFlexBox)`
+const StyledLang = styled(StyledFlexBox)`
   flex-direction: row;
   ${StyledFlexBox} {
     margin: 0.2rem;
@@ -13,4 +13,4 @@ const StyledTabletBox = styled(StyledFlexBox)`
   }
 `
 
-export default StyledTabletBox;
+export default StyledLang;

@@ -1,11 +1,12 @@
 import styled from 'styled-components';
-import StyledFlexBox from './StyledFlexBox';
 import StyledLi from './StyledLi';
 import StyledUl from './StyledUl';
 import StyledImg from './StyledImg';
 import style from './style';
 
-const StyledMenuMobile = styled(StyledFlexBox)`
+const StyledMenuMobile = styled('nav')`
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
   ${StyledImg} {
     width: 4rem;

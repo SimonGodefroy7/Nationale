@@ -5,6 +5,9 @@ const StyledSection = styled.section`
   flex-direction: column;
   padding: 1rem;
   background-color: ${props => props.color};
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  max-width: 60rem;
 `
 
 export default StyledSection;

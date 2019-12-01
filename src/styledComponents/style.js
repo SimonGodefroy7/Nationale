@@ -1,3 +1,5 @@
+import { css } from 'styled-components';
+
 const style = {
   fontSize: {
     big: '2rem',
@@ -15,10 +17,18 @@ const style = {
   },
   colors: {
     primary: '#ef7d28',
-    secondary: 'green',
-    dark: 'black',
-    light: 'white',
+    secondary: '#007300',
+    dark: '#000000',
+    light: '#ffffff',
   },
+  collapseMarginMixin: css`
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  `,
 };
 
 export default style;

@@ -4,7 +4,7 @@ import StyledFlexBox from './StyledFlexBox';
 import StyledH1 from './StyledH1';
 import style from './style';
 
-const StyledTabletBox = styled(StyledFlexBox)`
+const StyledHeroHeadline = styled(StyledFlexBox)`
   background-color: ${rgba(style.colors.primary, 0.9)};
   width: 10rem;
   margin-top: 1rem;
@@ -37,4 +37,4 @@ const StyledTabletBox = styled(StyledFlexBox)`
   }
 `
 
-export default StyledTabletBox;
+export default StyledHeroHeadline;
