@@ -24,7 +24,7 @@ class Partenaires extends Component {
         <StyledSection>
           <StyledH1><Translator id="Partners.title" /></StyledH1>
           <StyledBorderBox>
-            <StyledAnchor href="https://www.onf.fr/" centerImg paddingless hoverless>
+            <StyledAnchor href="https://www.onf.fr/" centerimg paddingless hoverless>
               <StyledImg
                 src={onfLogo}
                 alt={onfLogo}
@@ -34,7 +34,7 @@ class Partenaires extends Component {
             </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledAnchor href="http://www.ffcorientation.fr" centerImg paddingless hoverless>
+            <StyledAnchor href="http://www.ffcorientation.fr" centerimg paddingless hoverless>
               <StyledImg
                 src={ffcoLogo}
                 alt={ffcoLogo}
@@ -44,7 +44,7 @@ class Partenaires extends Component {
             </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledAnchor href="https://www.iledefrance.fr/" centerImg paddingless hoverless>
+            <StyledAnchor href="https://www.iledefrance.fr/" centerimg paddingless hoverless>
               <StyledImg
                 src={iDFLogo}
                 alt={iDFLogo}
@@ -54,7 +54,7 @@ class Partenaires extends Component {
             </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledAnchor href="https://www.lifco.fr/" centerImg paddingless hoverless>
+            <StyledAnchor href="https://www.lifco.fr/" centerimg paddingless hoverless>
               <StyledImg
                 src={ligueIDFLogo}
                 alt={ligueIDFLogo}
@@ -64,7 +64,7 @@ class Partenaires extends Component {
             </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledAnchor href="http://cd77if.free.fr/" centerImg paddingless hoverless>
+            <StyledAnchor href="http://cd77if.free.fr/" centerimg paddingless hoverless>
               <StyledImg
                 src={cDCO77Logo}
                 alt={cDCO77Logo}
