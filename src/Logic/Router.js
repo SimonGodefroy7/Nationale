@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from '../Pages/Home';
-import Inscription from '../Pages/Inscription';
 import Contact from '../Pages/Contact';
 import Partenaires from '../Pages/Partenaires';
 import Evenements from '../Pages/Evenements';
@@ -19,7 +18,6 @@ class Router extends Component {
       <BrowserRouter basename={BASE_PATH}>
         <React.Fragment>
           <Route path="/" exact component={Home} />
-          <Route path="/inscription" exact component={Inscription} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/hebergements" exact component={Hebergements} />
           <Route path="/liste-de-depart" exact component={ListeDeDepart} />

@@ -43,9 +43,6 @@ class MenuMobile extends Component {
           <StyledAnchor as={Link} hoverless paddingless to="/evenements">
             <StyledLi><Translator id="Menu.events" /></StyledLi>
           </StyledAnchor>
-          <StyledAnchor as={Link} hoverless paddingless to="/inscription">
-            <StyledLi><Translator id="Menu.registration" /></StyledLi>
-          </StyledAnchor>
           <StyledAnchor as={Link} hoverless paddingless to="/liste-de-depart">
             <StyledLi><Translator id="Menu.startList" /></StyledLi>
           </StyledAnchor>
