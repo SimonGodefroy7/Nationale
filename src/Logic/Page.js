@@ -5,6 +5,9 @@ import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import StyledPage from '../styledComponents/StyledPage';
 
 class Page extends Component {
+  componentDidMount() {
+        window.scrollTo(0, 0);
+    }
   render() {
     return (
       <StyledPage>

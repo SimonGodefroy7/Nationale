@@ -17,6 +17,8 @@ import StyledAnchor from '../styledComponents/StyledAnchor';
 import StyledImg from '../styledComponents/StyledImg';
 import zoneInterditeSmall from '../image/ZoneinterditeNationales_NO_2020_small.jpg';
 import flyerSmall from '../image/flyerSmall.jpg';
+import smallImage1 from '../image/Gallery/small/Image1.jpg';
+import smallImage2 from '../image/Gallery/small/Image2.jpg';
 
 class Home extends Component {
   render() {
@@ -65,17 +67,46 @@ class Home extends Component {
         <StyledSection>
           <StyledH1><Translator id="Home.title" /></StyledH1>
           <StyledBorderBox>
-            <StyledH3><Translator id="Home.box4Title" /></StyledH3>
+            <StyledH3><Translator id="Home.box1Title" /></StyledH3>
+            <StyledParagraph><Translator id="Home.box11Paragraph" /></StyledParagraph>
+            <br/>
+            <StyledParagraph><Translator id="Home.box121Paragraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="Home.box122Paragraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="Home.box123Paragraph" /></StyledParagraph>
+            <br/>
+            <StyledParagraph><Translator id="Home.box13Paragraph" /></StyledParagraph>
+            <br/>
+            <StyledParagraph><Translator id="Home.box14Paragraph" /></StyledParagraph>
+            <br/>
+            <StyledParagraph><Translator id="Registration.paragraph" /><StyledAnchor href="http://www.ffcorientation.fr/" textAlign="center">FFCO</StyledAnchor></StyledParagraph>
             <StyledAnchor as={Link} hoverless centerimg to="/download/flyer.jpg" target="_blank" download>
               <StyledImg
                 src={flyerSmall}
                 alt={flyerSmall}
+                imageWidth="100%"
+                maxWidth="30rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledH3><Translator id="Home.box1Title" /></StyledH3>
-            <StyledParagraph><Translator id="Home.box1Paragraph" /></StyledParagraph>
+            <StyledH3><Translator id="Home.box5Title" /></StyledH3>
+            <StyledParagraph><Translator id="Home.box5Paragraph" /></StyledParagraph>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3><Translator id="Home.box6Title" /></StyledH3>
+            <StyledFlexBox flexDirection="row" justifyContent="space-around" margin="1rem">
+              <StyledImg
+                src={smallImage1}
+                alt={smallImage1}
+                imageWidth="40%"
+              />
+              <StyledImg
+                src={smallImage2}
+                alt={smallImage2}
+                imageWidth="40%"
+              />
+            </StyledFlexBox>
+            <StyledParagraph textAlign="center"><StyledAnchor as={Link} to="/gallery"><Translator id="Home.box6Paragraph" /></StyledAnchor></StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3><Translator id="Home.box2Title" /></StyledH3>
