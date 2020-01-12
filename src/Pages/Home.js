@@ -66,11 +66,10 @@ class Home extends Component {
           <StyledH1><Translator id="Home.title" /></StyledH1>
           <StyledBorderBox>
             <StyledH3><Translator id="Home.box4Title" /></StyledH3>
-            <StyledAnchor as={Link} hoverless to="/download/flyer.jpg" target="_blank" download>
+            <StyledAnchor as={Link} hoverless centerimg to="/download/flyer.jpg" target="_blank" download>
               <StyledImg
                 src={flyerSmall}
                 alt={flyerSmall}
-                imageWidth="100%"
               />
             </StyledAnchor>
           </StyledBorderBox>

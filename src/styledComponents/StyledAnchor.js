@@ -5,8 +5,8 @@ const StyledAnchor = styled.a`
   color: ${props => props.hoverless ? style.colors.dark : style.colors.secondary};
   text-decoration: none;
   padding: ${props => props.paddingless ? '0' : '0.5rem'};
-  display: ${props => props.centerImg ? 'flex' : ''};
-  justify-content: ${props => props.centerImg ? 'center' : ''};
+  display: ${props => props.centerimg ? 'flex' : ''};
+  justify-content: ${props => props.centerimg ? 'center' : ''};
 
   &:hover {
     color: ${props => props.hoverless ? style.colors.dark : style.colors.light};
