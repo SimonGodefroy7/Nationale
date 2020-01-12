@@ -27,12 +27,6 @@ const StyledGalleryItem = styled(StyledFlexBox)`
     width: 47%;
     alifn-self: unset;
   }
-  @media (min-width: ${style.mediaSize.laptopL}) {
-    width: 30%;
-  }
-  @media (min-width: ${style.mediaSize.desktop}) {
-    width: 20%;
-  }
 `
 
 export default StyledGalleryItem;
