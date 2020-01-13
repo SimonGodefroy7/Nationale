@@ -6,7 +6,7 @@ import style from './style';
 
 const StyledHeroHeadline = styled(StyledFlexBox)`
   background-color: ${rgba(style.colors.primary, 0.9)};
-  width: 10rem;
+  width: ${props => props.big ? "10rem" : props => props.medium ? "9rem" : "7rem"};
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -21,19 +21,19 @@ const StyledHeroHeadline = styled(StyledFlexBox)`
     ${StyledH1} {
       font-size: ${style.fontSize.small};
     }
-    width: 13rem;
+    width: ${props => props.big ? "13rem" : props => props.medium ? "9rem" : "7rem"};
   }
   @media (min-width: ${style.mediaSize.mobileL}) {
     ${StyledH1} {
       font-size: ${style.fontSize.medium};
     }
-    width: 15rem;
+    width: ${props => props.big ? "15rem" : props => props.medium ? "14rem" : "10rem"};
   }
   @media (min-width: ${style.mediaSize.tablet}) {
     ${StyledH1} {
       font-size: ${style.fontSize.big};
     }
-    width: 30rem;
+    width: ${props => props.big ? "30rem" : props => props.medium ? "18rem" : "15rem"};
   }
 `
 

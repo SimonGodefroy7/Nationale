@@ -19,7 +19,7 @@ class LongDistance extends Component {
           <meta name="description" content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"/>
         </Helmet>
         <StyledHero>
-          <StyledHeroHeadline>
+          <StyledHeroHeadline medium>
             <StyledH1><Translator id="LDEvent.bacgroundParagraph" /></StyledH1>
           </StyledHeroHeadline>
         </StyledHero>
