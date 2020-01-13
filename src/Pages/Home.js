@@ -33,7 +33,7 @@ class Home extends Component {
             <StyledH1><Translator id="Home.bacgroundParagraph" /></StyledH1>
           </StyledHeroHeadline>
           <StyledFlexBox flexDirection="row" justifyContent="space-between" width="80%">
-            <StyledAnchor as={Link} hoverless paddingless to="/evenements/#Sprint">
+            <StyledAnchor as={Link} hoverless paddingless to="/sprint">
               <StyledBalise>
                 <StyledH1><Translator id="Home.baliseSpTitle" /></StyledH1>
                 <StyledBaliseBox>
@@ -42,7 +42,7 @@ class Home extends Component {
                 </StyledBaliseBox>
               </StyledBalise>
             </StyledAnchor>
-            <StyledAnchor as={Link} hoverless paddingless to="/evenements/#Ld">
+            <StyledAnchor as={Link} hoverless paddingless to="long-distance">
               <StyledBalise>
                 <StyledH1><Translator id="Home.baliseLdTitle" /></StyledH1>
                 <StyledBaliseBox>
@@ -53,7 +53,7 @@ class Home extends Component {
             </StyledAnchor>
           </StyledFlexBox>
           <StyledFlexBox>
-            <StyledAnchor as={Link} hoverless paddingless to="/evenements/#Md">
+            <StyledAnchor as={Link} hoverless paddingless to="/middle-distance">
               <StyledBalise>
                 <StyledH1><Translator id="Home.baliseMdTitle" /></StyledH1>
                 <StyledBaliseBox>
