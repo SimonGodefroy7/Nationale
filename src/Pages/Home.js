@@ -16,7 +16,6 @@ import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import StyledAnchor from '../styledComponents/StyledAnchor';
 import StyledImg from '../styledComponents/StyledImg';
 import zoneInterditeSmall from '../image/ZoneinterditeNationales_NO_2020_small.jpg';
-import flyerSmall from '../image/flyerSmall.jpg';
 import smallImage1 from '../image/Gallery/small/Image1.jpg';
 import smallImage2 from '../image/Gallery/small/Image2.jpg';
 
@@ -79,14 +78,6 @@ class Home extends Component {
             <StyledParagraph><Translator id="Home.box14Paragraph" /></StyledParagraph>
             <br/>
             <StyledParagraph><Translator id="Registration.paragraph" /><StyledAnchor href="http://www.ffcorientation.fr/" textAlign="center">FFCO</StyledAnchor></StyledParagraph>
-            <StyledAnchor as={Link} hoverless centerimg to="/download/flyer.jpg" target="_blank" download>
-              <StyledImg
-                src={flyerSmall}
-                alt={flyerSmall}
-                imageWidth="100%"
-                maxWidth="30rem"
-              />
-            </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3><Translator id="Home.box5Title" /></StyledH3>

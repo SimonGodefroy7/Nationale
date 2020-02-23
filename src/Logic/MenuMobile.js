@@ -37,7 +37,7 @@ class MenuMobile extends Component {
           <StyledImg src={burgerIcon} alt={burgerIcon} />
         </StyledFlexBox>
         {this.state.listOpen && <StyledUl>
-          <StyledAnchor as={Link} hoverless paddingless to="/">
+          <StyledAnchor as={Link} hoverless paddingless to="/home">
             <StyledLi><Translator id="Menu.home" /></StyledLi>
           </StyledAnchor>
           <StyledAnchor as={Link} hoverless paddingless to="/sprint">

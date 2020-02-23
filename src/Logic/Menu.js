@@ -12,7 +12,7 @@ class Menu extends Component {
       <StyledMenu>
         <StyledUl>
           <StyledLi>
-            <StyledAnchor as={Link} to="/"><Translator id="Menu.home" /></StyledAnchor>
+            <StyledAnchor as={Link} to="/home"><Translator id="Menu.home" /></StyledAnchor>
           </StyledLi>
           <StyledLi>
             <StyledAnchor as={Link} to="/sprint"><Translator id="Menu.eventSprint" /></StyledAnchor>

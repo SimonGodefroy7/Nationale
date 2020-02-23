@@ -8,6 +8,7 @@ import MiddleDistance from '../Pages/MiddleDistance';
 import LongDistance from '../Pages/LongDistance';
 import Hebergements from '../Pages/Hebergements';
 import ListeDeDepart from '../Pages/ListedeDepart';
+import LandingPage from '../Pages/LandingPage';
 import Resultats from '../Pages/Resultats';
 import Galery from '../Pages/Galery';
 
@@ -19,7 +20,8 @@ class Router extends Component {
     return (
       <BrowserRouter basename={BASE_PATH}>
         <React.Fragment>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={LandingPage} />
+          <Route path="/home" exact component={Home} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/hebergements" exact component={Hebergements} />
           <Route path="/liste-de-depart" exact component={ListeDeDepart} />
