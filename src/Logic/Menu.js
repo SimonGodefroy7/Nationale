@@ -12,10 +12,16 @@ class Menu extends Component {
       <StyledMenu>
         <StyledUl>
           <StyledLi>
-            <StyledAnchor as={Link} to="/"><Translator id="Menu.home" /></StyledAnchor>
+            <StyledAnchor as={Link} to="/home"><Translator id="Menu.home" /></StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/evenements"><Translator id="Menu.events" /></StyledAnchor>
+            <StyledAnchor as={Link} to="/sprint"><Translator id="Menu.eventSprint" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/middle-distance"><Translator id="Menu.eventMD" /></StyledAnchor>
+          </StyledLi>
+          <StyledLi>
+            <StyledAnchor as={Link} to="/long-distance"><Translator id="Menu.eventLD" /></StyledAnchor>
           </StyledLi>
           <StyledLi>
             <StyledAnchor as={Link} to="/liste-de-depart"><Translator id="Menu.startList" /></StyledAnchor>

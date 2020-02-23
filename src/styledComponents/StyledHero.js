@@ -6,39 +6,42 @@ import tabletBackground from '../image/Background/Tablet.jpg'
 import laptopBackground from '../image/Background/Laptop.jpg'
 import laptopLBackground from '../image/Background/LaptopL.jpg'
 import desktopBackground from '../image/Background/Desktop.jpg'
+import flyerSmall from '../image/flyerSmall.jpg';
 import style from './style';
 
 const StyledHero = styled('section')`
   display: flex;
   flex-direction: column;
-  background-image: url(${mobileSBackground});
-  height: 427px;
+  background-image: ${props => props.landingPage ? `url(${flyerSmall})` : `url(${mobileSBackground})`};
+  background-repeat: ${props => props.landingPage ? "no-repeat" : ""};
+  background-position: ${props => props.landingPage ? "center" : ""};
+  height: ${props => props.landingPage ? "600px" : "427px"};
   align-items: center;
   justify-content: space-around;
 
   @media (min-width: ${style.mediaSize.mobileS}) {
-    background-image: url(${mobileMBackground});
-    height: 500px;
+    background-image: ${props => props.landingPage ? `url(${flyerSmall})` : `url(${mobileMBackground})`};
+    height: ${props => props.landingPage ? "600px" : "500px"};
   }
   @media (min-width: ${style.mediaSize.mobileM}) {
-    background-image: url(${mobileLBackground});
-    height: 567px;
+    background-image: ${props => props.landingPage ? `url(${flyerSmall})` : `url(${mobileLBackground})`};
+    height: ${props => props.landingPage ? "600px" : "567px"};
   }
   @media (min-width: ${style.mediaSize.mobileL}) {
-    background-image: url(${tabletBackground});
-    height: 459px;
+    background-image: ${props => props.landingPage ? `url(${flyerSmall})` : `url(${tabletBackground})`};
+    height: ${props => props.landingPage ? "600px" : "459px"};
   }
   @media (min-width: ${style.mediaSize.tablet}) {
-    background-image: url(${laptopBackground});
-    height: 570px;
+    background-image: ${props => props.landingPage ? `url(${flyerSmall})` : `url(${laptopBackground})`};
+    height: ${props => props.landingPage ? "600px" : "570px"};
   }
   @media (min-width: ${style.mediaSize.laptop}) {
-    background-image: url(${laptopLBackground});
-    height: 651px;
+    background-image: ${props => props.landingPage ? `url(${flyerSmall})` : `url(${laptopLBackground})`};
+    height: ${props => props.landingPage ? "600px" : "651px"};
   }
   @media (min-width: ${style.mediaSize.laptopL}) {
-    background-image: url(${desktopBackground});
-    height: 700px;
+    background-image: ${props => props.landingPage ? `url(${flyerSmall})` : `url(${desktopBackground})`};
+    height: ${props => props.landingPage ? "600px" : "700px"};
   }
   @media (min-width: ${style.mediaSize.desktop}) {
     background-repeat: round;

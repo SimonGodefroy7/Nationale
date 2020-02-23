@@ -16,7 +16,6 @@ import StyledFlexBox from '../styledComponents/StyledFlexBox';
 import StyledAnchor from '../styledComponents/StyledAnchor';
 import StyledImg from '../styledComponents/StyledImg';
 import zoneInterditeSmall from '../image/ZoneinterditeNationales_NO_2020_small.jpg';
-import flyerSmall from '../image/flyerSmall.jpg';
 import smallImage1 from '../image/Gallery/small/Image1.jpg';
 import smallImage2 from '../image/Gallery/small/Image2.jpg';
 
@@ -29,11 +28,11 @@ class Home extends Component {
           <meta name="description" content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"/>
         </Helmet>
         <StyledHero>
-          <StyledHeroHeadline>
+          <StyledHeroHeadline big>
             <StyledH1><Translator id="Home.bacgroundParagraph" /></StyledH1>
           </StyledHeroHeadline>
           <StyledFlexBox flexDirection="row" justifyContent="space-between" width="80%">
-            <StyledAnchor as={Link} hoverless paddingless to="/evenements/#Sprint">
+            <StyledAnchor as={Link} hoverless paddingless to="/sprint">
               <StyledBalise>
                 <StyledH1><Translator id="Home.baliseSpTitle" /></StyledH1>
                 <StyledBaliseBox>
@@ -42,7 +41,7 @@ class Home extends Component {
                 </StyledBaliseBox>
               </StyledBalise>
             </StyledAnchor>
-            <StyledAnchor as={Link} hoverless paddingless to="/evenements/#Ld">
+            <StyledAnchor as={Link} hoverless paddingless to="long-distance">
               <StyledBalise>
                 <StyledH1><Translator id="Home.baliseLdTitle" /></StyledH1>
                 <StyledBaliseBox>
@@ -53,7 +52,7 @@ class Home extends Component {
             </StyledAnchor>
           </StyledFlexBox>
           <StyledFlexBox>
-            <StyledAnchor as={Link} hoverless paddingless to="/evenements/#Md">
+            <StyledAnchor as={Link} hoverless paddingless to="/middle-distance">
               <StyledBalise>
                 <StyledH1><Translator id="Home.baliseMdTitle" /></StyledH1>
                 <StyledBaliseBox>
@@ -79,14 +78,6 @@ class Home extends Component {
             <StyledParagraph><Translator id="Home.box14Paragraph" /></StyledParagraph>
             <br/>
             <StyledParagraph><Translator id="Registration.paragraph" /><StyledAnchor href="http://www.ffcorientation.fr/" textAlign="center">FFCO</StyledAnchor></StyledParagraph>
-            <StyledAnchor as={Link} hoverless centerimg to="/download/flyer.jpg" target="_blank" download>
-              <StyledImg
-                src={flyerSmall}
-                alt={flyerSmall}
-                imageWidth="100%"
-                maxWidth="30rem"
-              />
-            </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3><Translator id="Home.box5Title" /></StyledH3>

@@ -7,6 +7,8 @@ import StyledParagraph from '../styledComponents/StyledParagraph';
 import StyledUl from '../styledComponents/StyledUl';
 import StyledLi from '../styledComponents/StyledLi';
 import StyledAnchor from '../styledComponents/StyledAnchor';
+import StyledBorderBox from '../styledComponents/StyledBorderBox';
+import StyledH3 from '../styledComponents/StyledH3';
 import Translator from '../Logic/Translator';
 
 class Hebergements extends Component {
@@ -19,18 +21,44 @@ class Hebergements extends Component {
         </Helmet>
         <StyledSection>
           <StyledH1><Translator id="Accomodation.title" /></StyledH1>
-          <StyledParagraph><Translator id="Accomodation.paragraph" /></StyledParagraph>
-          <StyledUl>
-            <StyledLi>
-              <StyledAnchor href="https://www.fontainebleau-tourisme.com/fr/accueil/" textAlign="center"><Translator id="Accomodation.officeFontaineblau" /></StyledAnchor>
-            </StyledLi>
-            <StyledLi>
-              <StyledAnchor href="http://www.ville-melun.fr/decouvrir-melun/office-de-tourisme" textAlign="center"><Translator id="Accomodation.officeMelun" /></StyledAnchor>
-            </StyledLi>
-            <StyledLi>
-              <StyledAnchor href="https://www.tourisme-paysdenemours.fr/" textAlign="center"><Translator id="Accomodation.officeNemours" /></StyledAnchor>
-            </StyledLi>
-          </StyledUl>
+          <StyledBorderBox>
+            <StyledH3><Translator id="Accomodation.box1Title" /></StyledH3>
+            <StyledParagraph><Translator id="Accomodation.box11Paragraph" /></StyledParagraph>
+            <br/>
+            <StyledParagraph><Translator id="Accomodation.box12Paragraph" /></StyledParagraph>
+            <br/>
+            <StyledParagraph><Translator id="Accomodation.box13Paragraph" /></StyledParagraph>
+            <br/>
+            <StyledParagraph><Translator id="Accomodation.box131Paragraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="Accomodation.box132Paragraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="Accomodation.box133Paragraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="Accomodation.box134Paragraph" /></StyledParagraph>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3><Translator id="Accomodation.box2Title" /></StyledH3>
+            <StyledParagraph><Translator id="Accomodation.box2Paragraph" /></StyledParagraph>
+            <br/>
+            <StyledParagraph><Translator id="Accomodation.box21Paragraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="Accomodation.box22Paragraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="Accomodation.box23Paragraph" /></StyledParagraph>
+            <StyledParagraph><Translator id="Accomodation.box24Paragraph" /></StyledParagraph>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3><Translator id="Accomodation.box3Title" /></StyledH3>
+            <StyledParagraph><Translator id="Accomodation.paragraph" /></StyledParagraph>
+            <br/>
+            <StyledUl>
+              <StyledLi>
+                <StyledAnchor href="https://www.fontainebleau-tourisme.com/fr/accueil/" textAlign="center"><Translator id="Accomodation.officeFontaineblau" /></StyledAnchor>
+              </StyledLi>
+              <StyledLi>
+                <StyledAnchor href="http://www.ville-melun.fr/decouvrir-melun/office-de-tourisme" textAlign="center"><Translator id="Accomodation.officeMelun" /></StyledAnchor>
+              </StyledLi>
+              <StyledLi>
+                <StyledAnchor href="https://www.tourisme-paysdenemours.fr/" textAlign="center"><Translator id="Accomodation.officeNemours" /></StyledAnchor>
+              </StyledLi>
+            </StyledUl>
+          </StyledBorderBox>
         </StyledSection>
       </Page>
     );
