@@ -42,7 +42,8 @@ class MiddleDistance extends Component {
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="MDEvent.box1ResultTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1ResultParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="MDEvent.box1ParkHomeDistanceTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1ParkHomeDistanceParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="MDEvent.box1HomeStartDistanceTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1HomeStartDistanceParagraph" /></StyledSpan></StyledParagraph><br/>
-                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="MDEvent.box1OfficialBookTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1OfficialBookParagraph" /></StyledSpan></StyledParagraph>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="MDEvent.box1OfficialBookTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1OfficialBookParagraph" /></StyledSpan></StyledParagraph><br/>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="MDEvent.box1TrackDirectorTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1TrackDirectorParagraph" /></StyledSpan></StyledParagraph>
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="MDEvent.box1PlacesTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1PlacesParagraph" /></StyledSpan></StyledParagraph><br/>

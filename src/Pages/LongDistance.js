@@ -41,7 +41,8 @@ class LongDistance extends Component {
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="LDEvent.box1ResultTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1ResultParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="LDEvent.box1ParkHomeDistanceTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1ParkHomeDistanceParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="LDEvent.box1HomeStartDistanceTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1HomeStartDistanceParagraph" /></StyledSpan></StyledParagraph><br/>
-                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="LDEvent.box1OfficialBookTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1OfficialBookParagraph" /></StyledSpan></StyledParagraph>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="LDEvent.box1OfficialBookTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1OfficialBookParagraph" /></StyledSpan></StyledParagraph><br/>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="LDEvent.box1TrackDirectorTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1TrackDirectorParagraph" /></StyledSpan></StyledParagraph>
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="LDEvent.box1PlacesTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1PlacesParagraph" /></StyledSpan></StyledParagraph><br/>

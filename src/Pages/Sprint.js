@@ -41,7 +41,8 @@ class Sprint extends Component {
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="SprintEvent.box1ResultTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1ResultParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="SprintEvent.box1ParkHomeDistanceTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1ParkHomeDistanceParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="SprintEvent.box1HomeStartDistanceTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1HomeStartDistanceParagraph" /></StyledSpan></StyledParagraph><br/>
-                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="SprintEvent.box1OfficialBookTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1OfficialBookParagraph" /></StyledSpan></StyledParagraph>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="SprintEvent.box1OfficialBookTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1OfficialBookParagraph" /></StyledSpan></StyledParagraph><br/>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="SprintEvent.box1TrackDirectorTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1TrackDirectorParagraph" /></StyledSpan></StyledParagraph>
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="SprintEvent.box1PlacesTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1PlacesParagraph" /></StyledSpan></StyledParagraph><br/>
