@@ -21,10 +21,14 @@ class Contact extends Component {
         <StyledSection>
           <StyledH1><Translator id="Contact.title" /></StyledH1>
           <StyledParagraph><Translator id="Contact.paragraph" /></StyledParagraph>
-          <StyledFlexBox flexDirection="row">
+          <StyledFlexBox width="19rem">
             <StyledBorderBox>
               <StyledH3>Alain Guillon</StyledH3>
               <StyledParagraph>Mail:<StyledAnchor href="mailto:cdco77.helene@wanadoo.fr">cdco77.helene@wanadoo.fr</StyledAnchor></StyledParagraph>
+            </StyledBorderBox>
+            <StyledBorderBox>
+              <StyledH3>Support</StyledH3>
+              <StyledParagraph>Mail:<StyledAnchor href="mailto:nationaleno20@gmail.com">nationaleno20@gmail.com</StyledAnchor></StyledParagraph>
             </StyledBorderBox>
           </StyledFlexBox>
         </StyledSection>
