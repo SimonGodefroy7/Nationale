@@ -47,6 +47,7 @@ class MiddleDistance extends Component {
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="MDEvent.box1PlacesTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1PlacesParagraph" /></StyledSpan></StyledParagraph><br/>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="MDEvent.box1MapTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1MapParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="MDEvent.box1PlanTitle" /></StyledSpan><StyledSpan><Translator id="MDEvent.box1PlanParagraph" /></StyledSpan></StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>

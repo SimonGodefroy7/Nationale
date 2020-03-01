@@ -46,6 +46,7 @@ class Sprint extends Component {
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="SprintEvent.box1PlacesTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1PlacesParagraph" /></StyledSpan></StyledParagraph><br/>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="SprintEvent.box1MapTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1MapParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="SprintEvent.box1PlanTitle" /></StyledSpan><StyledSpan><Translator id="SprintEvent.box1PlanParagraph" /></StyledSpan></StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>

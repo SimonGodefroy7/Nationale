@@ -46,6 +46,7 @@ class LongDistance extends Component {
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="LDEvent.box1PlacesTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1PlacesParagraph" /></StyledSpan></StyledParagraph><br/>
+                <StyledParagraph><StyledSpan fontWeight="bold"><Translator id="LDEvent.box1MapTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1MapParagraph" /></StyledSpan></StyledParagraph><br/>
                 <StyledParagraph><StyledSpan fontWeight={"bold"}><Translator id="LDEvent.box1PlanTitle" /></StyledSpan><StyledSpan><Translator id="LDEvent.box1PlanParagraph" /></StyledSpan></StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>
