@@ -9,8 +9,9 @@ import StyledSection from '../styledComponents/StyledSection';
 import onfLogo from '../image/PartnerLogo/ONFLogo.jpg'
 import ffcoLogo from '../image/PartnerLogo/FFCOLogo.jpg'
 import iDFLogo from '../image/PartnerLogo/logoRegionIDF.svg'
-import ligueIDFLogo from '../image/PartnerLogo/LIFCOLogo.jpg'
-import cDCO77Logo from '../image/PartnerLogo/CDCO77Logo.jpg'
+import ligueIDFLogo from '../image/PartnerLogo/logoLifcoSmall.JPG'
+import cDCO77Logo from '../image/PartnerLogo/CDCOLogoSmall.jpg'
+import cdosLogo from '../image/PartnerLogo/CDOSLogoSmall.jpg'
 import Translator from '../Logic/Translator';
 
 class Partenaires extends Component {
@@ -28,8 +29,6 @@ class Partenaires extends Component {
               <StyledImg
                 src={onfLogo}
                 alt={onfLogo}
-                imageWidth="100%"
-                maxWidth="20rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
@@ -38,8 +37,6 @@ class Partenaires extends Component {
               <StyledImg
                 src={ffcoLogo}
                 alt={ffcoLogo}
-                imageWidth="100%"
-                maxWidth="20rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
@@ -48,8 +45,7 @@ class Partenaires extends Component {
               <StyledImg
                 src={iDFLogo}
                 alt={iDFLogo}
-                imageWidth="100%"
-                maxWidth="20rem"
+                imageWidth={'20rem'}
               />
             </StyledAnchor>
           </StyledBorderBox>
@@ -58,8 +54,6 @@ class Partenaires extends Component {
               <StyledImg
                 src={ligueIDFLogo}
                 alt={ligueIDFLogo}
-                imageWidth="100%"
-                maxWidth="20rem"
               />
             </StyledAnchor>
           </StyledBorderBox>
@@ -68,8 +62,14 @@ class Partenaires extends Component {
               <StyledImg
                 src={cDCO77Logo}
                 alt={cDCO77Logo}
-                imageWidth="100%"
-                maxWidth="20rem"
+              />
+            </StyledAnchor>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledAnchor href="https://seineetmarne.franceolympique.com/accueil.php" centerimg paddingless hoverless>
+              <StyledImg
+                src={cdosLogo}
+                alt={cdosLogo}
               />
             </StyledAnchor>
           </StyledBorderBox>
