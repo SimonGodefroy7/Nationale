@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import StyledFlexBox from './StyledFlexBox';
-import StyledImg from './StyledImg';
-import style from './style';
+import styled from "styled-components";
+import StyledFlexBox from "./StyledFlexBox";
+import StyledImg from "./StyledImg";
+import style from "./style";
 
 const StyledGalleryItem = styled(StyledFlexBox)`
   margin: 0.25rem;
@@ -20,13 +20,13 @@ const StyledGalleryItem = styled(StyledFlexBox)`
     }
   }
   @media (min-width: ${style.mediaSize.mobileL}) {
-    width: 23.5rem;
+    ${props => (props.urbanGallery ? `` : `width: 23.5rem`)};
     align-self: center;
   }
   @media (min-width: ${style.mediaSize.tablet}) {
-    width: 47%;
+    ${props => (props.urbanGallery ? `` : `width: 47%`)};
     alifn-self: unset;
   }
-`
+`;
 
 export default StyledGalleryItem;
