@@ -79,7 +79,7 @@ class Gallery extends Component {
               padding="0.5rem"
               onClick={() => this.updateInUrbanGallery(true)}
             >
-              Urban
+              <Translator id="Gallery.urban" />
             </StyledButton>
             <StyledButton
               isSelected={forestGallery}
@@ -87,7 +87,7 @@ class Gallery extends Component {
               padding="0.5rem"
               onClick={() => this.updateInUrbanGallery(false)}
             >
-              Forest
+              <Translator id="Gallery.forest" />
             </StyledButton>
           </StyledFlexBox>
           {forestGallery && (

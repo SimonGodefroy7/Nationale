@@ -67,7 +67,7 @@ import mediumImage18 from "./medium/Image18.jpg";
 import mediumImage19 from "./medium/Image19.jpg";
 import mediumImage20 from "./medium/Image20.jpg";
 import mediumImage21 from "./medium/Image21.jpg";
-import mediumImage22 from "./medium/Image22.jpg";
+import mediumImage22 from "./medium/Image22.JPG";
 import mediumImage23 from "./medium/Image23.jpg";
 import mediumImage24 from "./medium/Image24.jpg";
 import mediumImage25 from "./medium/Image25.jpg";
@@ -93,7 +93,7 @@ import mediumImage44 from "./medium/Image44.JPG";
 import mediumImage45 from "./medium/Image45.JPG";
 import mediumImage46 from "./medium/Image46.JPG";
 import mediumImage47 from "./medium/Image47.JPG";
-import mediumImage48 from "./medium/Image48.JPG";
+import mediumImage48 from "./medium/Image48.jpg";
 
 const gallery = {
   mediumForestImages: [

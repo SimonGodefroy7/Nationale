@@ -2,6 +2,8 @@ const language = {
   en: {
     "LandingPage.button": "Go to website",
     "Gallery.title": "Pictures gallery",
+    "Gallery.urban": "Urban Sprint",
+    "Gallery.forest": "Forest Race",
     "Footer.copyright": "All right reserved.",
     "Header.headerTitle": "Nationales North West 2020",
     "Header.headerTitleShort": "Nationales N-W 2020",
@@ -255,6 +257,8 @@ const language = {
   fr: {
     "LandingPage.button": "Accéder au site",
     "Gallery.title": "Galerie photos",
+    "Gallery.urban": "Sprint Urbain",
+    "Gallery.forest": "Course forestière",
     "Footer.copyright": "Tous droits réservés.",
     "Header.headerTitle": "Nationales Nord Ouest 2020",
     "Header.headerTitleShort": "Nationales N-O 2020",
