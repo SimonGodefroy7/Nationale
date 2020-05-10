@@ -304,7 +304,30 @@ class Sprint extends Component {
               <Translator id="SprintEvent.box3Title" />
             </StyledH3>
             <StyledParagraph>
-              <Translator id="SprintEvent.box3Paragraph" />
+              <StyledSpan fontWeight="bold">
+                <Translator id="SprintEvent.box3Paragraph11" />
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="SprintEvent.box3Paragraph12" />
+              </StyledSpan>
+            </StyledParagraph>
+            <br />
+            <StyledParagraph>
+              <StyledSpan fontWeight="bold">
+                <Translator id="SprintEvent.box3Paragraph21" />
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="SprintEvent.box3Paragraph22" />
+              </StyledSpan>
+            </StyledParagraph>
+            <br />
+            <StyledParagraph>
+              <StyledSpan fontWeight="bold">
+                <Translator id="SprintEvent.box3Paragraph31" />
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="SprintEvent.box3Paragraph32" />
+              </StyledSpan>
             </StyledParagraph>
           </StyledBorderBox>
         </StyledSection>
