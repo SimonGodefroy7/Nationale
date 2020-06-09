@@ -217,13 +217,18 @@ const language = {
     "LDEvent.box4Paragraph": "awailable soon",
     "Accomodation.title": "Accomodation",
     "Accomodation.box1Title": "Leasing",
-    "Accomodation.box11Paragraph": "transalation coming soon",
-    "Accomodation.box12Paragraph": "",
-    "Accomodation.box13Paragraph": "",
+    "Accomodation.box11Paragraph":
+      "There is a lot of leasing possibility in the surroundings of Fontainbleau and the South Seine et Marne.",
+    "Accomodation.box12Paragraph":
+      "This area is well know for climbing and hiking, it is recomended to book an accomodation as soon as possible",
+    "Accomodation.box13Paragraph":
+      "Here is some web sites with some accomodation awailable in the area:",
     "Accomodation.box131Paragraph": "(near Nemours)",
-    "Accomodation.box14Paragraph": "",
+    "Accomodation.box14Paragraph":
+      "Here is sone general web site for a broader search",
     "Accomodation.box2Title": "Camping",
-    "Accomodation.box2Paragraph": "Transalation coming soon",
+    "Accomodation.box2Paragraph":
+      "There is several campings arounf the forest of Fontainbleau. Here is a list of some of them:",
     "Accomodation.box21Paragraph": "(near Montigny-sur-loing)",
     "Accomodation.box22Paragraph": "(near Noisy-sur-École)",
     "Accomodation.box23Paragraph": "(near Malesherbes)",
