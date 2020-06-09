@@ -16,9 +16,34 @@ import StyledTrackGrid from "../styledComponents/StyledTrackGrid";
 import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import Translator from "../Logic/Translator";
+import style from "../styledComponents/style";
 
 class Sprint extends Component {
   render() {
+    let iFrameWidth;
+    let iFrameHeight;
+    if (window.matchMedia(`(max-width: ${style.mediaSize.mobileS})`).matches) {
+      iFrameWidth = 200;
+      iFrameHeight = 200;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.mobileM})`).matches
+    ) {
+      iFrameWidth = 250;
+      iFrameHeight = 250;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.mobileL})`).matches
+    ) {
+      iFrameWidth = 300;
+      iFrameHeight = 300;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.tablet})`).matches
+    ) {
+      iFrameWidth = 600;
+      iFrameHeight = 400;
+    } else {
+      iFrameWidth = 800;
+      iFrameHeight = 600;
+    }
     let state = this.props;
     let isEnglish = state.langue === "en";
     return (
@@ -91,7 +116,8 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1HomeStartDistanceParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
+              </StyledFlexBox>
+              <StyledFlexBox>
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1OfficialBookTitle" />
@@ -125,8 +151,7 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1TrackDirectorParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-              </StyledFlexBox>
-              <StyledFlexBox>
+                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight={"bold"}>
                     <Translator id="SprintEvent.box1PlacesTitle" />
@@ -144,17 +169,24 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1MapParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
-                <StyledParagraph>
-                  <StyledSpan fontWeight={"bold"}>
-                    <Translator id="SprintEvent.box1PlanTitle" />
-                  </StyledSpan>
-                  <StyledSpan>
-                    <Translator id="SprintEvent.box1PlanParagraph" />
-                  </StyledSpan>
-                </StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="SprintEvent.box1PlanTitle" />
+            </StyledH3>
+            <StyledFlexBox alignItems="center">
+              <iframe
+                title="plan"
+                width={iFrameWidth}
+                height={iFrameHeight}
+                frameborder="0"
+                style={{ border: 0 }}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Château-Landon&language=${state.langue}`}
+                allowfullscreen
+              />
+            </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
@@ -296,10 +328,6 @@ class Sprint extends Component {
             </StyledTrackGrid>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledH3>Tarif</StyledH3>
-            <StyledParagraph>Bientôt disponible</StyledParagraph>
-          </StyledBorderBox>
-          <StyledBorderBox>
             <StyledH3>
               <Translator id="SprintEvent.box3Title" />
             </StyledH3>
@@ -328,6 +356,14 @@ class Sprint extends Component {
               <StyledSpan>
                 <Translator id="SprintEvent.box3Paragraph32" />
               </StyledSpan>
+            </StyledParagraph>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="SprintEvent.box4Title" />
+            </StyledH3>
+            <StyledParagraph>
+              <Translator id="SprintEvent.box4Paragraph1" />
             </StyledParagraph>
           </StyledBorderBox>
         </StyledSection>

@@ -16,9 +16,34 @@ import StyledTrackGrid from "../styledComponents/StyledTrackGrid";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import StyledAnchor from "../styledComponents/StyledAnchor";
 import Translator from "../Logic/Translator";
+import style from "../styledComponents/style";
 
 class LongDistance extends Component {
   render() {
+    let iFrameWidth;
+    let iFrameHeight;
+    if (window.matchMedia(`(max-width: ${style.mediaSize.mobileS})`).matches) {
+      iFrameWidth = 200;
+      iFrameHeight = 200;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.mobileM})`).matches
+    ) {
+      iFrameWidth = 250;
+      iFrameHeight = 250;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.mobileL})`).matches
+    ) {
+      iFrameWidth = 300;
+      iFrameHeight = 300;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.tablet})`).matches
+    ) {
+      iFrameWidth = 600;
+      iFrameHeight = 400;
+    } else {
+      iFrameWidth = 800;
+      iFrameHeight = 600;
+    }
     let state = this.props;
     let isEnglish = state.langue === "en";
     return (
@@ -91,7 +116,8 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1HomeStartDistanceParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
+              </StyledFlexBox>
+              <StyledFlexBox>
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1OfficialBookTitle" />
@@ -125,8 +151,7 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1TrackDirectorParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-              </StyledFlexBox>
-              <StyledFlexBox>
+                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight={"bold"}>
                     <Translator id="LDEvent.box1PlacesTitle" />
@@ -145,16 +170,24 @@ class LongDistance extends Component {
                   </StyledSpan>
                 </StyledParagraph>
                 <br />
-                <StyledParagraph>
-                  <StyledSpan fontWeight={"bold"}>
-                    <Translator id="LDEvent.box1PlanTitle" />
-                  </StyledSpan>
-                  <StyledSpan>
-                    <Translator id="LDEvent.box1PlanParagraph" />
-                  </StyledSpan>
-                </StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="LDEvent.box1PlanTitle" />
+            </StyledH3>
+            <StyledFlexBox alignItems="center">
+              <iframe
+                title="plan"
+                width={iFrameWidth}
+                height={iFrameHeight}
+                frameborder="0"
+                style={{ border: 0 }}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Franchard, Fontaineb1 Route de l'Ermitage, 77300 Fontainebleauleau&language=${state.langue}`}
+                allowfullscreen
+              />
+            </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

@@ -1,5 +1,9 @@
 const language = {
   en: {
+    "LandingPage.Title": "Important information",
+    "LandingPage.paragraph1":
+      "The race planned from 21st to 23rd august are for now maintained in the wait of new government measures. The teams are mobilized so that everything goes well. Registration will be open at the end of June. We hope lots of you come. See you soon.",
+    "LandingPage.paragraph2": "Track director",
     "LandingPage.button": "Go to website",
     "Gallery.title": "Pictures gallery",
     "Gallery.urban": "Urban Sprint",
@@ -26,7 +30,7 @@ const language = {
     "SprintEvent.box1Title": "Convienent informations",
     "SprintEvent.box1DateTitle": "Date: ",
     "SprintEvent.box1DateParagraph": "21 august 2020",
-    "SprintEvent.box1StartListTitle": "StartList: ",
+    "SprintEvent.box1StartListTitle": "Start list: ",
     "SprintEvent.box1StartListParagraph": "soon awailable",
     "SprintEvent.box1ResultTitle": "Result: ",
     "SprintEvent.box1ResultParagraph": "not yet awailable",
@@ -74,7 +78,7 @@ const language = {
     "SprintEvent.box2WinningTime3": "to be defined",
     "SprintEvent.box2Title": "Track details",
     "SprintEvent.box2Paragraph": "awailable soon",
-    "SprintEvent.box3Title": "Map extracts",
+    "SprintEvent.box3Title": "Prices",
     "SprintEvent.box3Paragraph11": "FFCO subscribers : ",
     "SprintEvent.box3Paragraph12":
       "18yo and more : 6,00€, less than 18yo : 5,00€",
@@ -83,12 +87,14 @@ const language = {
       "Competition pass : 12,00€ ,discovery pass : 8,00€, family pass : 12,00€",
     "SprintEvent.box3Paragraph31": "SI rental : ",
     "SprintEvent.box3Paragraph32": "3€",
+    "SprintEvent.box4Title": "Map extracts",
+    "SprintEvent.box4Paragraph1": "awailable soon",
     "MDEvent.bacgroundParagraph": "Middle distance 22 august 2020",
     "MDEvent.title": "Middle Distance",
     "MDEvent.box1Title": "Convienent informations",
     "MDEvent.box1DateTitle": "Date: ",
     "MDEvent.box1DateParagraph": "23 august 2020",
-    "MDEvent.box1StartListTitle": "StartList: ",
+    "MDEvent.box1StartListTitle": "Start list: ",
     "MDEvent.box1StartListParagraph": "soon awailable",
     "MDEvent.box1ResultTitle": "Result: ",
     "MDEvent.box1ResultParagraph": "not yet awailable",
@@ -135,7 +141,7 @@ const language = {
     "MDEvent.box2WinningTime3": "to be defined",
     "MDEvent.box2Title": "Track details",
     "MDEvent.box2Paragraph": "awailable soon",
-    "MDEvent.box3Title": "Map extracts",
+    "MDEvent.box3Title": "Prices",
     "MDEvent.box3Paragraph11": "FFCO subscribers : ",
     "MDEvent.box3Paragraph12":
       "14yo and less : 6.97€, 15-18yo : 10.21€, 19yo and more : 13.41€",
@@ -144,12 +150,14 @@ const language = {
       "Competition pass : 15,00€ ,discovery pass : 12,00€, family pass : 15,00€",
     "MDEvent.box3Paragraph31": "SI rental : ",
     "MDEvent.box3Paragraph32": "3€",
+    "MDEvent.box4Title": "Map extracts",
+    "MDEvent.box4Paragraph1": "soon awailable",
     "LDEvent.bacgroundParagraph": " Long  distance 23 august 2020",
     "LDEvent.title": "Long Distance",
     "LDEvent.box1Title": "Convienent informations",
     "LDEvent.box1DateTitle": "Date: ",
     "LDEvent.box1DateParagraph": "23 august 2020",
-    "LDEvent.box1StartListTitle": "StartList: ",
+    "LDEvent.box1StartListTitle": "Start list: ",
     "LDEvent.box1StartListParagraph": "soon awailable",
     "LDEvent.box1ResultTitle": "Result: ",
     "LDEvent.box1ResultParagraph": "not yet awailable",
@@ -196,7 +204,7 @@ const language = {
     "LDEvent.box2WinningTime3": "to be defined",
     "LDEvent.box2Title": "Track details",
     "LDEvent.box2Paragraph": "awailable soon",
-    "LDEvent.box3Title": "Tarif",
+    "LDEvent.box3Title": "Prices",
     "LDEvent.box3Paragraph11": "FFCO subscribers : ",
     "LDEvent.box3Paragraph12":
       "14yo and less : 6.97€, 15-18yo : 10.21€, 19yo and more : 13.41€",
@@ -239,12 +247,18 @@ const language = {
     "Home.baliseLdParagraph1": "23rd",
     "Home.baliseLdParagraph2": "august",
     "Home.box1Title": "Informations",
-    "Home.box11Paragraph": "Translation coming soon",
-    "Home.box121Paragraph": "",
-    "Home.box122Paragraph": "",
-    "Home.box123Paragraph": "",
-    "Home.box13Paragraph": "",
-    "Home.box14Paragraph": "",
+    "Home.box11Paragraph":
+      "Orienteering nationales North West 2020 will take place from 21st to 23rd august 2020 in the forest of Fontainebleauront. This week end regroup three races:",
+    "Home.box121Paragraph":
+      "- An urban sprint on friday 21st august afternoon in Chateau Landon",
+    "Home.box122Paragraph":
+      "- A middle distance on saterday 22nd august afternoon on the map 'Salamandre'",
+    "Home.box123Paragraph":
+      "- A long distance on sunday 23rd august morning on the map 'Franchard'",
+    "Home.box13Paragraph":
+      "The terrain for the urban sprint is a small vilage typical form south Seine et Marne with small alleys and residential areas allowing higher speed. There is also several parks that will demand the runners to adapt to all environments.",
+    "Home.box14Paragraph":
+      "The terrain for the middle and long distance are similar. They are typical of Fontainbleau's forest. On the map there is a lot of rock mass, most often they are on the flank and a lot of sandy hills makes orienteering diffcicult. Between these detailed areas, the visibility is better and a network of path will allow an easier navigation.",
     "Home.box2Title": "Forbidden area",
     "Home.box2Paragraph":
       "The forbidden area are the ones inside the red border",
@@ -276,6 +290,10 @@ const language = {
     "Results.ldParagraph": "not yet awailable"
   },
   fr: {
+    "LandingPage.Title": "Information importante",
+    "LandingPage.paragraph1":
+      "Les compétitions prévues du 21 au 23 août sont pour l'instant maintenues en attente des nouvelles mesures gouvernementales. Les équipes sont mobilisées pour que tout se passe bien, les traceurs finalisent leurs circuits. Les inscriptions seront ouvertes à la fin du mois de juin. Nous vous attendons nombreux. A bientôt.",
+    "LandingPage.paragraph2": "Le directeur de course",
     "LandingPage.button": "Accéder au site",
     "Gallery.title": "Galerie photos",
     "Gallery.urban": "Sprint Urbain",
@@ -349,7 +367,7 @@ const language = {
     "SprintEvent.box2WinningTime3": "à définir",
     "SprintEvent.box2Title": "Détails des circuits",
     "SprintEvent.box2Paragraph": "Bientôt disponible",
-    "SprintEvent.box3Title": "Extraits de cartes",
+    "SprintEvent.box3Title": "Tarifs",
     "SprintEvent.box3Paragraph11": "Licenciés FFCO : ",
     "SprintEvent.box3Paragraph12":
       "18 ans et plus : 6,00€, moins de 18 ans 5,00€",
@@ -358,6 +376,8 @@ const language = {
       "Pass-compétition : 12,00€ ,Pass-découverte : 8,00€, Pass-famille : 12,00€",
     "SprintEvent.box3Paragraph31": "Location de puce : ",
     "SprintEvent.box3Paragraph32": "3€",
+    "SprintEvent.box4Title": "Extraits de cartes",
+    "SprintEvent.box4Paragraph1": "bientôt disponible",
     "MDEvent.bacgroundParagraph": "Moyenne distance 22 août 2020",
     "MDEvent.title": "Moyenne Distance",
     "MDEvent.box1Title": "Informations pratiques",
@@ -410,7 +430,7 @@ const language = {
     "MDEvent.box2WinningTime3": "à définir",
     "MDEvent.box2Title": "Détails des circuits",
     "MDEvent.box2Paragraph": "Bientôt disponible",
-    "MDEvent.box3Title": "Extraits de cartes",
+    "MDEvent.box3Title": "Tarifs",
     "MDEvent.box3Paragraph11": "Licenciés FFCO : ",
     "MDEvent.box3Paragraph12":
       "14ans et moins : 6.97€, 15-18 ans : 10.21€, 19ans et plus : 13.41€",
@@ -419,6 +439,8 @@ const language = {
       "Pass-compétition : 15,00€ ,Pass-découverte : 12,00€, Pass-famille : 15,00€",
     "MDEvent.box3Paragraph31": "Location de puce : ",
     "MDEvent.box3Paragraph32": "3€",
+    "MDEvent.box4Title": "Extraits de cartes",
+    "MDEvent.box4Paragraph1": "bientôt disponible",
     "LDEvent.bacgroundParagraph": "Longue distance 23 août 2020",
     "LDEvent.title": "Longue Distance",
     "LDEvent.box1Title": "Informations pratiques",
@@ -471,7 +493,7 @@ const language = {
     "LDEvent.box2WinningTime3": "à définir",
     "LDEvent.box2Title": "Détails des circuits",
     "LDEvent.box2Paragraph": "Bientôt disponible",
-    "LDEvent.box3Title": "Tarif",
+    "LDEvent.box3Title": "Tarifs",
     "LDEvent.box3Paragraph11": "Licenciés FFCO : ",
     "LDEvent.box3Paragraph12":
       "14ans et moins : 6.97€, 15-18 ans : 10.21€, 19ans et plus : 13.41€",

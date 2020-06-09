@@ -16,12 +16,36 @@ import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import StyledTrackGrid from "../styledComponents/StyledTrackGrid";
 import Translator from "../Logic/Translator";
+import style from "../styledComponents/style";
 
 class MiddleDistance extends Component {
   render() {
+    let iFrameWidth;
+    let iFrameHeight;
+    if (window.matchMedia(`(max-width: ${style.mediaSize.mobileS})`).matches) {
+      iFrameWidth = 200;
+      iFrameHeight = 200;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.mobileM})`).matches
+    ) {
+      iFrameWidth = 250;
+      iFrameHeight = 250;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.mobileL})`).matches
+    ) {
+      iFrameWidth = 300;
+      iFrameHeight = 300;
+    } else if (
+      window.matchMedia(`(max-width: ${style.mediaSize.tablet})`).matches
+    ) {
+      iFrameWidth = 600;
+      iFrameHeight = 400;
+    } else {
+      iFrameWidth = 800;
+      iFrameHeight = 600;
+    }
     let state = this.props;
     let isEnglish = state.langue === "en";
-    console.log(isEnglish);
     return (
       <Page>
         <Helmet>
@@ -92,7 +116,8 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1HomeStartDistanceParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
+              </StyledFlexBox>
+              <StyledFlexBox>
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1OfficialBookTitle" />
@@ -126,8 +151,7 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1TrackDirectorParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-              </StyledFlexBox>
-              <StyledFlexBox>
+                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight={"bold"}>
                     <Translator id="MDEvent.box1PlacesTitle" />
@@ -145,17 +169,24 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1MapParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
-                <StyledParagraph>
-                  <StyledSpan fontWeight={"bold"}>
-                    <Translator id="MDEvent.box1PlanTitle" />
-                  </StyledSpan>
-                  <StyledSpan>
-                    <Translator id="MDEvent.box1PlanParagraph" />
-                  </StyledSpan>
-                </StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="MDEvent.box1PlanTitle" />
+            </StyledH3>
+            <StyledFlexBox alignItems="center">
+              <iframe
+                title="plan"
+                width={iFrameWidth}
+                height={iFrameHeight}
+                frameborder="0"
+                style={{ border: 0 }}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Route de la Salamandre, Fontainebleau&language=${state.langue}`}
+                allowfullscreen
+              />
+            </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
@@ -297,10 +328,6 @@ class MiddleDistance extends Component {
             </StyledTrackGrid>
           </StyledBorderBox>
           <StyledBorderBox>
-            <StyledH3>Tarif</StyledH3>
-            <StyledParagraph>Bientôt disponible</StyledParagraph>
-          </StyledBorderBox>
-          <StyledBorderBox>
             <StyledH3>
               <Translator id="MDEvent.box3Title" />
             </StyledH3>
@@ -329,6 +356,14 @@ class MiddleDistance extends Component {
               <StyledSpan>
                 <Translator id="MDEvent.box3Paragraph32" />
               </StyledSpan>
+            </StyledParagraph>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="MDEvent.box4Title" />
+            </StyledH3>
+            <StyledParagraph>
+              <Translator id="MDEvent.box4Paragraph1" />
             </StyledParagraph>
           </StyledBorderBox>
         </StyledSection>
