@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.a240b50b.chunk.js",
-    "main.js.map": "/static/js/main.a240b50b.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.69f78a06.chunk.js": "/static/js/2.69f78a06.chunk.js",
-    "static/js/2.69f78a06.chunk.js.map": "/static/js/2.69f78a06.chunk.js.map",
+    "main.js": "/static/js/main.a2fa13bc.chunk.js",
+    "main.js.map": "/static/js/main.a2fa13bc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2b508c2c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2b508c2c.js.map",
+    "static/js/2.9aa5f860.chunk.js": "/static/js/2.9aa5f860.chunk.js",
+    "static/js/2.9aa5f860.chunk.js.map": "/static/js/2.9aa5f860.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8b2a88eeb06b76375e7315a95d2b8010.js": "/precache-manifest.8b2a88eeb06b76375e7315a95d2b8010.js",
+    "precache-manifest.ca05c7b17811dd67aea6182bc16409a3.js": "/precache-manifest.ca05c7b17811dd67aea6182bc16409a3.js",
     "service-worker.js": "/service-worker.js",
+    "static/js/2.9aa5f860.chunk.js.LICENSE.txt": "/static/js/2.9aa5f860.chunk.js.LICENSE.txt",
     "static/media/CDCOLogoSmall.jpg": "/static/media/CDCOLogoSmall.165a3945.jpg",
     "static/media/CDOSLogoSmall.jpg": "/static/media/CDOSLogoSmall.5cc52e17.jpg",
     "static/media/Desktop.jpg": "/static/media/Desktop.7c24e27c.jpg",
@@ -97,5 +98,10 @@
     "static/media/flyerSmall.jpg": "/static/media/flyerSmall.a0e7f733.jpg",
     "static/media/logoLifcoSmall.JPG": "/static/media/logoLifcoSmall.708963ba.JPG",
     "static/media/logoRegionIDF.svg": "/static/media/logoRegionIDF.154cf9bb.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b508c2c.js",
+    "static/js/2.9aa5f860.chunk.js",
+    "static/js/main.a2fa13bc.chunk.js"
+  ]
 }
