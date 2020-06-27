@@ -183,7 +183,7 @@ class MiddleDistance extends Component {
                 height={iFrameHeight}
                 frameborder="0"
                 style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Route de la Salamandre, Fontainebleau&language=${state.langue}`}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.408510, 2.639220&language=${state.langue}`}
                 allowfullscreen
               />
             </StyledFlexBox>
