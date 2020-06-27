@@ -133,14 +133,27 @@ class Home extends Component {
             </StyledParagraph>
             <br />
             <StyledParagraph>
-              <Translator id="Registration.paragraph" />
+              <Translator id="Home.box15Paragraph" />
+            </StyledParagraph>
+            <br />
+            <StyledParagraph>
+              <Translator id="Home.box16Paragraph" />
+            </StyledParagraph>
+            <br />
+            <StyledFlexBox flexDirection="row" alignItems="center">
+              <StyledParagraph>
+                <Translator id="Home.box171Paragraph" />
+              </StyledParagraph>
               <StyledAnchor
-                href="http://www.ffcorientation.fr/"
+                href="http://licences.ffcorientation.fr/inscriptions/"
                 textAlign="center"
               >
                 FFCO
               </StyledAnchor>
-            </StyledParagraph>
+              <StyledParagraph>
+                <Translator id="Home.box172Paragraph" />
+              </StyledParagraph>
+            </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
