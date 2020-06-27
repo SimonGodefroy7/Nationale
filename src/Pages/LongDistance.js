@@ -15,8 +15,14 @@ import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import StyledTrackGrid from "../styledComponents/StyledTrackGrid";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import StyledAnchor from "../styledComponents/StyledAnchor";
+import StyledMapExtract from "../styledComponents/StyledMapExtract";
+import StyledImg from "../styledComponents/StyledImg";
 import Translator from "../Logic/Translator";
 import style from "../styledComponents/style";
+import franchard1 from "../image/MapExtract/Franchard1Small.jpg";
+import franchard2 from "../image/MapExtract/Franchard2Small.jpg";
+import franchard7 from "../image/MapExtract/Franchard7Small.jpg";
+import franchard10 from "../image/MapExtract/Franchard10Small.jpg";
 
 class LongDistance extends Component {
   render() {
@@ -363,9 +369,20 @@ class LongDistance extends Component {
             <StyledH3>
               <Translator id="LDEvent.box4Title" />
             </StyledH3>
-            <StyledParagraph>
-              <Translator id="LDEvent.box4Paragraph" />
-            </StyledParagraph>
+            <StyledMapExtract>
+              <StyledFlexBox>
+                <StyledImg src={franchard1} alt={franchard1} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={franchard2} alt={franchard2} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={franchard7} alt={franchard7} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={franchard10} alt={franchard10} />
+              </StyledFlexBox>
+            </StyledMapExtract>
           </StyledBorderBox>
         </StyledSection>
       </Page>
