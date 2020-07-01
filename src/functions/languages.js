@@ -1,5 +1,18 @@
+import lastUpate from "./lastUpdate";
+
 const language = {
   en: {
+    "Partners.lastUpate": `Last update : ${lastUpate.PARTNERS}`,
+    "Results.lastUpate": `Last update : ${lastUpate.RESULTS}`,
+    "StartList.lastUpate": `Last update : ${lastUpate.STARTLIST}`,
+    "Training.lastUpate": `Last update : ${lastUpate.TRAINING}`,
+    "SprintEvent.lastUpate": `Last update : ${lastUpate.SPRINTEVENT}`,
+    "MDEvent.lastUpate": `Last update : ${lastUpate.MDEVENT}`,
+    "LDEvent.lastUpate": `Last update : ${lastUpate.LDEVENT}`,
+    "Accomodation.lastUpate": `Last update : ${lastUpate.ACCOMODATION}`,
+    "Gallery.lastUpate": `Last update : ${lastUpate.GALLERY}`,
+    "Contact.lastUpate": `Last update : ${lastUpate.CONTACT}`,
+    "Home.lastUpate": `Last update : ${lastUpate.HOME}`,
     "LandingPage.Title": "Important information",
     "LandingPage.paragraph1":
       "The races planned from 21st to 23rd August are up to now maintained awaiting for the last new government instructions around June 20th. The teams are mobilized so that everything goes well. Registration will be open at the end of June. We hope to see many of you in August at Fontainebleau. See you soon.",
@@ -29,6 +42,17 @@ const language = {
     "Training.bacgroundParagraph1": "Trainings",
     "Training.bacgroundParagraph2": "19-20 august 2020",
     "Training.title": "Trainings",
+    "Training.box0Title1": "Informations",
+    "Training.box01Paragraph1":
+      "Balise 77 and OPA Montigny clubs welcome you to two training days the wednesday 19th and thursday 20th august 2020 from 13:00 to 18:00",
+    "Training.box01Paragraph2":
+      "A control network of 30 controls of black to green difficulty with small controls will be on Larchant's map and Bourron Marlotte's map. You will be able to get the map at Ermitage of Franchard (arena of the LD/MD) on wednesday and thurdays during opening hour.",
+    "Training.box0Title2": "Prices",
+    "Training.box02Paragraph1":
+      'The price for one training is 4 euros. You can pay by transfer, IBAN : FR76 1010 7003 2700 1190 4923 683 BIC : BREDFRPPXXX or send a check to CDCO77 at the folowing addres Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine, you must add the reference "Entrainements".',
+    "Training.box01Paragraph3":
+      "You can reserve you maps before the 7th august , here is the",
+    "Training.box01Paragraph4": "link",
     "Training.training1Title": "Training 1",
     "Training.training1Box1Title": "Practical informations",
     "Training.training1Box1DateTitle": "Date: ",
@@ -36,23 +60,23 @@ const language = {
     "Training.training1Box1PlacesTitle": "Place: ",
     "Training.training1Box1PlacesParagraph": "Forest of Fontainebleau",
     "Training.training1Box1MapTitle": "Map: ",
-    "Training.training1Box1MapParagraph": "soon available",
+    "Training.training1Box1MapParagraph": "Larchant",
     "Training.training1Box1PlanTitle": "Plan: ",
-    "Training.training1Box1PlanParagraph": "soon available",
-    "Training.training1Box1Paragraph": "available soon",
+    "Training.training1Box1PlanParagraph1": "Parking: ",
+    "Training.training1Box1PlanParagraph2": "google link",
     "Training.training1Box4Title": "Map extracts",
     "Training.training1Box4Paragraph": "available soon",
     "Training.training2Title": "Training 2",
     "Training.training2Box1Title": "Practical informations",
     "Training.training2Box1DateTitle": "Date: ",
-    "Training.training2Box1DateParagraph": "20 august 2020",
+    "Training.training2Box1DateParagraph": "19-20 august 2020",
     "Training.training2Box1PlacesTitle": "Place: ",
     "Training.training2Box1PlacesParagraph": "Forest of Fontainebleau",
     "Training.training2Box1MapTitle": "Map: ",
-    "Training.training2Box1MapParagraph": "soon available",
+    "Training.training2Box1MapParagraph": "Grotte Beatrix",
     "Training.training2Box1PlanTitle": "Plan: ",
-    "Training.training2Box1PlanParagraph": "soon available",
-    "Training.training2Box1Paragraph": "available soon",
+    "Training.training1Box2PlanParagraph1": "Parking: ",
+    "Training.training1Box2PlanParagraph2": 'Along "Grande Valée" road',
     "Training.training2Box4Title": "Map extracts",
     "Training.training2Box4Paragraph": "available soon",
     "SprintEvent.bacgroundParagraph": "Urban Sprint 21 august 2020",
@@ -294,10 +318,13 @@ const language = {
       "The terrain for the urban sprint is a small vilage typical form south Seine et Marne with small alleys and residential areas allowing higher speed. There is also several parks that will demand the runners to adapt to all environments.",
     "Home.box14Paragraph":
       "The terrain for the middle and long distance are similar. They are typical of Fontainbleau's forest. On the map there is a lot of rock mass, most often they are on the flank and a lot of sandy hills makes orienteering diffcicult. Between these detailed areas, the visibility is better and a network of path will allow an easier navigation.",
+    "Home.box15ParagraphTitle": "Nursery: ",
     "Home.box15Paragraph":
       "Due to COVID-19, we won't be able to set up a nursery during the 3 days, for those with children please specify on the registration that you need different start time.",
+    "Home.box16ParagraphTitle": "Refreshment bar: ",
     "Home.box16Paragraph":
       "During the 3 days of event, you will be able to pay with your credit card to the refreshment bar as well as the remaining registration fee and deposit/rent for sportident.",
+    "Home.box17ParagraphTitle": "Registration: ",
     "Home.box171Paragraph":
       "Registration for races are now open on the following website",
     "Home.box172Paragraph": "until 7th augustt.",
@@ -329,6 +356,17 @@ const language = {
     "Results.ldParagraph": "not yet available"
   },
   fr: {
+    "Partners.lastUpate": `Dernière mise à jour : ${lastUpate.PARTNERS}`,
+    "Results.lastUpate": `Dernière mise à jour : ${lastUpate.RESULTS}`,
+    "StartList.lastUpate": `Dernière mise à jour : ${lastUpate.STARTLIST}`,
+    "Training.lastUpate": `Dernière mise à jour : ${lastUpate.TRAINING}`,
+    "SprintEvent.lastUpate": `Dernière mise à jour : ${lastUpate.SPRINTEVENT}`,
+    "MDEvent.lastUpate": `Dernière mise à jour : ${lastUpate.MDEVENT}`,
+    "LDEvent.lastUpate": `Dernière mise à jour : ${lastUpate.LDEVENT}`,
+    "Accomodation.lastUpate": `Dernière mise à jour : ${lastUpate.ACCOMODATION}`,
+    "Gallery.lastUpate": `Dernière mise à jour : ${lastUpate.GALLERY}`,
+    "Contact.lastUpate": `Dernière mise à jour : ${lastUpate.CONTACT}`,
+    "Home.lastUpate": `Dernière mise à jour : ${lastUpate.HOME}`,
     "LandingPage.Title": "Information importante",
     "LandingPage.paragraph1":
       "Les compétitions prévues du 21 au 23 août sont pour l'instant maintenues en attente des nouvelles mesures gouvernementales. Les équipes sont mobilisées pour que tout se passe bien, les traceurs finalisent leurs circuits. Les inscriptions seront ouvertes à la fin du mois de juin. Nous vous attendons nombreux. A bientôt.",
@@ -358,6 +396,17 @@ const language = {
     "Training.bacgroundParagraph1": "Entrainements",
     "Training.bacgroundParagraph2": "19-20 août 2020",
     "Training.title": "Entrainements",
+    "Training.box0Title1": "Informations",
+    "Training.box01Paragraph1":
+      "Les clubs Balise 77 et OPA Montigny vous proposent deux journées d'entrainement le mercredi 19 et le jeudi 20 août 2020 de 13h à 18H.",
+    "Training.box01Paragraph2":
+      "Un réseau de postes d'environ 30 balises de niveau noir à vert avec des balisettes sera posé sur les cartes de Larchant et de Bourron Marlotte. Les cartes seront à récupérer à l'Ermitage de Franchard (arena de la MD et de la LD) le mercredi et le jeudi pendant les horaires d'entrainement.",
+    "Training.box0Title2": "Tarifs",
+    "Training.box02Paragraph1":
+      'Le prix d\'un entrainement est de 4 euros. Pour payer, vous pouvez faire un virement, IBAN : FR76 1010 7003 2700 1190 4923 683 BIC : BREDFRPPXXX ou envoyer un chèque à CDCO77 chez Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine  en identiquant en référence "Entrainements".',
+    "Training.box01Paragraph3":
+      "Pour reserver vos cartes avant le 7 aout , voici le",
+    "Training.box01Paragraph4": "lien",
     "Training.training1Title": "Entrainement 1",
     "Training.training1Box1Title": "Informations pratiques",
     "Training.training1Box1DateTitle": "Date: ",
@@ -365,21 +414,24 @@ const language = {
     "Training.training1Box1PlacesTitle": "Lieu: ",
     "Training.training1Box1PlacesParagraph": "Forêt de Fontainebleau",
     "Training.training1Box1MapTitle": "Carte: ",
-    "Training.training1Box1MapParagraph": "bientôt disponible",
+    "Training.training1Box1MapParagraph": "Larchant",
     "Training.training1Box1PlanTitle": "Plan: ",
-    "Training.training1Box1PlanParagraph": "bientôt disponible",
+    "Training.training1Box1PlanParagraph1": "Parking: ",
+    "Training.training1Box1PlanParagraph2": "lien google",
     "Training.training1Box4Title": "Extraits de cartes",
     "Training.training1Box4Paragraph": "Bientôt disponible",
     "Training.training2Title": "Entrainement 2",
     "Training.training2Box1Title": "Informations pratiques",
     "Training.training2Box1DateTitle": "Date: ",
-    "Training.training2Box1DateParagraph": "20 août 2020",
+    "Training.training2Box1DateParagraph": "19-20 août 2020",
     "Training.training2Box1PlacesTitle": "Lieu: ",
     "Training.training2Box1PlacesParagraph": "Forêt de Fontainebleau",
     "Training.training2Box1MapTitle": "Carte: ",
-    "Training.training2Box1MapParagraph": "bientôt disponible",
+    "Training.training2Box1MapParagraph": "Grotte Beatrix",
     "Training.training2Box1PlanTitle": "Plan: ",
-    "Training.training2Box1PlanParagraph": "bientôt disponible",
+    "Training.training1Box2PlanParagraph1": "Parking: ",
+    "Training.training1Box2PlanParagraph2":
+      'Le long de la route "Grande Valée"',
     "Training.training2Box4Title": "Extraits de cartes",
     "Training.training2Box4Paragraph": "Bientôt disponible",
     "SprintEvent.bacgroundParagraph": "Sprint Urbain 21 août 2020",
@@ -620,10 +672,13 @@ const language = {
       "Le terrain du sprint urbain est un petit village typique du sud de la Seine et Marne avec quelques petites ruelles ainsi que des quartiers résidentiels offrant une vitesse de course plus élevée. La carte possède également plusieurs parcs ou prés qui nécessiteront aux coureurs de s’adapter aux différents environnements.",
     "Home.box14Paragraph":
       "Les terrains de la moyenne distance et de la longue distance sont similaires et typiques des terrains de la forêt de fontainebleau. La carte possède de nombreux chaos rocheux le plus souvent sur les flancs et des nombreuses collines sableuses qui rendent l’orientation difficile. Entre ces zones détaillées, la visibilité est bien meilleure et un réseau de chemin assez dense devrait permettre une navigation plus aisée.",
+    "Home.box15ParagraphTitle": "Garderie: ",
     "Home.box15Paragraph":
       "Face au COVID-19, nous ne sommes pas en mesure de mettre en place une garderie sur les 3 jours, merci pour ceux qui ont des enfants, de préciser lors des inscriptions d'avoir des heures de départ décalées.",
+    "Home.box16ParagraphTitle": "Buvette: ",
     "Home.box16Paragraph":
       "Lors des 3 jours , vous aurez la possibilité de payer à la buvette en carte bleue ainsi que les droits d'inscription restants et la location et la caution pour les sportident.",
+    "Home.box17ParagraphTitle": "Inscriptions: ",
     "Home.box171Paragraph":
       "Les inscriptions aux 3 courses sont ouvertes sur le site de la",
     "Home.box172Paragraph": "jusqu'au 7 aout.",

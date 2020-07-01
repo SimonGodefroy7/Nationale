@@ -72,6 +72,9 @@ class LongDistance extends Component {
           <StyledH1>
             <Translator id="LDEvent.title" />
           </StyledH1>
+          <StyledSpan fontStyle="italic">
+            <Translator id="LDEvent.lastUpate" />
+          </StyledSpan>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="LDEvent.box1Title" />

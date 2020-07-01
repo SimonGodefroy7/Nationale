@@ -15,8 +15,13 @@ import StyledHero from "../styledComponents/StyledHero";
 import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import StyledTrackGrid from "../styledComponents/StyledTrackGrid";
+import StyledMapExtract from "../styledComponents/StyledMapExtract";
+import StyledImg from "../styledComponents/StyledImg";
 import Translator from "../Logic/Translator";
 import style from "../styledComponents/style";
+import salamandre1 from "../image/MapExtract/Salamandre1Small.png";
+import salamandre2 from "../image/MapExtract/Salamandre2Small.png";
+import salamandre3 from "../image/MapExtract/Salamandre3Small.png";
 
 class MiddleDistance extends Component {
   render() {
@@ -66,6 +71,9 @@ class MiddleDistance extends Component {
           <StyledH1>
             <Translator id="MDEvent.title" />
           </StyledH1>
+          <StyledSpan fontStyle="italic">
+            <Translator id="MDEvent.lastUpate" />
+          </StyledSpan>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="MDEvent.box1Title" />
@@ -362,9 +370,17 @@ class MiddleDistance extends Component {
             <StyledH3>
               <Translator id="MDEvent.box4Title" />
             </StyledH3>
-            <StyledParagraph>
-              <Translator id="MDEvent.box4Paragraph1" />
-            </StyledParagraph>
+            <StyledMapExtract>
+              <StyledFlexBox>
+                <StyledImg src={salamandre1} alt={salamandre1} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={salamandre2} alt={salamandre2} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={salamandre3} alt={salamandre3} />
+              </StyledFlexBox>
+            </StyledMapExtract>
           </StyledBorderBox>
         </StyledSection>
       </Page>

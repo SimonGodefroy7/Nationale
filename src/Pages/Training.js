@@ -14,6 +14,7 @@ import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import StyledMapExtract from "../styledComponents/StyledMapExtract";
 import StyledImg from "../styledComponents/StyledImg";
+import StyledAnchor from "../styledComponents/StyledAnchor";
 import Translator from "../Logic/Translator";
 import style from "../styledComponents/style";
 import B771 from "../image/MapExtract/B77-1Small.jpg";
@@ -49,6 +50,7 @@ class Training extends Component {
       iFrameWidth = 800;
       iFrameHeight = 600;
     }
+    let state = this.props;
     return (
       <Page>
         <Helmet>
@@ -71,6 +73,40 @@ class Training extends Component {
           <StyledH1>
             <Translator id="Training.title" />
           </StyledH1>
+          <StyledSpan fontStyle="italic">
+            <Translator id="Training.lastUpate" />
+          </StyledSpan>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="Training.box0Title1" />
+            </StyledH3>
+            <StyledParagraph>
+              <Translator id="Training.box01Paragraph1" />
+            </StyledParagraph>
+            <br />
+            <StyledParagraph>
+              <Translator id="Training.box01Paragraph2" />
+            </StyledParagraph>
+            <br />
+            <StyledFlexBox flexDirection="row" alignItems="center">
+              <StyledParagraph>
+                <Translator id="Training.box01Paragraph3" />
+              </StyledParagraph>
+              <StyledAnchor href="https://docs.google.com/forms/d/e/1FAIpQLSfsN-_WwwRjMh2fyFeRpenSZBcT3xCCBu8h6eVy54CnOJxr7Q/viewform?usp=pp_url">
+                <StyledParagraph>
+                  <Translator id="Training.box01Paragraph4" />
+                </StyledParagraph>
+              </StyledAnchor>
+            </StyledFlexBox>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="Training.box0Title2" />
+            </StyledH3>
+            <StyledParagraph>
+              <Translator id="Training.box02Paragraph1" />
+            </StyledParagraph>
+          </StyledBorderBox>
           <StyledH3>
             <Translator id="Training.training1Title" />
           </StyledH3>
@@ -111,10 +147,20 @@ class Training extends Component {
               </StyledFlexBox>
             </StyledPracticalInfo>
           </StyledBorderBox>
-          {/*<StyledBorderBox>
+          <StyledBorderBox>
             <StyledH3>
               <Translator id="Training.training1Box1PlanTitle" />
             </StyledH3>
+            <StyledFlexBox flexDirection="row" alignItems="center">
+              <StyledSpan fontWeight={"bold"}>
+                <Translator id="Training.training1Box1PlanParagraph1" />
+              </StyledSpan>
+              <StyledAnchor href="https://www.google.com/maps/d/u/0/viewer?hl=fr&ll=48.296828591449355%2C2.603297750069946&z=16&mid=1gdziv_U_RgTboCbBSV4c9nJbpcPJXgvQ">
+                <StyledParagraph>
+                  <Translator id="Training.training1Box1PlanParagraph2" />
+                </StyledParagraph>
+              </StyledAnchor>
+            </StyledFlexBox>
             <StyledFlexBox alignItems="center">
               <iframe
                 title="plan"
@@ -122,11 +168,11 @@ class Training extends Component {
                 height={iFrameHeight}
                 frameborder="0"
                 style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Franchard, Fontaineb1 Route de l'Ermitage, 77300 Fontainebleauleau&language=${state.langue}`}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Parking du Bois d'Hyver, Larchant&language=${state.langue}`}
                 allowfullscreen
               />
             </StyledFlexBox>
-          </StyledBorderBox>*/}
+          </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="Training.training1Box4Title" />
@@ -183,10 +229,18 @@ class Training extends Component {
               </StyledFlexBox>
             </StyledPracticalInfo>
           </StyledBorderBox>
-          {/*<StyledBorderBox>
+          <StyledBorderBox>
             <StyledH3>
               <Translator id="Training.training2Box1PlanTitle" />
             </StyledH3>
+            <StyledParagraph>
+              <StyledSpan fontWeight={"bold"}>
+                <Translator id="Training.training1Box2PlanParagraph1" />
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="Training.training1Box2PlanParagraph2" />
+              </StyledSpan>
+            </StyledParagraph>
             <StyledFlexBox alignItems="center">
               <iframe
                 title="plan"
@@ -194,11 +248,11 @@ class Training extends Component {
                 height={iFrameHeight}
                 frameborder="0"
                 style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Franchard, Fontaineb1 Route de l'Ermitage, 77300 Fontainebleauleau&language=${state.langue}`}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.353071, 2.719517&language=${state.langue}`}
                 allowfullscreen
               />
             </StyledFlexBox>
-          </StyledBorderBox>*/}
+          </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="Training.training2Box4Title" />

@@ -66,6 +66,9 @@ class Sprint extends Component {
           <StyledH1>
             <Translator id="SprintEvent.title" />
           </StyledH1>
+          <StyledSpan fontStyle="italic">
+            <Translator id="SprintEvent.lastUpate" />
+          </StyledSpan>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="SprintEvent.box1Title" />

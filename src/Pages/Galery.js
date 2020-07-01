@@ -9,6 +9,7 @@ import StyledGallery from "../styledComponents/StyledGallery";
 import StyledGalleryItem from "../styledComponents/StyledGalleryItem";
 import StyledSection from "../styledComponents/StyledSection";
 import StyledButton from "../styledComponents/StyledButton";
+import StyledSpan from "../styledComponents/StyledSpan";
 import Translator from "../Logic/Translator";
 import gallery from "../image/Gallery/gallery";
 
@@ -72,6 +73,9 @@ class Gallery extends Component {
           <StyledH1>
             <Translator id="Gallery.title" />
           </StyledH1>
+          <StyledSpan fontStyle="italic">
+            <Translator id="Gallery.lastUpate" />
+          </StyledSpan>
           <StyledFlexBox flexDirection="row" justifyContent="center">
             <StyledButton
               isSelected={urbanGallery}

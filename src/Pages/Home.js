@@ -14,10 +14,16 @@ import StyledBalise from "../styledComponents/StyledBalise";
 import StyledBaliseBox from "../styledComponents/StyledBaliseBox";
 import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledAnchor from "../styledComponents/StyledAnchor";
+import StyledMapExtract from "../styledComponents/StyledMapExtract";
+import StyledSpan from "../styledComponents/StyledSpan";
 import StyledImg from "../styledComponents/StyledImg";
 import zoneInterditeSmall from "../image/ZoneinterditeNationales_NO_2020_small.jpg";
 import smallImage1 from "../image/Gallery/small/Image1.jpg";
 import smallImage2 from "../image/Gallery/small/Image2.jpg";
+import franchard10 from "../image/MapExtract/Franchard10Small.jpg";
+import salamandre3 from "../image/MapExtract/Salamandre3Small.png";
+import B771 from "../image/MapExtract/B77-1Small.jpg";
+import OPA3 from "../image/MapExtract/OPA3Small.jpg";
 
 class Home extends Component {
   render() {
@@ -94,6 +100,9 @@ class Home extends Component {
           <StyledH1>
             <Translator id="Home.title" />
           </StyledH1>
+          <StyledSpan fontStyle="italic">
+            <Translator id="Home.lastUpate" />
+          </StyledSpan>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="LandingPage.Title" />
@@ -133,16 +142,31 @@ class Home extends Component {
             </StyledParagraph>
             <br />
             <StyledParagraph>
-              <Translator id="Home.box15Paragraph" />
+              <StyledSpan fontWeight="bold">
+                <Translator id="Home.box15ParagraphTitle" />
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="Home.box15Paragraph" />
+              </StyledSpan>
             </StyledParagraph>
             <br />
             <StyledParagraph>
-              <Translator id="Home.box16Paragraph" />
+              <StyledSpan fontWeight="bold">
+                <Translator id="Home.box16ParagraphTitle" />
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="Home.box16Paragraph" />
+              </StyledSpan>
             </StyledParagraph>
             <br />
             <StyledFlexBox flexDirection="row" alignItems="center">
               <StyledParagraph>
-                <Translator id="Home.box171Paragraph" />
+                <StyledSpan fontWeight="bold">
+                  <Translator id="Home.box17ParagraphTitle" />
+                </StyledSpan>
+                <StyledSpan>
+                  <Translator id="Home.box171Paragraph" />
+                </StyledSpan>
               </StyledParagraph>
               <StyledAnchor
                 href="http://licences.ffcorientation.fr/inscriptions/"
@@ -159,9 +183,20 @@ class Home extends Component {
             <StyledH3>
               <Translator id="Home.box5Title" />
             </StyledH3>
-            <StyledParagraph>
-              <Translator id="Home.box5Paragraph" />
-            </StyledParagraph>
+            <StyledMapExtract>
+              <StyledFlexBox>
+                <StyledImg src={salamandre3} alt={salamandre3} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={franchard10} alt={franchard10} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={B771} alt={B771} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={OPA3} alt={OPA3} />
+              </StyledFlexBox>
+            </StyledMapExtract>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

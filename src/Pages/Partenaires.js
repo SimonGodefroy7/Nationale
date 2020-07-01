@@ -6,6 +6,7 @@ import StyledAnchor from "../styledComponents/StyledAnchor";
 import StyledBorderBox from "../styledComponents/StyledBorderBox";
 import StyledImg from "../styledComponents/StyledImg";
 import StyledSection from "../styledComponents/StyledSection";
+import StyledSpan from "../styledComponents/StyledSpan";
 import onfLogo from "../image/PartnerLogo/Logo-ONFSmall.jpg";
 import ffcoLogo from "../image/PartnerLogo/FFCO_LOGO_1Small.jpg";
 import iDFLogo from "../image/PartnerLogo/logo-region-ile-de-franceSmall.png";
@@ -34,6 +35,9 @@ class Partenaires extends Component {
           <StyledH1>
             <Translator id="Partners.title" />
           </StyledH1>
+          <StyledSpan fontStyle="italic">
+            <Translator id="Partners.lastUpate" />
+          </StyledSpan>
           <StyledBorderBox>
             <StyledAnchor
               href="https://www.onf.fr/"
