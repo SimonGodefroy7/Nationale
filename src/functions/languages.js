@@ -51,7 +51,7 @@ const language = {
     "Training.box02Paragraph1":
       'The price for one training is 4 euros. You can pay by transfer, IBAN : FR76 1010 7003 2700 1190 4923 683 BIC : BREDFRPPXXX or send a check to CDCO77 at the folowing addres Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine, you must add the reference "Entrainements".',
     "Training.box01Paragraph3":
-      "You can reserve you maps before the 7th august , here is the",
+      "You can reserve you maps before the 7th august, here is the",
     "Training.box01Paragraph4": "link",
     "Training.training1Title": "Training 1",
     "Training.training1Box1Title": "Practical informations",
@@ -405,7 +405,7 @@ const language = {
     "Training.box02Paragraph1":
       'Le prix d\'un entrainement est de 4 euros. Pour payer, vous pouvez faire un virement, IBAN : FR76 1010 7003 2700 1190 4923 683 BIC : BREDFRPPXXX ou envoyer un chèque à CDCO77 chez Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine  en identiquant en référence "Entrainements".',
     "Training.box01Paragraph3":
-      "Pour reserver vos cartes avant le 7 aout , voici le",
+      "Pour reserver vos cartes avant le 7 aout, voici le",
     "Training.box01Paragraph4": "lien",
     "Training.training1Title": "Entrainement 1",
     "Training.training1Box1Title": "Informations pratiques",

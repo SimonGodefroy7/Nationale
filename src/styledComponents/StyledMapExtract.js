@@ -12,8 +12,9 @@ const StyledmapExtract = styled(StyledFlexBox)`
   }
   @media (min-width: ${style.mediaSize.tablet}) {
     flex-direction: row;
+    flex-wrap: wrap;
     ${StyledFlexBox} {
-      margin: 0;
+      margin: 0.5rem;
     }
 `;
 

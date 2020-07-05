@@ -90,13 +90,15 @@ class Training extends Component {
             <br />
             <StyledFlexBox flexDirection="row" alignItems="center">
               <StyledParagraph>
-                <Translator id="Training.box01Paragraph3" />
+                <StyledSpan>
+                  <Translator id="Training.box01Paragraph3" />
+                </StyledSpan>
+                <StyledSpan>
+                  <StyledAnchor href="https://docs.google.com/forms/d/e/1FAIpQLSfsN-_WwwRjMh2fyFeRpenSZBcT3xCCBu8h6eVy54CnOJxr7Q/viewform?usp=pp_url">
+                    <Translator id="Training.box01Paragraph4" />
+                  </StyledAnchor>
+                </StyledSpan>
               </StyledParagraph>
-              <StyledAnchor href="https://docs.google.com/forms/d/e/1FAIpQLSfsN-_WwwRjMh2fyFeRpenSZBcT3xCCBu8h6eVy54CnOJxr7Q/viewform?usp=pp_url">
-                <StyledParagraph>
-                  <Translator id="Training.box01Paragraph4" />
-                </StyledParagraph>
-              </StyledAnchor>
             </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
@@ -161,6 +163,7 @@ class Training extends Component {
                 </StyledParagraph>
               </StyledAnchor>
             </StyledFlexBox>
+            <br />
             <StyledFlexBox alignItems="center">
               <iframe
                 title="plan"
@@ -177,7 +180,7 @@ class Training extends Component {
             <StyledH3>
               <Translator id="Training.training1Box4Title" />
             </StyledH3>
-            <StyledMapExtract>
+            <StyledMapExtract id="mapExtracts1">
               <StyledFlexBox>
                 <StyledImg src={B771} alt={B771} />
               </StyledFlexBox>
@@ -257,7 +260,7 @@ class Training extends Component {
             <StyledH3>
               <Translator id="Training.training2Box4Title" />
             </StyledH3>
-            <StyledMapExtract>
+            <StyledMapExtract id="mapExtracts2">
               <StyledFlexBox>
                 <StyledImg src={OPA1} alt={OPA1} />
               </StyledFlexBox>

@@ -167,15 +167,17 @@ class Home extends Component {
                 <StyledSpan>
                   <Translator id="Home.box171Paragraph" />
                 </StyledSpan>
-              </StyledParagraph>
-              <StyledAnchor
-                href="http://licences.ffcorientation.fr/inscriptions/"
-                textAlign="center"
-              >
-                FFCO
-              </StyledAnchor>
-              <StyledParagraph>
-                <Translator id="Home.box172Paragraph" />
+                <StyledSpan>
+                  <StyledAnchor
+                    href="http://licences.ffcorientation.fr/inscriptions/"
+                    textAlign="center"
+                  >
+                    FFCO
+                  </StyledAnchor>
+                </StyledSpan>
+                <StyledSpan>
+                  <Translator id="Home.box172Paragraph" />
+                </StyledSpan>
               </StyledParagraph>
             </StyledFlexBox>
           </StyledBorderBox>
@@ -186,15 +188,35 @@ class Home extends Component {
             <StyledMapExtract>
               <StyledFlexBox>
                 <StyledImg src={salamandre3} alt={salamandre3} />
+                <StyledAnchor as={Link} to="/middle-distance#mapExtracts">
+                  <StyledParagraph textAlign="center">
+                    Extraits MD
+                  </StyledParagraph>
+                </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledImg src={franchard10} alt={franchard10} />
+                <StyledAnchor as={Link} to="/long-distance#mapExtracts">
+                  <StyledParagraph textAlign="center">
+                    Extraits LD
+                  </StyledParagraph>
+                </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledImg src={B771} alt={B771} />
+                <StyledAnchor as={Link} to="/training#mapExtracts1">
+                  <StyledParagraph textAlign="center">
+                    Extraits entrainements B77
+                  </StyledParagraph>
+                </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledImg src={OPA3} alt={OPA3} />
+                <StyledAnchor as={Link} to="/training#mapExtracts2">
+                  <StyledParagraph textAlign="center">
+                    Extraits entrainements OPA
+                  </StyledParagraph>
+                </StyledAnchor>
               </StyledFlexBox>
             </StyledMapExtract>
           </StyledBorderBox>

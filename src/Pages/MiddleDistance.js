@@ -371,7 +371,7 @@ class MiddleDistance extends Component {
               <Translator id="MDEvent.box4Title" />
             </StyledH3>
             <StyledMapExtract>
-              <StyledFlexBox>
+              <StyledFlexBox id="mapExtracts">
                 <StyledImg src={salamandre1} alt={salamandre1} />
               </StyledFlexBox>
               <StyledFlexBox>

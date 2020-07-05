@@ -372,7 +372,7 @@ class LongDistance extends Component {
             <StyledH3>
               <Translator id="LDEvent.box4Title" />
             </StyledH3>
-            <StyledMapExtract>
+            <StyledMapExtract id="mapExtracts">
               <StyledFlexBox>
                 <StyledImg src={franchard1} alt={franchard1} />
               </StyledFlexBox>
