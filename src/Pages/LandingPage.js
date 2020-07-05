@@ -10,6 +10,7 @@ import StyledAnchor from "../styledComponents/StyledAnchor";
 import StyledBorderBox from "../styledComponents/StyledBorderBox";
 import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledH3 from "../styledComponents/StyledH3";
+import flyerSmall from "../image/flyerSmall.jpg";
 
 class Home extends Component {
   render() {
@@ -36,7 +37,16 @@ class Home extends Component {
             </StyledParagraph>
           </StyledBorderBox>
         </StyledSection>
-        <StyledHero landingPage />
+        <StyledHero
+          backgroundImageMobileS={flyerSmall}
+          backgroundImageMobileM={flyerSmall}
+          backgroundImageMobileL={flyerSmall}
+          backgroundImageTablet={flyerSmall}
+          backgroundImageLaptop={flyerSmall}
+          backgroundImageLaptopL={flyerSmall}
+          backgroundImageDesktop={flyerSmall}
+          isPortrait
+        />
         <StyledSection>
           <StyledFlexBox alignItems="center">
             <StyledAnchor as={Link} to="/home">

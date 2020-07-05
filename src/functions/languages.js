@@ -44,12 +44,14 @@ const language = {
     "Training.title": "Trainings",
     "Training.box0Title1": "Informations",
     "Training.box01Paragraph1":
-      "Balise 77 and OPA Montigny clubs welcome you to two training days the wednesday 19th and thursday 20th august 2020 from 13:00 to 18:00",
+      "Balise 77 and OPA Montigny clubs welcome you to two training days on wednesday 19th and on thursday 20th august 2020 from 13:00 to 18:00",
     "Training.box01Paragraph2":
-      "A control network of 30 controls of black to green difficulty with small controls will be on Larchant's map and Bourron Marlotte's map. You will be able to get the map at Ermitage of Franchard (arena of the LD/MD) on wednesday and thurdays during opening hour.",
-    "Training.box0Title2": "Prices",
-    "Training.box02Paragraph1":
-      'The price for one training is 4 euros. You can pay by transfer, IBAN : FR76 1010 7003 2700 1190 4923 683 BIC : BREDFRPPXXX or send a check to CDCO77 at the folowing addres Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine, you must add the reference "Entrainements".',
+      "A control network of 30 controls from black to green levels with small markers will be on Larchant's map and Bourron Marlotte's map. You will be able to get the map at Ermitage of Franchard (arena of the LD/MD) on wednesday and thurdays during opening hour.",
+    "Training.box0Title2": "Training fees",
+    "Training.box02Paragraph11":
+      "Training fee is 4 euros per map. You can pay by transfer:",
+    "Training.box02Paragraph12": "IBAN : FR76 1010 7003 2700 1190 4923 683",
+    "Training.box02Paragraph13": "BIC : BREDFRPPXXX",
     "Training.box01Paragraph3":
       "You can reserve you maps before the 7th august, here is the",
     "Training.box01Paragraph4": "link",
@@ -76,7 +78,7 @@ const language = {
     "Training.training2Box1MapParagraph": "Grotte Beatrix",
     "Training.training2Box1PlanTitle": "Plan: ",
     "Training.training1Box2PlanParagraph1": "Parking: ",
-    "Training.training1Box2PlanParagraph2": 'Along "Grande Valée" road',
+    "Training.training1Box2PlanParagraph2": 'Along "Grande Vallée" road',
     "Training.training2Box4Title": "Map extracts",
     "Training.training2Box4Paragraph": "available soon",
     "SprintEvent.bacgroundParagraph": "Urban Sprint 21 august 2020",
@@ -402,8 +404,12 @@ const language = {
     "Training.box01Paragraph2":
       "Un réseau de postes d'environ 30 balises de niveau noir à vert avec des balisettes sera posé sur les cartes de Larchant et de Bourron Marlotte. Les cartes seront à récupérer à l'Ermitage de Franchard (arena de la MD et de la LD) le mercredi et le jeudi pendant les horaires d'entrainement.",
     "Training.box0Title2": "Tarifs",
-    "Training.box02Paragraph1":
-      'Le prix d\'un entrainement est de 4 euros. Pour payer, vous pouvez faire un virement, IBAN : FR76 1010 7003 2700 1190 4923 683 BIC : BREDFRPPXXX ou envoyer un chèque à CDCO77 chez Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine  en identiquant en référence "Entrainements".',
+    "Training.box02Paragraph11":
+      "Le prix est de 4 euros par carte. Pour payer, vous pouvez faire un virement: ",
+    "Training.box02Paragraph12": "IBAN : FR76 1010 7003 2700 1190 4923 683",
+    "Training.box02Paragraph13": "BIC : BREDFRPPXXX",
+    "Training.box02Paragraph14":
+      "Vous pouvez aussi envoyer un chèque à CDCO77 chez Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine  en identiquant en référence 'Entrainements'.",
     "Training.box01Paragraph3":
       "Pour reserver vos cartes avant le 7 aout, voici le",
     "Training.box01Paragraph4": "lien",
@@ -431,7 +437,7 @@ const language = {
     "Training.training2Box1PlanTitle": "Plan: ",
     "Training.training1Box2PlanParagraph1": "Parking: ",
     "Training.training1Box2PlanParagraph2":
-      'Le long de la route "Grande Valée"',
+      'Le long de la route "Grande Vallée"',
     "Training.training2Box4Title": "Extraits de cartes",
     "Training.training2Box4Paragraph": "Bientôt disponible",
     "SprintEvent.bacgroundParagraph": "Sprint Urbain 21 août 2020",

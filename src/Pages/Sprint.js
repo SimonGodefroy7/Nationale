@@ -17,6 +17,7 @@ import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import Translator from "../Logic/Translator";
 import style from "../styledComponents/style";
+import sprint from "../image/Background/Sprint.jpg";
 
 class Sprint extends Component {
   render() {
@@ -55,7 +56,16 @@ class Sprint extends Component {
             content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"
           />
         </Helmet>
-        <StyledHero>
+        <StyledHero
+          backgroundImageMobileS={sprint}
+          backgroundImageMobileM={sprint}
+          backgroundImageMobileL={sprint}
+          backgroundImageTablet={sprint}
+          backgroundImageLaptop={sprint}
+          backgroundImageLaptopL={sprint}
+          backgroundImageDesktop={sprint}
+          isPortrait
+        >
           <StyledHeroHeadline isEnglish={isEnglish}>
             <StyledH1>
               <Translator id="SprintEvent.bacgroundParagraph" />

@@ -23,6 +23,13 @@ import franchard1 from "../image/MapExtract/Franchard1Small.jpg";
 import franchard2 from "../image/MapExtract/Franchard2Small.jpg";
 import franchard7 from "../image/MapExtract/Franchard7Small.jpg";
 import franchard10 from "../image/MapExtract/Franchard10Small.jpg";
+import mobileSBackground from "../image/Background/MobileS.jpg";
+import mobileMBackground from "../image/Background/MobileM.jpg";
+import mobileLBackground from "../image/Background/MobileL.jpg";
+import tabletBackground from "../image/Background/Tablet.jpg";
+import laptopBackground from "../image/Background/Laptop.jpg";
+import laptopLBackground from "../image/Background/LaptopL.jpg";
+import desktopBackground from "../image/Background/Desktop.jpg";
 
 class LongDistance extends Component {
   render() {
@@ -61,7 +68,15 @@ class LongDistance extends Component {
             content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"
           />
         </Helmet>
-        <StyledHero>
+        <StyledHero
+          backgroundImageMobileS={mobileSBackground}
+          backgroundImageMobileM={mobileMBackground}
+          backgroundImageMobileL={mobileLBackground}
+          backgroundImageTablet={tabletBackground}
+          backgroundImageLaptop={laptopBackground}
+          backgroundImageLaptopL={laptopLBackground}
+          backgroundImageDesktop={desktopBackground}
+        >
           <StyledHeroHeadline isEnglish={isEnglish} medium>
             <StyledH1>
               <Translator id="LDEvent.bacgroundParagraph" />

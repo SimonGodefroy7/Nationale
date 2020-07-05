@@ -23,6 +23,13 @@ import B773 from "../image/MapExtract/B77-3Small.jpg";
 import OPA1 from "../image/MapExtract/OPA1Small.jpg";
 import OPA2 from "../image/MapExtract/OPA2Small.jpg";
 import OPA3 from "../image/MapExtract/OPA3Small.jpg";
+import mobileSBackground from "../image/Background/MobileS.jpg";
+import mobileMBackground from "../image/Background/MobileM.jpg";
+import mobileLBackground from "../image/Background/MobileL.jpg";
+import tabletBackground from "../image/Background/Tablet.jpg";
+import laptopBackground from "../image/Background/Laptop.jpg";
+import laptopLBackground from "../image/Background/LaptopL.jpg";
+import desktopBackground from "../image/Background/Desktop.jpg";
 
 class Training extends Component {
   render() {
@@ -60,7 +67,15 @@ class Training extends Component {
             content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"
           />
         </Helmet>
-        <StyledHero>
+        <StyledHero
+          backgroundImageMobileS={mobileSBackground}
+          backgroundImageMobileM={mobileMBackground}
+          backgroundImageMobileL={mobileLBackground}
+          backgroundImageTablet={tabletBackground}
+          backgroundImageLaptop={laptopBackground}
+          backgroundImageLaptopL={laptopLBackground}
+          backgroundImageDesktop={desktopBackground}
+        >
           <StyledHeroHeadline isEnglish={false} medium>
             <StyledH1>
               <Translator id="Training.bacgroundParagraph1" />
@@ -106,8 +121,23 @@ class Training extends Component {
               <Translator id="Training.box0Title2" />
             </StyledH3>
             <StyledParagraph>
-              <Translator id="Training.box02Paragraph1" />
+              <Translator id="Training.box02Paragraph11" />
             </StyledParagraph>
+            <br />
+            <StyledParagraph>
+              <Translator id="Training.box02Paragraph12" />
+            </StyledParagraph>
+            <StyledParagraph>
+              <Translator id="Training.box02Paragraph13" />
+            </StyledParagraph>
+            {state.langue === "fr" && (
+              <React.Fragment>
+                <br />
+                <StyledParagraph>
+                  <Translator id="Training.box02Paragraph14" />
+                </StyledParagraph>
+              </React.Fragment>
+            )}
           </StyledBorderBox>
           <StyledH3>
             <Translator id="Training.training1Title" />
