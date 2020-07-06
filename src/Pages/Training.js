@@ -289,6 +289,7 @@ class Training extends Component {
                 <Translator id="Training.training1Box2PlanParagraph2" />
               </StyledSpan>
             </StyledParagraph>
+            <br />
             <StyledFlexBox alignItems="center">
               <iframe
                 title="plan"
