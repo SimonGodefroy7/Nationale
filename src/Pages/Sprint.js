@@ -18,6 +18,8 @@ import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import Translator from "../Logic/Translator";
 import style from "../styledComponents/style";
 import sprint from "../image/Background/Sprint.jpg";
+import sprintMobileS from "../image/Background/SprintMobileS.jpg";
+import sprintMobileM from "../image/Background/SprintMobileM.jpg";
 
 class Sprint extends Component {
   render() {
@@ -57,9 +59,9 @@ class Sprint extends Component {
           />
         </Helmet>
         <StyledHero
-          backgroundImageMobileS={sprint}
-          backgroundImageMobileM={sprint}
-          backgroundImageMobileL={sprint}
+          backgroundImageMobileS={sprintMobileS}
+          backgroundImageMobileM={sprintMobileS}
+          backgroundImageMobileL={sprintMobileM}
           backgroundImageTablet={sprint}
           backgroundImageLaptop={sprint}
           backgroundImageLaptopL={sprint}

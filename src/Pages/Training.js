@@ -30,32 +30,43 @@ import tabletBackground from "../image/Background/Tablet.jpg";
 import laptopBackground from "../image/Background/Laptop.jpg";
 import laptopLBackground from "../image/Background/LaptopL.jpg";
 import desktopBackground from "../image/Background/Desktop.jpg";
+import photoLarchantMobileS from "../image/Background/trainingMobileS.jpg";
+import photoLarchantMobileM from "../image/Background/trainingMobileM.jpg";
+import photoLarchantMobileL from "../image/Background/trainingMobileL.jpg";
+import photoLarchantTablet from "../image/Background/trainingTablet.jpg";
+import photoLarchantLaptop from "../image/Background/trainingLaptop.jpg";
 
 class Training extends Component {
   render() {
     let iFrameWidth;
     let iFrameHeight;
+    let srcPhotoLarchant;
     if (window.matchMedia(`(max-width: ${style.mediaSize.mobileS})`).matches) {
       iFrameWidth = 200;
       iFrameHeight = 200;
+      srcPhotoLarchant = photoLarchantMobileS;
     } else if (
       window.matchMedia(`(max-width: ${style.mediaSize.mobileM})`).matches
     ) {
       iFrameWidth = 250;
       iFrameHeight = 250;
+      srcPhotoLarchant = photoLarchantMobileM;
     } else if (
       window.matchMedia(`(max-width: ${style.mediaSize.mobileL})`).matches
     ) {
       iFrameWidth = 300;
       iFrameHeight = 300;
+      srcPhotoLarchant = photoLarchantMobileL;
     } else if (
       window.matchMedia(`(max-width: ${style.mediaSize.tablet})`).matches
     ) {
       iFrameWidth = 600;
       iFrameHeight = 400;
+      srcPhotoLarchant = photoLarchantTablet;
     } else {
       iFrameWidth = 800;
       iFrameHeight = 600;
+      srcPhotoLarchant = photoLarchantLaptop;
     }
     let state = this.props;
     return (
@@ -178,6 +189,10 @@ class Training extends Component {
                 <br />
               </StyledFlexBox>
             </StyledPracticalInfo>
+            <br />
+            <StyledFlexBox>
+              <StyledImg src={srcPhotoLarchant} alt={srcPhotoLarchant} />
+            </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

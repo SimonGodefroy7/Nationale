@@ -11,6 +11,8 @@ import StyledBorderBox from "../styledComponents/StyledBorderBox";
 import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledH3 from "../styledComponents/StyledH3";
 import flyerSmall from "../image/flyerSmall.jpg";
+import flyerSmallMobileS from "../image/flyerSmallMobileS.jpg";
+import flyerSmallMobileM from "../image/flyerSmallMobileM.jpg";
 
 class Home extends Component {
   render() {
@@ -38,9 +40,9 @@ class Home extends Component {
           </StyledBorderBox>
         </StyledSection>
         <StyledHero
-          backgroundImageMobileS={flyerSmall}
-          backgroundImageMobileM={flyerSmall}
-          backgroundImageMobileL={flyerSmall}
+          backgroundImageMobileS={flyerSmallMobileS}
+          backgroundImageMobileM={flyerSmallMobileS}
+          backgroundImageMobileL={flyerSmallMobileM}
           backgroundImageTablet={flyerSmall}
           backgroundImageLaptop={flyerSmall}
           backgroundImageLaptopL={flyerSmall}
