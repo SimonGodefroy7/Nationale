@@ -15,11 +15,15 @@ import StyledHero from "../styledComponents/StyledHero";
 import StyledTrackGrid from "../styledComponents/StyledTrackGrid";
 import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
+import StyledMapExtract from "../styledComponents/StyledMapExtract";
+import StyledImg from "../styledComponents/StyledImg";
 import Translator from "../Logic/Translator";
 import style from "../styledComponents/style";
 import sprint from "../image/Background/Sprint.jpg";
 import sprintMobileS from "../image/Background/SprintMobileS.jpg";
 import sprintMobileM from "../image/Background/SprintMobileM.jpg";
+import chateauLandon1 from "../image/MapExtract/ChateauLandon1Small.jpg";
+import chateauLandon2 from "../image/MapExtract/ChateauLandon2Small.jpg";
 
 class Sprint extends Component {
   render() {
@@ -377,9 +381,14 @@ class Sprint extends Component {
             <StyledH3>
               <Translator id="SprintEvent.box4Title" />
             </StyledH3>
-            <StyledParagraph>
-              <Translator id="SprintEvent.box4Paragraph1" />
-            </StyledParagraph>
+            <StyledMapExtract id="mapExtracts">
+              <StyledFlexBox>
+                <StyledImg src={chateauLandon1} alt={chateauLandon1} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={chateauLandon2} alt={chateauLandon2} />
+              </StyledFlexBox>
+            </StyledMapExtract>
           </StyledBorderBox>
         </StyledSection>
       </Page>

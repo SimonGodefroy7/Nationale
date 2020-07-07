@@ -4,7 +4,7 @@ import style from "./style";
 
 const StyledmapExtract = styled(StyledFlexBox)`
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   ${StyledFlexBox} {
     max-width: fit-content;

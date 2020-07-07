@@ -18,6 +18,7 @@ class MenuMobile extends Component {
     this.openMenu = this.openMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
   }
+
   openMenu() {
     this.setState({ listOpen: true }, () => {
       document.addEventListener("click", this.closeMenu);

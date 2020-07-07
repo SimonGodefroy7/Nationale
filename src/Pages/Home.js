@@ -29,6 +29,7 @@ import smallImage1 from "../image/Gallery/small/Image1.jpg";
 import smallImage2 from "../image/Gallery/small/Image2.jpg";
 import franchard10 from "../image/MapExtract/Franchard10Small.jpg";
 import salamandre3 from "../image/MapExtract/Salamandre3Small.png";
+import chateauLandon1 from "../image/MapExtract/ChateauLandon1Small.jpg";
 import B771 from "../image/MapExtract/B77-1Small.jpg";
 import OPA3 from "../image/MapExtract/OPA3Small.jpg";
 
@@ -214,6 +215,14 @@ class Home extends Component {
                 <StyledAnchor as={Link} to="/long-distance#mapExtracts">
                   <StyledParagraph textAlign="center">
                     Extraits LD
+                  </StyledParagraph>
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={chateauLandon1} alt={chateauLandon1} />
+                <StyledAnchor as={Link} to="/sprint#mapExtracts">
+                  <StyledParagraph textAlign="center">
+                    Extraits Sprint
                   </StyledParagraph>
                 </StyledAnchor>
               </StyledFlexBox>
