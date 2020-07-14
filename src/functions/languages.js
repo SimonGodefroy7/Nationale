@@ -50,7 +50,7 @@ const language = {
     "Training.box0Title2": "Training fees",
     "Training.box02Paragraph11":
       "Training fee is 4 euros per map. You can pay by transfer:",
-    "Training.box02Paragraph12": "IBAN : FR76 1010 7003 2700 1190 4923 683",
+    "Training.box02Paragraph12": "IBAN : FR76 1010 7003 2700 1190 4923 684",
     "Training.box02Paragraph13": "BIC : BREDFRPPXXX",
     "Training.box01Paragraph3":
       "You can reserve you maps before the 7th august, here is the",
@@ -406,7 +406,7 @@ const language = {
     "Training.box0Title2": "Tarifs",
     "Training.box02Paragraph11":
       "Le prix est de 4 euros par carte. Pour payer, vous pouvez faire un virement: ",
-    "Training.box02Paragraph12": "IBAN : FR76 1010 7003 2700 1190 4923 683",
+    "Training.box02Paragraph12": "IBAN : FR76 1010 7003 2700 1190 4923 684",
     "Training.box02Paragraph13": "BIC : BREDFRPPXXX",
     "Training.box02Paragraph14":
       "Vous pouvez aussi envoyer un chèque à CDCO77 chez Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine  en identiquant en référence 'Entrainements'.",
