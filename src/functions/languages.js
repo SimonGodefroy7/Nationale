@@ -13,6 +13,7 @@ const language = {
     "Gallery.lastUpate": `Last update : ${lastUpate.GALLERY}`,
     "Contact.lastUpate": `Last update : ${lastUpate.CONTACT}`,
     "Home.lastUpate": `Last update : ${lastUpate.HOME}`,
+    "Home.trailer": "Trailer",
     "LandingPage.Title": "Important information",
     "LandingPage.paragraph1":
       "The races planned from 21st to 23rd August are up to now maintained awaiting for the last new government instructions around June 20th. The teams are mobilized so that everything goes well. Registration will be open at the end of June. We hope to see many of you in August at Fontainebleau. See you soon.",
@@ -369,6 +370,7 @@ const language = {
     "Gallery.lastUpate": `Dernière mise à jour : ${lastUpate.GALLERY}`,
     "Contact.lastUpate": `Dernière mise à jour : ${lastUpate.CONTACT}`,
     "Home.lastUpate": `Dernière mise à jour : ${lastUpate.HOME}`,
+    "Home.trailer": "Bande annonce",
     "LandingPage.Title": "Information importante",
     "LandingPage.paragraph1":
       "Les compétitions prévues du 21 au 23 août sont pour l'instant maintenues en attente des nouvelles mesures gouvernementales. Les équipes sont mobilisées pour que tout se passe bien, les traceurs finalisent leurs circuits. Les inscriptions seront ouvertes à la fin du mois de juin. Nous vous attendons nombreux. A bientôt.",

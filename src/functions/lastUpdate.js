@@ -9,7 +9,7 @@ const lastUpdate = {
   ACCOMODATION: "01/07/2020",
   GALLERY: "01/07/2020",
   CONTACT: "01/07/2020",
-  HOME: "06/07/2020"
+  HOME: "15/07/2020"
 };
 
 export default lastUpdate;

@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import StyledFlexBox from './StyledFlexBox';
-import StyledH3 from './StyledH3';
-import style from './style';
+import styled from "styled-components";
+import StyledFlexBox from "./StyledFlexBox";
+import StyledH3 from "./StyledH3";
+import style from "./style";
 
 const StyledBorderBox = styled(StyledFlexBox)`
   border-style: solid;
@@ -14,6 +14,6 @@ const StyledBorderBox = styled(StyledFlexBox)`
     margin: 0;
     margin-bottom: 1rem;
   }
-`
+`;
 
 export default StyledBorderBox;
