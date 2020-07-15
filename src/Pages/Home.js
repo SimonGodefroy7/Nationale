@@ -32,7 +32,7 @@ import franchard10 from "../image/MapExtract/Franchard10Small.jpg";
 import salamandre3 from "../image/MapExtract/Salamandre3Small.png";
 import chateauLandon1 from "../image/MapExtract/ChateauLandon1Small.jpg";
 import posterVideo from "../image/Gallery/small/Image5.jpg";
-import teaser from "../image/HomeTeaser.mp4";
+// import teaser from "../image/HomeTeaser.mp4";
 import B771 from "../image/MapExtract/B77-1Small.jpg";
 import OPA3 from "../image/MapExtract/OPA3Small.jpg";
 
@@ -138,9 +138,9 @@ class Home extends Component {
             <StyledH3>
               <Translator id="Home.trailer" />
             </StyledH3>
-            <StyledVideo controls poster={posterVideo}>
+            {/*}<StyledVideo controls poster={posterVideo}>
               <source src={teaser} type="video/mp4" />
-            </StyledVideo>
+            </StyledVideo>*/}
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
