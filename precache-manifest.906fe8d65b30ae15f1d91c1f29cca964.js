@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc9a882dc731f87fa4d1842370cca2a0",
+    "revision": "1e0e816988b7872c0c722eabbd128d54",
     "url": "/index.html"
   },
   {
-    "revision": "cfd8f57dc64bcb077e10",
-    "url": "/static/js/2.cb3ec6c1.chunk.js"
+    "revision": "dd2af24dd811b149d119",
+    "url": "/static/js/2.6669ca3b.chunk.js"
   },
   {
     "revision": "cac4715d83ad380d769595b7d31877c0",
-    "url": "/static/js/2.cb3ec6c1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6669ca3b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "acb60e3a4a1856544816",
-    "url": "/static/js/main.c081abbc.chunk.js"
+    "revision": "f83e671f15704cd47599",
+    "url": "/static/js/main.798af29a.chunk.js"
   },
   {
     "revision": "f5c37417043a6580eae1",
@@ -538,6 +538,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "47c590d882463fe0b90974d5333ff4f0",
     "url": "/static/media/Tablet.47c590d8.jpg"
+  },
+  {
+    "revision": "a0ad69b3cd37f1eb018f9349ddf47ea9",
+    "url": "/static/media/Teaser.a0ad69b3.mp4"
   },
   {
     "revision": "cbc7b924b8202bad4629d1005e01870b",
