@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
+import YouTube from "react-youtube";
 import Link from "../Logic/Link";
 import Page from "../Logic/Page";
 import Translator from "../Logic/Translator";
@@ -138,9 +139,10 @@ class Home extends Component {
             <StyledH3>
               <Translator id="Home.trailer" />
             </StyledH3>
-            {/*}<StyledVideo controls poster={posterVideo}>
-              <source src={teaser} type="video/mp4" />
-            </StyledVideo>*/}
+            <YouTube
+              videoId="qlYWLr4Nk9M"
+              containerClassName="youtubeContainer"
+            />
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
