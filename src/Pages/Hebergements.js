@@ -35,11 +35,9 @@ class Hebergements extends Component {
             <StyledParagraph>
               <Translator id="Accomodation.box11Paragraph" />
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <Translator id="Accomodation.box12Paragraph" />
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <Translator id="Accomodation.box13Paragraph" />
             </StyledParagraph>

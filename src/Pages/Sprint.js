@@ -101,7 +101,6 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1DateParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1StartListTitle" />
@@ -110,7 +109,6 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1StartListParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1ResultTitle" />
@@ -119,7 +117,6 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1ResultParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1ParkHomeDistanceTitle" />
@@ -128,7 +125,6 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1ParkHomeDistanceParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1HomeStartDistanceTitle" />
@@ -147,7 +143,6 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1OfficialBookParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1RaceAnnouncementTitle" />
@@ -163,7 +158,6 @@ class Sprint extends Component {
                     </StyledSpan>
                   </StyledAnchor>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1TrackDirectorTitle" />
@@ -172,7 +166,6 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1TrackDirectorParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight={"bold"}>
                     <Translator id="SprintEvent.box1PlacesTitle" />
@@ -181,7 +174,6 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1PlacesParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1MapTitle" />
@@ -324,7 +316,6 @@ class Sprint extends Component {
                 <Translator id="SprintEvent.box3Paragraph12" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <StyledSpan fontWeight="bold">
                 <Translator id="SprintEvent.box3Paragraph21" />
@@ -333,7 +324,6 @@ class Sprint extends Component {
                 <Translator id="SprintEvent.box3Paragraph22" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <StyledSpan fontWeight="bold">
                 <Translator id="SprintEvent.box3Paragraph31" />

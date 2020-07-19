@@ -26,7 +26,6 @@ class Contact extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="Contact.lastUpate" />
           </StyledSpan>
-          <br />
           <StyledParagraph>
             <Translator id="Contact.paragraph" />
             <StyledSpan>

@@ -105,7 +105,6 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1DateParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1StartListTitle" />
@@ -114,7 +113,6 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1StartListParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1ResultTitle" />
@@ -123,7 +121,6 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1ResultParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1ParkHomeDistanceTitle" />
@@ -132,7 +129,6 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1ParkHomeDistanceParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1HomeStartDistanceTitle" />
@@ -151,7 +147,6 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1OfficialBookParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1RaceAnnouncementTitle" />
@@ -167,7 +162,6 @@ class MiddleDistance extends Component {
                     </StyledSpan>
                   </StyledAnchor>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1TrackDirectorTitle" />
@@ -176,7 +170,6 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1TrackDirectorParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight={"bold"}>
                     <Translator id="MDEvent.box1PlacesTitle" />
@@ -185,7 +178,6 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1PlacesParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1MapTitle" />
@@ -328,7 +320,6 @@ class MiddleDistance extends Component {
                 <Translator id="MDEvent.box3Paragraph12" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <StyledSpan fontWeight="bold">
                 <Translator id="MDEvent.box3Paragraph21" />
@@ -337,7 +328,6 @@ class MiddleDistance extends Component {
                 <Translator id="MDEvent.box3Paragraph22" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <StyledSpan fontWeight="bold">
                 <Translator id="MDEvent.box3Paragraph31" />

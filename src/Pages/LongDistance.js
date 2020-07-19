@@ -106,7 +106,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1DateParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1StartListTitle" />
@@ -115,7 +114,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1StartListParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1ResultTitle" />
@@ -124,7 +122,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1ResultParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1ParkHomeDistanceTitle" />
@@ -133,7 +130,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1ParkHomeDistanceParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1HomeStartDistanceTitle" />
@@ -152,7 +148,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1OfficialBookParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1RaceAnnouncementTitle" />
@@ -168,7 +163,6 @@ class LongDistance extends Component {
                     </StyledSpan>
                   </StyledAnchor>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1TrackDirectorTitle" />
@@ -177,7 +171,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1TrackDirectorParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight={"bold"}>
                     <Translator id="LDEvent.box1PlacesTitle" />
@@ -186,7 +179,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1PlacesParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1MapTitle" />
@@ -195,7 +187,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1MapParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
               </StyledFlexBox>
             </StyledPracticalInfo>
           </StyledBorderBox>
@@ -794,7 +785,6 @@ class LongDistance extends Component {
                 <Translator id="LDEvent.box3Paragraph12" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <StyledSpan fontWeight="bold">
                 <Translator id="LDEvent.box3Paragraph21" />
@@ -803,7 +793,6 @@ class LongDistance extends Component {
                 <Translator id="LDEvent.box3Paragraph22" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <StyledSpan fontWeight="bold">
                 <Translator id="LDEvent.box3Paragraph31" />

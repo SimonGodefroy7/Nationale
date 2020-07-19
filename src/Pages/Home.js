@@ -70,10 +70,10 @@ class Home extends Component {
                   <Translator id="Home.baliseSpTitle" />
                 </StyledH1>
                 <StyledBaliseBox>
-                  <StyledParagraph>
+                  <StyledParagraph margin="0rem">
                     <Translator id="Home.baliseSpParagraph1" />
                   </StyledParagraph>
-                  <StyledParagraph>
+                  <StyledParagraph margin="0rem">
                     <Translator id="Home.baliseSpParagraph2" />
                   </StyledParagraph>
                 </StyledBaliseBox>
@@ -85,10 +85,10 @@ class Home extends Component {
                   <Translator id="Home.baliseLdTitle" />
                 </StyledH1>
                 <StyledBaliseBox>
-                  <StyledParagraph>
+                  <StyledParagraph margin="0rem">
                     <Translator id="Home.baliseLdParagraph1" />
                   </StyledParagraph>
-                  <StyledParagraph>
+                  <StyledParagraph margin="0rem">
                     <Translator id="Home.baliseLdParagraph2" />
                   </StyledParagraph>
                 </StyledBaliseBox>
@@ -102,10 +102,10 @@ class Home extends Component {
                   <Translator id="Home.baliseMdTitle" />
                 </StyledH1>
                 <StyledBaliseBox>
-                  <StyledParagraph>
+                  <StyledParagraph margin="0rem">
                     <Translator id="Home.baliseMdParagraph1" />
                   </StyledParagraph>
-                  <StyledParagraph>
+                  <StyledParagraph margin="0rem">
                     <Translator id="Home.baliseMdParagraph2" />
                   </StyledParagraph>
                 </StyledBaliseBox>
@@ -127,7 +127,6 @@ class Home extends Component {
             <StyledParagraph>
               <Translator id="LandingPage.paragraph1" />
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <Translator id="LandingPage.paragraph2" />
             </StyledParagraph>
@@ -168,11 +167,9 @@ class Home extends Component {
             <StyledParagraph>
               <Translator id="Home.box13Paragraph" />
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <Translator id="Home.box14Paragraph" />
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <StyledSpan fontWeight="bold">
                 <Translator id="Home.box15ParagraphTitle" />
@@ -181,7 +178,6 @@ class Home extends Component {
                 <Translator id="Home.box15Paragraph" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <StyledSpan fontWeight="bold">
                 <Translator id="Home.box16ParagraphTitle" />
@@ -190,7 +186,6 @@ class Home extends Component {
                 <Translator id="Home.box16Paragraph" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledFlexBox flexDirection="row" alignItems="center">
               <StyledParagraph>
                 <StyledSpan fontWeight="bold">

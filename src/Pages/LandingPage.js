@@ -33,7 +33,6 @@ class Home extends Component {
             <StyledParagraph>
               <Translator id="LandingPage.paragraph1" />
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <Translator id="LandingPage.paragraph2" />
             </StyledParagraph>

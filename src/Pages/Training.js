@@ -109,11 +109,9 @@ class Training extends Component {
             <StyledParagraph>
               <Translator id="Training.box01Paragraph1" />
             </StyledParagraph>
-            <br />
             <StyledParagraph>
               <Translator id="Training.box01Paragraph2" />
             </StyledParagraph>
-            <br />
             <StyledFlexBox flexDirection="row" alignItems="center">
               <StyledParagraph>
                 {state.langue === "fr" && (
@@ -150,16 +148,14 @@ class Training extends Component {
             <StyledParagraph>
               <Translator id="Training.box02Paragraph11" />
             </StyledParagraph>
-            <br />
-            <StyledParagraph>
+            <StyledParagraph margin="0.5rem 0 0 0">
               <Translator id="Training.box02Paragraph12" />
             </StyledParagraph>
-            <StyledParagraph>
+            <StyledParagraph margin="0 0 0.5rem 0">
               <Translator id="Training.box02Paragraph13" />
             </StyledParagraph>
             {state.langue === "fr" && (
               <React.Fragment>
-                <br />
                 <StyledParagraph>
                   <Translator id="Training.box02Paragraph14" />
                 </StyledParagraph>
@@ -183,7 +179,6 @@ class Training extends Component {
                     <Translator id="Training.training1Box1DateParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight={"bold"}>
                     <Translator id="Training.training1Box1PlacesTitle" />
@@ -202,10 +197,8 @@ class Training extends Component {
                     <Translator id="Training.training1Box1MapParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
               </StyledFlexBox>
             </StyledPracticalInfo>
-            <br />
             <StyledFlexBox>
               <StyledImg src={srcPhotoLarchant} alt={srcPhotoLarchant} />
             </StyledFlexBox>
@@ -226,7 +219,6 @@ class Training extends Component {
                 </StyledSpan>
               </StyledParagraph>
             </StyledFlexBox>
-            <br />
             <StyledFlexBox alignItems="center">
               <iframe
                 title="plan"
@@ -272,7 +264,6 @@ class Training extends Component {
                     <Translator id="Training.training2Box1DateParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
                 <StyledParagraph>
                   <StyledSpan fontWeight={"bold"}>
                     <Translator id="Training.training2Box1PlacesTitle" />
@@ -291,7 +282,6 @@ class Training extends Component {
                     <Translator id="Training.training2Box1MapParagraph" />
                   </StyledSpan>
                 </StyledParagraph>
-                <br />
               </StyledFlexBox>
             </StyledPracticalInfo>
           </StyledBorderBox>
@@ -307,7 +297,6 @@ class Training extends Component {
                 <Translator id="Training.training1Box2PlanParagraph2" />
               </StyledSpan>
             </StyledParagraph>
-            <br />
             <StyledFlexBox alignItems="center">
               <iframe
                 title="plan"
