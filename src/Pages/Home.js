@@ -17,7 +17,6 @@ import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledAnchor from "../styledComponents/StyledAnchor";
 import StyledMapExtract from "../styledComponents/StyledMapExtract";
 import StyledSpan from "../styledComponents/StyledSpan";
-import StyledVideo from "../styledComponents/StyledVideo";
 import StyledImg from "../styledComponents/StyledImg";
 import mobileSBackground from "../image/Background/MobileS.jpg";
 import mobileMBackground from "../image/Background/MobileM.jpg";
@@ -32,8 +31,6 @@ import smallImage2 from "../image/Gallery/small/Image2.jpg";
 import franchard10 from "../image/MapExtract/Franchard10Small.jpg";
 import salamandre3 from "../image/MapExtract/Salamandre3Small.png";
 import chateauLandon1 from "../image/MapExtract/ChateauLandon1Small.jpg";
-import posterVideo from "../image/Gallery/small/Image5.jpg";
-// import teaser from "../image/HomeTeaser.mp4";
 import B771 from "../image/MapExtract/B77-1Small.jpg";
 import OPA3 from "../image/MapExtract/OPA3Small.jpg";
 
@@ -151,17 +148,23 @@ class Home extends Component {
             <StyledParagraph>
               <Translator id="Home.box11Paragraph" />
             </StyledParagraph>
-            <br />
-            <StyledParagraph>
-              <Translator id="Home.box121Paragraph" />
-            </StyledParagraph>
-            <StyledParagraph>
-              <Translator id="Home.box122Paragraph" />
-            </StyledParagraph>
-            <StyledParagraph>
-              <Translator id="Home.box123Paragraph" />
-            </StyledParagraph>
-            <br />
+            <ul>
+              <li>
+                <StyledParagraph>
+                  <Translator id="Home.box121Paragraph" />
+                </StyledParagraph>
+              </li>
+              <li>
+                <StyledParagraph>
+                  <Translator id="Home.box122Paragraph" />
+                </StyledParagraph>
+              </li>
+              <li>
+                <StyledParagraph>
+                  <Translator id="Home.box123Paragraph" />
+                </StyledParagraph>
+              </li>
+            </ul>
             <StyledParagraph>
               <Translator id="Home.box13Paragraph" />
             </StyledParagraph>
@@ -219,7 +222,7 @@ class Home extends Component {
                 <StyledImg src={salamandre3} alt={salamandre3} />
                 <StyledAnchor as={Link} to="/middle-distance#mapExtracts">
                   <StyledParagraph textAlign="center">
-                    Extraits MD
+                    <Translator id="Home.box5Paragraph1" />
                   </StyledParagraph>
                 </StyledAnchor>
               </StyledFlexBox>
@@ -227,7 +230,7 @@ class Home extends Component {
                 <StyledImg src={franchard10} alt={franchard10} />
                 <StyledAnchor as={Link} to="/long-distance#mapExtracts">
                   <StyledParagraph textAlign="center">
-                    Extraits LD
+                    <Translator id="Home.box5Paragraph2" />
                   </StyledParagraph>
                 </StyledAnchor>
               </StyledFlexBox>
@@ -235,7 +238,7 @@ class Home extends Component {
                 <StyledImg src={chateauLandon1} alt={chateauLandon1} />
                 <StyledAnchor as={Link} to="/sprint#mapExtracts">
                   <StyledParagraph textAlign="center">
-                    Extraits Sprint
+                    <Translator id="Home.box5Paragraph3" />
                   </StyledParagraph>
                 </StyledAnchor>
               </StyledFlexBox>
@@ -243,7 +246,7 @@ class Home extends Component {
                 <StyledImg src={B771} alt={B771} />
                 <StyledAnchor as={Link} to="/training#mapExtracts1">
                   <StyledParagraph textAlign="center">
-                    Extraits entrainements B77
+                    <Translator id="Home.box5Paragraph4" />
                   </StyledParagraph>
                 </StyledAnchor>
               </StyledFlexBox>
@@ -251,7 +254,7 @@ class Home extends Component {
                 <StyledImg src={OPA3} alt={OPA3} />
                 <StyledAnchor as={Link} to="/training#mapExtracts2">
                   <StyledParagraph textAlign="center">
-                    Extraits entrainements OPA
+                    <Translator id="Home.box5Paragraph5" />
                   </StyledParagraph>
                 </StyledAnchor>
               </StyledFlexBox>

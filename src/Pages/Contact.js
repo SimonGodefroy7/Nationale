@@ -2,11 +2,8 @@ import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Page from "../Logic/Page";
 import StyledH1 from "../styledComponents/StyledH1";
-import StyledH3 from "../styledComponents/StyledH3";
 import StyledParagraph from "../styledComponents/StyledParagraph";
 import StyledAnchor from "../styledComponents/StyledAnchor";
-import StyledBorderBox from "../styledComponents/StyledBorderBox";
-import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledSection from "../styledComponents/StyledSection";
 import StyledSpan from "../styledComponents/StyledSpan";
 import Translator from "../Logic/Translator";
@@ -32,18 +29,12 @@ class Contact extends Component {
           <br />
           <StyledParagraph>
             <Translator id="Contact.paragraph" />
+            <StyledSpan>
+              <StyledAnchor href="mailto:nationaleno20@gmail.com">
+                nationaleno20@gmail.com
+              </StyledAnchor>
+            </StyledSpan>
           </StyledParagraph>
-          <StyledFlexBox width="19rem">
-            <StyledBorderBox>
-              <StyledH3>Contact</StyledH3>
-              <StyledParagraph>
-                Mail:
-                <StyledAnchor href="mailto:nationaleno20@gmail.com">
-                  nationaleno20@gmail.com
-                </StyledAnchor>
-              </StyledParagraph>
-            </StyledBorderBox>
-          </StyledFlexBox>
         </StyledSection>
       </Page>
     );

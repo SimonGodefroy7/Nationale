@@ -81,6 +81,7 @@ class Gallery extends Component {
               isSelected={urbanGallery}
               margin="1rem"
               padding="0.5rem"
+              noHover
               onClick={() => this.updateInUrbanGallery(true)}
             >
               <Translator id="Gallery.urban" />
@@ -89,6 +90,7 @@ class Gallery extends Component {
               isSelected={forestGallery}
               margin="1rem"
               padding="0.5rem"
+              noHover
               onClick={() => this.updateInUrbanGallery(false)}
             >
               <Translator id="Gallery.forest" />

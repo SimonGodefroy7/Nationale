@@ -3,7 +3,8 @@ import { Helmet } from "react-helmet";
 import Page from "../Logic/Page";
 import StyledH1 from "../styledComponents/StyledH1";
 import StyledAnchor from "../styledComponents/StyledAnchor";
-import StyledBorderBox from "../styledComponents/StyledBorderBox";
+import StyledPartners from "../styledComponents/StyledPartners";
+import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledImg from "../styledComponents/StyledImg";
 import StyledSection from "../styledComponents/StyledSection";
 import StyledSpan from "../styledComponents/StyledSpan";
@@ -38,116 +39,118 @@ class Partenaires extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="Partners.lastUpate" />
           </StyledSpan>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="https://www.onf.fr/"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={onfLogo} alt={onfLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="http://www.ffcorientation.fr"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={ffcoLogo} alt={ffcoLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="https://www.iledefrance.fr/"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={iDFLogo} alt={iDFLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="https://www.lifco.fr/"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={ligueIDFLogo} alt={ligueIDFLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="http://cd77if.free.fr/"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={cDCO77Logo} alt={cDCO77Logo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="https://seineetmarne.franceolympique.com/accueil.php"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={cdosLogo} alt={cdosLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="http://chateau-landon.com/"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={chateauLandonLogo} alt={chateauLandonLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="https://orientsport.fr/"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={oriensportLogo} alt={oriensportLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="https://www.agencedusport.fr/"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={cndsLogo} alt={cndsLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="https://www.seine-et-marne.fr/"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={seineEtMarneLogo} alt={seineEtMarneLogo} />
-            </StyledAnchor>
-          </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledAnchor
-              href="https://boutique.airxtrem.com/index.php"
-              centerimg
-              paddingless
-              hoverless
-            >
-              <StyledImg src={airXtrem} alt={airXtrem} />
-            </StyledAnchor>
-          </StyledBorderBox>
+          <StyledPartners flexDirection="row" alignItems="center">
+            <StyledFlexBox>
+              <StyledAnchor
+                href="https://www.onf.fr/"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={onfLogo} alt={onfLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="http://www.ffcorientation.fr"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={ffcoLogo} alt={ffcoLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="https://www.iledefrance.fr/"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={iDFLogo} alt={iDFLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="https://orientsport.fr/"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={oriensportLogo} alt={oriensportLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="https://www.agencedusport.fr/"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={cndsLogo} alt={cndsLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="https://www.seine-et-marne.fr/"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={seineEtMarneLogo} alt={seineEtMarneLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="https://boutique.airxtrem.com/index.php"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={airXtrem} alt={airXtrem} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="http://chateau-landon.com/"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={chateauLandonLogo} alt={chateauLandonLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="https://www.lifco.fr/"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={ligueIDFLogo} alt={ligueIDFLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="http://cd77if.free.fr/"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={cDCO77Logo} alt={cDCO77Logo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+            <StyledFlexBox>
+              <StyledAnchor
+                href="https://seineetmarne.franceolympique.com/accueil.php"
+                centerimg
+                paddingless
+                hoverless
+              >
+                <StyledImg src={cdosLogo} alt={cdosLogo} />
+              </StyledAnchor>
+            </StyledFlexBox>
+          </StyledPartners>
         </StyledSection>
       </Page>
     );

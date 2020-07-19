@@ -6,7 +6,7 @@ import Link from "../Logic/Link";
 import StyledSection from "../styledComponents/StyledSection";
 import StyledParagraph from "../styledComponents/StyledParagraph";
 import StyledHero from "../styledComponents/StyledHero";
-import StyledAnchor from "../styledComponents/StyledAnchor";
+import StyledButton from "../styledComponents/StyledButton";
 import StyledBorderBox from "../styledComponents/StyledBorderBox";
 import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledH3 from "../styledComponents/StyledH3";
@@ -51,9 +51,9 @@ class Home extends Component {
         />
         <StyledSection>
           <StyledFlexBox alignItems="center">
-            <StyledAnchor as={Link} to="/home">
+            <StyledButton as={Link} padding="0.5rem" to="/home">
               <Translator id="LandingPage.button" />
-            </StyledAnchor>
+            </StyledButton>
           </StyledFlexBox>
         </StyledSection>
       </Page>

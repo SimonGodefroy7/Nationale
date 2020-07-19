@@ -12,57 +12,57 @@ class Menu extends Component {
       <StyledMenu>
         <StyledUl>
           <StyledLi>
-            <StyledAnchor as={Link} to="/home">
+            <StyledAnchor as={Link} padding="0.5rem" to="/home">
               <Translator id="Menu.home" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/training">
+            <StyledAnchor as={Link} padding="0.5rem" to="/training">
               <Translator id="Menu.eventTraining" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/sprint">
+            <StyledAnchor as={Link} padding="0.5rem" to="/sprint">
               <Translator id="Menu.eventSprint" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/middle-distance">
+            <StyledAnchor as={Link} padding="0.5rem" to="/middle-distance">
               <Translator id="Menu.eventMD" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/long-distance">
+            <StyledAnchor as={Link} padding="0.5rem" to="/long-distance">
               <Translator id="Menu.eventLD" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/liste-de-depart">
+            <StyledAnchor as={Link} padding="0.5rem" to="/liste-de-depart">
               <Translator id="Menu.startList" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/resultats">
+            <StyledAnchor as={Link} padding="0.5rem" to="/resultats">
               <Translator id="Menu.results" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/gallery">
+            <StyledAnchor as={Link} padding="0.5rem" to="/gallery">
               <Translator id="Menu.gallery" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/hebergements">
+            <StyledAnchor as={Link} padding="0.5rem" to="/hebergements">
               <Translator id="Menu.accommodation" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/partenaires">
+            <StyledAnchor as={Link} padding="0.5rem" to="/partenaires">
               <Translator id="Menu.partners" />
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
-            <StyledAnchor as={Link} to="/contact">
+            <StyledAnchor as={Link} padding="0.5rem" to="/contact">
               <Translator id="Menu.contact" />
             </StyledAnchor>
           </StyledLi>

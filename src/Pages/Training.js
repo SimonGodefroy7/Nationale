@@ -215,14 +215,16 @@ class Training extends Component {
               <Translator id="Training.training1Box1PlanTitle" />
             </StyledH3>
             <StyledFlexBox flexDirection="row" alignItems="center">
-              <StyledSpan fontWeight={"bold"}>
-                <Translator id="Training.training1Box1PlanParagraph1" />
-              </StyledSpan>
-              <StyledAnchor href="https://www.google.com/maps/d/u/0/viewer?hl=fr&ll=48.296828591449355%2C2.603297750069946&z=16&mid=1gdziv_U_RgTboCbBSV4c9nJbpcPJXgvQ">
-                <StyledParagraph>
-                  <Translator id="Training.training1Box1PlanParagraph2" />
-                </StyledParagraph>
-              </StyledAnchor>
+              <StyledParagraph>
+                <StyledSpan fontWeight={"bold"}>
+                  <Translator id="Training.training1Box1PlanParagraph1" />
+                </StyledSpan>
+                <StyledSpan>
+                  <StyledAnchor href="https://www.google.com/maps/d/u/0/viewer?hl=fr&ll=48.296828591449355%2C2.603297750069946&z=16&mid=1gdziv_U_RgTboCbBSV4c9nJbpcPJXgvQ">
+                    <Translator id="Training.training1Box1PlanParagraph2" />
+                  </StyledAnchor>
+                </StyledSpan>
+              </StyledParagraph>
             </StyledFlexBox>
             <br />
             <StyledFlexBox alignItems="center">
@@ -230,10 +232,10 @@ class Training extends Component {
                 title="plan"
                 width={iFrameWidth}
                 height={iFrameHeight}
-                frameborder="0"
+                frameBorder="0"
                 style={{ border: 0 }}
                 src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Parking du Bois d'Hyver, Larchant&language=${state.langue}`}
-                allowfullscreen
+                allowFullScreen
               />
             </StyledFlexBox>
           </StyledBorderBox>
@@ -311,10 +313,10 @@ class Training extends Component {
                 title="plan"
                 width={iFrameWidth}
                 height={iFrameHeight}
-                frameborder="0"
+                frameBorder="0"
                 style={{ border: 0 }}
                 src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.353071, 2.719517&language=${state.langue}`}
-                allowfullscreen
+                allowFullScreen
               />
             </StyledFlexBox>
           </StyledBorderBox>

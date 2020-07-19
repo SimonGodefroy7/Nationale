@@ -4,8 +4,6 @@ import Page from "../Logic/Page";
 import StyledH1 from "../styledComponents/StyledH1";
 import StyledSection from "../styledComponents/StyledSection";
 import StyledParagraph from "../styledComponents/StyledParagraph";
-import StyledUl from "../styledComponents/StyledUl";
-import StyledLi from "../styledComponents/StyledLi";
 import StyledAnchor from "../styledComponents/StyledAnchor";
 import StyledBorderBox from "../styledComponents/StyledBorderBox";
 import StyledH3 from "../styledComponents/StyledH3";
@@ -45,52 +43,65 @@ class Hebergements extends Component {
             <StyledParagraph>
               <Translator id="Accomodation.box13Paragraph" />
             </StyledParagraph>
-            <StyledUl>
-              <StyledLi>
-                <StyledAnchor href="http://www.boisdulys.com/">
-                  Bois du Lys
-                </StyledAnchor>
-                (Dammarie-les-lys)
-              </StyledLi>
-              <StyledLi>
-                <StyledAnchor href="http://www.base-de-buthiers.fr/">
-                  Base de plein air et de loisir
-                </StyledAnchor>
-                (Buthiers)
-              </StyledLi>
-              <StyledLi>
-                <StyledAnchor href="http://www.lafermedelavenir.com/">
-                  La ferme de l'avenir
-                </StyledAnchor>
-                <Translator id="Accomodation.box131Paragraph" />
-              </StyledLi>
-            </StyledUl>
-            <br />
+            <ul>
+              <li>
+                <StyledParagraph>
+                  <StyledSpan>
+                    <StyledAnchor href="http://www.boisdulys.com/">
+                      Bois du Lys
+                    </StyledAnchor>
+                  </StyledSpan>
+                  <StyledSpan> (Dammarie-les-lys)</StyledSpan>
+                </StyledParagraph>
+              </li>
+              <li>
+                <StyledParagraph>
+                  <StyledSpan>
+                    <StyledAnchor href="http://www.base-de-buthiers.fr/">
+                      Base de plein air et de loisir
+                    </StyledAnchor>
+                  </StyledSpan>
+                  <StyledSpan> (Buthiers)</StyledSpan>
+                </StyledParagraph>
+              </li>
+              <li>
+                <StyledParagraph>
+                  <StyledSpan>
+                    <StyledAnchor href="http://www.lafermedelavenir.com/">
+                      La ferme de l'avenir
+                    </StyledAnchor>
+                  </StyledSpan>
+                  <StyledSpan>
+                    <Translator id="Accomodation.box131Paragraph" />
+                  </StyledSpan>
+                </StyledParagraph>
+              </li>
+            </ul>
             <StyledParagraph>
               <Translator id="Accomodation.box14Paragraph" />
             </StyledParagraph>
-            <StyledUl>
-              <StyledLi>
+            <ul>
+              <li>
                 <StyledAnchor href="https://www.gites-de-france.com/fr">
                   Gîtes de France
                 </StyledAnchor>
-              </StyledLi>
-              <StyledLi>
+              </li>
+              <li>
                 <StyledAnchor href="https://www.airbnb.fr/">
                   Airbnb
                 </StyledAnchor>
-              </StyledLi>
-              <StyledLi>
+              </li>
+              <li>
                 <StyledAnchor href="https://www.booking.com">
                   Booking.com
                 </StyledAnchor>
-              </StyledLi>
-              <StyledLi>
+              </li>
+              <li>
                 <StyledAnchor href="https://www.tripadvisor.fr/">
                   TripAdvisor
                 </StyledAnchor>
-              </StyledLi>
-            </StyledUl>
+              </li>
+            </ul>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
@@ -99,33 +110,56 @@ class Hebergements extends Component {
             <StyledParagraph>
               <Translator id="Accomodation.box2Paragraph" />
             </StyledParagraph>
-            <br />
-            <StyledUl>
-              <StyledLi>
-                <StyledAnchor href="https://www.aquadis-loisirs.com/camping-les-pres-fontainebleau/">
-                  Les Prés
-                </StyledAnchor>
-                <Translator id="Accomodation.box21Paragraph" />
-              </StyledLi>
-              <StyledLi>
-                <StyledAnchor href="https://www.millylaforet-tourisme.com/fr/fiche/735909/camping-caravaning-la-musardiere/">
-                  La musardière
-                </StyledAnchor>
-                <Translator id="Accomodation.box22Paragraph" />
-              </StyledLi>
-              <StyledLi>
-                <StyledAnchor href="https://www.camping-iledeboulancourt.com/">
-                  Ile de Boulancourt
-                </StyledAnchor>
-                <Translator id="Accomodation.box23Paragraph" />
-              </StyledLi>
-              <StyledLi>
-                <StyledAnchor href="http://www.les-courtilles-du-lido.fr/">
-                  Les courtilles du Lido
-                </StyledAnchor>
-                <Translator id="Accomodation.box24Paragraph" />
-              </StyledLi>
-            </StyledUl>
+            <ul>
+              <li>
+                <StyledParagraph>
+                  <StyledSpan>
+                    <StyledAnchor href="https://www.aquadis-loisirs.com/camping-les-pres-fontainebleau/">
+                      Les Prés
+                    </StyledAnchor>
+                  </StyledSpan>
+                  <StyledSpan>
+                    <Translator id="Accomodation.box21Paragraph" />
+                  </StyledSpan>
+                </StyledParagraph>
+              </li>
+              <li>
+                <StyledParagraph>
+                  <StyledSpan>
+                    <StyledAnchor href="https://www.millylaforet-tourisme.com/fr/fiche/735909/camping-caravaning-la-musardiere/">
+                      La musardière
+                    </StyledAnchor>
+                  </StyledSpan>
+                  <StyledSpan>
+                    <Translator id="Accomodation.box22Paragraph" />
+                  </StyledSpan>
+                </StyledParagraph>
+              </li>
+              <li>
+                <StyledParagraph>
+                  <StyledSpan>
+                    <StyledAnchor href="https://www.camping-iledeboulancourt.com/">
+                      Ile de Boulancourt
+                    </StyledAnchor>
+                  </StyledSpan>
+                  <StyledSpan>
+                    <Translator id="Accomodation.box23Paragraph" />
+                  </StyledSpan>
+                </StyledParagraph>
+              </li>
+              <li>
+                <StyledParagraph>
+                  <StyledSpan>
+                    <StyledAnchor href="http://www.les-courtilles-du-lido.fr/">
+                      Les courtilles du Lido
+                    </StyledAnchor>
+                  </StyledSpan>
+                  <StyledSpan>
+                    <Translator id="Accomodation.box24Paragraph" />
+                  </StyledSpan>
+                </StyledParagraph>
+              </li>
+            </ul>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
@@ -134,33 +168,32 @@ class Hebergements extends Component {
             <StyledParagraph>
               <Translator id="Accomodation.paragraph" />
             </StyledParagraph>
-            <br />
-            <StyledUl>
-              <StyledLi>
+            <ul>
+              <li>
                 <StyledAnchor
                   href="https://www.fontainebleau-tourisme.com/fr/accueil/"
                   textAlign="center"
                 >
                   <Translator id="Accomodation.officeFontaineblau" />
                 </StyledAnchor>
-              </StyledLi>
-              <StyledLi>
+              </li>
+              <li>
                 <StyledAnchor
                   href="https://www.melunvaldeseine-tourisme.com/"
                   textAlign="center"
                 >
                   <Translator id="Accomodation.officeMelun" />
                 </StyledAnchor>
-              </StyledLi>
-              <StyledLi>
+              </li>
+              <li>
                 <StyledAnchor
                   href="https://www.tourisme-paysdenemours.fr/"
                   textAlign="center"
                 >
                   <Translator id="Accomodation.officeNemours" />
                 </StyledAnchor>
-              </StyledLi>
-            </StyledUl>
+              </li>
+            </ul>
           </StyledBorderBox>
         </StyledSection>
       </Page>

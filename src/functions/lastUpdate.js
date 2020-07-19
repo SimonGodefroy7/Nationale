@@ -1,5 +1,5 @@
 const lastUpdate = {
-  PARTNERS: "01/07/2020",
+  PARTNERS: "19/07/2020",
   RESULTS: "01/07/2020",
   STARTLIST: "01/07/2020",
   TRAINING: "19/07/2020",
@@ -7,8 +7,8 @@ const lastUpdate = {
   MDEVENT: "19/07/2020",
   LDEVENT: "19/07/2020",
   ACCOMODATION: "19/07/2020",
-  GALLERY: "01/07/2020",
-  CONTACT: "01/07/2020",
+  GALLERY: "19/07/2020",
+  CONTACT: "19/07/2020",
   HOME: "19/07/2020"
 };
 
