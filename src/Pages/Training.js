@@ -116,14 +116,30 @@ class Training extends Component {
             <br />
             <StyledFlexBox flexDirection="row" alignItems="center">
               <StyledParagraph>
-                <StyledSpan>
-                  <Translator id="Training.box01Paragraph3" />
-                </StyledSpan>
-                <StyledSpan>
-                  <StyledAnchor href="https://docs.google.com/forms/d/e/1FAIpQLSfsN-_WwwRjMh2fyFeRpenSZBcT3xCCBu8h6eVy54CnOJxr7Q/viewform?usp=pp_url">
-                    <Translator id="Training.box01Paragraph4" />
-                  </StyledAnchor>
-                </StyledSpan>
+                {state.langue === "fr" && (
+                  <React.Fragment>
+                    <StyledSpan>
+                      <Translator id="Training.box01Paragraph3" />
+                    </StyledSpan>
+                    <StyledSpan>
+                      <StyledAnchor href="https://docs.google.com/forms/d/e/1FAIpQLSfsN-_WwwRjMh2fyFeRpenSZBcT3xCCBu8h6eVy54CnOJxr7Q/viewform?usp=pp_url">
+                        <Translator id="Training.box01Paragraph4" />
+                      </StyledAnchor>
+                    </StyledSpan>
+                  </React.Fragment>
+                )}
+                {state.langue === "en" && (
+                  <React.Fragment>
+                    <StyledSpan>
+                      <StyledAnchor href="https://docs.google.com/forms/d/e/1FAIpQLSfsN-_WwwRjMh2fyFeRpenSZBcT3xCCBu8h6eVy54CnOJxr7Q/viewform?usp=pp_url">
+                        <Translator id="Training.box01Paragraph4" />
+                      </StyledAnchor>
+                    </StyledSpan>
+                    <StyledSpan>
+                      <Translator id="Training.box01Paragraph3" />
+                    </StyledSpan>
+                  </React.Fragment>
+                )}
               </StyledParagraph>
             </StyledFlexBox>
           </StyledBorderBox>
