@@ -674,11 +674,10 @@ const language = {
     "SprintEvent.box2Paragraph": "Bientôt disponible",
     "SprintEvent.box3Title": "Tarifs",
     "SprintEvent.box3Paragraph11": "Licenciés FFCO : ",
-    "SprintEvent.box3Paragraph12":
-      "moins de 18 ans : 5,00€, 18 ans et plus : 6,00€",
+    "SprintEvent.box3Paragraph12": "moins de 18 ans : 5€, 18 ans et plus : 6€",
     "SprintEvent.box3Paragraph21": "Non-licenciés FFCO : ",
     "SprintEvent.box3Paragraph22":
-      "Pass-compétition : 12,00€ ,Pass-découverte : 8,00€, Pass-famille : 12,00€",
+      "Pass-compétition : 12€ ,Pass-découverte : 8€, Pass-famille : 12€",
     "SprintEvent.box3Paragraph31": "Location de puce : ",
     "SprintEvent.box3Paragraph32": "3€",
     "SprintEvent.box4Title": "Extraits de cartes",
@@ -745,7 +744,7 @@ const language = {
       "14ans et moins : 6,97€, 15-18 ans : 10,21€, 19ans et plus : 13,41€",
     "MDEvent.box3Paragraph21": "Non-licenciés FFCO : ",
     "MDEvent.box3Paragraph22":
-      "Pass-compétition : 15,00€ ,Pass-découverte : 12,00€, Pass-famille : 15,00€",
+      "Pass-compétition : 15€ ,Pass-découverte : 12€, Pass-famille : 15€",
     "MDEvent.box3Paragraph31": "Location de puce : ",
     "MDEvent.box3Paragraph32": "3€",
     "MDEvent.box4Title": "Extraits de cartes",
@@ -972,7 +971,7 @@ const language = {
       "14ans et moins : 6,97€, 15-18 ans : 10,21€, 19ans et plus : 13,41€",
     "LDEvent.box3Paragraph21": "Non-licenciés FFCO : ",
     "LDEvent.box3Paragraph22":
-      "Pass-compétition : 15,00€ ,Pass-découverte : 12,00€, Pass-famille : 15,00€",
+      "Pass-compétition : 15€ ,Pass-découverte : 12€, Pass-famille : 15€",
     "LDEvent.box3Paragraph31": "Location de puce : ",
     "LDEvent.box3Paragraph32": "3€",
     "LDEvent.box4Title": "Extraits de cartes",

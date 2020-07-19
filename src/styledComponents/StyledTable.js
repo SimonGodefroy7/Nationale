@@ -8,6 +8,8 @@ const StyledTable = styled.table`
   border-collapse: collapse;
 
   @media (min-width: ${style.mediaSize.tablet}) {
+    margin-left: auto;
+    margin-right: auto;
     display: unset;
     overflow-x: unset;
     white-space: unset;
