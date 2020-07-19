@@ -12,7 +12,9 @@ import StyledParagraph from "../styledComponents/StyledParagraph";
 import StyledHero from "../styledComponents/StyledHero";
 import StyledSpan from "../styledComponents/StyledSpan";
 import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
-import StyledTrackGrid from "../styledComponents/StyledTrackGrid";
+import StyledTable from "../styledComponents/StyledTable";
+import StyledTr from "../styledComponents/StyledTr";
+import StyledTd from "../styledComponents/StyledTd";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import StyledAnchor from "../styledComponents/StyledAnchor";
 import StyledMapExtract from "../styledComponents/StyledMapExtract";
@@ -206,10 +208,10 @@ class LongDistance extends Component {
                 title="plan"
                 width={iFrameWidth}
                 height={iFrameHeight}
-                frameborder="0"
+                frameBorder="0"
                 style={{ border: 0 }}
                 src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Franchard, Fontaineb1 Route de l'Ermitage, 77300 Fontainebleauleau&language=${state.langue}`}
-                allowfullscreen
+                allowFullScreen
               />
             </StyledFlexBox>
           </StyledBorderBox>
@@ -217,140 +219,568 @@ class LongDistance extends Component {
             <StyledH3>
               <Translator id="LDEvent.box2Title" />
             </StyledH3>
-            <StyledTrackGrid flexDirection="row" justifyContent="space-around">
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+            <StyledTable>
+              <thead>
+                <StyledTr>
+                  <StyledTd>
                     <Translator id="LDEvent.box2TrackTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Track1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Track2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Track3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="LDEvent.box2CategoriesTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Categories1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Categories2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Categories3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2SizeTitle" />
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="LDEvent.box2DistanceTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Distance1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Distance2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Distance3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="LDEvent.box2HeightDifferenceTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2HeightDifference1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2HeightDifference2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2HeightDifference3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="LDEvent.box2ControlTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Control1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Control2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2Control3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="LDEvent.box2WinningTimeTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
+                  </StyledTd>
+                </StyledTr>
+              </thead>
+              <tbody>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control1" />
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="LDEvent.box2WinningTime1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control2" />
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="LDEvent.box2WinningTime2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="LDEvent.box2WinningTime3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-            </StyledTrackGrid>
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories31" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories32" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size31" />
+                    <br />
+                    <Translator id="LDEvent.box2Size32" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime31" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime32" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories41" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories42" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size41" />
+                    <br />
+                    <Translator id="LDEvent.box2Size42" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime41" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime42" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime5" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories61" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories62" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size61" />
+                    <br />
+                    <Translator id="LDEvent.box2Size62" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime61" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime62" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories71" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories72" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories73" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size71" />
+                    <br />
+                    <Translator id="LDEvent.box2Size72" />
+                    <br />
+                    <Translator id="LDEvent.box2Size73" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime71" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime72" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime73" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories81" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories82" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size81" />
+                    <br />
+                    <Translator id="LDEvent.box2Size82" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime81" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime82" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories91" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories92" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories93" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories94" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size91" />
+                    <br />
+                    <Translator id="LDEvent.box2Size92" />
+                    <br />
+                    <Translator id="LDEvent.box2Size93" />
+                    <br />
+                    <Translator id="LDEvent.box2Size94" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime91" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime92" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime93" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime94" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories101" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories102" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories103" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories104" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size101" />
+                    <br />
+                    <Translator id="LDEvent.box2Size102" />
+                    <br />
+                    <Translator id="LDEvent.box2Size103" />
+                    <br />
+                    <Translator id="LDEvent.box2Size104" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime101" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime102" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime103" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime104" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime11" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories121" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories122" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size121" />
+                    <br />
+                    <Translator id="LDEvent.box2Size122" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime121" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime122" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime13" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories141" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories142" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size141" />
+                    <br />
+                    <Translator id="LDEvent.box2Size142" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime141" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime142" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories151" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories152" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories153" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size151" />
+                    <br />
+                    <Translator id="LDEvent.box2Size152" />
+                    <br />
+                    <Translator id="LDEvent.box2Size153" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime151" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime152" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime153" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime16" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime17" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime18" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime19" />
+                  </StyledTd>
+                </StyledTr>
+              </tbody>
+            </StyledTable>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

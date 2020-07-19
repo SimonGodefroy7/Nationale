@@ -12,7 +12,9 @@ import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledSpan from "../styledComponents/StyledSpan";
 import StyledParagraph from "../styledComponents/StyledParagraph";
 import StyledHero from "../styledComponents/StyledHero";
-import StyledTrackGrid from "../styledComponents/StyledTrackGrid";
+import StyledTable from "../styledComponents/StyledTable";
+import StyledTr from "../styledComponents/StyledTr";
+import StyledTd from "../styledComponents/StyledTd";
 import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import StyledPracticalInfo from "../styledComponents/StyledPracticalInfo";
 import StyledMapExtract from "../styledComponents/StyledMapExtract";
@@ -200,10 +202,10 @@ class Sprint extends Component {
                 title="plan"
                 width={iFrameWidth}
                 height={iFrameHeight}
-                frameborder="0"
+                frameBorder="0"
                 style={{ border: 0 }}
                 src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Château-Landon&language=${state.langue}`}
-                allowfullscreen
+                allowFullScreen
               />
             </StyledFlexBox>
           </StyledBorderBox>
@@ -211,140 +213,104 @@ class Sprint extends Component {
             <StyledH3>
               <Translator id="SprintEvent.box2Title" />
             </StyledH3>
-            <StyledTrackGrid flexDirection="row" justifyContent="space-around">
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+            <StyledTable>
+              <thead>
+                <StyledTr>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2TrackTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Track1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Track2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Track3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2CategoriesTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Categories1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Categories2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Categories3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2SizeTitle" />
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2DistanceTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Distance1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Distance2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Distance3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2HeightDifferenceTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2HeightDifference1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2HeightDifference2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2HeightDifference3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2ControlTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Control1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Control2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
-                    <Translator id="SprintEvent.box2Control3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledSpan fontWeight={"bold"}>
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2WinningTimeTitle" />
-                  </StyledSpan>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
+                  </StyledTd>
+                </StyledTr>
+              </thead>
+              <tbody>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference1" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control1" />
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2WinningTime1" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference2" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control2" />
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2WinningTime2" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-                <StyledFlexBox margin="0.5rem">
-                  <StyledParagraph>
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference3" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control3" />
+                  </StyledTd>
+                  <StyledTd>
                     <Translator id="SprintEvent.box2WinningTime3" />
-                  </StyledParagraph>
-                </StyledFlexBox>
-              </StyledFlexBox>
-            </StyledTrackGrid>
+                  </StyledTd>
+                </StyledTr>
+              </tbody>
+            </StyledTable>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
