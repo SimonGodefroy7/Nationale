@@ -194,14 +194,12 @@ class Home extends Component {
                 <StyledSpan>
                   <Translator id="Home.box171Paragraph" />
                 </StyledSpan>
-                <StyledSpan>
-                  <StyledAnchor
-                    href="http://licences.ffcorientation.fr/inscriptions/"
-                    textAlign="center"
-                  >
-                    FFCO
-                  </StyledAnchor>
-                </StyledSpan>
+                <StyledAnchor
+                  href="http://licences.ffcorientation.fr/inscriptions/"
+                  textAlign="center"
+                >
+                  <StyledSpan>FFCO</StyledSpan>
+                </StyledAnchor>
                 <StyledSpan>
                   <Translator id="Home.box172Paragraph" />
                 </StyledSpan>

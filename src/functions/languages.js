@@ -86,7 +86,7 @@ const language = {
     "SprintEvent.title": "Sprint",
     "SprintEvent.box1Title": "Practical informations",
     "SprintEvent.box1DateTitle": "Date: ",
-    "SprintEvent.box1DateParagraph": "21st of August 2020",
+    "SprintEvent.box1DateParagraph": "Friday 21st of August 2020",
     "SprintEvent.box1StartListTitle": "Start list: ",
     "SprintEvent.box1StartListParagraph": "available soon",
     "SprintEvent.box1ResultTitle": "Result: ",
@@ -102,9 +102,9 @@ const language = {
     "SprintEvent.box1TrackDirectorTitle": "Event director: ",
     "SprintEvent.box1TrackDirectorParagraph": "Alain Guillon",
     "SprintEvent.box1PlacesTitle": "Place: ",
-    "SprintEvent.box1PlacesParagraph": "Chateau Landon",
+    "SprintEvent.box1PlacesParagraph": "Château-Landon",
     "SprintEvent.box1MapTitle": "Map: ",
-    "SprintEvent.box1MapParagraph": "Chateau Landon",
+    "SprintEvent.box1MapParagraph": "Château-Landon (2019/2020)",
     "SprintEvent.box1PlanTitle": "Location: ",
     "SprintEvent.box1PlanParagraph": "available soon",
     "SprintEvent.box1Paragraph": "available soon",
@@ -483,13 +483,13 @@ const language = {
     "Home.box11Paragraph":
       "The national orienteering North West 2020 will take place between 21st - 23rd of August 2020 in the forest of Fontainebleau. This weekend consists of three races:",
     "Home.box121Paragraph":
-      "Urban sprint on Friday 21st August afternoon in Chateau Landon",
+      "Urban sprint on Friday 21st August afternoon in Château-Landon",
     "Home.box122Paragraph":
       "Middle distance on Saterday 22nd August afternoon on the map 'Salamandre'",
     "Home.box123Paragraph":
       "Long distance on Sunday 23rd August morning on the map 'Franchard'",
     "Home.box13Paragraph":
-      "The terrain for the urban sprint is a typical small vilage form south of Seine et Marne. Chateau Landon offers a wide range of environments that will make the orienteering challenging: small alleys, residential areas allowing higher speed as well as several parks.",
+      "The terrain for the urban sprint is a typical small vilage form south of Seine et Marne. Château-Landon offers a wide range of environments that will make the orienteering challenging: small alleys, residential areas allowing higher speed as well as several parks.",
     "Home.box14Paragraph":
       "The terrain for the middle and long distance are typical Fontainbleau forests. There are a lot of rocky slopes and sandy hills which makes orienteering difficult. Between these more detailed areas the terrain offers a much better visibility as well as a good network of paths making the navigzation easier.",
     "Home.box15ParagraphTitle": "Nursery: ",
@@ -499,8 +499,8 @@ const language = {
     "Home.box16Paragraph":
       "During the 3 days event you will be able to pay by card at the refreshment bar",
     "Home.box17ParagraphTitle": "Registration: ",
-    "Home.box171Paragraph": "Registration for races are now open on",
-    "Home.box172Paragraph": "website until 7th augustt.",
+    "Home.box171Paragraph": "Registration for races are now open on ",
+    "Home.box172Paragraph": " website until 7th augustt.",
     "Home.box2Title": "Forbidden area",
     "Home.box2Paragraph":
       "The area marked in red below is forbidden. Competitors are not allowed to enter the forbidden area before the competitions, otherwise they will be disqualified.",
@@ -587,7 +587,7 @@ const language = {
     "Training.box02Paragraph14":
       "Vous pouvez aussi envoyer un chèque à CDCO77 chez Celine Dalier 26 Hameau de Bessonville 77760 La Chapelle La Reine  en identiquant en référence 'Entrainements'.",
     "Training.box01Paragraph3":
-      "Pour reserver vos cartes avant le 7 aout, voici le ",
+      "Pour réserver vos cartes avant le 7 aout, voici le ",
     "Training.box01Paragraph4": "lien",
     "Training.training1Title": "Entrainement 1",
     "Training.training1Box1Title": "Informations pratiques",
@@ -620,7 +620,7 @@ const language = {
     "SprintEvent.title": "Sprint",
     "SprintEvent.box1Title": "Informations pratiques",
     "SprintEvent.box1DateTitle": "Date: ",
-    "SprintEvent.box1DateParagraph": "21 août 2020",
+    "SprintEvent.box1DateParagraph": "Vendredi 21 août 2020",
     "SprintEvent.box1StartListTitle": "Liste de Départ: ",
     "SprintEvent.box1StartListParagraph": "bientôt disponible",
     "SprintEvent.box1ResultTitle": "Résultat: ",
@@ -636,9 +636,9 @@ const language = {
     "SprintEvent.box1TrackDirectorTitle": "Directeur de course: ",
     "SprintEvent.box1TrackDirectorParagraph": "Alain Guillon",
     "SprintEvent.box1PlacesTitle": "Lieu: ",
-    "SprintEvent.box1PlacesParagraph": "Chateau Landon",
+    "SprintEvent.box1PlacesParagraph": "Château-Landon",
     "SprintEvent.box1MapTitle": "Carte: ",
-    "SprintEvent.box1MapParagraph": "Chateau Landon",
+    "SprintEvent.box1MapParagraph": "Château-Landon (2019/2020)",
     "SprintEvent.box1PlanTitle": "Plan: ",
     "SprintEvent.box1PlanParagraph": "bientôt disponible",
     "SprintEvent.box1Paragraph": "Bientôt disponible",
@@ -1016,7 +1016,7 @@ const language = {
     "Home.box11Paragraph":
       "Les Nationales Nord Ouest 2020 de course d’orientation auront lieu du 21 au 23 août 2020 dans la forêt de Fontainebleau. Ce long week-end regroupe trois courses comptant pour le classement national:",
     "Home.box121Paragraph":
-      "Un Sprint Urbain le vendredi 21 août après midi dans la ville de Chateau Landon",
+      "Un Sprint Urbain le vendredi 21 août après midi dans la ville de Château-Landon",
     "Home.box122Paragraph":
       "Une Moyenne Distance le samedi 22 août après midi sur la carte de la Salamandre",
     "Home.box123Paragraph":
@@ -1033,8 +1033,8 @@ const language = {
       "Lors des 3 jours , vous aurez la possibilité de payer à la buvette en carte bleue ainsi que les droits d'inscription restants et la location et la caution pour les sportident.",
     "Home.box17ParagraphTitle": "Inscriptions: ",
     "Home.box171Paragraph":
-      "Les inscriptions aux 3 courses sont ouvertes sur le site de la",
-    "Home.box172Paragraph": "jusqu'au 7 aout.",
+      "Les inscriptions aux 3 courses sont ouvertes sur le site de la ",
+    "Home.box172Paragraph": " jusqu'au 7 aout.",
     "Home.box2Title": "Zones gelées",
     "Home.box2Paragraph": "Les zones gelées sont délimitées par la ligne rouge",
     "Home.box3Title": "Livret d'accueil",
