@@ -230,9 +230,6 @@ class MiddleDistance extends Component {
                   <StyledTd>
                     <Translator id="MDEvent.box2ControlTitle" />
                   </StyledTd>
-                  <StyledTd>
-                    <Translator id="MDEvent.box2WinningTimeTitle" />
-                  </StyledTd>
                 </StyledTr>
               </thead>
               <tbody>
@@ -255,9 +252,6 @@ class MiddleDistance extends Component {
                   <StyledTd>
                     <Translator id="MDEvent.box2Control1" />
                   </StyledTd>
-                  <StyledTd>
-                    <Translator id="MDEvent.box2WinningTime1" />
-                  </StyledTd>
                 </StyledTr>
                 <StyledTr>
                   <StyledTd>
@@ -278,19 +272,20 @@ class MiddleDistance extends Component {
                   <StyledTd>
                     <Translator id="MDEvent.box2Control2" />
                   </StyledTd>
-                  <StyledTd>
-                    <Translator id="MDEvent.box2WinningTime2" />
-                  </StyledTd>
                 </StyledTr>
                 <StyledTr>
                   <StyledTd>
                     <Translator id="MDEvent.box2Track3" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories3" />
+                    <Translator id="MDEvent.box2Categories31" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories32" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size3" />
+                    <Translator id="MDEvent.box2Size31" />
+                    <br />
+                    <Translator id="MDEvent.box2Size32" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance3" />
@@ -301,8 +296,465 @@ class MiddleDistance extends Component {
                   <StyledTd>
                     <Translator id="MDEvent.box2Control3" />
                   </StyledTd>
+                </StyledTr>
+                <StyledTr>
                   <StyledTd>
-                    <Translator id="MDEvent.box2WinningTime3" />
+                    <Translator id="MDEvent.box2Track4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories41" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories42" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size41" />
+                    <br />
+                    <Translator id="MDEvent.box2Size42" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control4" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories51" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories52" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size51" />
+                    <br />
+                    <Translator id="MDEvent.box2Size52" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control5" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories61" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories62" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size61" />
+                    <br />
+                    <Translator id="MDEvent.box2Size62" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control6" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories71" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories72" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size71" />
+                    <br />
+                    <Translator id="MDEvent.box2Size72" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control7" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories81" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories82" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size81" />
+                    <br />
+                    <Translator id="MDEvent.box2Size82" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control8" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories91" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories92" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size91" />
+                    <br />
+                    <Translator id="MDEvent.box2Size92" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control9" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories101" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories102" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size101" />
+                    <br />
+                    <Translator id="MDEvent.box2Size102" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control10" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories111" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories112" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size111" />
+                    <br />
+                    <Translator id="MDEvent.box2Size112" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control11" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories121" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories122" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size121" />
+                    <br />
+                    <Translator id="MDEvent.box2Size122" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control12" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control13" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control14" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control15" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control16" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories171" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories172" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size171" />
+                    <br />
+                    <Translator id="MDEvent.box2Size172" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control17" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control18" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control19" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control20" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control21" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control22" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control23" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track24" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories24" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size24" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance24" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference24" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control24" />
                   </StyledTd>
                 </StyledTr>
               </tbody>
