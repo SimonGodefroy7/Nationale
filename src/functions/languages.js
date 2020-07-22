@@ -615,6 +615,7 @@ const language = {
     "Accomodation.officeFontaineblau": "Tourist office of Fontainebleau",
     "Accomodation.officeMelun": "Tourist office of Melun",
     "Accomodation.officeNemours": "Tourist office of Nemours",
+    "Accomodation.officeGatinais": "Tourist office of Gâtinais Val-de-Loing",
     "Home.title": "Home",
     "Home.bacgroundParagraph":
       "3 orienteering days in the forest of Fontainebleau and its surroundings",
@@ -1296,6 +1297,8 @@ const language = {
     "Accomodation.officeFontaineblau": "Office de tourisme de Fontainebleau",
     "Accomodation.officeMelun": "Office de tourisme de Melun",
     "Accomodation.officeNemours": "Office de tourisme de Nemours",
+    "Accomodation.officeGatinais":
+      "Office de tourisme du Gâtinais Val-de-Loing",
     "Home.title": "Accueil",
     "Home.bacgroundParagraph":
       "3 jours de course d'orientation en forêt de Fontainebleau et ses environs",

@@ -80,24 +80,32 @@ class Hebergements extends Component {
             </StyledParagraph>
             <ul>
               <li>
-                <StyledAnchor href="https://www.gites-de-france.com/fr">
-                  Gîtes de France
-                </StyledAnchor>
+                <StyledParagraph>
+                  <StyledAnchor href="https://www.gites-de-france.com/fr">
+                    Gîtes de France
+                  </StyledAnchor>
+                </StyledParagraph>
               </li>
               <li>
-                <StyledAnchor href="https://www.airbnb.fr/">
-                  Airbnb
-                </StyledAnchor>
+                <StyledParagraph>
+                  <StyledAnchor href="https://www.airbnb.fr/">
+                    Airbnb
+                  </StyledAnchor>
+                </StyledParagraph>
               </li>
               <li>
-                <StyledAnchor href="https://www.booking.com">
-                  Booking.com
-                </StyledAnchor>
+                <StyledParagraph>
+                  <StyledAnchor href="https://www.booking.com">
+                    Booking.com
+                  </StyledAnchor>
+                </StyledParagraph>
               </li>
               <li>
-                <StyledAnchor href="https://www.tripadvisor.fr/">
-                  TripAdvisor
-                </StyledAnchor>
+                <StyledParagraph>
+                  <StyledAnchor href="https://www.tripadvisor.fr/">
+                    TripAdvisor
+                  </StyledAnchor>
+                </StyledParagraph>
               </li>
             </ul>
           </StyledBorderBox>
@@ -168,28 +176,44 @@ class Hebergements extends Component {
             </StyledParagraph>
             <ul>
               <li>
-                <StyledAnchor
-                  href="https://www.fontainebleau-tourisme.com/fr/accueil/"
-                  textAlign="center"
-                >
-                  <Translator id="Accomodation.officeFontaineblau" />
-                </StyledAnchor>
+                <StyledParagraph>
+                  <StyledAnchor
+                    href="https://www.fontainebleau-tourisme.com/fr/accueil/"
+                    textAlign="center"
+                  >
+                    <Translator id="Accomodation.officeFontaineblau" />
+                  </StyledAnchor>
+                </StyledParagraph>
               </li>
               <li>
-                <StyledAnchor
-                  href="https://www.melunvaldeseine-tourisme.com/"
-                  textAlign="center"
-                >
-                  <Translator id="Accomodation.officeMelun" />
-                </StyledAnchor>
+                <StyledParagraph>
+                  <StyledAnchor
+                    href="https://www.melunvaldeseine-tourisme.com/"
+                    textAlign="center"
+                  >
+                    <Translator id="Accomodation.officeMelun" />
+                  </StyledAnchor>
+                </StyledParagraph>
               </li>
               <li>
-                <StyledAnchor
-                  href="https://www.tourisme-paysdenemours.fr/"
-                  textAlign="center"
-                >
-                  <Translator id="Accomodation.officeNemours" />
-                </StyledAnchor>
+                <StyledParagraph>
+                  <StyledAnchor
+                    href="https://www.tourisme-paysdenemours.fr/"
+                    textAlign="center"
+                  >
+                    <Translator id="Accomodation.officeNemours" />
+                  </StyledAnchor>
+                </StyledParagraph>
+              </li>
+              <li>
+                <StyledParagraph>
+                  <StyledAnchor
+                    href="https://www.tourisme-gatinaisvaldeloing.fr/"
+                    textAlign="center"
+                  >
+                    <Translator id="Accomodation.officeGatinais" />
+                  </StyledAnchor>
+                </StyledParagraph>
               </li>
             </ul>
           </StyledBorderBox>
