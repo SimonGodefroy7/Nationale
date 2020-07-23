@@ -643,7 +643,7 @@ const language = {
       "The terrain for the middle and long distance are typical Fontainbleau forests. There are a lot of rocky slopes and sandy hills which makes orienteering difficult. Between these more detailed areas the terrain offers a much better visibility as well as a good network of paths making the navigzation easier.",
     "Home.box15ParagraphTitle": "Nursery: ",
     "Home.box15Paragraph":
-      "Due to COVID-19, we are not able to set up a nursery during these three days. For those with children, please specify in the registration that you as parents need a special arrangement for the starting time.",
+      "Due to COVID-19, we are not able to set up a nursery during these three days. For those with children, please make your arrangements. As a last resort you can specify in the registration that you as parents need a special arrangement for the starting time, we will try our best to fit your expectations considering that we also need to have specific classes's time slots. Thanks in advance and have a good day.",
     "Home.box16ParagraphTitle": "Refreshment bar: ",
     "Home.box16Paragraph":
       "During the 3 days event you will be able to pay by card at the refreshment bar",
@@ -1326,7 +1326,7 @@ const language = {
       "Les terrains de la moyenne distance et de la longue distance sont similaires et typiques des terrains de la forêt de fontainebleau. La carte possède de nombreux chaos rocheux le plus souvent sur les flancs et des nombreuses collines sableuses qui rendent l’orientation difficile. Entre ces zones détaillées, la visibilité est bien meilleure et un réseau de chemin assez dense devrait permettre une navigation plus aisée.",
     "Home.box15ParagraphTitle": "Garderie: ",
     "Home.box15Paragraph":
-      "Face au COVID-19, nous ne sommes pas en mesure de mettre en place une garderie sur les 3 jours, merci pour ceux qui ont des enfants, de préciser lors des inscriptions d'avoir des heures de départ décalées.",
+      "Face au COVID-19, nous ne serons pas en mesure de mettre en place une garderie sur ces 3 jours, Merci de prendre vos dispositions. Il est possible en dernier recours pour les parents, de demander lors des inscriptions des heures de départ décalées, nous ferons notre possible pour respecter vos souhaits compte tenu que nous devons aussi tenir compte des plages horaires par catégories. Merci d'avance et bonne journée",
     "Home.box16ParagraphTitle": "Buvette: ",
     "Home.box16Paragraph":
       "Lors des 3 jours , vous aurez la possibilité de payer à la buvette en carte bleue ainsi que les droits d'inscription restants et la location et la caution pour les sportident.",
