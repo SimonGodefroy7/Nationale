@@ -236,9 +236,6 @@ class Sprint extends Component {
                   <StyledTd>
                     <Translator id="SprintEvent.box2ControlTitle" />
                   </StyledTd>
-                  <StyledTd>
-                    <Translator id="SprintEvent.box2WinningTimeTitle" />
-                  </StyledTd>
                 </StyledTr>
               </thead>
               <tbody>
@@ -261,16 +258,15 @@ class Sprint extends Component {
                   <StyledTd>
                     <Translator id="SprintEvent.box2Control1" />
                   </StyledTd>
-                  <StyledTd>
-                    <Translator id="SprintEvent.box2WinningTime1" />
-                  </StyledTd>
                 </StyledTr>
                 <StyledTr>
                   <StyledTd>
                     <Translator id="SprintEvent.box2Track2" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="SprintEvent.box2Categories2" />
+                    <Translator id="SprintEvent.box2Categories21" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories22" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="SprintEvent.box2Size2" />
@@ -283,9 +279,6 @@ class Sprint extends Component {
                   </StyledTd>
                   <StyledTd>
                     <Translator id="SprintEvent.box2Control2" />
-                  </StyledTd>
-                  <StyledTd>
-                    <Translator id="SprintEvent.box2WinningTime2" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -307,8 +300,341 @@ class Sprint extends Component {
                   <StyledTd>
                     <Translator id="SprintEvent.box2Control3" />
                   </StyledTd>
+                </StyledTr>
+                <StyledTr>
                   <StyledTd>
-                    <Translator id="SprintEvent.box2WinningTime3" />
+                    <Translator id="SprintEvent.box2Track4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference4" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control4" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories51" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories52" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference5" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control5" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories61" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories62" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference6" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control6" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories71" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories72" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference7" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control7" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference8" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control8" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories91" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories92" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories93" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference9" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control9" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories101" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories102" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference10" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control10" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference11" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control11" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories121" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories122" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference12" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control12" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference13" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control13" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference14" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control14" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories151" />
+                    <br />
+                    <Translator id="SprintEvent.box2Categories152" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference15" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control15" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference16" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control16" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference17" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control17" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference18" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control18" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Track19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Categories19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Size19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Distance19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2HeightDifference19" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="SprintEvent.box2Control19" />
                   </StyledTd>
                 </StyledTr>
               </tbody>
