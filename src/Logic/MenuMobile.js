@@ -64,6 +64,11 @@ class MenuMobile extends Component {
                 <Translator id="Menu.eventLD" />
               </StyledLi>
             </StyledAnchor>
+            <StyledAnchor as={Link} hoverless paddingless to="/lego">
+              <StyledLi>
+                <Translator id="Menu.lego" />
+              </StyledLi>
+            </StyledAnchor>
             <StyledAnchor as={Link} hoverless paddingless to="/liste-de-depart">
               <StyledLi>
                 <Translator id="Menu.startList" />

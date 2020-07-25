@@ -37,6 +37,11 @@ class Menu extends Component {
             </StyledAnchor>
           </StyledLi>
           <StyledLi>
+            <StyledAnchor as={Link} padding="0.5rem" to="/lego">
+              <Translator id="Menu.lego" />
+            </StyledAnchor>
+          </StyledLi>
+          <StyledLi>
             <StyledAnchor as={Link} padding="0.5rem" to="/liste-de-depart">
               <Translator id="Menu.startList" />
             </StyledAnchor>

@@ -12,6 +12,7 @@ import ListeDeDepart from "../Pages/ListedeDepart";
 import LandingPage from "../Pages/LandingPage";
 import Resultats from "../Pages/Resultats";
 import Galery from "../Pages/Galery";
+import Lego from "../Pages/Lego";
 
 const BASE_PATH = "/";
 
@@ -32,6 +33,7 @@ class Router extends Component {
           <Route path="/middle-distance" exact component={MiddleDistance} />
           <Route path="/long-distance" exact component={LongDistance} />
           <Route path="/gallery" exact component={Galery} />
+          <Route path="/lego" exact component={Lego} />
         </React.Fragment>
       </BrowserRouter>
     );
