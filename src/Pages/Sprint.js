@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
+import YouTube from "react-youtube";
 import { connect } from "react-redux";
 import Page from "../Logic/Page";
 import Link from "../Logic/Link";
@@ -87,6 +88,15 @@ class Sprint extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="SprintEvent.lastUpate" />
           </StyledSpan>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="Home.trailer" />
+            </StyledH3>
+            <YouTube
+              videoId="UHCBQQrDKAw"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="SprintEvent.box1Title" />
