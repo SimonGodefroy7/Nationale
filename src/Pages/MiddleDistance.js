@@ -32,6 +32,7 @@ import tabletBackground from "../image/Background/Tablet.jpg";
 import laptopBackground from "../image/Background/Laptop.jpg";
 import laptopLBackground from "../image/Background/LaptopL.jpg";
 import desktopBackground from "../image/Background/Desktop.jpg";
+import salamandre from "../image/salamandre3_2017.jpg";
 
 class MiddleDistance extends Component {
   render() {
@@ -814,6 +815,14 @@ class MiddleDistance extends Component {
                 <StyledImg src={salamandre3} alt={salamandre3} />
               </StyledFlexBox>
             </StyledMapExtract>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="LDEvent.box5Title" />
+            </StyledH3>
+            <StyledAnchor href={salamandre} target="_blank">
+              <StyledImg src={salamandre} alt={salamandre} imageWidth="100%" />
+            </StyledAnchor>
           </StyledBorderBox>
         </StyledSection>
       </Page>

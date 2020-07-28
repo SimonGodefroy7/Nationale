@@ -32,6 +32,7 @@ import tabletBackground from "../image/Background/Tablet.jpg";
 import laptopBackground from "../image/Background/Laptop.jpg";
 import laptopLBackground from "../image/Background/LaptopL.jpg";
 import desktopBackground from "../image/Background/Desktop.jpg";
+import franchard from "../image/Franchard2001svg.jpg";
 
 class LongDistance extends Component {
   render() {
@@ -820,6 +821,14 @@ class LongDistance extends Component {
                 <StyledImg src={franchard10} alt={franchard10} />
               </StyledFlexBox>
             </StyledMapExtract>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="LDEvent.box5Title" />
+            </StyledH3>
+            <StyledAnchor href={franchard} target="_blank">
+              <StyledImg src={franchard} alt={franchard} imageWidth="100%" />
+            </StyledAnchor>
           </StyledBorderBox>
         </StyledSection>
       </Page>

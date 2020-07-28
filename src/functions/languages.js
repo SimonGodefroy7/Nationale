@@ -721,7 +721,7 @@ const language = {
     "LDEvent.box3Paragraph31": "SI rental : ",
     "LDEvent.box3Paragraph32": "3€",
     "LDEvent.box4Title": "Map samples",
-    "LDEvent.box4Paragraph": "available soon",
+    "LDEvent.box5Title": "Old Map",
     "Accomodation.title": "Accomodation",
     "Accomodation.box1Title": "Private rentals",
     "Accomodation.box11Paragraph":
@@ -1538,7 +1538,7 @@ const language = {
     "LDEvent.box3Paragraph31": "Location de puce : ",
     "LDEvent.box3Paragraph32": "3€",
     "LDEvent.box4Title": "Extraits de cartes",
-    "LDEvent.box4Paragraph": "Bientôt disponible",
+    "LDEvent.box5Title": "Anciennes cartes",
     "Accomodation.title": "Hébergements",
     "Accomodation.box1Title": "Locations",
     "Accomodation.box11Paragraph":
