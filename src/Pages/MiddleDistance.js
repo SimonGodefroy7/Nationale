@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
+import YouTube from "react-youtube";
 import { connect } from "react-redux";
 import Page from "../Logic/Page";
 import Link from "../Logic/Link";
@@ -91,6 +92,15 @@ class MiddleDistance extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="MDEvent.lastUpate" />
           </StyledSpan>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="Home.trailer" />
+            </StyledH3>
+            <YouTube
+              videoId="PNRaYGIa6p8"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="MDEvent.box1Title" />
