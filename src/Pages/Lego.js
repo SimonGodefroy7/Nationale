@@ -57,6 +57,14 @@ class Lego extends Component {
           </StyledSpan>
           <StyledBorderBox>
             <StyledH3>
+              <Translator id="Lego.box0Title" />
+            </StyledH3>
+            <StyledParagraph>
+              <Translator id="Lego.box0Paragraph" />
+            </StyledParagraph>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
               <Translator id="Lego.box1Title" />
             </StyledH3>
             <StyledParagraph>
@@ -94,7 +102,16 @@ class Lego extends Component {
               <Translator id="Lego.box3Title" />
             </StyledH3>
             <StyledParagraph>
-              <Translator id="Lego.box3Paragraph" />
+              <Translator id="Lego.box3Paragraph1" />
+            </StyledParagraph>
+            <StyledParagraph>
+              <Translator id="Lego.box3Paragraph2" />
+            </StyledParagraph>
+            <StyledParagraph>
+              <Translator id="Lego.box3Paragraph3" />
+            </StyledParagraph>
+            <StyledParagraph>
+              <Translator id="Lego.box3Paragraph4" />
             </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>

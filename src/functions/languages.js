@@ -21,6 +21,9 @@ const language = {
     "LandingPage.paragraph2": "Event director",
     "Lego.bacgroundParagraph": "Lég'O précision",
     "Lego.title": "Lég'O précision",
+    "Lego.box0Title": "Disponibilité",
+    "Lego.box0Paragraph":
+      "Atelier pour tous mis en place uniquement le samedi et le dimanche",
     "Lego.box1Title": "Déroulement",
     "Lego.box1Paragraph1":
       "Vous avez en main une vraie carte d’orientation et vous devez retrouver les balises dans un milieu totalement en LEGO installé sur une table de 2m².",
@@ -34,8 +37,12 @@ const language = {
     "Lego.box2Paragraph":
       "Le classement de l’épreuve se fait d’abord par points puis par le temps. Chaque balise correcte marque 1 point. ",
     "Lego.box3Title": "Récompenses et catégories",
-    "Lego.box3Paragraph":
-      "HD10 / HD12 / HD14 / HD16 / HD18 / HD20+. Tous les moins de 10 ans auront le choix d’un lot. Les 3 premiers HD12/14/16/18 auront le choix d’un LEGO. Les 3 premiers HD20+ seront sur la photo pour la gloire.",
+    "Lego.box3Paragraph1": "HD10 / HD12 / HD14 / HD16 / HD18 / HD20+.",
+    "Lego.box3Paragraph2": "Tous les moins de 10 ans auront le choix d’un lot.",
+    "Lego.box3Paragraph3":
+      "Les 3 premiers HD12/14/16/18 auront le choix d’un LEGO.",
+    "Lego.box3Paragraph4":
+      "Les 3 premiers HD20+ seront sur la photo pour la gloire.",
     "Lego.box4Paragraph11": "Tarif: ",
     "Lego.box4Paragraph12": "1 €",
     "Lego.box4Paragraph21": "Responsable: ",
@@ -826,6 +833,9 @@ const language = {
     "LandingPage.button": "Accéder au site",
     "Lego.bacgroundParagraph": "Lég'O précision",
     "Lego.title": "Lég'O précision",
+    "Lego.box0Title": "Disponibilité",
+    "Lego.box0Paragraph":
+      "Atelier pour tous mis en place uniquement le samedi et le dimanche",
     "Lego.box1Title": "Déroulement",
     "Lego.box1Paragraph1":
       "Vous avez en main une vraie carte d’orientation et vous devez retrouver les balises dans un milieu totalement en LEGO installé sur une table de 2m².",
@@ -839,8 +849,12 @@ const language = {
     "Lego.box2Paragraph":
       "Le classement de l’épreuve se fait d’abord par points puis par le temps. Chaque balise correcte marque 1 point. ",
     "Lego.box3Title": "Récompenses et catégories",
-    "Lego.box3Paragraph":
-      "HD10 / HD12 / HD14 / HD16 / HD18 / HD20+. Tous les moins de 10 ans auront le choix d’un lot. Les 3 premiers HD12/14/16/18 auront le choix d’un LEGO. Les 3 premiers HD20+ seront sur la photo pour la gloire.",
+    "Lego.box3Paragraph1": "HD10 / HD12 / HD14 / HD16 / HD18 / HD20+.",
+    "Lego.box3Paragraph2": "Tous les moins de 10 ans auront le choix d’un lot.",
+    "Lego.box3Paragraph3":
+      "Les 3 premiers HD12/14/16/18 auront le choix d’un LEGO.",
+    "Lego.box3Paragraph4":
+      "Les 3 premiers HD20+ seront sur la photo pour la gloire.",
     "Lego.box4Paragraph11": "Tarif: ",
     "Lego.box4Paragraph12": "1 €",
     "Lego.box4Paragraph21": "Responsable: ",
