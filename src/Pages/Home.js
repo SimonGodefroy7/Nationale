@@ -25,6 +25,7 @@ import tabletBackground from "../image/Background/Tablet.jpg";
 import laptopBackground from "../image/Background/Laptop.jpg";
 import laptopLBackground from "../image/Background/LaptopL.jpg";
 import desktopBackground from "../image/Background/Desktop.jpg";
+import zoneInterdite from "../image/ZoneinterditeNationales_NO_2020.jpg";
 import zoneInterditeSmall from "../image/ZoneinterditeNationales_NO_2020_small.jpg";
 import smallImage1 from "../image/Gallery/small/Image1.jpg";
 import smallImage2 from "../image/Gallery/small/Image2.jpg";
@@ -278,13 +279,7 @@ class Home extends Component {
             <StyledParagraph>
               <Translator id="Home.box2Paragraph" />
             </StyledParagraph>
-            <StyledAnchor
-              as={Link}
-              hoverless
-              to="/download/Nationales_NO_2020.pdf"
-              target="_blank"
-              download
-            >
+            <StyledAnchor href={zoneInterdite} target="_blank">
               <StyledImg
                 src={zoneInterditeSmall}
                 alt={zoneInterditeSmall}
