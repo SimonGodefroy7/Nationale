@@ -86,7 +86,7 @@ class LongDistance extends Component {
             </StyledH1>
           </StyledHeroHeadline>
         </StyledHero>
-        <StyledSection>
+        <StyledSection justify>
           <StyledH1>
             <Translator id="LDEvent.title" />
           </StyledH1>
@@ -835,5 +835,5 @@ class LongDistance extends Component {
     );
   }
 }
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(LongDistance);

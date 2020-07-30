@@ -114,7 +114,7 @@ class Home extends Component {
             </StyledAnchor>
           </StyledFlexBox>
         </StyledHero>
-        <StyledSection>
+        <StyledSection justify>
           <StyledH1>
             <Translator id="Home.title" />
           </StyledH1>
@@ -206,6 +206,30 @@ class Home extends Component {
                 </StyledSpan>
               </StyledParagraph>
             </StyledFlexBox>
+            <StyledParagraph>
+              <StyledSpan fontWeight="bold">
+                <Translator id="Home.box18ParagraphTitle" />
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="Home.box18Paragraph" />
+              </StyledSpan>
+            </StyledParagraph>
+            <StyledParagraph>
+              <StyledSpan fontWeight="bold">
+                <Translator id="Home.box19ParagraphTitle" />
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="Home.box19Paragraph1" />
+              </StyledSpan>
+              <StyledSpan>
+                <StyledAnchor
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfCF_gJaj2onmLtp7BzTR4APkZB7BWwj9BozJwRYXFBB3MJDA/viewform?usp=sf_link"
+                  textAlign="center"
+                >
+                  <Translator id="Home.box19Paragraph2" />
+                </StyledAnchor>
+              </StyledSpan>
+            </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

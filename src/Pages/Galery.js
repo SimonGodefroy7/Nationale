@@ -25,31 +25,31 @@ class Gallery extends Component {
       ModalIsOpen: false,
       currentImage: 0,
       urbanGallery: false,
-      forestGallery: true
+      forestGallery: true,
     };
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.updateInUrbanGallery = this.updateInUrbanGallery.bind(this);
   }
-  openModal = index => {
-    this.setState(state => ({
+  openModal = (index) => {
+    this.setState((state) => ({
       ...this.state,
       ModalIsOpen: true,
-      currentImage: index
+      currentImage: index,
     }));
   };
   closeModal = () => {
-    this.setState(state => ({
+    this.setState((state) => ({
       ...this.state,
       ModalIsOpen: false,
-      currentImage: 0
+      currentImage: 0,
     }));
   };
-  updateInUrbanGallery = isUrban => {
-    this.setState(state => ({
+  updateInUrbanGallery = (isUrban) => {
+    this.setState((state) => ({
       ...this.state,
       urbanGallery: isUrban,
-      forestGallery: !isUrban
+      forestGallery: !isUrban,
     }));
   };
 
@@ -58,7 +58,7 @@ class Gallery extends Component {
       ModalIsOpen,
       currentImage,
       urbanGallery,
-      forestGallery
+      forestGallery,
     } = this.state;
     return (
       <Page>
@@ -69,7 +69,7 @@ class Gallery extends Component {
             content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"
           />
         </Helmet>
-        <StyledSection>
+        <StyledSection justify>
           <StyledH1>
             <Translator id="Gallery.title" />
           </StyledH1>
@@ -113,10 +113,10 @@ class Gallery extends Component {
                   <Modal onClose={this.closeModal}>
                     <Carousel
                       currentIndex={currentImage}
-                      views={mediumForestImages.map(x => ({
+                      views={mediumForestImages.map((x) => ({
                         ...x,
                         srcset: x.srcSet,
-                        caption: x.title
+                        caption: x.title,
                       }))}
                     />
                   </Modal>
@@ -141,10 +141,10 @@ class Gallery extends Component {
                   <Modal onClose={this.closeModal}>
                     <Carousel
                       currentIndex={currentImage}
-                      views={mediumUrbanImages.map(x => ({
+                      views={mediumUrbanImages.map((x) => ({
                         ...x,
                         srcset: x.srcSet,
-                        caption: x.title
+                        caption: x.title,
                       }))}
                     />
                   </Modal>

@@ -48,7 +48,7 @@ class Lego extends Component {
             </StyledH1>
           </StyledHeroHeadline>
         </StyledHero>
-        <StyledSection>
+        <StyledSection justify>
           <StyledH1>
             <Translator id="Lego.title" />
           </StyledH1>

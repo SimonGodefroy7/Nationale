@@ -77,7 +77,7 @@ const language = {
     "Training.box01Paragraph1":
       "The clubs Balise 77 and OPA Montigny welcome you to two training days on Wednesday the 19th and Thursday the 20th of August 2020 between 13:00 - 18:00",
     "Training.box01Paragraph2":
-      "There will be 30 controls ranging from easy to difficult on both 'Larchant' and 'Grotte Beatrix' maps. The controls will be marked with small flags of 15x15cm. You will be able to get the maps at Ermitage of Franchard (arena of the LD/MD) on Wednesday and Thursday during opening hours.",
+      "There will be 30 controls ranging from easy to difficult on both 'Poligny' and 'Grotte Beatrix' maps. The controls will be marked with small flags of 15x15cm. You will be able to get the maps at Ermitage of Franchard (arena of the LD/MD) on Wednesday and Thursday during opening hours.",
     "Training.box0Title2": "Training fees",
     "Training.box02Paragraph11":
       "Training fee is 4 euros per map. You can pay by transfererring to the following details:",
@@ -86,14 +86,15 @@ const language = {
     "Training.box01Paragraph3":
       " before the 7th of August top make sure you get your maps.",
     "Training.box01Paragraph4": "Booking your training maps",
+    "Training.box01Paragraph5": "BE CAREFULL, TRAINING 1 PLACE/MAP HAS CHANGED",
     "Training.training1Title": "Training 1",
     "Training.training1Box1Title": "Practical information",
     "Training.training1Box1DateTitle": "Date: ",
     "Training.training1Box1DateParagraph": "19th-20th of August 2020",
     "Training.training1Box1PlacesTitle": "Place: ",
-    "Training.training1Box1PlacesParagraph": "Forest of Fontainebleau",
+    "Training.training1Box1PlacesParagraph": "Poligny",
     "Training.training1Box1MapTitle": "Map: ",
-    "Training.training1Box1MapParagraph": "Larchant",
+    "Training.training1Box1MapParagraph": "Ball Trap",
     "Training.training1Box1PlanTitle": "Location: ",
     "Training.training1Box1PlanParagraph1": "Parking: ",
     "Training.training1Box1PlanParagraph2": "google link",
@@ -780,7 +781,14 @@ const language = {
       "During the 3 days event you will be able to pay by card at the refreshment bar",
     "Home.box17ParagraphTitle": "Registration: ",
     "Home.box171Paragraph": "Registration for races are now open on ",
-    "Home.box172Paragraph": " website until 7th augustt.",
+    "Home.box172Paragraph": " website until 7th august.",
+    "Home.box18ParagraphTitle": "Stands: ",
+    "Home.box18Paragraph":
+      "AIR EXTREM and ORIENSPORT partners will have a stand on the event.",
+    "Home.box19ParagraphTitle": "Buvette: ",
+    "Home.box19Paragraph1":
+      "Sur nos 3 jours de course, vous trouverez la bière artisanale du gatinais 'La Gatine'. Le samedi et le dimanche sur l'arena, le foodtruck 'Sarazine' vous servira des crepes et des boissons fraiches. Et le dimanche, le traiteur 'Le Trady' vous proposera des boissons fraiches, des sandwich jambon-emmental à 3 euros, des sandwich au thon à 3,50 euros ou des plateaux repas à 8 euros (au choix, taboulé+cuisse de poulet+camembert+compote ou salade de coquillettes+roti de porc+camembert+compote). Pour les plateaux repas, veuillez les reserver avec ce ",
+    "Home.box19Paragraph2": "lien",
     "Home.box2Title": "Forbidden area",
     "Home.box2Paragraph":
       "The area marked in red below is forbidden. Competitors are not allowed to enter the forbidden area before the competitions, otherwise they will be disqualified.",
@@ -810,7 +818,7 @@ const language = {
     "Results.mdTitle": "Middle distance results",
     "Results.mdParagraph": "not yet available",
     "Results.ldTitle": "Long distance results",
-    "Results.ldParagraph": "not yet available"
+    "Results.ldParagraph": "not yet available",
   },
   fr: {
     "Partners.lastUpate": `Dernière mise à jour : ${lastUpate.PARTNERS}`,
@@ -888,7 +896,7 @@ const language = {
     "Training.box01Paragraph1":
       "Les clubs Balise 77 et OPA Montigny vous proposent deux journées d'entrainement le mercredi 19 et le jeudi 20 août 2020 de 13h à 18H.",
     "Training.box01Paragraph2":
-      "Un réseau de postes d'environ 30 balises de niveau noir à vert avec des balisettes sera posé sur les cartes de Larchant et de Bourron Marlotte. Les cartes seront à récupérer à l'Ermitage de Franchard (arena de la MD et de la LD) le mercredi et le jeudi pendant les horaires d'entrainement.",
+      "Un réseau de postes d'environ 30 balises de niveau noir à vert avec des balisettes sera posé sur les cartes de Poligny et de Bourron Marlotte. Les cartes seront à récupérer à l'Ermitage de Franchard (arena de la MD et de la LD) le mercredi et le jeudi pendant les horaires d'entrainement.",
     "Training.box0Title2": "Tarifs",
     "Training.box02Paragraph11":
       "Le prix est de 4 euros par carte. Pour payer, vous pouvez faire un virement: ",
@@ -899,14 +907,16 @@ const language = {
     "Training.box01Paragraph3":
       "Pour réserver vos cartes avant le 7 aout, voici le ",
     "Training.box01Paragraph4": "lien",
+    "Training.box01Paragraph5":
+      "ATTENTION CHANGEMENT DU LIEU DE L'ENTRAINEMENT 1 PREVU PAR BALISE 77",
     "Training.training1Title": "Entrainement 1",
     "Training.training1Box1Title": "Informations pratiques",
     "Training.training1Box1DateTitle": "Date: ",
     "Training.training1Box1DateParagraph": "19-20 août 2020",
     "Training.training1Box1PlacesTitle": "Lieu: ",
-    "Training.training1Box1PlacesParagraph": "Forêt de Fontainebleau",
+    "Training.training1Box1PlacesParagraph": "Poligny",
     "Training.training1Box1MapTitle": "Carte: ",
-    "Training.training1Box1MapParagraph": "Larchant",
+    "Training.training1Box1MapParagraph": "Ball Trap",
     "Training.training1Box1PlanTitle": "Plan: ",
     "Training.training1Box1PlanParagraph1": "Parking: ",
     "Training.training1Box1PlanParagraph2": "lien google",
@@ -1600,6 +1610,13 @@ const language = {
     "Home.box171Paragraph":
       "Les inscriptions aux 3 courses sont ouvertes sur le site de la ",
     "Home.box172Paragraph": " jusqu'au 7 aout.",
+    "Home.box18ParagraphTitle": "Stands: ",
+    "Home.box18Paragraph":
+      "Présence des stands partenaires AIR EXTREM et ORIENSPORT.",
+    "Home.box19ParagraphTitle": "Buvette: ",
+    "Home.box19Paragraph1":
+      "Sur nos 3 jours de course, vous trouverez la bière artisanale du gatinais 'La Gatine'. Le samedi et le dimanche sur l'arena, le foodtruck 'Sarazine' vous servira des crepes et des boissons fraiches. Et le dimanche, le traiteur 'Le Trady' vous proposera des boissons fraiches, des sandwich jambon-emmental à 3 euros, des sandwich au thon à 3,50 euros ou des plateaux repas à 8 euros (au choix, taboulé+cuisse de poulet+camembert+compote ou salade de coquillettes+roti de porc+camembert+compote). Pour les plateaux repas, veuillez les reserver avec ce ",
+    "Home.box19Paragraph2": "lien",
     "Home.box2Title": "Zones gelées",
     "Home.box2Paragraph": "Les zones gelées sont délimitées par la ligne rouge",
     "Home.box3Title": "Livret d'accueil",
@@ -1628,8 +1645,8 @@ const language = {
     "Results.mdTitle": "Résultats de la MD",
     "Results.mdParagraph": "Pas encore disponible",
     "Results.ldTitle": "Résultats de la LD",
-    "Results.ldParagraph": "Pas encore disponible"
-  }
+    "Results.ldParagraph": "Pas encore disponible",
+  },
 };
 
 export default language;

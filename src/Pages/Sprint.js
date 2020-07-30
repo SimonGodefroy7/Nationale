@@ -81,7 +81,7 @@ class Sprint extends Component {
             </StyledH1>
           </StyledHeroHeadline>
         </StyledHero>
-        <StyledSection>
+        <StyledSection justify>
           <StyledH1>
             <Translator id="SprintEvent.title" />
           </StyledH1>
@@ -688,5 +688,5 @@ class Sprint extends Component {
   }
 }
 
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(Sprint);

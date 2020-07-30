@@ -30,43 +30,34 @@ import tabletBackground from "../image/Background/Tablet.jpg";
 import laptopBackground from "../image/Background/Laptop.jpg";
 import laptopLBackground from "../image/Background/LaptopL.jpg";
 import desktopBackground from "../image/Background/Desktop.jpg";
-import photoLarchantMobileS from "../image/Background/trainingMobileS.jpg";
-import photoLarchantMobileM from "../image/Background/trainingMobileM.jpg";
-import photoLarchantMobileL from "../image/Background/trainingMobileL.jpg";
-import photoLarchantTablet from "../image/Background/trainingTablet.jpg";
-import photoLarchantLaptop from "../image/Background/trainingLaptop.jpg";
+import photoPoligny1 from "../image/EntrainementB771Small.jpg";
+import photoPoligny2 from "../image/EntrainementB772Small.jpg";
 
 class Training extends Component {
   render() {
     let iFrameWidth;
     let iFrameHeight;
-    let srcPhotoLarchant;
     if (window.matchMedia(`(max-width: ${style.mediaSize.mobileS})`).matches) {
       iFrameWidth = 200;
       iFrameHeight = 200;
-      srcPhotoLarchant = photoLarchantMobileS;
     } else if (
       window.matchMedia(`(max-width: ${style.mediaSize.mobileM})`).matches
     ) {
       iFrameWidth = 250;
       iFrameHeight = 250;
-      srcPhotoLarchant = photoLarchantMobileM;
     } else if (
       window.matchMedia(`(max-width: ${style.mediaSize.mobileL})`).matches
     ) {
       iFrameWidth = 300;
       iFrameHeight = 300;
-      srcPhotoLarchant = photoLarchantMobileL;
     } else if (
       window.matchMedia(`(max-width: ${style.mediaSize.tablet})`).matches
     ) {
       iFrameWidth = 600;
       iFrameHeight = 400;
-      srcPhotoLarchant = photoLarchantTablet;
     } else {
       iFrameWidth = 800;
       iFrameHeight = 600;
-      srcPhotoLarchant = photoLarchantLaptop;
     }
     let state = this.props;
     return (
@@ -95,7 +86,7 @@ class Training extends Component {
             </StyledH1>
           </StyledHeroHeadline>
         </StyledHero>
-        <StyledSection>
+        <StyledSection justify>
           <StyledH1>
             <Translator id="Training.title" />
           </StyledH1>
@@ -140,6 +131,11 @@ class Training extends Component {
                 )}
               </StyledParagraph>
             </StyledFlexBox>
+            <StyledParagraph>
+              <StyledSpan fontWeight="bold">
+                <Translator id="Training.box01Paragraph5" />
+              </StyledSpan>
+            </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
@@ -199,8 +195,21 @@ class Training extends Component {
                 </StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>
-            <StyledFlexBox>
-              <StyledImg src={srcPhotoLarchant} alt={srcPhotoLarchant} />
+            <StyledFlexBox alignItems="center">
+              <StyledFlexBox margin="0.5rem">
+                <StyledImg
+                  src={photoPoligny2}
+                  alt={photoPoligny2}
+                  imageWidth="100%"
+                />
+              </StyledFlexBox>
+              <StyledFlexBox margin="0.5rem">
+                <StyledImg
+                  src={photoPoligny1}
+                  alt={photoPoligny1}
+                  imageWidth="100%"
+                />
+              </StyledFlexBox>
             </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
@@ -213,7 +222,7 @@ class Training extends Component {
                   <Translator id="Training.training1Box1PlanParagraph1" />
                 </StyledSpan>
                 <StyledSpan>
-                  <StyledAnchor href="https://www.google.com/maps/d/u/0/viewer?hl=fr&ll=48.296828591449355%2C2.603297750069946&z=16&mid=1gdziv_U_RgTboCbBSV4c9nJbpcPJXgvQ">
+                  <StyledAnchor href="https://www.google.fr/maps/place/77140+Nemours/@48.2438145,2.7271414,15z/data=!4m5!3m4!1s0x47e5896b140c7fe7:0x8f8ef89da8d3d3b8!8m2!3d48.267043!4d2.692611?hl=fr&authuser=0">
                     <Translator id="Training.training1Box1PlanParagraph2" />
                   </StyledAnchor>
                 </StyledSpan>
@@ -226,7 +235,7 @@ class Training extends Component {
                 height={iFrameHeight}
                 frameBorder="0"
                 style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Parking du Bois d'Hyver, Larchant&language=${state.langue}`}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.244672,2.730188&language=${state.langue}`}
                 allowFullScreen
               />
             </StyledFlexBox>
@@ -330,5 +339,5 @@ class Training extends Component {
     );
   }
 }
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(Training);

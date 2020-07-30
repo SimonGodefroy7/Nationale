@@ -86,7 +86,7 @@ class MiddleDistance extends Component {
             </StyledH1>
           </StyledHeroHeadline>
         </StyledHero>
-        <StyledSection>
+        <StyledSection justify>
           <StyledH1>
             <Translator id="MDEvent.title" />
           </StyledH1>
@@ -830,5 +830,5 @@ class MiddleDistance extends Component {
   }
 }
 
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(MiddleDistance);
