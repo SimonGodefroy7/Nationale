@@ -184,7 +184,15 @@ class Home extends Component {
                 <Translator id="Home.box16ParagraphTitle" />
               </StyledSpan>
               <StyledSpan>
-                <Translator id="Home.box16Paragraph" />
+                <Translator id="Home.box16Paragraph1" />
+              </StyledSpan>
+              <StyledSpan>
+                <StyledAnchor
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfCF_gJaj2onmLtp7BzTR4APkZB7BWwj9BozJwRYXFBB3MJDA/viewform?usp=sf_link"
+                  textAlign="center"
+                >
+                  <Translator id="Home.box16Paragraph2" />
+                </StyledAnchor>
               </StyledSpan>
             </StyledParagraph>
             <StyledFlexBox flexDirection="row" alignItems="center">
@@ -212,22 +220,6 @@ class Home extends Component {
               </StyledSpan>
               <StyledSpan>
                 <Translator id="Home.box18Paragraph" />
-              </StyledSpan>
-            </StyledParagraph>
-            <StyledParagraph>
-              <StyledSpan fontWeight="bold">
-                <Translator id="Home.box19ParagraphTitle" />
-              </StyledSpan>
-              <StyledSpan>
-                <Translator id="Home.box19Paragraph1" />
-              </StyledSpan>
-              <StyledSpan>
-                <StyledAnchor
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfCF_gJaj2onmLtp7BzTR4APkZB7BWwj9BozJwRYXFBB3MJDA/viewform?usp=sf_link"
-                  textAlign="center"
-                >
-                  <Translator id="Home.box19Paragraph2" />
-                </StyledAnchor>
               </StyledSpan>
             </StyledParagraph>
           </StyledBorderBox>

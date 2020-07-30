@@ -777,18 +777,15 @@ const language = {
     "Home.box15Paragraph":
       "Due to COVID-19, we are not able to set up a nursery during these three days. For those with children, please make your arrangements. As a last resort you can specify in the registration that you as parents need a special arrangement for the starting time, we will try our best to fit your expectations considering that we also need to have specific classes's time slots.",
     "Home.box16ParagraphTitle": "Refreshment bar: ",
-    "Home.box16Paragraph":
-      "During the 3 days event you will be able to pay by card at the refreshment bar",
+    "Home.box16Paragraph1":
+      "On our 3 days of event, you will find a artisanal beer from gatinais 'La Gatine'. On Saturday and Sunday, the foodtruck 'Sarazine' will serve you crepes and fresh drink. And on Sunday, the caterer 'Le Trady' will propose you fresh drinks, sandwich ham-emmental at 3€, tuna sandwich at 3.5€ or meal-trays at 8€ (you can choose between, tabbouleh+chicken+camembert+compote or pasta salads+roast pork+camembert+compote). For the meal-trays, please register with this ",
+    "Home.box16Paragraph2": "link",
     "Home.box17ParagraphTitle": "Registration: ",
     "Home.box171Paragraph": "Registration for races are now open on ",
     "Home.box172Paragraph": " website until 7th august.",
     "Home.box18ParagraphTitle": "Stands: ",
     "Home.box18Paragraph":
       "AIR EXTREM and ORIENSPORT partners will have a stand on the event.",
-    "Home.box19ParagraphTitle": "Buvette: ",
-    "Home.box19Paragraph1":
-      "Sur nos 3 jours de course, vous trouverez la bière artisanale du gatinais 'La Gatine'. Le samedi et le dimanche sur l'arena, le foodtruck 'Sarazine' vous servira des crepes et des boissons fraiches. Et le dimanche, le traiteur 'Le Trady' vous proposera des boissons fraiches, des sandwich jambon-emmental à 3 euros, des sandwich au thon à 3,50 euros ou des plateaux repas à 8 euros (au choix, taboulé+cuisse de poulet+camembert+compote ou salade de coquillettes+roti de porc+camembert+compote). Pour les plateaux repas, veuillez les reserver avec ce ",
-    "Home.box19Paragraph2": "lien",
     "Home.box2Title": "Forbidden area",
     "Home.box2Paragraph":
       "The area marked in red below is forbidden. Competitors are not allowed to enter the forbidden area before the competitions, otherwise they will be disqualified.",
@@ -1604,8 +1601,9 @@ const language = {
     "Home.box15Paragraph":
       "Face au COVID-19, nous ne serons pas en mesure de mettre en place une garderie sur ces 3 jours, Merci de prendre vos dispositions. Il est possible en dernier recours pour les parents, de demander lors des inscriptions des heures de départ décalées, nous ferons notre possible pour respecter vos souhaits compte tenu que nous devons aussi tenir compte des plages horaires par catégories.",
     "Home.box16ParagraphTitle": "Buvette: ",
-    "Home.box16Paragraph":
-      "Lors des 3 jours , vous aurez la possibilité de payer à la buvette en carte bleue ainsi que les droits d'inscription restants et la location et la caution pour les sportident.",
+    "Home.box16Paragraph1":
+      "Sur nos 3 jours de course, vous trouverez la bière artisanale du gatinais 'La Gatine'. Le samedi et le dimanche sur l'arena, le foodtruck 'Sarazine' vous servira des crepes et des boissons fraiches. Et le dimanche, le traiteur 'Le Trady' vous proposera des boissons fraiches, des sandwich jambon-emmental à 3 euros, des sandwich au thon à 3,50 euros ou des plateaux repas à 8 euros (au choix, taboulé+cuisse de poulet+camembert+compote ou salade de coquillettes+roti de porc+camembert+compote). Pour les plateaux repas, veuillez les reserver avec ce ",
+    "Home.box16Paragraph2": "lien",
     "Home.box17ParagraphTitle": "Inscriptions: ",
     "Home.box171Paragraph":
       "Les inscriptions aux 3 courses sont ouvertes sur le site de la ",
@@ -1613,10 +1611,6 @@ const language = {
     "Home.box18ParagraphTitle": "Stands: ",
     "Home.box18Paragraph":
       "Présence des stands partenaires AIR EXTREM et ORIENSPORT.",
-    "Home.box19ParagraphTitle": "Buvette: ",
-    "Home.box19Paragraph1":
-      "Sur nos 3 jours de course, vous trouverez la bière artisanale du gatinais 'La Gatine'. Le samedi et le dimanche sur l'arena, le foodtruck 'Sarazine' vous servira des crepes et des boissons fraiches. Et le dimanche, le traiteur 'Le Trady' vous proposera des boissons fraiches, des sandwich jambon-emmental à 3 euros, des sandwich au thon à 3,50 euros ou des plateaux repas à 8 euros (au choix, taboulé+cuisse de poulet+camembert+compote ou salade de coquillettes+roti de porc+camembert+compote). Pour les plateaux repas, veuillez les reserver avec ce ",
-    "Home.box19Paragraph2": "lien",
     "Home.box2Title": "Zones gelées",
     "Home.box2Paragraph": "Les zones gelées sont délimitées par la ligne rouge",
     "Home.box3Title": "Livret d'accueil",
