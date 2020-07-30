@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3bc4ab4f4228551e71031112d904d49",
+    "revision": "7d2e663dd437ec724fa6b85133b2ec6a",
     "url": "/index.html"
   },
   {
-    "revision": "d6e2a62a3cc2e2591250",
-    "url": "/static/js/2.0df20768.chunk.js"
+    "revision": "58a8d9cb3c42b029b91d",
+    "url": "/static/js/2.dcb88abe.chunk.js"
   },
   {
     "revision": "8882f005f02c523c02fe20809fd3cb89",
-    "url": "/static/js/2.0df20768.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.dcb88abe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aeeb3c104bddad8f7032",
-    "url": "/static/js/main.4c52562f.chunk.js"
+    "revision": "d10dcc1347680f017145",
+    "url": "/static/js/main.98bfd31f.chunk.js"
   },
   {
     "revision": "f5c37417043a6580eae1",
@@ -52,16 +52,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Desktop.7c24e27c.jpg"
   },
   {
+    "revision": "f9443bda126767a58230033b80718aa4",
+    "url": "/static/media/EntrainementB771Small.f9443bda.jpg"
+  },
+  {
+    "revision": "2a8068659e5981a95bc26b7aea527dc3",
+    "url": "/static/media/EntrainementB772Small.2a806865.jpg"
+  },
+  {
     "revision": "4f3831e2f205ad2a934b76e05b0896f3",
     "url": "/static/media/FFCO_LOGO_1Small.4f3831e2.jpg"
   },
   {
-    "revision": "2f9befe94ef9076d58b0a2ae38e1a025",
-    "url": "/static/media/Flag_of_France.2f9befe9.svg"
+    "revision": "3ea77aedecf75f21560eddeec95c3cae",
+    "url": "/static/media/Flag_of_France.3ea77aed.svg"
   },
   {
-    "revision": "2e9c71c7514c4036f0122b1bdc202c17",
-    "url": "/static/media/Flag_of_the_United_Kingdom.2e9c71c7.svg"
+    "revision": "497e7cd177bb13ad2b86d31103f0426a",
+    "url": "/static/media/Flag_of_the_United_Kingdom.497e7cd1.svg"
   },
   {
     "revision": "956f8bf2df59dfc0c38b22a96e9bbbe8",
@@ -594,25 +602,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d95e0e943e219ca47989d0aa9aa8ac8b",
     "url": "/static/media/salamandre3_2017.d95e0e94.jpg"
-  },
-  {
-    "revision": "971f8aa293077067e83b03edaec6ce20",
-    "url": "/static/media/trainingLaptop.971f8aa2.jpg"
-  },
-  {
-    "revision": "fca965aa46fd0ede8b15dcd8d7263ad6",
-    "url": "/static/media/trainingMobileL.fca965aa.jpg"
-  },
-  {
-    "revision": "a18e42c56cba7a461f7f31914731c756",
-    "url": "/static/media/trainingMobileM.a18e42c5.jpg"
-  },
-  {
-    "revision": "1494576c86e00dfe664656117bb46941",
-    "url": "/static/media/trainingMobileS.1494576c.jpg"
-  },
-  {
-    "revision": "9f2aa272cbdb8bd3599a77ec2f70959e",
-    "url": "/static/media/trainingTablet.9f2aa272.jpg"
   }
 ]);
