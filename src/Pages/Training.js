@@ -17,9 +17,9 @@ import StyledImg from "../styledComponents/StyledImg";
 import StyledAnchor from "../styledComponents/StyledAnchor";
 import Translator from "../Logic/Translator";
 import style from "../styledComponents/style";
-import B771 from "../image/MapExtract/B77-1Small.jpg";
-import B772 from "../image/MapExtract/B77-2Small.jpg";
-import B773 from "../image/MapExtract/B77-3Small.jpg";
+import B771 from "../image/MapExtract/balltrap1Small.jpg";
+import B772 from "../image/MapExtract/balltrap2Small.jpg";
+import B773 from "../image/MapExtract/balltrap3Small.jpg";
 import OPA1 from "../image/MapExtract/OPA1Small.jpg";
 import OPA2 from "../image/MapExtract/OPA2Small.jpg";
 import OPA3 from "../image/MapExtract/OPA3Small.jpg";
@@ -216,18 +216,6 @@ class Training extends Component {
             <StyledH3>
               <Translator id="Training.training1Box1PlanTitle" />
             </StyledH3>
-            <StyledFlexBox flexDirection="row" alignItems="center">
-              <StyledParagraph>
-                <StyledSpan fontWeight={"bold"}>
-                  <Translator id="Training.training1Box1PlanParagraph1" />
-                </StyledSpan>
-                <StyledSpan>
-                  <StyledAnchor href="https://www.google.fr/maps/place/77140+Nemours/@48.2438145,2.7271414,15z/data=!4m5!3m4!1s0x47e5896b140c7fe7:0x8f8ef89da8d3d3b8!8m2!3d48.267043!4d2.692611?hl=fr&authuser=0">
-                    <Translator id="Training.training1Box1PlanParagraph2" />
-                  </StyledAnchor>
-                </StyledSpan>
-              </StyledParagraph>
-            </StyledFlexBox>
             <StyledFlexBox alignItems="center">
               <iframe
                 title="plan"
