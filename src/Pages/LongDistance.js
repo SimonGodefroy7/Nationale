@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import { connect } from "react-redux";
+import YouTube from "react-youtube";
 import Page from "../Logic/Page";
 import Link from "../Logic/Link";
 import StyledH1 from "../styledComponents/StyledH1";
@@ -93,6 +94,15 @@ class LongDistance extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="LDEvent.lastUpate" />
           </StyledSpan>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="Home.trailer" />
+            </StyledH3>
+            <YouTube
+              videoId="MseJOL5k-e8"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="LDEvent.box1Title" />

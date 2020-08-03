@@ -1541,7 +1541,7 @@ const language = {
     "LDEvent.box3Paragraph31": "Location de puce : ",
     "LDEvent.box3Paragraph32": "3€",
     "LDEvent.box4Title": "Extraits de cartes",
-    "LDEvent.box5Title": "Anciennes cartes",
+    "LDEvent.box5Title": "Ancienne carte",
     "Accomodation.title": "Hébergements",
     "Accomodation.box1Title": "Locations",
     "Accomodation.box11Paragraph":
