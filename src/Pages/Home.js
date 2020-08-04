@@ -303,14 +303,6 @@ class Home extends Component {
               />
             </StyledAnchor>
           </StyledBorderBox>
-          <StyledBorderBox>
-            <StyledH3>
-              <Translator id="Home.box3Title" />
-            </StyledH3>
-            <StyledParagraph>
-              <Translator id="Home.box3Paragraph" />
-            </StyledParagraph>
-          </StyledBorderBox>
         </StyledSection>
       </Page>
     );

@@ -149,9 +149,16 @@ class Sprint extends Component {
                   <StyledSpan fontWeight="bold">
                     <Translator id="SprintEvent.box1OfficialBookTitle" />
                   </StyledSpan>
-                  <StyledSpan>
-                    <Translator id="SprintEvent.box1OfficialBookParagraph" />
-                  </StyledSpan>
+                  <StyledAnchor
+                    as={Link}
+                    to="/download/LIVRET ACCUEIL NATIONALES NO-CD77.pdf"
+                    target="_blank"
+                    download
+                  >
+                    <StyledSpan>
+                      <Translator id="SprintEvent.box1OfficialBookParagraph" />
+                    </StyledSpan>
+                  </StyledAnchor>
                 </StyledParagraph>
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">

@@ -155,9 +155,16 @@ class LongDistance extends Component {
                   <StyledSpan fontWeight="bold">
                     <Translator id="LDEvent.box1OfficialBookTitle" />
                   </StyledSpan>
-                  <StyledSpan>
-                    <Translator id="LDEvent.box1OfficialBookParagraph" />
-                  </StyledSpan>
+                  <StyledAnchor
+                    as={Link}
+                    to="/download/LIVRET ACCUEIL NATIONALES NO-CD77.pdf"
+                    target="_blank"
+                    download
+                  >
+                    <StyledSpan>
+                      <Translator id="LDEvent.box1OfficialBookParagraph" />
+                    </StyledSpan>
+                  </StyledAnchor>
                 </StyledParagraph>
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">

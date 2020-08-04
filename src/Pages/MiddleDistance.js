@@ -154,10 +154,18 @@ class MiddleDistance extends Component {
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1OfficialBookTitle" />
                   </StyledSpan>
-                  <StyledSpan>
-                    <Translator id="MDEvent.box1OfficialBookParagraph" />
-                  </StyledSpan>
+                  <StyledAnchor
+                    as={Link}
+                    to="/download/LIVRET ACCUEIL NATIONALES NO-CD77.pdf"
+                    target="_blank"
+                    download
+                  >
+                    <StyledSpan>
+                      <Translator id="MDEvent.box1OfficialBookParagraph" />
+                    </StyledSpan>
+                  </StyledAnchor>
                 </StyledParagraph>
+
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1RaceAnnouncementTitle" />
