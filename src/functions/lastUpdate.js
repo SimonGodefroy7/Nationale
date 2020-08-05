@@ -1,5 +1,5 @@
 const lastUpdate = {
-  PARTNERS: "19/07/2020",
+  PARTNERS: "05/08/2020",
   RESULTS: "01/07/2020",
   STARTLIST: "01/07/2020",
   TRAINING: "30/07/2020",
