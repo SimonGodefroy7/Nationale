@@ -165,7 +165,6 @@ class MiddleDistance extends Component {
                     </StyledSpan>
                   </StyledAnchor>
                 </StyledParagraph>
-
                 <StyledParagraph>
                   <StyledSpan fontWeight="bold">
                     <Translator id="MDEvent.box1RaceAnnouncementTitle" />
