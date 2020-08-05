@@ -155,12 +155,12 @@ class Partenaires extends Component {
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledAnchor
-                  href="http://www.csacnsd.fr/"
+                  href="http://www.coasign.fr/"
                   centerimg
                   paddingless
                   hoverless
                 >
-                  <StyledImg src={csaCNSD} alt={csaCNSD} />
+                  <StyledImg src={asIGN} alt={asIGN} />
                 </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
@@ -313,12 +313,12 @@ class Partenaires extends Component {
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledAnchor
-                  href="http://www.coasign.fr/"
+                  href="http://www.csacnsd.fr/"
                   centerimg
                   paddingless
                   hoverless
                 >
-                  <StyledImg src={asIGN} alt={asIGN} />
+                  <StyledImg src={csaCNSD} alt={csaCNSD} />
                 </StyledAnchor>
               </StyledFlexBox>
             </StyledPartners>
