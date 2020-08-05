@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c24b83e11521d22abc64ba5071aee321",
+    "revision": "38864b58fc68a1b6b6dffeeb902221f4",
     "url": "/index.html"
   },
   {
-    "revision": "f470c6383da6b3be26c1",
-    "url": "/static/js/2.ef1e8fd9.chunk.js"
+    "revision": "a3c83588231cc2bb57a0",
+    "url": "/static/js/2.ab0a8df7.chunk.js"
   },
   {
     "revision": "8882f005f02c523c02fe20809fd3cb89",
-    "url": "/static/js/2.ef1e8fd9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ab0a8df7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee2f0783b6174918930f",
-    "url": "/static/js/main.6dca4dd2.chunk.js"
+    "revision": "b4c15ab69f482dd8f17c",
+    "url": "/static/js/main.83640a7d.chunk.js"
   },
   {
     "revision": "f5c37417043a6580eae1",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eaac0ba24a8b68a06da9cdb4f561f7b1",
     "url": "/static/media/CSA CNSDSmall.eaac0ba2.jpg"
+  },
+  {
+    "revision": "b0d3a711234d1e2320ab3bd88bffa859",
+    "url": "/static/media/Chateau-Landon arena sprint.b0d3a711.jpg"
   },
   {
     "revision": "1bc186d5233fd3d16461019ae53a1423",
@@ -634,6 +638,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e521ae49bc9791e578c547c132b58e70",
     "url": "/static/media/fontainebleauSmall.e521ae49.png"
+  },
+  {
+    "revision": "782f370c50152886a37e6a7c8a0cab6f",
+    "url": "/static/media/franchard arena MD.782f370c.jpg"
+  },
+  {
+    "revision": "b06b1dc2bdb746826e1778c45f657ba1",
+    "url": "/static/media/franchard arena nationale.b06b1dc2.jpg"
   },
   {
     "revision": "07b1b8590df8d9d7a448d1b2c6dfe791",
