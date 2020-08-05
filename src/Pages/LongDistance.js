@@ -34,6 +34,7 @@ import laptopBackground from "../image/Background/Laptop.jpg";
 import laptopLBackground from "../image/Background/LaptopL.jpg";
 import desktopBackground from "../image/Background/Desktop.jpg";
 import franchard from "../image/Franchard2001svg.jpg";
+import ldArena from "../image/franchard arena nationale.jpg";
 
 class LongDistance extends Component {
   render() {
@@ -207,6 +208,12 @@ class LongDistance extends Component {
                 </StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>Arena</StyledH3>
+            <StyledFlexBox>
+              <StyledImg src={ldArena} alt={ldArena} imageWidth="100%" />
+            </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

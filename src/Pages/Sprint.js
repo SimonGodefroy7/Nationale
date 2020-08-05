@@ -27,6 +27,7 @@ import sprintMobileS from "../image/Background/SprintMobileS.jpg";
 import sprintMobileM from "../image/Background/SprintMobileM.jpg";
 import chateauLandon1 from "../image/MapExtract/ChateauLandon1Small.jpg";
 import chateauLandon2 from "../image/MapExtract/ChateauLandon2Small.jpg";
+import sprintArena from "../image/Chateau-Landon arena sprint.jpg";
 
 class Sprint extends Component {
   render() {
@@ -201,6 +202,16 @@ class Sprint extends Component {
                 </StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>Arena</StyledH3>
+            <StyledFlexBox>
+              <StyledImg
+                src={sprintArena}
+                alt={sprintArena}
+                imageWidth="100%"
+              />
+            </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

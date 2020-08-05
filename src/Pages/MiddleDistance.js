@@ -33,6 +33,7 @@ import laptopBackground from "../image/Background/Laptop.jpg";
 import laptopLBackground from "../image/Background/LaptopL.jpg";
 import desktopBackground from "../image/Background/Desktop.jpg";
 import salamandre from "../image/salamandre3_2017.jpg";
+import mdArena from "../image/franchard arena MD.jpg";
 
 class MiddleDistance extends Component {
   render() {
@@ -206,6 +207,12 @@ class MiddleDistance extends Component {
                 </StyledParagraph>
               </StyledFlexBox>
             </StyledPracticalInfo>
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>Arena</StyledH3>
+            <StyledFlexBox>
+              <StyledImg src={mdArena} alt={mdArena} imageWidth="100%" />
+            </StyledFlexBox>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
