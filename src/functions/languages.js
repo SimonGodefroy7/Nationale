@@ -76,8 +76,9 @@ const language = {
     "Training.box0Title1": "Information",
     "Training.box01Paragraph1":
       "The clubs Balise 77 and OPA Montigny welcome you to two training days on Wednesday the 19th and Thursday the 20th of August 2020 between 13:00 - 18:00",
-    "Training.box01Paragraph2":
-      "There will be 30 controls ranging from easy to difficult on both 'Poligny' and 'Grotte Beatrix' maps. The controls will be marked with small flags of 15x15cm. You will be able to get the maps at Ermitage of Franchard (arena of the LD/MD) on Wednesday and Thursday during opening hours.",
+    "Training.box01Paragraph21":
+      "There will be 30 controls ranging from easy to difficult on both 'Poligny' and 'Grotte Beatrix' maps. The controls will be marked with small flags of 15x15cm. You will be able to get the maps at Isabelle RORA's house: 13 rue du Général de Gaulle – 77760 La Chapelle la Reine between 12h30 and 17h on Wednesday and between 10h and 12h on Thursday. A control will be installed in front of the portal. Please do not station in fron of the house but on this place : ",
+    "Training.box01Paragraph22": "parking",
     "Training.box0Title2": "Training fees",
     "Training.box02Paragraph11":
       "Training fee is 4 euros per map. You can pay by transfererring to the following details:",
@@ -886,8 +887,9 @@ const language = {
     "Training.box0Title1": "Informations",
     "Training.box01Paragraph1":
       "Les clubs Balise 77 et OPA Montigny vous proposent deux journées d'entrainement le mercredi 19 et le jeudi 20 août 2020 de 13h à 18H.",
-    "Training.box01Paragraph2":
-      "Un réseau de postes d'environ 30 balises de niveau noir à vert avec des balisettes sera posé sur les cartes de Poligny et de Bourron Marlotte. Les cartes seront à récupérer à l'Ermitage de Franchard (arena de la MD et de la LD) le mercredi et le jeudi pendant les horaires d'entrainement.",
+    "Training.box01Paragraph21":
+      "Un réseau de postes d'environ 30 balises de niveau noir à vert avec des balisettes sera posé sur les cartes de Poligny et de Bourron Marlotte. Les cartes commandées seront à récupérer le mercredi de 12h30 à 17h00 et le jeudi de 10h00 à 12h00 chez Isabelle RORA à l’adresse suivante : 13 rue du Général de Gaulle – 77760 La Chapelle la Reine. Une balise y sera installée au dessus du portail. Garez-vous sur la place et non devant la maison : ",
+    "Training.box01Paragraph22": "parking",
     "Training.box0Title2": "Tarifs",
     "Training.box02Paragraph11":
       "Le prix est de 4 euros par carte. Pour payer, vous pouvez faire un virement: ",

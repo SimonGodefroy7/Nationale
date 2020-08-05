@@ -101,7 +101,14 @@ class Training extends Component {
               <Translator id="Training.box01Paragraph1" />
             </StyledParagraph>
             <StyledParagraph>
-              <Translator id="Training.box01Paragraph2" />
+              <StyledSpan>
+                <Translator id="Training.box01Paragraph21" />
+              </StyledSpan>
+              <StyledSpan>
+                <StyledAnchor href="https://www.google.fr/maps/dir/48.3158918,2.571922/48.3163368,2.5713147/@48.3159066,2.5710542,145m/ data=!3m1!1e3!4m2!4m1!3e2">
+                  <Translator id="Training.box01Paragraph22" />
+                </StyledAnchor>
+              </StyledSpan>
             </StyledParagraph>
             <StyledFlexBox flexDirection="row" alignItems="center">
               <StyledParagraph>
