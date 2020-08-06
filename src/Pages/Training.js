@@ -230,7 +230,7 @@ class Training extends Component {
                 height={iFrameHeight}
                 frameBorder="0"
                 style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.244672,2.730188&language=${state.langue}`}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.244672, 2.730188&language=${state.langue}`}
                 allowFullScreen
               />
             </StyledFlexBox>
@@ -308,7 +308,7 @@ class Training extends Component {
                 height={iFrameHeight}
                 frameBorder="0"
                 style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.353071, 2.719517&language=${state.langue}`}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q= 48.353082, 2.719544&language=${state.langue}`}
                 allowFullScreen
               />
             </StyledFlexBox>

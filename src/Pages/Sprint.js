@@ -152,7 +152,7 @@ class Sprint extends Component {
                   </StyledSpan>
                   <StyledAnchor
                     as={Link}
-                    to="/download/LIVRET ACCUEIL NATIONALES NO-CD77.pdf"
+                    to="/download/LIVRET ACCUEIL NATIONALES NO-CDCO77.pdf"
                     target="_blank"
                     download
                   >
@@ -225,6 +225,20 @@ class Sprint extends Component {
                 frameBorder="0"
                 style={{ border: 0 }}
                 src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Château-Landon&language=${state.langue}`}
+                allowFullScreen
+              />
+            </StyledFlexBox>
+            <StyledH3>
+              <Translator id="MDEvent.box1SignPostingTitle" />
+            </StyledH3>
+            <StyledFlexBox alignItems="center">
+              <iframe
+                title="plan"
+                width={iFrameWidth}
+                height={iFrameHeight}
+                frameBorder="0"
+                style={{ border: 0 }}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.147227, 2.763829&language=${state.langue}`}
                 allowFullScreen
               />
             </StyledFlexBox>
