@@ -5,12 +5,12 @@ const lastUpdate = {
   TRAINING: "30/07/2020",
   SPRINTEVENT: "04/08/2020",
   MDEVENT: "04/08/2020",
-  LDEVENT: "04/08/2020",
+  LDEVENT: "08/08/2020",
   ACCOMODATION: "19/07/2020",
   GALLERY: "19/07/2020",
   CONTACT: "19/07/2020",
   LEGO: "25/07/2020",
-  HOME: "30/07/2020",
+  HOME: "30/07/2020"
 };
 
 export default lastUpdate;
