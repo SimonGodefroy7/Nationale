@@ -15,6 +15,7 @@ import StyledBalise from "../styledComponents/StyledBalise";
 import StyledBaliseBox from "../styledComponents/StyledBaliseBox";
 import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledAnchor from "../styledComponents/StyledAnchor";
+import StyledButton from "../styledComponents/StyledButton";
 import StyledMapExtract from "../styledComponents/StyledMapExtract";
 import StyledSpan from "../styledComponents/StyledSpan";
 import StyledImg from "../styledComponents/StyledImg";
@@ -226,16 +227,17 @@ class Home extends Component {
               <StyledSpan fontWeight="bold">
                 <Translator id="MDEvent.box1OfficialBookTitle" />
               </StyledSpan>
-              <StyledAnchor
+              <StyledButton
                 as={Link}
                 to="/download/LIVRET ACCUEIL NATIONALES NO-CDCO77.pdf"
+                padding="0.5rem"
                 target="_blank"
                 download
               >
                 <StyledSpan>
                   <Translator id="MDEvent.box1OfficialBookParagraph" />
                 </StyledSpan>
-              </StyledAnchor>
+              </StyledButton>
             </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>

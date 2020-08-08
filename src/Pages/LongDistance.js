@@ -217,20 +217,6 @@ class LongDistance extends Component {
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
-              <Translator id="LDEvent.box1PlanTitle" />
-            </StyledH3>
-            <StyledFlexBox alignItems="center">
-              <iframe
-                title="plan"
-                width={iFrameWidth}
-                height={iFrameHeight}
-                frameBorder="0"
-                style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Franchard, Fontaineb1 Route de l'Ermitage, 77300 Fontainebleauleau&language=${state.langue}`}
-                allowFullScreen
-              />
-            </StyledFlexBox>
-            <StyledH3>
               <Translator id="MDEvent.box1SignPostingTitle" />
             </StyledH3>
             <StyledFlexBox alignItems="center">
@@ -327,14 +313,10 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track3" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories31" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories32" />
+                    <Translator id="LDEvent.box2Categories3" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size31" />
-                    <br />
-                    <Translator id="LDEvent.box2Size32" />
+                    <Translator id="LDEvent.box2Size3" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance3" />
@@ -346,9 +328,7 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control3" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime31" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime32" />
+                    <Translator id="LDEvent.box2WinningTime3" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -356,14 +336,10 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track4" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories41" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories42" />
+                    <Translator id="LDEvent.box2Categories4" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size41" />
-                    <br />
-                    <Translator id="LDEvent.box2Size42" />
+                    <Translator id="LDEvent.box2Size4" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance4" />
@@ -375,9 +351,7 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control4" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime41" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime42" />
+                    <Translator id="LDEvent.box2WinningTime4" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -408,14 +382,10 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track6" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories61" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories62" />
+                    <Translator id="LDEvent.box2Categories6" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size61" />
-                    <br />
-                    <Translator id="LDEvent.box2Size62" />
+                    <Translator id="LDEvent.box2Size6" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance6" />
@@ -427,9 +397,7 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control6" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime61" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime62" />
+                    <Translator id="LDEvent.box2WinningTime6" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -437,18 +405,10 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track7" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories71" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories72" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories73" />
+                    <Translator id="LDEvent.box2Categories7" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size71" />
-                    <br />
-                    <Translator id="LDEvent.box2Size72" />
-                    <br />
-                    <Translator id="LDEvent.box2Size73" />
+                    <Translator id="LDEvent.box2Size7" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance7" />
@@ -460,11 +420,7 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control7" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime71" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime72" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime73" />
+                    <Translator id="LDEvent.box2WinningTime7" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -504,19 +460,11 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Categories91" />
                     <br />
                     <Translator id="LDEvent.box2Categories92" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories93" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories94" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Size91" />
                     <br />
                     <Translator id="LDEvent.box2Size92" />
-                    <br />
-                    <Translator id="LDEvent.box2Size93" />
-                    <br />
-                    <Translator id="LDEvent.box2Size94" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance9" />
@@ -531,10 +479,6 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2WinningTime91" />
                     <br />
                     <Translator id="LDEvent.box2WinningTime92" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime93" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime94" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -542,22 +486,10 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track10" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories101" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories102" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories103" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories104" />
+                    <Translator id="LDEvent.box2Categories10" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size101" />
-                    <br />
-                    <Translator id="LDEvent.box2Size102" />
-                    <br />
-                    <Translator id="LDEvent.box2Size103" />
-                    <br />
-                    <Translator id="LDEvent.box2Size104" />
+                    <Translator id="LDEvent.box2Size10" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance10" />
@@ -569,13 +501,7 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control10" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime101" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime102" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime103" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime104" />
+                    <Translator id="LDEvent.box2WinningTime10" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -583,10 +509,14 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track11" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories11" />
+                    <Translator id="LDEvent.box2Categories111" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories112" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size11" />
+                    <Translator id="LDEvent.box2Size111" />
+                    <br />
+                    <Translator id="LDEvent.box2Size112" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance11" />
@@ -598,7 +528,9 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control11" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime11" />
+                    <Translator id="LDEvent.box2WinningTime111" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime112" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -635,10 +567,14 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track13" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories13" />
+                    <Translator id="LDEvent.box2Categories131" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories132" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size13" />
+                    <Translator id="LDEvent.box2Size131" />
+                    <br />
+                    <Translator id="LDEvent.box2Size132" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance13" />
@@ -650,7 +586,9 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control13" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime13" />
+                    <Translator id="LDEvent.box2WinningTime131" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime132" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -661,11 +599,19 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Categories141" />
                     <br />
                     <Translator id="LDEvent.box2Categories142" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories143" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories144" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Size141" />
                     <br />
                     <Translator id="LDEvent.box2Size142" />
+                    <br />
+                    <Translator id="LDEvent.box2Size143" />
+                    <br />
+                    <Translator id="LDEvent.box2Size144" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance14" />
@@ -680,6 +626,10 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2WinningTime141" />
                     <br />
                     <Translator id="LDEvent.box2WinningTime142" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime143" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime144" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -687,18 +637,10 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track15" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories151" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories152" />
-                    <br />
-                    <Translator id="LDEvent.box2Categories153" />
+                    <Translator id="LDEvent.box2Categories15" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size151" />
-                    <br />
-                    <Translator id="LDEvent.box2Size152" />
-                    <br />
-                    <Translator id="LDEvent.box2Size153" />
+                    <Translator id="LDEvent.box2Size15" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance15" />
@@ -710,11 +652,7 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control15" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime151" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime152" />
-                    <br />
-                    <Translator id="LDEvent.box2WinningTime153" />
+                    <Translator id="LDEvent.box2WinningTime15" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -722,10 +660,14 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track16" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories16" />
+                    <Translator id="LDEvent.box2Categories161" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories162" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size16" />
+                    <Translator id="LDEvent.box2Size161" />
+                    <br />
+                    <Translator id="LDEvent.box2Size162" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance16" />
@@ -737,7 +679,9 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control16" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime16" />
+                    <Translator id="LDEvent.box2WinningTime161" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime162" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -768,10 +712,14 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track18" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories18" />
+                    <Translator id="LDEvent.box2Categories181" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories182" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size18" />
+                    <Translator id="LDEvent.box2Size181" />
+                    <br />
+                    <Translator id="LDEvent.box2Size182" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance18" />
@@ -783,7 +731,9 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control18" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime18" />
+                    <Translator id="LDEvent.box2WinningTime181" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime182" />
                   </StyledTd>
                 </StyledTr>
                 <StyledTr>
@@ -791,10 +741,14 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Track19" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Categories19" />
+                    <Translator id="LDEvent.box2Categories191" />
+                    <br />
+                    <Translator id="LDEvent.box2Categories192" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2Size19" />
+                    <Translator id="LDEvent.box2Size191" />
+                    <br />
+                    <Translator id="LDEvent.box2Size192" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="LDEvent.box2Distance19" />
@@ -806,7 +760,101 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box2Control19" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="LDEvent.box2WinningTime19" />
+                    <Translator id="LDEvent.box2WinningTime191" />
+                    <br />
+                    <Translator id="LDEvent.box2WinningTime192" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control20" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime20" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control21" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime21" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control22" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime22" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Track23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Categories23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Size23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Distance23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2HeightDifference23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2Control23" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="LDEvent.box2WinningTime23" />
                   </StyledTd>
                 </StyledTr>
               </tbody>
@@ -873,5 +921,5 @@ class LongDistance extends Component {
     );
   }
 }
-const mapStateToProps = (state) => ({ langue: state.language });
+const mapStateToProps = state => ({ langue: state.language });
 export default connect(mapStateToProps)(LongDistance);

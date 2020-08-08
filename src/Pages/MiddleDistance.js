@@ -216,20 +216,6 @@ class MiddleDistance extends Component {
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
-              <Translator id="MDEvent.box1PlanTitle" />
-            </StyledH3>
-            <StyledFlexBox alignItems="center">
-              <iframe
-                title="plan"
-                width={iFrameWidth}
-                height={iFrameHeight}
-                frameBorder="0"
-                style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=48.408510, 2.639220&language=${state.langue}`}
-                allowFullScreen
-              />
-            </StyledFlexBox>
-            <StyledH3>
               <Translator id="MDEvent.box1SignPostingTitle" />
             </StyledH3>
             <StyledFlexBox alignItems="center">
@@ -858,5 +844,5 @@ class MiddleDistance extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({ langue: state.language });
+const mapStateToProps = state => ({ langue: state.language });
 export default connect(mapStateToProps)(MiddleDistance);

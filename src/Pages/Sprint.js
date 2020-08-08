@@ -215,20 +215,6 @@ class Sprint extends Component {
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
-              <Translator id="SprintEvent.box1PlanTitle" />
-            </StyledH3>
-            <StyledFlexBox alignItems="center">
-              <iframe
-                title="plan"
-                width={iFrameWidth}
-                height={iFrameHeight}
-                frameBorder="0"
-                style={{ border: 0 }}
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCyOwNtZ5YrRqUXd2EW7uxiv_NIWR5Zr7Y&q=Château-Landon&language=${state.langue}`}
-                allowFullScreen
-              />
-            </StyledFlexBox>
-            <StyledH3>
               <Translator id="MDEvent.box1SignPostingTitle" />
             </StyledH3>
             <StyledFlexBox alignItems="center">
@@ -720,5 +706,5 @@ class Sprint extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({ langue: state.language });
+const mapStateToProps = state => ({ langue: state.language });
 export default connect(mapStateToProps)(Sprint);
