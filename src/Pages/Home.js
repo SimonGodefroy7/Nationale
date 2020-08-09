@@ -229,7 +229,7 @@ class Home extends Component {
               </StyledSpan>
               <StyledButton
                 as={Link}
-                to="/download/LIVRET ACCUEIL NATIONALES NO-CDCO77.pdf"
+                to="/download/LIVRET ACCUEIL NATIONALES CDCO77.pdf"
                 padding="0.5rem"
                 target="_blank"
                 download

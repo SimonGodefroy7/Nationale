@@ -157,7 +157,7 @@ class MiddleDistance extends Component {
                   </StyledSpan>
                   <StyledAnchor
                     as={Link}
-                    to="/download/LIVRET ACCUEIL NATIONALES NO-CDCO77.pdf"
+                    to="/download/LIVRET ACCUEIL NATIONALES CDCO77.pdf"
                     target="_blank"
                     download
                   >
@@ -399,14 +399,10 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track7" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories71" />
-                    <br />
-                    <Translator id="MDEvent.box2Categories72" />
+                    <Translator id="MDEvent.box2Categories7" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size71" />
-                    <br />
-                    <Translator id="MDEvent.box2Size72" />
+                    <Translator id="MDEvent.box2Size7" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance7" />
@@ -423,14 +419,10 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track8" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories81" />
-                    <br />
-                    <Translator id="MDEvent.box2Categories82" />
+                    <Translator id="MDEvent.box2Categories8" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size81" />
-                    <br />
-                    <Translator id="MDEvent.box2Size82" />
+                    <Translator id="MDEvent.box2Size8" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance8" />
@@ -447,14 +439,10 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track9" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories91" />
-                    <br />
-                    <Translator id="MDEvent.box2Categories92" />
+                    <Translator id="MDEvent.box2Categories9" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size91" />
-                    <br />
-                    <Translator id="MDEvent.box2Size92" />
+                    <Translator id="MDEvent.box2Size9" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance9" />
@@ -471,14 +459,10 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track10" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories101" />
-                    <br />
-                    <Translator id="MDEvent.box2Categories102" />
+                    <Translator id="MDEvent.box2Categories10" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size101" />
-                    <br />
-                    <Translator id="MDEvent.box2Size102" />
+                    <Translator id="MDEvent.box2Size10" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance10" />
@@ -495,14 +479,10 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track11" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories111" />
-                    <br />
-                    <Translator id="MDEvent.box2Categories112" />
+                    <Translator id="MDEvent.box2Categories11" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size111" />
-                    <br />
-                    <Translator id="MDEvent.box2Size112" />
+                    <Translator id="MDEvent.box2Size11" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance11" />
@@ -519,14 +499,10 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track12" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories121" />
-                    <br />
-                    <Translator id="MDEvent.box2Categories122" />
+                    <Translator id="MDEvent.box2Categories12" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size121" />
-                    <br />
-                    <Translator id="MDEvent.box2Size122" />
+                    <Translator id="MDEvent.box2Size12" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance12" />
@@ -563,10 +539,14 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track14" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories14" />
+                    <Translator id="MDEvent.box2Categories141" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories142" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size14" />
+                    <Translator id="MDEvent.box2Size141" />
+                    <br />
+                    <Translator id="MDEvent.box2Size142" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance14" />
@@ -623,14 +603,10 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track17" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories171" />
-                    <br />
-                    <Translator id="MDEvent.box2Categories172" />
+                    <Translator id="MDEvent.box2Categories17" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size171" />
-                    <br />
-                    <Translator id="MDEvent.box2Size172" />
+                    <Translator id="MDEvent.box2Size17" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance17" />
@@ -687,10 +663,14 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box2Track20" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Categories20" />
+                    <Translator id="MDEvent.box2Categories201" />
+                    <br />
+                    <Translator id="MDEvent.box2Categories202" />
                   </StyledTd>
                   <StyledTd>
-                    <Translator id="MDEvent.box2Size20" />
+                    <Translator id="MDEvent.box2Size201" />
+                    <br />
+                    <Translator id="MDEvent.box2Size202" />
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Distance20" />
@@ -780,6 +760,66 @@ class MiddleDistance extends Component {
                   </StyledTd>
                   <StyledTd>
                     <Translator id="MDEvent.box2Control24" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track25" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories25" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size25" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance25" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference25" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control25" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track26" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories26" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size26" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance26" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference26" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control26" />
+                  </StyledTd>
+                </StyledTr>
+                <StyledTr>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Track27" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Categories27" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Size27" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Distance27" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2HeightDifference27" />
+                  </StyledTd>
+                  <StyledTd>
+                    <Translator id="MDEvent.box2Control27" />
                   </StyledTd>
                 </StyledTr>
               </tbody>

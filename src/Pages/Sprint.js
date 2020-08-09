@@ -152,7 +152,7 @@ class Sprint extends Component {
                   </StyledSpan>
                   <StyledAnchor
                     as={Link}
-                    to="/download/LIVRET ACCUEIL NATIONALES NO-CDCO77.pdf"
+                    to="/download/LIVRET ACCUEIL NATIONALES CDCO77.pdf"
                     target="_blank"
                     download
                   >
