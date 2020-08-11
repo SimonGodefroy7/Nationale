@@ -37,6 +37,7 @@ import asIGN from "../image/PartnerLogo/logo-as4c-IGN-2.0Small.jpg";
 import sprint from "../image/PartnerLogo/SPPRINT-_logo5-e1577523745594Small.png";
 import usMelun from "../image/PartnerLogo/US MELUNSmall.jpg";
 import asco from "../image/PartnerLogo/ascoSmall.jpg";
+import logo from "../image/PartnerLogo/headlogo1Small.png";
 import Translator from "../Logic/Translator";
 
 class Partenaires extends Component {
@@ -232,6 +233,9 @@ class Partenaires extends Component {
                 >
                   <StyledImg src={dlc} alt={dlc} />
                 </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={logo} alt={logo} />
               </StyledFlexBox>
             </StyledPartners>
           </StyledBorderBox>
