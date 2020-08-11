@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.7513fd44.chunk.js",
-    "main.js.map": "/static/js/main.7513fd44.chunk.js.map",
+    "main.js": "/static/js/main.dbfeb8eb.chunk.js",
+    "main.js.map": "/static/js/main.dbfeb8eb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2b508c2c.js",
     "runtime-main.js.map": "/static/js/runtime-main.2b508c2c.js.map",
-    "static/js/2.f8355c1f.chunk.js": "/static/js/2.f8355c1f.chunk.js",
-    "static/js/2.f8355c1f.chunk.js.map": "/static/js/2.f8355c1f.chunk.js.map",
+    "static/js/2.4302a03f.chunk.js": "/static/js/2.4302a03f.chunk.js",
+    "static/js/2.4302a03f.chunk.js.map": "/static/js/2.4302a03f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.72265815c5ba0f7084fa977c04a44537.js": "/precache-manifest.72265815c5ba0f7084fa977c04a44537.js",
+    "precache-manifest.1f1380de476e5aef4dadf0560b803867.js": "/precache-manifest.1f1380de476e5aef4dadf0560b803867.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.f8355c1f.chunk.js.LICENSE.txt": "/static/js/2.f8355c1f.chunk.js.LICENSE.txt",
+    "static/js/2.4302a03f.chunk.js.LICENSE.txt": "/static/js/2.4302a03f.chunk.js.LICENSE.txt",
     "static/media/AirXtrem_logo_Horizontal_grosSmall.jpg": "/static/media/AirXtrem_logo_Horizontal_grosSmall.fda52124.jpg",
     "static/media/B77-1Small.jpg": "/static/media/B77-1Small.5edfe17a.jpg",
     "static/media/CSA CNSDSmall.jpg": "/static/media/CSA CNSDSmall.eaac0ba2.jpg",
@@ -142,6 +142,7 @@
     "static/media/fontainebleauSmall.png": "/static/media/fontainebleauSmall.e521ae49.png",
     "static/media/franchard arena MD.jpg": "/static/media/franchard arena MD.782f370c.jpg",
     "static/media/franchard arena nationale.jpg": "/static/media/franchard arena nationale.b06b1dc2.jpg",
+    "static/media/headlogo1Small.png": "/static/media/headlogo1Small.5a8ca0d6.png",
     "static/media/logo ASSAP77.jpg": "/static/media/logo ASSAP77.07b1b859.jpg",
     "static/media/logo CNSDSmall.jpg": "/static/media/logo CNSDSmall.0af68de2.jpg",
     "static/media/logo assamoisSmall.jpg": "/static/media/logo assamoisSmall.0edf346f.jpg",
@@ -152,7 +153,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2b508c2c.js",
-    "static/js/2.f8355c1f.chunk.js",
-    "static/js/main.7513fd44.chunk.js"
+    "static/js/2.4302a03f.chunk.js",
+    "static/js/main.dbfeb8eb.chunk.js"
   ]
 }

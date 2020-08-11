@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8ff53bacf96a48e6275d1b640dbaa79",
+    "revision": "bb253a9c555d12d84623c997a44a0808",
     "url": "/index.html"
   },
   {
-    "revision": "fb30d42be44f25cb749d",
-    "url": "/static/js/2.f8355c1f.chunk.js"
+    "revision": "77abc5c1ce8a90a7b4d3",
+    "url": "/static/js/2.4302a03f.chunk.js"
   },
   {
     "revision": "8882f005f02c523c02fe20809fd3cb89",
-    "url": "/static/js/2.f8355c1f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4302a03f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b86d955a34c35dbb089",
-    "url": "/static/js/main.7513fd44.chunk.js"
+    "revision": "39899743a6d8b795f33a",
+    "url": "/static/js/main.dbfeb8eb.chunk.js"
   },
   {
     "revision": "f5c37417043a6580eae1",
@@ -646,6 +646,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b06b1dc2bdb746826e1778c45f657ba1",
     "url": "/static/media/franchard arena nationale.b06b1dc2.jpg"
+  },
+  {
+    "revision": "5a8ca0d6aeedb6832334c9ff8a772a9b",
+    "url": "/static/media/headlogo1Small.5a8ca0d6.png"
   },
   {
     "revision": "07b1b8590df8d9d7a448d1b2c6dfe791",
