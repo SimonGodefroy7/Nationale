@@ -34,7 +34,7 @@ const language = {
     "Lego.box1Paragraph5":
       "Vous pointez le départ avec votre propre puce (ou une puce prêtée). Ensuite, il vous faut choisir les bonnes balises sur le terrain à l’aide de la carte. Pour cela, il est possible de tourner autour de la table LEGO et sur chaque balise, un numéro de poste est à reporter sur le carton de contrôle à l’aide d’un stylo (votre propre stylo ou un stylo prêté). Vous pointez l’arrivée pour finir la course. Les HD10 devront retrouver des animaux plutôt que des balises.",
     "Lego.box1Paragraph61":
-      "Vous pouvez retoruver toutes ses informations sur ",
+      "Vous pouvez retrouver toutes ses informations sur ",
     "Lego.box1Paragraph62": "Facebook",
     "Lego.box2Title": "Le classement",
     "Lego.box2Paragraph":
@@ -876,7 +876,7 @@ const language = {
     "Lego.box1Paragraph5":
       "Vous pointez le départ avec votre propre puce (ou une puce prêtée). Ensuite, il vous faut choisir les bonnes balises sur le terrain à l’aide de la carte. Pour cela, il est possible de tourner autour de la table LEGO et sur chaque balise, un numéro de poste est à reporter sur le carton de contrôle à l’aide d’un stylo (votre propre stylo ou un stylo prêté). Vous pointez l’arrivée pour finir la course. Les HD10 devront retrouver des animaux plutôt que des balises.",
     "Lego.box1Paragraph61":
-      "Vous pouvez retoruver toutes ses informations sur ",
+      "Vous pouvez retrouver toutes ses informations sur ",
     "Lego.box1Paragraph62": "Facebook",
     "Lego.box2Title": "Le classement",
     "Lego.box2Paragraph":
