@@ -33,6 +33,9 @@ const language = {
     "Lego.box1Paragraph4": "Et la carte qui correspond:",
     "Lego.box1Paragraph5":
       "Vous pointez le départ avec votre propre puce (ou une puce prêtée). Ensuite, il vous faut choisir les bonnes balises sur le terrain à l’aide de la carte. Pour cela, il est possible de tourner autour de la table LEGO et sur chaque balise, un numéro de poste est à reporter sur le carton de contrôle à l’aide d’un stylo (votre propre stylo ou un stylo prêté). Vous pointez l’arrivée pour finir la course. Les HD10 devront retrouver des animaux plutôt que des balises.",
+    "Lego.box1Paragraph61":
+      "Vous pouvez retoruver toutes ses informations sur ",
+    "Lego.box1Paragraph62": "Facebook",
     "Lego.box2Title": "Le classement",
     "Lego.box2Paragraph":
       "Le classement de l’épreuve se fait d’abord par points puis par le temps. Chaque balise correcte marque 1 point. ",
@@ -252,11 +255,11 @@ const language = {
     "SprintEvent.box2ControlTitle": "Controls",
     "SprintEvent.box2Control1": "19",
     "SprintEvent.box2Control2": "18",
-    "SprintEvent.box2Control3": "18",
+    "SprintEvent.box2Control3": "19",
     "SprintEvent.box2Control4": "18",
     "SprintEvent.box2Control5": "18",
-    "SprintEvent.box2Control6": "18",
-    "SprintEvent.box2Control7": "17",
+    "SprintEvent.box2Control6": "17",
+    "SprintEvent.box2Control7": "16",
     "SprintEvent.box2Control8": "16",
     "SprintEvent.box2Control9": "15",
     "SprintEvent.box2Control10": "17",
@@ -266,7 +269,7 @@ const language = {
     "SprintEvent.box2Control14": "14",
     "SprintEvent.box2Control15": "14",
     "SprintEvent.box2Control16": "15",
-    "SprintEvent.box2Control17": "17",
+    "SprintEvent.box2Control17": "16",
     "SprintEvent.box2Control18": "16",
     "SprintEvent.box2Control19": "14",
     "SprintEvent.box2Title": "Courses details",
@@ -801,7 +804,9 @@ const language = {
     "Home.box16ParagraphTitle": "Refreshment bar: ",
     "Home.box16Paragraph1":
       "During these 3 days, you will find a Gâtinais craft beer 'La Gatine'. On Saturday and Sunday, the foodtruck 'Sarazine' will serve you crepes and fresh drink. And on Sunday, the caterer 'Le Trady' will propose you fresh drinks, ham-emmental sandwich at 3€, tuna sandwich at 3.5€ or meal-trays at 8€ (you can choose between, tabbouleh + chicken + Camembert + fruit compote or pasta salads + roast pork + Camembert + fruit compote). For the meal-trays, please register with this ",
-    "Home.box16Paragraph2": "link",
+    "Home.box16Paragraph2": "link.",
+    "Home.box16Paragraph3":
+      " Last possible date to register is 17th of August.",
     "Home.box17ParagraphTitle": "Registration: ",
     "Home.box171Paragraph": "Registration for races are now open on ",
     "Home.box172Paragraph": " website until 7th august.",
@@ -870,6 +875,9 @@ const language = {
     "Lego.box1Paragraph4": "Et la carte qui correspond:",
     "Lego.box1Paragraph5":
       "Vous pointez le départ avec votre propre puce (ou une puce prêtée). Ensuite, il vous faut choisir les bonnes balises sur le terrain à l’aide de la carte. Pour cela, il est possible de tourner autour de la table LEGO et sur chaque balise, un numéro de poste est à reporter sur le carton de contrôle à l’aide d’un stylo (votre propre stylo ou un stylo prêté). Vous pointez l’arrivée pour finir la course. Les HD10 devront retrouver des animaux plutôt que des balises.",
+    "Lego.box1Paragraph61":
+      "Vous pouvez retoruver toutes ses informations sur ",
+    "Lego.box1Paragraph62": "Facebook",
     "Lego.box2Title": "Le classement",
     "Lego.box2Paragraph":
       "Le classement de l’épreuve se fait d’abord par points puis par le temps. Chaque balise correcte marque 1 point. ",
@@ -1092,11 +1100,11 @@ const language = {
     "SprintEvent.box2ControlTitle": "Postes",
     "SprintEvent.box2Control1": "19",
     "SprintEvent.box2Control2": "18",
-    "SprintEvent.box2Control3": "18",
+    "SprintEvent.box2Control3": "19",
     "SprintEvent.box2Control4": "18",
     "SprintEvent.box2Control5": "18",
-    "SprintEvent.box2Control6": "18",
-    "SprintEvent.box2Control7": "17",
+    "SprintEvent.box2Control6": "17",
+    "SprintEvent.box2Control7": "16",
     "SprintEvent.box2Control8": "16",
     "SprintEvent.box2Control9": "15",
     "SprintEvent.box2Control10": "17",
@@ -1106,7 +1114,7 @@ const language = {
     "SprintEvent.box2Control14": "14",
     "SprintEvent.box2Control15": "14",
     "SprintEvent.box2Control16": "15",
-    "SprintEvent.box2Control17": "17",
+    "SprintEvent.box2Control17": "16",
     "SprintEvent.box2Control18": "16",
     "SprintEvent.box2Control19": "14",
     "SprintEvent.box2Title": "Détails des circuits",
@@ -1641,7 +1649,8 @@ const language = {
     "Home.box16ParagraphTitle": "Buvette: ",
     "Home.box16Paragraph1":
       "Sur nos 3 jours de course, vous trouverez la bière artisanale du gatinais 'La Gatine'. Le samedi et le dimanche sur l'arena, le foodtruck 'Sarazine' vous servira des crêpes et des boissons fraiches. Et le dimanche, le traiteur 'Le Trady' vous proposera des boissons fraiches, des sandwichs jambon-emmental à 3 euros, des sandwichs au thon à 3,50 euros ou des plateaux repas à 8 euros (au choix, taboulé + cuisse de poulet + Camembert + compote ou salade de coquillettes + roti de porc + Camembert + compote). Pour les plateaux repas, veuillez les reserver avec ce ",
-    "Home.box16Paragraph2": "lien",
+    "Home.box16Paragraph2": "lien.",
+    "Home.box16Paragraph3": " Le dernier délai pour réserver est le 17 août.",
     "Home.box17ParagraphTitle": "Inscriptions: ",
     "Home.box171Paragraph":
       "Les inscriptions aux 3 courses sont ouvertes sur le site de la ",

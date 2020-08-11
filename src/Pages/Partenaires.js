@@ -13,7 +13,6 @@ import StyledSpan from "../styledComponents/StyledSpan";
 import onfLogo from "../image/PartnerLogo/Logo-ONFSmall.jpg";
 import ffcoLogo from "../image/PartnerLogo/FFCO_LOGO_1Small.jpg";
 import ligueIDFLogo from "../image/PartnerLogo/logoLifcoSmall.JPG";
-import cDCO77Logo from "../image/PartnerLogo/CD77 PFSmall.jpg";
 import cdosLogo from "../image/PartnerLogo/cdos_seine_et_marne_logo_quadri_exe_copieSmall.jpg";
 import chateauLandonLogo from "../image/PartnerLogo/LOGO CHATEAU LANDONSmall.png";
 import oriensportLogo from "../image/PartnerLogo/LOGO ORIENSPORTSmall.jpg";
@@ -37,6 +36,7 @@ import sportident from "../image/PartnerLogo/Logo_sportidentSmall.png";
 import asIGN from "../image/PartnerLogo/logo-as4c-IGN-2.0Small.jpg";
 import sprint from "../image/PartnerLogo/SPPRINT-_logo5-e1577523745594Small.png";
 import usMelun from "../image/PartnerLogo/US MELUNSmall.jpg";
+import asco from "../image/PartnerLogo/ascoSmall.jpg";
 import Translator from "../Logic/Translator";
 
 class Partenaires extends Component {
@@ -67,7 +67,34 @@ class Partenaires extends Component {
               alignItems="center"
             >
               <StyledFlexBox>
-                <StyledImg src={ansa} alt={ansa} />
+                <StyledAnchor
+                  href="http://www.ffcorientation.fr"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={ffcoLogo} alt={ffcoLogo} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="https://www.lifco.fr/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={ligueIDFLogo} alt={ligueIDFLogo} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="https://seineetmarne.franceolympique.com/accueil.php"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={cdosLogo} alt={cdosLogo} />
+                </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledAnchor
@@ -77,6 +104,79 @@ class Partenaires extends Component {
                   hoverless
                 >
                   <StyledImg src={regionIDF} alt={regionIDF} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="https://www.seine-et-marne.fr/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={seineEtMarneLogo} alt={seineEtMarneLogo} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="https://www.onf.fr/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={onfLogo} alt={onfLogo} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="http://www.fontainebleau.fr/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={fontainebleau} alt={fontainebleau} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="http://chateau-landon.com/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={chateauLandonLogo} alt={chateauLandonLogo} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={cnsd} alt={cnsd} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="https://boutique.airxtrem.com/index.php"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={airXtrem} alt={airXtrem} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="https://orientsport.fr/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={oriensportLogo} alt={oriensportLogo} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="http://www.coasign.fr/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={asIGN} alt={asIGN} />
                 </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
@@ -100,49 +200,19 @@ class Partenaires extends Component {
                 </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
+                <StyledAnchor
+                  href="http://www.asco-orleans.com/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={asco} alt={asco} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
                 <StyledImg src={chambon} alt={chambon} />
               </StyledFlexBox>
 
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="https://www.onf.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={onfLogo} alt={onfLogo} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="http://www.ffcorientation.fr"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={ffcoLogo} alt={ffcoLogo} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="https://orientsport.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={oriensportLogo} alt={oriensportLogo} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="http://www.fontainebleau.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={fontainebleau} alt={fontainebleau} />
-                </StyledAnchor>
-              </StyledFlexBox>
               <StyledFlexBox>
                 <StyledAnchor
                   href="http://www.biere-la-gatine.fr/"
@@ -155,86 +225,12 @@ class Partenaires extends Component {
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledAnchor
-                  href="http://www.coasign.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={asIGN} alt={asIGN} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledImg src={cnsd} alt={cnsd} />
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
                   href="https://www.deslischocolat.com/fr/"
                   centerimg
                   paddingless
                   hoverless
                 >
                   <StyledImg src={dlc} alt={dlc} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="https://www.lifco.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={ligueIDFLogo} alt={ligueIDFLogo} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="http://cd77if.free.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={cDCO77Logo} alt={cDCO77Logo} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="https://seineetmarne.franceolympique.com/accueil.php"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={cdosLogo} alt={cdosLogo} />
-                </StyledAnchor>
-              </StyledFlexBox>
-
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="https://www.seine-et-marne.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={seineEtMarneLogo} alt={seineEtMarneLogo} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="https://boutique.airxtrem.com/index.php"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={airXtrem} alt={airXtrem} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="http://chateau-landon.com/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={chateauLandonLogo} alt={chateauLandonLogo} />
                 </StyledAnchor>
               </StyledFlexBox>
             </StyledPartners>
@@ -250,12 +246,32 @@ class Partenaires extends Component {
             >
               <StyledFlexBox>
                 <StyledAnchor
-                  href="https://usmelunco.wordpress.com/"
+                  href="http://balise77.com/site/"
                   centerimg
                   paddingless
                   hoverless
                 >
-                  <StyledImg src={usMelun} alt={usMelun} />
+                  <StyledImg src={balise77} alt={balise77} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="https://www.opamontigny.fr/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={opa} alt={opa} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="http://www.csacnsd.fr/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={csaCNSD} alt={csaCNSD} />
                 </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
@@ -270,39 +286,6 @@ class Partenaires extends Component {
               </StyledFlexBox>
               <StyledFlexBox>
                 <StyledAnchor
-                  href="http://www.samois.coursedorientation.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={asSamois} alt={asSamois} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="https://www.opamontigny.fr/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={opa} alt={opa} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledImg src={assap77} alt={assap77} />
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
-                  href="http://balise77.com/site/"
-                  centerimg
-                  paddingless
-                  hoverless
-                >
-                  <StyledImg src={balise77} alt={balise77} />
-                </StyledAnchor>
-              </StyledFlexBox>
-              <StyledFlexBox>
-                <StyledAnchor
                   href="https://toutesorientationsmeaux.blogspot.com/"
                   centerimg
                   paddingless
@@ -312,13 +295,29 @@ class Partenaires extends Component {
                 </StyledAnchor>
               </StyledFlexBox>
               <StyledFlexBox>
+                <StyledImg src={ansa} alt={ansa} />
+              </StyledFlexBox>
+              <StyledFlexBox>
                 <StyledAnchor
-                  href="http://www.csacnsd.fr/"
+                  href="http://www.samois.coursedorientation.fr/"
                   centerimg
                   paddingless
                   hoverless
                 >
-                  <StyledImg src={csaCNSD} alt={csaCNSD} />
+                  <StyledImg src={asSamois} alt={asSamois} />
+                </StyledAnchor>
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledImg src={assap77} alt={assap77} />
+              </StyledFlexBox>
+              <StyledFlexBox>
+                <StyledAnchor
+                  href="https://usmelunco.wordpress.com/"
+                  centerimg
+                  paddingless
+                  hoverless
+                >
+                  <StyledImg src={usMelun} alt={usMelun} />
                 </StyledAnchor>
               </StyledFlexBox>
             </StyledPartners>

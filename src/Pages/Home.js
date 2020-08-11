@@ -195,6 +195,9 @@ class Home extends Component {
                   <Translator id="Home.box16Paragraph2" />
                 </StyledAnchor>
               </StyledSpan>
+              <StyledSpan>
+                <Translator id="Home.box16Paragraph3" />
+              </StyledSpan>
             </StyledParagraph>
             <StyledFlexBox flexDirection="row" alignItems="center">
               <StyledParagraph>

@@ -10,6 +10,7 @@ import StyledSpan from "../styledComponents/StyledSpan";
 import StyledHero from "../styledComponents/StyledHero";
 import StyledFlexBox from "../styledComponents/StyledFlexBox";
 import StyledImg from "../styledComponents/StyledImg";
+import StyledAnchor from "../styledComponents/StyledAnchor";
 import StyledHeroHeadline from "../styledComponents/StyledHeroHeadline";
 import Translator from "../Logic/Translator";
 import mobileSBackground from "../image/Background/MobileS.jpg";
@@ -87,6 +88,16 @@ class Lego extends Component {
             </StyledFlexBox>
             <StyledParagraph>
               <Translator id="Lego.box1Paragraph5" />
+            </StyledParagraph>
+            <StyledParagraph>
+              <StyledSpan>
+                <Translator id="Lego.box1Paragraph61" />
+              </StyledSpan>
+              <StyledSpan>
+                <StyledAnchor href="https://www.facebook.com/events/295544194838175">
+                  <Translator id="Lego.box1Paragraph62" />
+                </StyledAnchor>
+              </StyledSpan>
             </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
