@@ -123,7 +123,9 @@ class LongDistance extends Component {
                     <Translator id="LDEvent.box1StartListTitle" />
                   </StyledSpan>
                   <StyledSpan>
-                    <Translator id="LDEvent.box1StartListParagraph" />
+                    <StyledAnchor as={Link} to="liste-de-depart#LD">
+                      <Translator id="LDEvent.box1StartListParagraph" />
+                    </StyledAnchor>
                   </StyledSpan>
                 </StyledParagraph>
                 <StyledParagraph>
@@ -160,7 +162,6 @@ class LongDistance extends Component {
                     as={Link}
                     to="/download/LIVRET ACCUEIL NATIONALES CDCO77.pdf"
                     target="_blank"
-                    download
                   >
                     <StyledSpan>
                       <Translator id="LDEvent.box1OfficialBookParagraph" />
@@ -175,7 +176,6 @@ class LongDistance extends Component {
                     as={Link}
                     to="/download/LD PDF.pdf"
                     target="_blank"
-                    download
                   >
                     <StyledSpan>
                       <Translator id="LDEvent.box1RaceAnnouncementParagraph" />

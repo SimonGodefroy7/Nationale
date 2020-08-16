@@ -154,7 +154,6 @@ class Sprint extends Component {
                     as={Link}
                     to="/download/LIVRET ACCUEIL NATIONALES CDCO77.pdf"
                     target="_blank"
-                    download
                   >
                     <StyledSpan>
                       <Translator id="SprintEvent.box1OfficialBookParagraph" />
@@ -169,7 +168,6 @@ class Sprint extends Component {
                     as={Link}
                     to="/download/SPRINT PDF.pdf"
                     target="_blank"
-                    download
                   >
                     <StyledSpan>
                       <Translator id="SprintEvent.box1RaceAnnouncementParagraph" />

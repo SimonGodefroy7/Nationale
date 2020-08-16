@@ -159,7 +159,6 @@ class MiddleDistance extends Component {
                     as={Link}
                     to="/download/LIVRET ACCUEIL NATIONALES CDCO77.pdf"
                     target="_blank"
-                    download
                   >
                     <StyledSpan>
                       <Translator id="MDEvent.box1OfficialBookParagraph" />
@@ -174,7 +173,6 @@ class MiddleDistance extends Component {
                     as={Link}
                     to="/download/MD PDF.pdf"
                     target="_blank"
-                    download
                   >
                     <StyledSpan>
                       <Translator id="MDEvent.box1RaceAnnouncementParagraph" />

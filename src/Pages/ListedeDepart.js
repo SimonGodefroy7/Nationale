@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Page from "../Logic/Page";
+import Link from "../Logic/Link";
 import StyledH1 from "../styledComponents/StyledH1";
 import StyledH3 from "../styledComponents/StyledH3";
 import StyledParagraph from "../styledComponents/StyledParagraph";
 import StyledBorderBox from "../styledComponents/StyledBorderBox";
 import StyledSection from "../styledComponents/StyledSection";
 import StyledSpan from "../styledComponents/StyledSpan";
+import StyledAnchor from "../styledComponents/StyledAnchor";
 import Translator from "../Logic/Translator";
 
 class ListeDeDepartResultats extends Component {
@@ -27,7 +29,7 @@ class ListeDeDepartResultats extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="StartList.lastUpate" />
           </StyledSpan>
-          <StyledBorderBox>
+          <StyledBorderBox id="Sprint">
             <StyledH3>
               <Translator id="StartList.spTitle" />
             </StyledH3>
@@ -35,7 +37,7 @@ class ListeDeDepartResultats extends Component {
               <Translator id="StartList.spParagraph" />
             </StyledParagraph>
           </StyledBorderBox>
-          <StyledBorderBox>
+          <StyledBorderBox id="MD">
             <StyledH3>
               <Translator id="StartList.mdTitle" />
             </StyledH3>
@@ -43,13 +45,19 @@ class ListeDeDepartResultats extends Component {
               <Translator id="StartList.mdParagraph" />
             </StyledParagraph>
           </StyledBorderBox>
-          <StyledBorderBox>
+          <StyledBorderBox id="LD">
             <StyledH3>
               <Translator id="StartList.ldTitle" />
             </StyledH3>
-            <StyledParagraph>
-              <Translator id="StartList.ldParagraph" />
-            </StyledParagraph>
+            <StyledAnchor
+              as={Link}
+              to="/download/Horaires_departs_LD.pdf"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="StartList.ldParagraph" />
+              </StyledParagraph>
+            </StyledAnchor>
           </StyledBorderBox>
         </StyledSection>
       </Page>

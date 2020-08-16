@@ -235,7 +235,6 @@ class Home extends Component {
                 to="/download/LIVRET ACCUEIL NATIONALES CDCO77.pdf"
                 padding="0.5rem"
                 target="_blank"
-                download
               >
                 <StyledSpan>
                   <Translator id="MDEvent.box1OfficialBookParagraph" />
