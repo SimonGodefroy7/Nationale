@@ -1674,7 +1674,7 @@ const language = {
     "StartList.mdTitle": "Liste de départ de la MD",
     "StartList.mdParagraph": "Pas encore disponible",
     "StartList.ldTitle": "Liste de départ de la LD",
-    "StartList.ldParagraph": "Horraires de départ par catégories",
+    "StartList.ldParagraph": "Horaires de départ par catégories",
     "Partners.title": "Partenaires",
     "Partners.box1title": "Partenaires",
     "Partners.box2title": "Clubs bénévoles",
