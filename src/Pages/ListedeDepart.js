@@ -33,9 +33,33 @@ class ListeDeDepartResultats extends Component {
             <StyledH3>
               <Translator id="StartList.spTitle" />
             </StyledH3>
-            <StyledParagraph>
-              <Translator id="StartList.spParagraph" />
-            </StyledParagraph>
+            <StyledAnchor
+              as={Link}
+              to="/download/Horaires_departs_Sprint.html"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="StartList.spParagraph1" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/horaires_ clubs_selections_Sprint.pdf"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="StartList.spParagraph21" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/horaires_par_ clubs_sauf_selections_Sprint.pdf"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="StartList.spParagraph22" />
+              </StyledParagraph>
+            </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox id="MD">
             <StyledH3>

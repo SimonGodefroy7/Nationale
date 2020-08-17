@@ -123,7 +123,7 @@ const language = {
     "SprintEvent.box1DateTitle": "Date: ",
     "SprintEvent.box1DateParagraph": "Friday 21st of August 2020",
     "SprintEvent.box1StartListTitle": "Start list: ",
-    "SprintEvent.box1StartListParagraph": "available soon",
+    "SprintEvent.box1StartListParagraph": "here",
     "SprintEvent.box1ResultTitle": "Result: ",
     "SprintEvent.box1ResultParagraph": "not yet available",
     "SprintEvent.box1ParkHomeDistanceTitle": "Parking-arena distance: ",
@@ -826,7 +826,9 @@ const language = {
     "Home.box6Paragraph": "More pictures",
     "StartList.title": "Start list",
     "StartList.spTitle": "Sprint start list",
-    "StartList.spParagraph": "not yet available",
+    "StartList.spParagraph1": "Start list by classes",
+    "StartList.spParagraph21": "Start list by club 1",
+    "StartList.spParagraph22": "Start list by club 2",
     "StartList.mdTitle": "Middle distance start list",
     "StartList.mdParagraph": "not yet available",
     "StartList.ldTitle": "Long distance start list",
@@ -840,7 +842,7 @@ const language = {
     "Results.mdTitle": "Middle distance results",
     "Results.mdParagraph": "not yet available",
     "Results.ldTitle": "Long distance results",
-    "Results.ldParagraph": "not yet available"
+    "Results.ldParagraph": "not yet available",
   },
   fr: {
     "Partners.lastUpate": `Dernière mise à jour : ${lastUpate.PARTNERS}`,
@@ -968,7 +970,7 @@ const language = {
     "SprintEvent.box1DateTitle": "Date: ",
     "SprintEvent.box1DateParagraph": "Vendredi 21 août 2020",
     "SprintEvent.box1StartListTitle": "Liste de Départ: ",
-    "SprintEvent.box1StartListParagraph": "bientôt disponible",
+    "SprintEvent.box1StartListParagraph": "ici",
     "SprintEvent.box1ResultTitle": "Résultat: ",
     "SprintEvent.box1ResultParagraph": "pas encore disponible",
     "SprintEvent.box1ParkHomeDistanceTitle": "Distance Parking-Accueil: ",
@@ -1670,11 +1672,13 @@ const language = {
     "Home.box6Paragraph": "Plus de photos",
     "StartList.title": "Listes de départ",
     "StartList.spTitle": "Liste de départ du Sprint",
-    "StartList.spParagraph": "Pas encore disponible",
+    "StartList.spParagraph1": "Liste de départ par catégories",
+    "StartList.spParagraph21": "Liste de départ par club 1",
+    "StartList.spParagraph22": "Liste de départ par club 2",
     "StartList.mdTitle": "Liste de départ de la MD",
     "StartList.mdParagraph": "Pas encore disponible",
     "StartList.ldTitle": "Liste de départ de la LD",
-    "StartList.ldParagraph": "Horaires de départ par catégories",
+    "StartList.ldParagraph": "Liste de départ par catégories",
     "Partners.title": "Partenaires",
     "Partners.box1title": "Partenaires",
     "Partners.box2title": "Clubs bénévoles",
@@ -1684,8 +1688,8 @@ const language = {
     "Results.mdTitle": "Résultats de la MD",
     "Results.mdParagraph": "Pas encore disponible",
     "Results.ldTitle": "Résultats de la LD",
-    "Results.ldParagraph": "Pas encore disponible"
-  }
+    "Results.ldParagraph": "Pas encore disponible",
+  },
 };
 
 export default language;

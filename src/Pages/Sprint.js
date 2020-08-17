@@ -117,7 +117,9 @@ class Sprint extends Component {
                     <Translator id="SprintEvent.box1StartListTitle" />
                   </StyledSpan>
                   <StyledSpan>
-                    <Translator id="SprintEvent.box1StartListParagraph" />
+                    <StyledAnchor as={Link} to="liste-de-depart#Sprint">
+                      <Translator id="SprintEvent.box1StartListParagraph" />
+                    </StyledAnchor>
                   </StyledSpan>
                 </StyledParagraph>
                 <StyledParagraph>
@@ -704,5 +706,5 @@ class Sprint extends Component {
   }
 }
 
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(Sprint);
