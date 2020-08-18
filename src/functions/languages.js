@@ -812,7 +812,7 @@ const language = {
     "Home.box172Paragraph": " website until 7th august.",
     "Home.box18ParagraphTitle": "Stands: ",
     "Home.box18Paragraph":
-      "AIR EXTREM, ORIENSPORT and SPORTIDENT partners will have a stand on the arena.",
+      "AIRXTREM, ORIENSPORT and SPORTIDENT partners will have a stand on the arena.",
     "Home.box2Title": "Forbidden area",
     "Home.box2Paragraph":
       "The area marked in red below is forbidden. Competitors are not allowed to enter the forbidden area before the competitions, otherwise they will be disqualified.",
@@ -1659,7 +1659,7 @@ const language = {
     "Home.box172Paragraph": " jusqu'au 7 aout.",
     "Home.box18ParagraphTitle": "Stands: ",
     "Home.box18Paragraph":
-      "Présence des stands partenaires AIR EXTREM, ORIENSPORT et SPORTIDENT.",
+      "Présence des stands partenaires AIRXTREM, ORIENSPORT et SPORTIDENT.",
     "Home.box2Title": "Zones gelées",
     "Home.box2Paragraph": "Les zones gelées sont délimitées par la ligne rouge",
     "Home.box5Title": "Extraits de cartes",
