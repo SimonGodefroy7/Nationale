@@ -65,9 +65,15 @@ class ListeDeDepartResultats extends Component {
             <StyledH3>
               <Translator id="StartList.mdTitle" />
             </StyledH3>
-            <StyledParagraph>
-              <Translator id="StartList.mdParagraph" />
-            </StyledParagraph>
+            <StyledAnchor
+              as={Link}
+              to="/download/Horaires_departs_MD.pdf"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="StartList.mdParagraph" />
+              </StyledParagraph>
+            </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox id="LD">
             <StyledH3>

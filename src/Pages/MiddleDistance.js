@@ -122,7 +122,9 @@ class MiddleDistance extends Component {
                     <Translator id="MDEvent.box1StartListTitle" />
                   </StyledSpan>
                   <StyledSpan>
-                    <Translator id="MDEvent.box1StartListParagraph" />
+                    <StyledAnchor as={Link} to="liste-de-depart#MD">
+                      <Translator id="MDEvent.box1StartListParagraph" />
+                    </StyledAnchor>
                   </StyledSpan>
                 </StyledParagraph>
                 <StyledParagraph>
@@ -882,5 +884,5 @@ class MiddleDistance extends Component {
   }
 }
 
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(MiddleDistance);
