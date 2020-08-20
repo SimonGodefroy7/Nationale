@@ -35,7 +35,7 @@ class ListeDeDepartResultats extends Component {
             </StyledH3>
             <StyledAnchor
               as={Link}
-              to="/download/Horaires_departs_Sprint.html"
+              to="/download/horaires_departs_Sprint_categories.html"
               target="_blank"
             >
               <StyledParagraph>
@@ -44,20 +44,11 @@ class ListeDeDepartResultats extends Component {
             </StyledAnchor>
             <StyledAnchor
               as={Link}
-              to="/download/horaires_ clubs_selections_Sprint.pdf"
+              to="/download/horaires_departs_Sprint_selections.pdf"
               target="_blank"
             >
               <StyledParagraph>
-                <Translator id="StartList.spParagraph21" />
-              </StyledParagraph>
-            </StyledAnchor>
-            <StyledAnchor
-              as={Link}
-              to="/download/horaires_par_ clubs_sauf_selections_Sprint.pdf"
-              target="_blank"
-            >
-              <StyledParagraph>
-                <Translator id="StartList.spParagraph22" />
+                <Translator id="StartList.spParagraph2" />
               </StyledParagraph>
             </StyledAnchor>
           </StyledBorderBox>
