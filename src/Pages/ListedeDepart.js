@@ -35,7 +35,7 @@ class ListeDeDepartResultats extends Component {
             </StyledH3>
             <StyledAnchor
               as={Link}
-              to="/download/horaires_departs_Sprint_categories.html"
+              to="/download/horaires_departs_Sprint_categories.pdf"
               target="_blank"
             >
               <StyledParagraph>
