@@ -58,11 +58,20 @@ class ListeDeDepartResultats extends Component {
             </StyledH3>
             <StyledAnchor
               as={Link}
-              to="/download/Horaires_departs_MD.pdf"
+              to="/download/Horaires_departs_MD_categories.pdf"
               target="_blank"
             >
               <StyledParagraph>
-                <Translator id="StartList.mdParagraph" />
+                <Translator id="StartList.mdParagraph1" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/Horaires_departs_MD_clubs.pdf"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="StartList.mdParagraph2" />
               </StyledParagraph>
             </StyledAnchor>
           </StyledBorderBox>
@@ -72,11 +81,20 @@ class ListeDeDepartResultats extends Component {
             </StyledH3>
             <StyledAnchor
               as={Link}
-              to="/download/Horaires_departs_LD.pdf"
+              to="/download/Horaires-departs_cate_LD.pdf"
               target="_blank"
             >
               <StyledParagraph>
-                <Translator id="StartList.ldParagraph" />
+                <Translator id="StartList.ldParagraph1" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/Horaires-departs_clubs_LD.pdf"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="StartList.ldParagraph2" />
               </StyledParagraph>
             </StyledAnchor>
           </StyledBorderBox>
