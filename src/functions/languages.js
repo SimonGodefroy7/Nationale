@@ -838,6 +838,10 @@ const language = {
     "Partners.box1title": "Partners",
     "Partners.box2title": "Volunteer clubs",
     "Results.title": "Results",
+    "Results.paragraph1":
+      "Due to COVID-19, there will be no results display on the arena. But they will be available ",
+    "Results.paragraph2": "here",
+    "Results.paragraph3": " refreshed every 15 min",
     "Results.spTitle": "Sprint results",
     "Results.spParagraph": "not yet available",
     "Results.mdTitle": "Middle distance results",
@@ -1685,6 +1689,10 @@ const language = {
     "Partners.box1title": "Partenaires",
     "Partners.box2title": "Clubs bénévoles",
     "Results.title": "Résultats",
+    "Results.paragraph1":
+      "En raison des mesures de protection COVID-19, aucun résultat ne sera affiché sur les écrans de l’aréna. Ils sont disponibles ",
+    "Results.paragraph2": "ici",
+    "Results.paragraph3": " actualisés tous les 1/4 d'heures",
     "Results.spTitle": "Résultats du Sprint",
     "Results.spParagraph": "Pas encore disponible",
     "Results.mdTitle": "Résultats de la MD",

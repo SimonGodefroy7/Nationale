@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Page from "../Logic/Page";
+import Link from "../Logic/Link";
 import StyledH1 from "../styledComponents/StyledH1";
 import StyledH3 from "../styledComponents/StyledH3";
 import StyledParagraph from "../styledComponents/StyledParagraph";
 import StyledBorderBox from "../styledComponents/StyledBorderBox";
 import StyledSection from "../styledComponents/StyledSection";
 import StyledSpan from "../styledComponents/StyledSpan";
+import StyledAnchor from "../styledComponents/StyledAnchor";
 import Translator from "../Logic/Translator";
 
 class Resultats extends Component {
@@ -27,6 +29,21 @@ class Resultats extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="Results.lastUpate" />
           </StyledSpan>
+          <StyledBorderBox>
+            <StyledParagraph>
+              <StyledSpan>
+                <Translator id="Results.paragraph1" />
+              </StyledSpan>
+              <StyledSpan>
+                <StyledAnchor href="http://cdco77.free.fr/">
+                  <Translator id="Results.paragraph2" />
+                </StyledAnchor>
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="Results.paragraph3" />
+              </StyledSpan>
+            </StyledParagraph>
+          </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="Results.spTitle" />
