@@ -113,6 +113,24 @@ class Resultats extends Component {
               <Translator id="Results.ldParagraph" />
             </StyledParagraph>
           </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="Results.gpsTrackingTitle" />
+            </StyledH3>
+            <StyledParagraph>
+              <StyledSpan>
+                <Translator id="LDEvent.gpsTrackingParagrpah1" />
+              </StyledSpan>
+              <StyledSpan>
+                <StyledAnchor href="https://www.livelox.com/Events/Show/52869/Nationale-NO-2020-LD">
+                  <Translator id="LDEvent.gpsTrackingParagrpah2" />
+                </StyledAnchor>
+              </StyledSpan>
+              <StyledSpan>
+                <Translator id="LDEvent.gpsTrackingParagrpah3" />
+              </StyledSpan>
+            </StyledParagraph>
+          </StyledBorderBox>
         </StyledSection>
       </Page>
     );

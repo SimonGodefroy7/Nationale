@@ -860,7 +860,8 @@ const language = {
     "Results.mdTitle": "Middle distance results",
     "Results.mdParagraph": "Result by classes",
     "Results.ldTitle": "Long distance results",
-    "Results.ldParagraph": "not yet available"
+    "Results.ldParagraph": "not yet available",
+    "Results.gpsTrackingTitle": "GPS tracking LD"
   },
   fr: {
     "Partners.lastUpate": `Dernière mise à jour : ${lastUpate.PARTNERS}`,
@@ -1725,7 +1726,8 @@ const language = {
     "Results.mdTitle": "Résultats de la MD",
     "Results.mdParagraph": "Résultats catégories",
     "Results.ldTitle": "Résultats de la LD",
-    "Results.ldParagraph": "Pas encore disponible"
+    "Results.ldParagraph": "Pas encore disponible",
+    "Results.gpsTrackingTitle": "Tracking GPS LD"
   }
 };
 
