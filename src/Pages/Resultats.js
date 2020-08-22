@@ -44,7 +44,7 @@ class Resultats extends Component {
               </StyledSpan>
             </StyledParagraph>
           </StyledBorderBox>
-          <StyledBorderBox>
+          <StyledBorderBox id="Sprint">
             <StyledH3>
               <Translator id="Results.spTitle" />
             </StyledH3>
@@ -88,7 +88,7 @@ class Resultats extends Component {
               </StyledParagraph>
             </StyledAnchor>
           </StyledBorderBox>
-          <StyledBorderBox>
+          <StyledBorderBox id="MD">
             <StyledH3>
               <Translator id="Results.mdTitle" />
             </StyledH3>
@@ -96,7 +96,7 @@ class Resultats extends Component {
               <Translator id="Results.mdParagraph" />
             </StyledParagraph>
           </StyledBorderBox>
-          <StyledBorderBox>
+          <StyledBorderBox id="LD">
             <StyledH3>
               <Translator id="Results.ldTitle" />
             </StyledH3>
