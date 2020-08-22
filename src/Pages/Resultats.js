@@ -51,6 +51,42 @@ class Resultats extends Component {
             <StyledParagraph>
               <Translator id="Results.spParagraph" />
             </StyledParagraph>
+            <StyledAnchor
+              as={Link}
+              to="/download/Results/Sprint/resultats SI.html"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="Results.spParagraph1" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/Results/Sprint/resultats_cat.html"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="Results.spParagraph2" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/Results/Sprint/resultats_selection_ SI_V2.html"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="Results.spParagraph3" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/Results/Sprint/resultats_selections_cat_V2.html"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="Results.spParagraph4" />
+              </StyledParagraph>
+            </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
