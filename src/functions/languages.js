@@ -858,7 +858,7 @@ const language = {
     "Results.spParagraph3": "Split result for French selections",
     "Results.spParagraph4": "Result for French selections",
     "Results.mdTitle": "Middle distance results",
-    "Results.mdParagraph": "not yet available",
+    "Results.mdParagraph": "Result by classes",
     "Results.ldTitle": "Long distance results",
     "Results.ldParagraph": "not yet available"
   },
@@ -1723,7 +1723,7 @@ const language = {
     "Results.spParagraph3": "Résultats sélections SI",
     "Results.spParagraph4": "Résultats sélections",
     "Results.mdTitle": "Résultats de la MD",
-    "Results.mdParagraph": "Pas encore disponible",
+    "Results.mdParagraph": "Résultats catégories",
     "Results.ldTitle": "Résultats de la LD",
     "Results.ldParagraph": "Pas encore disponible"
   }
