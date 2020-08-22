@@ -54,6 +54,10 @@ const language = {
     "LandingPage.button": "Go to website",
     "Gallery.urban": "Urban Sprint",
     "Gallery.forest": "Forest Race",
+    "Gallery.album": "Albums",
+    "Gallery.sprint": "Sprint",
+    "Gallery.photograph1": "Isabelle Rora's Album",
+    "Gallery.photograph2": "Michael Biard's Album",
     "Footer.copyright": "All right reserved.",
     "Header.headerTitle": "Nationales North West 2020",
     "Header.headerTitleShort": "Nationales N-W 2020",
@@ -847,7 +851,7 @@ const language = {
     "Results.mdTitle": "Middle distance results",
     "Results.mdParagraph": "not yet available",
     "Results.ldTitle": "Long distance results",
-    "Results.ldParagraph": "not yet available",
+    "Results.ldParagraph": "not yet available"
   },
   fr: {
     "Partners.lastUpate": `Dernière mise à jour : ${lastUpate.PARTNERS}`,
@@ -902,6 +906,10 @@ const language = {
     "Gallery.title": "Galerie photos",
     "Gallery.urban": "Sprint Urbain",
     "Gallery.forest": "Course forestière",
+    "Gallery.album": "Albums",
+    "Gallery.sprint": "Sprint",
+    "Gallery.photograph1": "Album d'Isabelle Rora",
+    "Gallery.photograph2": "Album de Michael Biard",
     "Footer.copyright": "Tous droits réservés.",
     "Header.headerTitle": "Nationales Nord Ouest 2020",
     "Header.headerTitleShort": "Nationales N-O 2020",
@@ -1698,8 +1706,8 @@ const language = {
     "Results.mdTitle": "Résultats de la MD",
     "Results.mdParagraph": "Pas encore disponible",
     "Results.ldTitle": "Résultats de la LD",
-    "Results.ldParagraph": "Pas encore disponible",
-  },
+    "Results.ldParagraph": "Pas encore disponible"
+  }
 };
 
 export default language;

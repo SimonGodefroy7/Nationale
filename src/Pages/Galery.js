@@ -9,6 +9,10 @@ import StyledGallery from "../styledComponents/StyledGallery";
 import StyledGalleryItem from "../styledComponents/StyledGalleryItem";
 import StyledSection from "../styledComponents/StyledSection";
 import StyledButton from "../styledComponents/StyledButton";
+import StyledBorderBox from "../styledComponents/StyledBorderBox";
+import StyledParagraph from "../styledComponents/StyledParagraph";
+import StyledH3 from "../styledComponents/StyledH3";
+import StyledAnchor from "../styledComponents/StyledAnchor";
 import StyledSpan from "../styledComponents/StyledSpan";
 import Translator from "../Logic/Translator";
 import gallery from "../image/Gallery/gallery";
@@ -24,42 +28,44 @@ class Gallery extends Component {
     this.state = {
       ModalIsOpen: false,
       currentImage: 0,
-      urbanGallery: false,
-      forestGallery: true,
+      gallery: {
+        isUrban: false,
+        isForest: true,
+        isAlbum: false
+      }
     };
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
-    this.updateInUrbanGallery = this.updateInUrbanGallery.bind(this);
+    this.updateGallery = this.updateGallery.bind(this);
   }
-  openModal = (index) => {
-    this.setState((state) => ({
+  openModal = index => {
+    this.setState(state => ({
       ...this.state,
       ModalIsOpen: true,
-      currentImage: index,
+      currentImage: index
     }));
   };
   closeModal = () => {
-    this.setState((state) => ({
+    this.setState(state => ({
       ...this.state,
       ModalIsOpen: false,
-      currentImage: 0,
+      currentImage: 0
     }));
   };
-  updateInUrbanGallery = (isUrban) => {
-    this.setState((state) => ({
+  updateGallery = (isUrban, isForest, isAlbum) => {
+    this.setState(state => ({
       ...this.state,
-      urbanGallery: isUrban,
-      forestGallery: !isUrban,
+      gallery: {
+        isUrban: isUrban,
+        isForest: isForest,
+        isAlbum: isAlbum
+      }
     }));
   };
 
   render() {
-    const {
-      ModalIsOpen,
-      currentImage,
-      urbanGallery,
-      forestGallery,
-    } = this.state;
+    const { ModalIsOpen, currentImage, gallery } = this.state;
+    const { isUrban, isForest, isAlbum } = gallery;
     return (
       <Page>
         <Helmet>
@@ -78,25 +84,34 @@ class Gallery extends Component {
           </StyledSpan>
           <StyledFlexBox flexDirection="row" justifyContent="center">
             <StyledButton
-              isSelected={urbanGallery}
+              isSelected={isUrban}
               margin="1rem"
               padding="0.5rem"
               noHover
-              onClick={() => this.updateInUrbanGallery(true)}
+              onClick={() => this.updateGallery(true, false, false)}
             >
               <Translator id="Gallery.urban" />
             </StyledButton>
             <StyledButton
-              isSelected={forestGallery}
+              isSelected={isForest}
               margin="1rem"
               padding="0.5rem"
               noHover
-              onClick={() => this.updateInUrbanGallery(false)}
+              onClick={() => this.updateGallery(false, true, false)}
             >
               <Translator id="Gallery.forest" />
             </StyledButton>
+            <StyledButton
+              isSelected={isAlbum}
+              margin="1rem"
+              padding="0.5rem"
+              noHover
+              onClick={() => this.updateGallery(false, false, true)}
+            >
+              <Translator id="Gallery.album" />
+            </StyledButton>
           </StyledFlexBox>
-          {forestGallery && (
+          {isForest && (
             <React.Fragment>
               <StyledGallery forestGallery>
                 {smallForestImages.map((image, j) => (
@@ -113,10 +128,10 @@ class Gallery extends Component {
                   <Modal onClose={this.closeModal}>
                     <Carousel
                       currentIndex={currentImage}
-                      views={mediumForestImages.map((x) => ({
+                      views={mediumForestImages.map(x => ({
                         ...x,
                         srcset: x.srcSet,
-                        caption: x.title,
+                        caption: x.title
                       }))}
                     />
                   </Modal>
@@ -124,7 +139,7 @@ class Gallery extends Component {
               </ModalGateway>
             </React.Fragment>
           )}
-          {urbanGallery && (
+          {isUrban && (
             <React.Fragment>
               <StyledGallery urbanGallery>
                 {smallUrbanImages.map((image, j) => (
@@ -141,15 +156,33 @@ class Gallery extends Component {
                   <Modal onClose={this.closeModal}>
                     <Carousel
                       currentIndex={currentImage}
-                      views={mediumUrbanImages.map((x) => ({
+                      views={mediumUrbanImages.map(x => ({
                         ...x,
                         srcset: x.srcSet,
-                        caption: x.title,
+                        caption: x.title
                       }))}
                     />
                   </Modal>
                 ) : null}
               </ModalGateway>
+            </React.Fragment>
+          )}
+          {isAlbum && (
+            <React.Fragment>
+              <StyledBorderBox>
+                <StyledH3>
+                  <Translator id="Gallery.sprint" />
+                </StyledH3>
+                <StyledParagraph>
+                  <StyledAnchor href="https://photos.app.goo.gl/zb2FNpCk4E4xunq1A">
+                    <Translator id="Gallery.photograph1" />
+                  </StyledAnchor>
+                  <StyledParagraph></StyledParagraph>
+                  <StyledAnchor href="https://photos.app.goo.gl/w1s1F49eMdYBSfVL9">
+                    <Translator id="Gallery.photograph2" />
+                  </StyledAnchor>
+                </StyledParagraph>
+              </StyledBorderBox>
             </React.Fragment>
           )}
         </StyledSection>
