@@ -861,9 +861,11 @@ const language = {
     "Results.spParagraph3": "Split result for French selections",
     "Results.spParagraph4": "Result for French selections",
     "Results.mdTitle": "Middle distance results",
-    "Results.mdParagraph": "Result by classes",
+    "Results.mdParagraph1": "Result by classes",
+    "Results.mdParagraph2": "Split result by classes",
     "Results.ldTitle": "Long distance results",
-    "Results.ldParagraph": "Result by classes",
+    "Results.ldParagraph1": "Result by classes",
+    "Results.ldParagraph2": "Split result by classes",
     "Results.gpsTrackingTitle": "GPS tracking LD"
   },
   fr: {
@@ -1730,9 +1732,11 @@ const language = {
     "Results.spParagraph3": "Résultats sélections SI",
     "Results.spParagraph4": "Résultats sélections",
     "Results.mdTitle": "Résultats de la MD",
-    "Results.mdParagraph": "Résultats catégories",
+    "Results.mdParagraph1": "Résultats catégories",
+    "Results.mdParagraph2": "Résultats catégories SI",
     "Results.ldTitle": "Résultats de la LD",
-    "Results.ldParagraph": "Résultats catégories",
+    "Results.ldParagraph1": "Résultats catégories",
+    "Results.ldParagraph2": "Résultats catégories SI",
     "Results.gpsTrackingTitle": "Tracking GPS LD"
   }
 };

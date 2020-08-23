@@ -97,11 +97,20 @@ class Resultats extends Component {
             </StyledParagraph>
             <StyledAnchor
               as={Link}
-              to="/download/Results/MD/Resultats.html"
+              to="/download/Results/MD/Resultats_provisoires_MD.pdf"
               target="_blank"
             >
               <StyledParagraph>
-                <Translator id="Results.mdParagraph" />
+                <Translator id="Results.mdParagraph1" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/Results/MD/Resultats_provisoires_SI_MD.pdf"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="Results.mdParagraph2" />
               </StyledParagraph>
             </StyledAnchor>
           </StyledBorderBox>
@@ -114,11 +123,20 @@ class Resultats extends Component {
             </StyledParagraph>
             <StyledAnchor
               as={Link}
-              to="/download/Results/MD/Resultats.html"
+              to="/download/Results/LD/Resultats_provisoires_LD.pdf"
               target="_blank"
             >
               <StyledParagraph>
-                <Translator id="Results.ldParagraph" />
+                <Translator id="Results.ldParagraph1" />
+              </StyledParagraph>
+            </StyledAnchor>
+            <StyledAnchor
+              as={Link}
+              to="/download/Results/LD/Resultats_provisoires_SI_LD.pdf"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="Results.ldParagraph2" />
               </StyledParagraph>
             </StyledAnchor>
           </StyledBorderBox>
