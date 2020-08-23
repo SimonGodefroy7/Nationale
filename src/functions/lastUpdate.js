@@ -9,7 +9,7 @@ const lastUpdate = {
   ACCOMODATION: "19/07/2020",
   GALLERY: "22/08/2020",
   CONTACT: "19/07/2020",
-  LEGO: "25/07/2020",
+  LEGO: "23/08/2020",
   HOME: "14/08/2020"
 };
 

@@ -175,11 +175,27 @@ class Gallery extends Component {
                 </StyledH3>
                 <StyledParagraph>
                   <StyledAnchor href="https://photos.app.goo.gl/zb2FNpCk4E4xunq1A">
-                    <Translator id="Gallery.photograph1" />
+                    <Translator id="Gallery.spPhotograph1" />
                   </StyledAnchor>
-                  <StyledParagraph></StyledParagraph>
+                </StyledParagraph>
+                <StyledParagraph>
                   <StyledAnchor href="https://photos.app.goo.gl/w1s1F49eMdYBSfVL9">
-                    <Translator id="Gallery.photograph2" />
+                    <Translator id="Gallery.spPhotograph2" />
+                  </StyledAnchor>
+                </StyledParagraph>
+              </StyledBorderBox>
+              <StyledBorderBox>
+                <StyledH3>
+                  <Translator id="Gallery.md" />
+                </StyledH3>
+                <StyledParagraph>
+                  <StyledAnchor href="https://photos.app.goo.gl/EmjTb9PmmnWBRgFu6">
+                    <Translator id="Gallery.mdPhotograph1" />
+                  </StyledAnchor>
+                </StyledParagraph>
+                <StyledParagraph>
+                  <StyledAnchor href="https://photos.app.goo.gl/8coiY5mB2t9s8s2y7">
+                    <Translator id="Gallery.mdPhotograph2" />
                   </StyledAnchor>
                 </StyledParagraph>
               </StyledBorderBox>

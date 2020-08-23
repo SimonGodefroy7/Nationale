@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Page from "../Logic/Page";
+import Link from "../Logic/Link";
 import StyledH1 from "../styledComponents/StyledH1";
 import StyledParagraph from "../styledComponents/StyledParagraph";
 import StyledBorderBox from "../styledComponents/StyledBorderBox";
@@ -56,6 +57,21 @@ class Lego extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="Lego.lastUpate" />
           </StyledSpan>
+          <StyledBorderBox>
+            <StyledH3>Résultats</StyledH3>
+            <StyledParagraph>
+              <StyledSpan>
+                <StyledAnchor
+                  as={Link}
+                  to="/download/LEGO_2020_08_1_Resultats.pdf"
+                  target="_blank"
+                >
+                  Résultats
+                </StyledAnchor>
+              </StyledSpan>
+              <StyledSpan> après la journée de Samedi</StyledSpan>
+            </StyledParagraph>
+          </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
               <Translator id="Lego.box0Title" />
