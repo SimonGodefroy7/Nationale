@@ -110,8 +110,17 @@ class Resultats extends Component {
               <Translator id="Results.ldTitle" />
             </StyledH3>
             <StyledParagraph>
-              <Translator id="Results.ldParagraph" />
+              <Translator id="Results.spParagraph" />
             </StyledParagraph>
+            <StyledAnchor
+              as={Link}
+              to="/download/Results/MD/Resultats.html"
+              target="_blank"
+            >
+              <StyledParagraph>
+                <Translator id="Results.ldParagraph" />
+              </StyledParagraph>
+            </StyledAnchor>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

@@ -863,7 +863,7 @@ const language = {
     "Results.mdTitle": "Middle distance results",
     "Results.mdParagraph": "Result by classes",
     "Results.ldTitle": "Long distance results",
-    "Results.ldParagraph": "not yet available",
+    "Results.ldParagraph": "Result by classes",
     "Results.gpsTrackingTitle": "GPS tracking LD"
   },
   fr: {
@@ -1732,7 +1732,7 @@ const language = {
     "Results.mdTitle": "Résultats de la MD",
     "Results.mdParagraph": "Résultats catégories",
     "Results.ldTitle": "Résultats de la LD",
-    "Results.ldParagraph": "Pas encore disponible",
+    "Results.ldParagraph": "Résultats catégories",
     "Results.gpsTrackingTitle": "Tracking GPS LD"
   }
 };
