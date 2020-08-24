@@ -61,6 +61,9 @@ const language = {
     "Gallery.md": "MD",
     "Gallery.mdPhotograph1": "Isabelle Rora's Album 1",
     "Gallery.mdPhotograph2": "Isabelle Rora's Album 2",
+    "Gallery.ld": "LD",
+    "Gallery.ldPhotograph1": "Isabelle Rora's Album",
+    "Gallery.ldPhotograph2": "Michael Biard's Album",
     "Footer.copyright": "All right reserved.",
     "Header.headerTitle": "Nationales North West 2020",
     "Header.headerTitleShort": "Nationales N-W 2020",
@@ -866,7 +869,7 @@ const language = {
     "Results.ldTitle": "Long distance results",
     "Results.ldParagraph1": "Result by classes",
     "Results.ldParagraph2": "Split result by classes",
-    "Results.gpsTrackingTitle": "GPS tracking LD"
+    "Results.gpsTrackingTitle": "GPS tracking LD",
   },
   fr: {
     "Partners.lastUpate": `Dernière mise à jour : ${lastUpate.PARTNERS}`,
@@ -928,6 +931,9 @@ const language = {
     "Gallery.md": "MD",
     "Gallery.mdPhotograph1": "Album d'Isabelle Rora 1",
     "Gallery.mdPhotograph2": "Album d'Isabelle Rora 2",
+    "Gallery.ld": "LD",
+    "Gallery.ldPhotograph1": "Album d'Isabelle Rora",
+    "Gallery.ldPhotograph2": "Album de Michael Biard",
     "Footer.copyright": "Tous droits réservés.",
     "Header.headerTitle": "Nationales Nord Ouest 2020",
     "Header.headerTitleShort": "Nationales N-O 2020",
@@ -1737,8 +1743,8 @@ const language = {
     "Results.ldTitle": "Résultats de la LD",
     "Results.ldParagraph1": "Résultats catégories",
     "Results.ldParagraph2": "Résultats catégories SI",
-    "Results.gpsTrackingTitle": "Tracking GPS LD"
-  }
+    "Results.gpsTrackingTitle": "Tracking GPS LD",
+  },
 };
 
 export default language;

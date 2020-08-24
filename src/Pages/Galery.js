@@ -31,35 +31,35 @@ class Gallery extends Component {
       gallery: {
         isUrban: false,
         isForest: true,
-        isAlbum: false
-      }
+        isAlbum: false,
+      },
     };
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.updateGallery = this.updateGallery.bind(this);
   }
-  openModal = index => {
-    this.setState(state => ({
+  openModal = (index) => {
+    this.setState((state) => ({
       ...this.state,
       ModalIsOpen: true,
-      currentImage: index
+      currentImage: index,
     }));
   };
   closeModal = () => {
-    this.setState(state => ({
+    this.setState((state) => ({
       ...this.state,
       ModalIsOpen: false,
-      currentImage: 0
+      currentImage: 0,
     }));
   };
   updateGallery = (isUrban, isForest, isAlbum) => {
-    this.setState(state => ({
+    this.setState((state) => ({
       ...this.state,
       gallery: {
         isUrban: isUrban,
         isForest: isForest,
-        isAlbum: isAlbum
-      }
+        isAlbum: isAlbum,
+      },
     }));
   };
 
@@ -128,10 +128,10 @@ class Gallery extends Component {
                   <Modal onClose={this.closeModal}>
                     <Carousel
                       currentIndex={currentImage}
-                      views={mediumForestImages.map(x => ({
+                      views={mediumForestImages.map((x) => ({
                         ...x,
                         srcset: x.srcSet,
-                        caption: x.title
+                        caption: x.title,
                       }))}
                     />
                   </Modal>
@@ -156,10 +156,10 @@ class Gallery extends Component {
                   <Modal onClose={this.closeModal}>
                     <Carousel
                       currentIndex={currentImage}
-                      views={mediumUrbanImages.map(x => ({
+                      views={mediumUrbanImages.map((x) => ({
                         ...x,
                         srcset: x.srcSet,
-                        caption: x.title
+                        caption: x.title,
                       }))}
                     />
                   </Modal>
@@ -196,6 +196,25 @@ class Gallery extends Component {
                 <StyledParagraph>
                   <StyledAnchor href="https://photos.app.goo.gl/8coiY5mB2t9s8s2y7">
                     <Translator id="Gallery.mdPhotograph2" />
+                  </StyledAnchor>
+                </StyledParagraph>
+              </StyledBorderBox>
+              <StyledBorderBox>
+                <StyledH3>
+                  <Translator id="Gallery.ld" />
+                </StyledH3>
+                <StyledParagraph>
+                  <StyledAnchor href="https://photos.app.goo.gl/TfVMnkrySKaLiQLk8">
+                    <Translator id="Gallery.ldPhotograph1" />
+                  </StyledAnchor>
+                </StyledParagraph>
+                <StyledParagraph>
+                  <StyledAnchor
+                    href="https://l.messenger.com/l.php?u=https%3A%2F%2Fphotos.app.goo.gl%2F6iD6PwxpzsBUN8QQ6&h=AT1pYmo47_nxidKUTTSvQanERDgxF9YH3ziGouZFUqkb7AwbO_CGtcZKm5QohXCxw7OP9Qdio_EaMGompg188adXD_Yfy_RqO4dBe_-ujnS6x7uRccSsvhimTtEgM9dY7_PKIQ
+
+"
+                  >
+                    <Translator id="Gallery.ldPhotograph2" />
                   </StyledAnchor>
                 </StyledParagraph>
               </StyledBorderBox>
