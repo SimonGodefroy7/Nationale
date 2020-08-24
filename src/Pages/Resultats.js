@@ -29,21 +29,6 @@ class Resultats extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="Results.lastUpate" />
           </StyledSpan>
-          <StyledBorderBox>
-            <StyledParagraph>
-              <StyledSpan>
-                <Translator id="Results.paragraph1" />
-              </StyledSpan>
-              <StyledSpan>
-                <StyledAnchor href="http://cdco77.free.fr/">
-                  <Translator id="Results.paragraph2" />
-                </StyledAnchor>
-              </StyledSpan>
-              <StyledSpan>
-                <Translator id="Results.paragraph3" />
-              </StyledSpan>
-            </StyledParagraph>
-          </StyledBorderBox>
           <StyledBorderBox id="Sprint">
             <StyledH3>
               <Translator id="Results.spTitle" />

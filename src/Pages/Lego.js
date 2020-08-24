@@ -21,6 +21,8 @@ import tabletBackground from "../image/Background/Tablet.jpg";
 import laptopBackground from "../image/Background/Laptop.jpg";
 import laptopLBackground from "../image/Background/LaptopL.jpg";
 import desktopBackground from "../image/Background/Desktop.jpg";
+import resultsLEGOSmallTrack from "../image/Lego/LEG-O-Precision - Participants du petit circuit.jpg";
+import resultsLEGOBigTrack from "../image/Lego/LEG-O-Precision - Resultats Grand circuit.jpg";
 import legoMap from "../image/cartelego.jpg";
 import lego from "../image/LegoSmall.jpg";
 
@@ -61,15 +63,19 @@ class Lego extends Component {
             <StyledH3>Résultats</StyledH3>
             <StyledParagraph>
               <StyledSpan>
-                <StyledAnchor
-                  as={Link}
-                  to="/download/LEGO_2020_08_1_Resultats.pdf"
-                  target="_blank"
-                >
+                <StyledAnchor href={resultsLEGOSmallTrack} target="_blank">
                   Résultats
                 </StyledAnchor>
               </StyledSpan>
-              <StyledSpan> après la journée de Samedi</StyledSpan>
+              <StyledSpan> du petit circuit</StyledSpan>
+            </StyledParagraph>
+            <StyledParagraph>
+              <StyledSpan>
+                <StyledAnchor href={resultsLEGOBigTrack} target="_blank">
+                  Résultats
+                </StyledAnchor>
+              </StyledSpan>
+              <StyledSpan> du grand circuit</StyledSpan>
             </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
