@@ -91,6 +91,15 @@ class Sprint extends Component {
           </StyledSpan>
           <StyledBorderBox>
             <StyledH3>
+              <Translator id="Sprint.video" />
+            </StyledH3>
+            <YouTube
+              videoId="mymuA1EzdrQ"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
               <Translator id="Home.trailer" />
             </StyledH3>
             <YouTube
@@ -708,5 +717,5 @@ class Sprint extends Component {
   }
 }
 
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(Sprint);
