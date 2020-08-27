@@ -16,8 +16,11 @@ const language = {
     "Home.lastUpate": `Last update : ${lastUpate.HOME}`,
     "Home.trailer": "Trailer",
     "Sprint.video": "Sprint Video",
+    "Sprint.interviewVideo": "Sprint interview",
     "MD.video": "MD Video",
+    "MD.interviewVideo": "MD interview",
     "LD.video": "LD Video",
+    "LD.interviewVideo": "LD interview",
     "LandingPage.Title": "Important information",
     "LandingPage.paragraph1":
       "The races planned between 21st - 23rd August will take place as planned, unless instructed otherwise from the government before that. The organizers are actively working on making sure everyone can enjoy this orienteering competition while staying safe. The registration will open at the end of June. We hope to see many of you in Fontainebleau in August. See you soon!",
@@ -889,8 +892,11 @@ const language = {
     "Home.lastUpate": `Dernière mise à jour : ${lastUpate.HOME}`,
     "Home.trailer": "Bande annonce",
     "Sprint.video": "Vidéo du Sprint",
+    "Sprint.interviewVideo": "Interview du sprint",
     "MD.video": "Vidéo de la MD",
+    "MD.interviewVideo": "Interview de la MD",
     "LD.video": "Vidéo de la LD",
+    "LD.interviewVideo": "Interview de la LD",
     "LandingPage.Title": "Information importante",
     "LandingPage.paragraph1":
       "Les compétitions prévues du 21 au 23 août sont pour l'instant maintenues en attente des nouvelles mesures gouvernementales. Les équipes sont mobilisées pour que tout se passe bien, les traceurs finalisent leurs circuits. Les inscriptions seront ouvertes à la fin du mois de juin. Nous vous attendons nombreux. A bientôt.",

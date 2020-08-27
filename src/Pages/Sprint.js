@@ -100,6 +100,15 @@ class Sprint extends Component {
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
+              <Translator id="Sprint.interviewVideo" />
+            </StyledH3>
+            <YouTube
+              videoId="BnUouo6OCLs"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
               <Translator id="Home.trailer" />
             </StyledH3>
             <YouTube
