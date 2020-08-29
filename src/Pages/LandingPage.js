@@ -25,19 +25,6 @@ class Home extends Component {
             content="Venez participez à la nationale nord-ouest 2020 de course d'orientation dans la région de Fontainebleau(77). L'événement propose 3 courses sur 3 jours (21, 22 et 23 août 2020)"
           />
         </Helmet>
-        <StyledSection justify>
-          <StyledBorderBox>
-            <StyledH3>
-              <Translator id="LandingPage.Title" />
-            </StyledH3>
-            <StyledParagraph>
-              <Translator id="LandingPage.paragraph1" />
-            </StyledParagraph>
-            <StyledParagraph>
-              <Translator id="LandingPage.paragraph2" />
-            </StyledParagraph>
-          </StyledBorderBox>
-        </StyledSection>
         <StyledHero
           backgroundImageMobileS={flyerSmallMobileS}
           backgroundImageMobileM={flyerSmallMobileS}

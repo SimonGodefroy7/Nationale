@@ -806,6 +806,9 @@ const language = {
     "Home.baliseLdTitle": "LD",
     "Home.baliseLdParagraph1": "23rd",
     "Home.baliseLdParagraph2": "August",
+    "Home.articleTitle": "Article",
+    "Home.articleparagraph1": "You can find an article about the nationales ",
+    "Home.articleparagraph2": "here",
     "Home.box1Title": "Information",
     "Home.box11Paragraph":
       "The national orienteering North West 2020 will take place between 21st - 23rd of August 2020 in the forest of Fontainebleau. This weekend consists of three races:",
@@ -1687,6 +1690,10 @@ const language = {
     "Home.baliseLdTitle": "LD",
     "Home.baliseLdParagraph1": "23",
     "Home.baliseLdParagraph2": "août",
+    "Home.articleTitle": "Article",
+    "Home.articleparagraph1":
+      "Vous pouvez retrouver un article sur les nationales ",
+    "Home.articleparagraph2": "ici",
     "Home.box1Title": "Informations",
     "Home.box11Paragraph":
       "Les Nationales Nord Ouest 2020 de course d’orientation auront lieu du 21 au 23 août 2020 dans la forêt de Fontainebleau. Ce long week-end regroupe trois courses comptant pour le classement national:",

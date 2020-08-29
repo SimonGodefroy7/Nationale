@@ -96,6 +96,15 @@ class MiddleDistance extends Component {
           </StyledSpan>
           <StyledBorderBox>
             <StyledH3>
+              <Translator id="MD.video" />
+            </StyledH3>
+            <YouTube
+              videoId="phProl57pz8"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
               <Translator id="Home.trailer" />
             </StyledH3>
             <YouTube
@@ -884,5 +893,5 @@ class MiddleDistance extends Component {
   }
 }
 
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(MiddleDistance);

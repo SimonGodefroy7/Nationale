@@ -124,13 +124,20 @@ class Home extends Component {
           </StyledSpan>
           <StyledBorderBox>
             <StyledH3>
-              <Translator id="LandingPage.Title" />
+              <Translator id="Home.articleTitle" />
             </StyledH3>
             <StyledParagraph>
-              <Translator id="LandingPage.paragraph1" />
-            </StyledParagraph>
-            <StyledParagraph>
-              <Translator id="LandingPage.paragraph2" />
+              <StyledSpan>
+                <Translator id="Home.articleparagraph1" />
+              </StyledSpan>
+              <StyledAnchor
+                href="https://www.vosinfos.fr/course-dorientation-retour-sur-la-nationale-nord-ouest-2020-en-seine-et-marne/"
+                textAlign="center"
+              >
+                <StyledSpan>
+                  <Translator id="Home.articleparagraph2" />
+                </StyledSpan>
+              </StyledAnchor>
             </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
