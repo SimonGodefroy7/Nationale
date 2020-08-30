@@ -105,6 +105,15 @@ class MiddleDistance extends Component {
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
+              <Translator id="MD.interviewVideo" />
+            </StyledH3>
+            <YouTube
+              videoId="3LK1tBiYM9g"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
               <Translator id="Home.trailer" />
             </StyledH3>
             <YouTube
