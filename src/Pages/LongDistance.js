@@ -115,6 +115,15 @@ class LongDistance extends Component {
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>
+              <Translator id="LD.video" />
+            </StyledH3>
+            <YouTube
+              videoId="tnCLo-xa7mM"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
               <Translator id="Home.trailer" />
             </StyledH3>
             <YouTube
@@ -939,5 +948,5 @@ class LongDistance extends Component {
     );
   }
 }
-const mapStateToProps = state => ({ langue: state.language });
+const mapStateToProps = (state) => ({ langue: state.language });
 export default connect(mapStateToProps)(LongDistance);
