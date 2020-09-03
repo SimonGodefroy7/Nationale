@@ -72,6 +72,24 @@ class Resultats extends Component {
                 <Translator id="Results.spParagraph4" />
               </StyledParagraph>
             </StyledAnchor>
+            <StyledParagraph>
+              <StyledSpan>
+                <Translator id="Results.spVideoParagraph" />
+              </StyledSpan>
+              <StyledAnchor as={Link} to="/sprint#video">
+                <StyledSpan>
+                  <Translator id="Results.videoLink" />
+                </StyledSpan>
+              </StyledAnchor>
+              <StyledSpan>
+                <Translator id="Results.albumParagraph" />
+              </StyledSpan>
+              <StyledAnchor as={Link} to="/gallery">
+                <StyledSpan>
+                  <Translator id="Results.albumLink" />
+                </StyledSpan>
+              </StyledAnchor>
+            </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox id="MD">
             <StyledH3>
@@ -98,6 +116,24 @@ class Resultats extends Component {
                 <Translator id="Results.mdParagraph2" />
               </StyledParagraph>
             </StyledAnchor>
+            <StyledParagraph>
+              <StyledSpan>
+                <Translator id="Results.mdVideoParagraph" />
+              </StyledSpan>
+              <StyledAnchor as={Link} to="/middle-distance#video">
+                <StyledSpan>
+                  <Translator id="Results.videoLink" />
+                </StyledSpan>
+              </StyledAnchor>
+              <StyledSpan>
+                <Translator id="Results.albumParagraph" />
+              </StyledSpan>
+              <StyledAnchor as={Link} to="/gallery">
+                <StyledSpan>
+                  <Translator id="Results.albumLink" />
+                </StyledSpan>
+              </StyledAnchor>
+            </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox id="LD">
             <StyledH3>
@@ -124,6 +160,24 @@ class Resultats extends Component {
                 <Translator id="Results.ldParagraph2" />
               </StyledParagraph>
             </StyledAnchor>
+            <StyledParagraph>
+              <StyledSpan>
+                <Translator id="Results.ldVideoParagraph" />
+              </StyledSpan>
+              <StyledAnchor as={Link} to="/long-distance#video">
+                <StyledSpan>
+                  <Translator id="Results.videoLink" />
+                </StyledSpan>
+              </StyledAnchor>
+              <StyledSpan>
+                <Translator id="Results.albumParagraph" />
+              </StyledSpan>
+              <StyledAnchor as={Link} to="/gallery">
+                <StyledSpan>
+                  <Translator id="Results.albumLink" />
+                </StyledSpan>
+              </StyledAnchor>
+            </StyledParagraph>
           </StyledBorderBox>
           <StyledBorderBox>
             <StyledH3>

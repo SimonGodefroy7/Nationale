@@ -89,7 +89,7 @@ class Sprint extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="SprintEvent.lastUpate" />
           </StyledSpan>
-          <StyledBorderBox>
+          <StyledBorderBox id="video">
             <StyledH3>
               <Translator id="Sprint.video" />
             </StyledH3>

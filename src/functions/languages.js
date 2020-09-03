@@ -878,6 +878,13 @@ const language = {
     "Results.ldTitle": "Long distance results",
     "Results.ldParagraph1": "Result by classes",
     "Results.ldParagraph2": "Split result by classes",
+    "Results.spVideoParagraph":
+      "You can find the sprint's videos and interviews ",
+    "Results.mdVideoParagraph": "You can find the MD's videos and interviews ",
+    "Results.ldVideoParagraph": "You can find the LD's videos and interviews ",
+    "Results.videoLink": "here",
+    "Results.albumParagraph": " and photo album ",
+    "Results.albumLink": "here",
     "Results.gpsTrackingTitle": "GPS tracking LD",
   },
   fr: {
@@ -1762,6 +1769,15 @@ const language = {
     "Results.ldTitle": "Résultats de la LD",
     "Results.ldParagraph1": "Résultats catégories",
     "Results.ldParagraph2": "Résultats catégories SI",
+    "Results.spVideoParagraph":
+      "Vous pouvez retrouver les vidéos et interviews du sprint ",
+    "Results.mdVideoParagraph":
+      "Vous pouvez retrouver les vidéos et interviews de la MD ",
+    "Results.ldVideoParagraph":
+      "Vous pouvez retrouver les vidéos et interviews de la LD ",
+    "Results.videoLink": "ici",
+    "Results.albumParagraph": " et les albums photos ",
+    "Results.albumLink": "ici",
     "Results.gpsTrackingTitle": "Tracking GPS LD",
   },
 };

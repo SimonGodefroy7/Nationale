@@ -94,7 +94,7 @@ class MiddleDistance extends Component {
           <StyledSpan fontStyle="italic">
             <Translator id="MDEvent.lastUpate" />
           </StyledSpan>
-          <StyledBorderBox>
+          <StyledBorderBox id="video">
             <StyledH3>
               <Translator id="MD.video" />
             </StyledH3>

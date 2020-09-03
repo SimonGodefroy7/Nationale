@@ -113,12 +113,21 @@ class LongDistance extends Component {
               </StyledSpan>
             </StyledParagraph>
           </StyledBorderBox>
-          <StyledBorderBox>
+          <StyledBorderBox id="video">
             <StyledH3>
               <Translator id="LD.video" />
             </StyledH3>
             <YouTube
               videoId="tnCLo-xa7mM"
+              containerClassName="youtubeContainer"
+            />
+          </StyledBorderBox>
+          <StyledBorderBox>
+            <StyledH3>
+              <Translator id="LD.interviewVideo" />
+            </StyledH3>
+            <YouTube
+              videoId="fiV4xuFX6K8"
               containerClassName="youtubeContainer"
             />
           </StyledBorderBox>
