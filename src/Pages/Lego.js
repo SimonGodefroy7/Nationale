@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import Page from "../Logic/Page";
-import Link from "../Logic/Link";
 import StyledH1 from "../styledComponents/StyledH1";
 import StyledParagraph from "../styledComponents/StyledParagraph";
 import StyledBorderBox from "../styledComponents/StyledBorderBox";

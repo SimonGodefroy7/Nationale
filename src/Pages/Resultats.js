@@ -33,9 +33,6 @@ class Resultats extends Component {
             <StyledH3>
               <Translator id="Results.spTitle" />
             </StyledH3>
-            <StyledParagraph>
-              <Translator id="Results.spParagraph" />
-            </StyledParagraph>
             <StyledAnchor
               as={Link}
               to="/download/Results/Sprint/resultats SI.html"
